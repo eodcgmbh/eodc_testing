@@ -15,14 +15,8 @@ jobs:
       - name: Check out current repository
         uses: actions/checkout@v4
 
-
-      - name: Clone or update eodcgmbh/eodc-examples repository
-        run: |
-        if [ -d "notebooks" ]; then
-          cd notebooks && git pull origin main
-        else
-          git clone https://github.com/eodcgmbh/eodc-examples.git notebooks
-        fi
+      - name: Clone eodcgmbh/eodc-examples repository
+        run: git clone https://github.com/eodcgmbh/eodc-examples.git notebooks
 
       - name: Set up Python
         uses: actions/setup-python@v4
