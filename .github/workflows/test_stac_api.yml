@@ -35,6 +35,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add results/logs/* docs/index.html
+          git add results/logs/latest_test.log docs/index.html
           git commit -m "Updated STAC API test logs and HTML report"
           git push
