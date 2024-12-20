@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'results/logs/**'
   schedule:
     - cron: "0 18 * * 6"  # Jeden Freitag um 18:00 Uhr
 
