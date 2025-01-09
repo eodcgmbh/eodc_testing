@@ -31,7 +31,7 @@ jobs:
         run: python scripts/test_stac_api.py
 
       - name: Update HTML Report
-        run: python scripts/update_html_report.py
+        run: python scripts/update_html_report_api.py
 
       - name: Commit Logs
         if: always()
