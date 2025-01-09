@@ -77,8 +77,7 @@ def generate_html(collections_status, html_file):
     </body>
     </html>
     """
-
-    # Write the HTML content to the file
+    
     with open(html_file, "w") as file:
         file.write(html_content)
 

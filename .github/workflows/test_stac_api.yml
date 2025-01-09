@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'results/logs/**'
+      - 'docs/index.html'
   schedule:
     - cron: "*/10 * * * *"  # 10 Minutes
 
