@@ -43,46 +43,108 @@ def generate_html(notebook_status, html_file):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Notebook Test Results</title>
+        <title>Notebook Test Status</title>
         <style>
-            body {{ font-family: Arial, sans-serif; margin: 20px; }}
-            table {{ width: 100%; border-collapse: collapse; margin-top: 20px; }}
-            th, td {{ padding: 10px; text-align: left; border: 1px solid #ddd; }}
-            th {{ background-color: #f4f4f4; }}
-            .success {{ color: green; font-weight: bold; }}
-            .failure {{ color: red; font-weight: bold; }}
+            body {{
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                padding: 0;
+                box-sizing: border-box;
+            }}
+            .pageContainer {{
+                max-width: 800px;
+                margin: auto;
+            }}
+            .headline {{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 30px;
+            }}
+            .headline img {{
+                width: 150px;
+            }}
+            .headline span {{
+                font-size: 24px;
+                font-weight: bold;
+            }}
+            .statusContainer {{
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 15px;
+                margin-bottom: 15px;
+                background-color: #f9f9f9;
+            }}
+            .statusHeader {{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }}
+            .statusTitle {{
+                font-size: 18px;
+                margin: 0;
+            }}
+            .statusHeadline {{
+                padding: 5px 10px;
+                border-radius: 3px;
+                font-weight: bold;
+            }}
+            .success {{
+                color: white;
+                background-color: green;
+            }}
+            .failure {{
+                color: white;
+                background-color: red;
+            }}
+            .statusSubtitle {{
+                margin-top: 10px;
+                font-size: 14px;
+                color: #555;
+            }}
+            footer {{
+                text-align: center;
+                margin-top: 20px;
+                font-size: 12px;
+                color: #aaa;
+            }}
         </style>
     </head>
     <body>
-        <h1>Notebook Test Results</h1>
-        <p>Report generated on: {timestamp}</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Timestamp</th>
-                    <th>Status</th>
-                    <th>Notebook</th>
-                    <th>Error</th>
-                </tr>
-            </thead>
-            <tbody>
+        <div class="pageContainer">
+            <div class="headline">
+                <img src="eodc_logo2025.png" alt="Company Logo" />
+                <span>Notebook Test Status</span>
+            </div>
+            <div id="reports" class="reportContainer">
     """
 
     for notebook in notebook_status:
         status_class = "success" if notebook["status"] == "SUCCESS" else "failure"
         error_message = notebook["error"] or "N/A"
         html_content += f"""
-        <tr>
-            <td>{notebook['timestamp']}</td>
-            <td class="{status_class}">{notebook['status']}</td>
-            <td>{notebook['notebook']}</td>
-            <td>{error_message}</td>
-        </tr>
+            <div class="statusContainer">
+                <div class="statusHeader">
+                    <h6 class="statusTitle">{notebook['notebook']}</h6>
+                    <div class="{status_class} statusHeadline">{notebook['status']}</div>
+                </div>
+                <div class="statusSubtitle">
+                    <div><strong>Timestamp:</strong> {notebook['timestamp']}</div>
+                    <div><strong>Error:</strong> {error_message}</div>
+                </div>
+            </div>
         """
 
-    html_content += """
-            </tbody>
-        </table>
+    html_content += f"""
+            </div>
+            <footer>
+                Generated on {timestamp}.
+                <br />
+                Forked from
+                <a href="https://github.com/statsig-io/statuspage/">
+                    Statsig's Open-Source Status Page</a>.
+            </footer>
+        </div>
     </body>
     </html>
     """
