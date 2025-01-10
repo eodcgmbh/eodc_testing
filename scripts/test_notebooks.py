@@ -8,18 +8,21 @@ LOG_DIR = "results/logs"
 LOG_FILE = os.path.join(LOG_DIR, "test_notebooks.log")
 
 def setup_log_directory():
+    """Ensure the log directory exists."""
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
 
-def log_message(notebook_path, status):
+def log_message(notebook_path, status, details=""):
+    """Log messages in a consistent format."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     notebook_relative_path = os.path.relpath(notebook_path, NOTEBOOK_DIR)
-    log_entry = f"{timestamp} - {status} - {notebook_relative_path}"
+    log_entry = f"{timestamp} - {status} - {details} - {notebook_relative_path}"
     print(log_entry)
     with open(LOG_FILE, "a") as log:
         log.write(log_entry + "\n")
 
 def extract_imports_from_notebook(notebook_path):
+    """Extract all import statements from a Jupyter notebook."""
     try:
         with open(notebook_path, 'r', encoding='utf-8') as nb_file:
             notebook = nbformat.read(nb_file, as_version=4)
@@ -33,10 +36,11 @@ def extract_imports_from_notebook(notebook_path):
                         imports.append(stripped_line)
         return imports
     except NotJSONError:
-        log_message(notebook_path, "INVALID - Not a valid JSON notebook")
+        log_message(notebook_path, "INVALID", "Not a valid JSON notebook")
         return None
 
 def check_notebook(notebook_path):
+    """Check a notebook for import errors."""
     imports = extract_imports_from_notebook(notebook_path)
     
     if imports is None:
@@ -45,17 +49,17 @@ def check_notebook(notebook_path):
         try:
             for statement in imports:
                 exec(statement)
-            log_message(notebook_path, "SUCCESS")
+            log_message(notebook_path, "SUCCESS", "All imports executed successfully")
         except Exception as e:
-            log_message(notebook_path, f"FAILURE - Import Error: {str(e)}")
+            log_message(notebook_path, "FAILURE", f"Import Error: {str(e)}")
     else:
-        log_message(notebook_path, "SKIPPED - No Imports Found")
+        log_message(notebook_path, "SKIPPED", "No imports found in notebook")
 
 def main():
     setup_log_directory()
 
     if not os.path.exists(NOTEBOOK_DIR):
-        log_message(NOTEBOOK_DIR, "ERROR - Notebook directory does not exist.")
+        log_message(NOTEBOOK_DIR, "ERROR", "Notebook directory does not exist")
         return
 
     for root, _, files in os.walk(NOTEBOOK_DIR):

@@ -16,37 +16,46 @@ def parse_logs(log_file):
         for line in file:
             # Split log line into parts
             parts = line.strip().split(" - ", maxsplit=4)
-            if len(parts) < 4:
-                print(f"Skipping malformed line: {line.strip()}")
-                continue
-            
-            timestamp = parts[0]
-            status = parts[1]
-            error_message = parts[2] if status == "FAILURE" else None
-            notebook_path = parts[3] if status == "FAILURE" else parts[2]
 
-            notebook_status.append({
-                "timestamp": timestamp,
-                "status": status,
-                "notebook": notebook_path,
-                "error": error_message,
-            })
+            # Ensure the line has at least 3 components (for SUCCESS) or 4 (for FAILURE)
+            if len(parts) == 3:  # SUCCESS line
+                timestamp = parts[0]
+                status = parts[1]
+                notebook_path = parts[2]
+                notebook_status.append({
+                    "timestamp": timestamp,
+                    "status": status,
+                    "notebook": notebook_path,
+                    "error": None,  # No error for SUCCESS
+                })
+            elif len(parts) == 4:  # FAILURE line
+                timestamp = parts[0]
+                status = parts[1]
+                error_message = parts[2]
+                notebook_path = parts[3]
+                notebook_status.append({
+                    "timestamp": timestamp,
+                    "status": status,
+                    "notebook": notebook_path,
+                    "error": error_message,
+                })
+            else:
+                print(f"Skipping malformed line: {line.strip()}")
 
     return notebook_status
+
 
 def generate_html(notebook_status, html_file):
     """Generate an HTML report displaying the notebook statuses."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # Count statuses for summary
-    summary = {"SUCCESS": 0, "FAILURE": 0, "SKIPPED": 0}
+    summary = {"SUCCESS": 0, "FAILURE": 0}
     for notebook in notebook_status:
         summary[notebook["status"]] = summary.get(notebook["status"], 0) + 1
 
-    total = sum(summary.values())
-    success_percentage = (summary["SUCCESS"] / total) * 100 if total > 0 else 0
-    failure_percentage = (summary["FAILURE"] / total) * 100 if total > 0 else 0
-    skipped_percentage = (summary["SKIPPED"] / total) * 100 if total > 0 else 0
+    success_percentage = (summary["SUCCESS"] / len(notebook_status)) * 100 if notebook_status else 0
+    failure_percentage = (summary["FAILURE"] / len(notebook_status)) * 100 if notebook_status else 0
 
     html_content = f"""
     <!DOCTYPE html>
@@ -97,12 +106,11 @@ def generate_html(notebook_status, html_file):
             }}
             .bar.success {{
                 background-color: green;
+                width: {success_percentage}%;
             }}
             .bar.failure {{
                 background-color: red;
-            }}
-            .bar.skipped {{
-                background-color: gray;
+                width: {failure_percentage}%;
             }}
             .statusContainer {{
                 border: 1px solid #ddd;
@@ -133,10 +141,6 @@ def generate_html(notebook_status, html_file):
                 color: white;
                 background-color: red;
             }}
-            .skipped {{
-                color: white;
-                background-color: gray;
-            }}
             .statusSubtitle {{
                 margin-top: 10px;
                 font-size: 14px;
@@ -159,38 +163,30 @@ def generate_html(notebook_status, html_file):
             <div class="chartContainer">
                 <div class="chartBar">
                     <div class="barLabel">Success</div>
-                    <div class="bar success" style="width: {success_percentage}%;">{summary['SUCCESS']} ({success_percentage:.1f}%)</div>
+                    <div class="bar success"></div>
+                    <span>{summary['SUCCESS']} ({success_percentage:.1f}%)</span>
                 </div>
                 <div class="chartBar">
                     <div class="barLabel">Failure</div>
-                    <div class="bar failure" style="width: {failure_percentage}%;">{summary['FAILURE']} ({failure_percentage:.1f}%)</div>
-                </div>
-                <div class="chartBar">
-                    <div class="barLabel">Skipped</div>
-                    <div class="bar skipped" style="width: {skipped_percentage}%;">{summary['SKIPPED']} ({skipped_percentage:.1f}%)</div>
+                    <div class="bar failure"></div>
+                    <span>{summary['FAILURE']} ({failure_percentage:.1f}%)</span>
                 </div>
             </div>
             <div id="reports" class="reportContainer">
     """
 
     for notebook in notebook_status:
-        status_class = (
-            "success" if notebook["status"] == "SUCCESS" 
-            else "failure" if notebook["status"] == "FAILURE" 
-            else "skipped"
-        )
+        status_class = "success" if notebook["status"] == "SUCCESS" else "failure"
         error_message = notebook["error"] or "N/A"
-        display_title = notebook["error"] if notebook["status"] == "FAILURE" else notebook["notebook"]
         
         html_content += f"""
             <div class="statusContainer">
                 <div class="statusHeader">
-                    <h6 class="statusTitle">{display_title}</h6>
+                    <h6 class="statusTitle">{notebook['notebook']}</h6>
                     <div class="{status_class} statusHeadline">{notebook['status']}</div>
                 </div>
                 <div class="statusSubtitle">
                     <div><strong>Timestamp:</strong> {notebook['timestamp']}</div>
-                    <div><strong>Notebook:</strong> {notebook['notebook']}</div>
                     <div><strong>Error:</strong> {error_message}</div>
                 </div>
             </div>
@@ -200,10 +196,6 @@ def generate_html(notebook_status, html_file):
             </div>
             <footer>
                 Generated on {timestamp}.
-                <br />
-                Forked from
-                <a href="https://github.com/statsig-io/statuspage/">
-                    Statsig's Open-Source Status Page</a>.
             </footer>
         </div>
     </body>
