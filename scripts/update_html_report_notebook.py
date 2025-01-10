@@ -157,7 +157,7 @@ def generate_html(notebook_status, html_file):
     <body>
         <div class="pageContainer">
             <div class="headline">
-                <img src="eodc_logo_2025.png" alt="Company Logo" />
+                <img src="eodc_logo_2025.png"/>
                 <span>Notebook Test Status</span>
             </div>
             <div class="chartContainer">
