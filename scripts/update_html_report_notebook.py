@@ -17,8 +17,8 @@ def parse_logs(log_file):
             # Split log line into parts
             parts = line.strip().split(" - ", maxsplit=4)
 
-            # Ensure the line has at least 3 components (for SUCCESS) or 4 (for FAILURE)
-            if len(parts) == 3:  # SUCCESS line
+            # Ensure the line has at least 3 components (SUCCESS or SKIPPED) or 4 (FAILURE)
+            if len(parts) == 3:  # SUCCESS or SKIPPED line
                 timestamp = parts[0]
                 status = parts[1]
                 notebook_path = parts[2]
@@ -26,7 +26,7 @@ def parse_logs(log_file):
                     "timestamp": timestamp,
                     "status": status,
                     "notebook": notebook_path,
-                    "error": None,  # No error for SUCCESS
+                    "error": None,  # No error for SUCCESS or SKIPPED
                 })
             elif len(parts) == 4:  # FAILURE line
                 timestamp = parts[0]
@@ -50,12 +50,14 @@ def generate_html(notebook_status, html_file):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # Count statuses for summary
-    summary = {"SUCCESS": 0, "FAILURE": 0}
+    summary = {"SUCCESS": 0, "FAILURE": 0, "SKIPPED": 0}
     for notebook in notebook_status:
         summary[notebook["status"]] = summary.get(notebook["status"], 0) + 1
 
-    success_percentage = (summary["SUCCESS"] / len(notebook_status)) * 100 if notebook_status else 0
-    failure_percentage = (summary["FAILURE"] / len(notebook_status)) * 100 if notebook_status else 0
+    total = len(notebook_status)
+    success_count = summary["SUCCESS"] + summary["SKIPPED"]  # Include SKIPPED as success
+    success_percentage = (success_count / total) * 100 if total else 0
+    failure_percentage = (summary["FAILURE"] / total) * 100 if total else 0
 
     html_content = f"""
     <!DOCTYPE html>
