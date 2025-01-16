@@ -9,6 +9,12 @@ LOG_DIR = "results/logs"
 LOG_FILE = os.path.join(LOG_DIR, "test_notebooks.log")
 VENV_DIR = ".venv"
 
+def clear_log_file():
+    """Clear the existing log file before starting new tests."""
+    if os.path.exists(LOG_FILE):
+        os.remove(LOG_FILE)
+        print(f"Cleared existing log file: {LOG_FILE}")
+
 def setup_log_directory():
     """Ensure the log directory exists."""
     if not os.path.exists(LOG_DIR):
@@ -79,6 +85,7 @@ def check_notebook(notebook_path):
         log_message(notebook_path, "SKIPPED", "No imports found in notebook")
 
 def main():
+    clear_log_file()
     setup_log_directory()
 
     if not setup_virtual_environment():
