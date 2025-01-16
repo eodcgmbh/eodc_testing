@@ -54,7 +54,7 @@ def generate_html(collections_status, html_file):
         </style>
     </head>
     <body>
-         <img src="{docs/eodc_logo_2025.png}">
+         <img src="{eodc_logo_2025.png}">
         <h1>STAC API Test Results</h1>
         <table>
             <thead>
