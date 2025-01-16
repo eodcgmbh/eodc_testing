@@ -178,7 +178,7 @@ def generate_html(notebook_status, html_file):
     """
 
     for notebook in notebook_status:
-        status_class = "success" if notebook["status"] == "SUCCESS" else "failure"
+        status_class = "success" if notebook["status"] in {"SUCCESS", "SKIPPED"} else "failure"
         error_message = notebook["error"] or "N/A"
         
         html_content += f"""
