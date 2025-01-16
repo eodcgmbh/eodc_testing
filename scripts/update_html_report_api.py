@@ -41,6 +41,11 @@ def generate_html(collections_status, html_file):
         <title>STAC API Test Results</title>
         <style>
             body { font-family: Arial, sans-serif; margin: 20px; }
+            }}
+            header img {{
+                height: 50px;
+                margin-right: 20px;
+            }}
             table { width: 100%; border-collapse: collapse; margin-top: 20px; }
             th, td { padding: 10px; text-align: left; border: 1px solid #ddd; }
             th { background-color: #f4f4f4; }
@@ -49,6 +54,7 @@ def generate_html(collections_status, html_file):
         </style>
     </head>
     <body>
+         <img src="{docs/eodc_logo_2025.png}">
         <h1>STAC API Test Results</h1>
         <table>
             <thead>
