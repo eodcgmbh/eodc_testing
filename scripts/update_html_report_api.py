@@ -32,7 +32,8 @@ def parse_logs(log_file):
 
 def generate_html(collections_status, html_file):
     """Generate an HTML file displaying the collections and their statuses."""
-    html_content = """
+    logo_path = "docs/eodc_logo_2025.png"  # Pfad zum Logo
+    html_content = f"""
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -40,31 +41,73 @@ def generate_html(collections_status, html_file):
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>STAC API Test Results</title>
         <style>
-            body { font-family: Arial, sans-serif; margin: 20px; }
+            body {{
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                padding: 0;
+                box-sizing: border-box;
             }}
-            header img {{
-                height: 50px;
-                margin-right: 20px;
+            .pageContainer {{
+                max-width: 800px;
+                margin: auto;
             }}
-            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-            th, td { padding: 10px; text-align: left; border: 1px solid #ddd; }
-            th { background-color: #f4f4f4; }
-            .success { color: green; font-weight: bold; }
-            .failure { color: red; font-weight: bold; }
+            .headline {{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 30px;
+            }}
+            .headline img {{
+                width: 150px;
+            }}
+            .headline span {{
+                font-size: 24px;
+                font-weight: bold;
+            }}
+            table {{
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }}
+            th, td {{
+                padding: 10px;
+                text-align: left;
+                border: 1px solid #ddd;
+            }}
+            th {{
+                background-color: #f4f4f4;
+            }}
+            .success {{
+                color: green;
+                font-weight: bold;
+            }}
+            .failure {{
+                color: red;
+                font-weight: bold;
+            }}
+            footer {{
+                text-align: center;
+                margin-top: 20px;
+                font-size: 12px;
+                color: #aaa;
+            }}
         </style>
     </head>
     <body>
-         <img src="{eodc_logo_2025.png}">
-        <h1>STAC API Test Results</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Collection</th>
-                    <th>Status</th>
-                    <th>Last Tested</th>
-                </tr>
-            </thead>
-            <tbody>
+        <div class="pageContainer">
+            <div class="headline">
+                <img src="{logo_path}" alt="Company Logo">
+                <span>STAC API Test Results</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Collection</th>
+                        <th>Status</th>
+                        <th>Last Tested</th>
+                    </tr>
+                </thead>
+                <tbody>
     """
 
     for collection, data in collections_status.items():
@@ -78,8 +121,12 @@ def generate_html(collections_status, html_file):
         """
 
     html_content += """
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+            <footer>
+                Generated on {timestamp}.
+            </footer>
+        </div>
     </body>
     </html>
     """
@@ -88,9 +135,14 @@ def generate_html(collections_status, html_file):
         file.write(html_content)
 
 def main():
+    """Main function to parse logs and generate the HTML report."""
     collections_status = parse_logs(LOG_FILE)
+    if not collections_status:
+        print("No collections data found. Exiting.")
+        return
+    
     generate_html(collections_status, HTML_FILE)
-    print(f"HTML report updated: {HTML_FILE}")
+    print(f"HTML report generated: {HTML_FILE}")
 
 if __name__ == "__main__":
     main()
