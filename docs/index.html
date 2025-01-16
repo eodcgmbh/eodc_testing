@@ -29,6 +29,28 @@
                 font-size: 24px;
                 font-weight: bold;
             }
+            .chartContainer {
+                margin: 20px 0;
+            }
+            .chartBar {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .barLabel {
+                width: 100px;
+                font-weight: bold;
+            }
+            .bar {
+                height: 20px;
+                border-radius: 5px;
+            }
+            .bar.success {
+                background-color: green;
+            }
+            .bar.failure {
+                background-color: red;
+            }
             table {
                 width: 100%;
                 border-collapse: collapse;
@@ -63,6 +85,18 @@
             <div class="headline">
                 <img src="eodc_logo_2025.png" alt="Company Logo">
                 <span>STAC API Test Results</span>
+            </div>
+            <div class="chartContainer">
+                <div class="chartBar">
+                    <div class="barLabel">Success</div>
+                    <div class="bar success" style="width: 95.0%;"></div>
+                    <span>38 (95.0%)</span>
+                </div>
+                <div class="chartBar">
+                    <div class="barLabel">Failure</div>
+                    <div class="bar failure" style="width: 5.0%;"></div>
+                    <span>2 (5.0%)</span>
+                </div>
             </div>
             <table>
                 <thead>
@@ -245,7 +279,7 @@
         <tr>
             <td>COP_DEM</td>
             <td class="success">success</td>
-            <td>2025-01-15 17:43</td>
+            <td>2025-01-16 14:39</td>
         </tr>
         
         <tr>
@@ -317,7 +351,11 @@
                 </tbody>
             </table>
             <footer>
+<<<<<<< Updated upstream
                 Generated on 2025-01-16 14:39:23.
+=======
+                Generated on 2025-01-16 14:39:38.
+>>>>>>> Stashed changes
             </footer>
         </div>
     </body>
