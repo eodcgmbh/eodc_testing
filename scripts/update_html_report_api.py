@@ -7,8 +7,9 @@ HTML_FILE = "docs/index.html"
 def parse_logs(log_file):
     """Parse the log file and return a dictionary of collections with their statuses."""
     collections_status = {}
-    
+
     if not os.path.exists(log_file):
+        print(f"Log file not found: {log_file}")
         return collections_status
 
     with open(log_file, "r") as file:
@@ -16,12 +17,12 @@ def parse_logs(log_file):
             parts = line.strip().split(", ")
             if len(parts) < 3:
                 continue
-            
+
             timestamp = parts[0]
             status = parts[1]
             collection_info = [p.split(": ")[1] for p in parts if p.startswith("collection")]
             collection_id = collection_info[0] if collection_info else "Unknown"
-            
+
             # Update or add collection status
             collections_status[collection_id] = {
                 "status": status,
@@ -32,7 +33,9 @@ def parse_logs(log_file):
 
 def generate_html(collections_status, html_file):
     """Generate an HTML file displaying the collections and their statuses."""
-    logo_path = "docs/eodc_logo_2025.png"  # Pfad zum Logo
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    logo_path = "eodc_logo_2025.png"  # Adjust the path if necessary
+
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -115,12 +118,12 @@ def generate_html(collections_status, html_file):
         html_content += f"""
         <tr>
             <td>{collection}</td>
-            <td class="{status_class}">{data["status"]}</td>
-            <td>{data["last_tested"]}</td>
+            <td class="{status_class}">{data['status']}</td>
+            <td>{data['last_tested']}</td>
         </tr>
         """
 
-    html_content += """
+    html_content += f"""
                 </tbody>
             </table>
             <footer>
@@ -130,17 +133,16 @@ def generate_html(collections_status, html_file):
     </body>
     </html>
     """
-    
+
     with open(html_file, "w") as file:
         file.write(html_content)
 
 def main():
-    """Main function to parse logs and generate the HTML report."""
     collections_status = parse_logs(LOG_FILE)
     if not collections_status:
         print("No collections data found. Exiting.")
         return
-    
+
     generate_html(collections_status, HTML_FILE)
     print(f"HTML report generated: {HTML_FILE}")
 
