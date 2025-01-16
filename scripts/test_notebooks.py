@@ -2,10 +2,12 @@ import os
 import nbformat
 from datetime import datetime
 from nbformat.reader import NotJSONError
+import subprocess
 
 NOTEBOOK_DIR = "notebooks"
 LOG_DIR = "results/logs"
 LOG_FILE = os.path.join(LOG_DIR, "test_notebooks.log")
+VENV_DIR = ".venv"
 
 def setup_log_directory():
     """Ensure the log directory exists."""
@@ -20,6 +22,27 @@ def log_message(notebook_path, status, details=""):
     print(log_entry)
     with open(LOG_FILE, "a") as log:
         log.write(log_entry + "\n")
+
+def setup_virtual_environment():
+    """Create and activate a virtual environment, then install dependencies."""
+    if not os.path.exists(VENV_DIR):
+        try:
+            subprocess.check_call(["python", "-m", "venv", VENV_DIR])
+            print(f"Virtual environment created in {VENV_DIR}")
+        except subprocess.CalledProcessError as e:
+            print(f"Error creating virtual environment: {e}")
+            return False
+    try:
+        pip_path = os.path.join(VENV_DIR, "bin", "pip")  
+        if os.name == "nt":  # Windows
+            pip_path = os.path.join(VENV_DIR, "Scripts", "pip")
+        subprocess.check_call([pip_path, "install", "--upgrade", "pip"])
+        subprocess.check_call([pip_path, "install", "-r", "requirements.txt"])
+        print("Dependencies installed successfully")
+    except subprocess.CalledProcessError as e:
+        print(f"Error installing dependencies: {e}")
+        return False
+    return True
 
 def extract_imports_from_notebook(notebook_path):
     """Extract all import statements from a Jupyter notebook."""
@@ -57,6 +80,10 @@ def check_notebook(notebook_path):
 
 def main():
     setup_log_directory()
+
+    if not setup_virtual_environment():
+        log_message("Environment Setup", "ERROR", "Failed to create or set up virtual environment")
+        return
 
     if not os.path.exists(NOTEBOOK_DIR):
         log_message(NOTEBOOK_DIR, "ERROR", "Notebook directory does not exist")
