@@ -93,9 +93,11 @@ def generate_html(notebooks_status, html_file):
             }}
             .bar.success {{
                 background-color: green;
+                width: {success_percentage}%;
             }}
             .bar.failure {{
                 background-color: red;
+                width: {failure_percentage}%;
             }}
             table {{
                 width: 100%;
@@ -138,12 +140,12 @@ def generate_html(notebooks_status, html_file):
             <div class="chartContainer">
                 <div class="chartBar">
                     <div class="barLabel">Success</div>
-                    <div class="bar success" style="width: {success_percentage}%;"></div>
+                    <div class="bar success"></div>
                     <span>{summary['SUCCESS']} Success</span>
                 </div>
                 <div class="chartBar">
                     <div class="barLabel">Failure</div>
-                    <div class="bar failure" style="width: {failure_percentage}%;"></div>
+                    <div class="bar failure"></div>
                     <span>{summary['FAILURE']} Failure</span>
                 </div>
             </div>
