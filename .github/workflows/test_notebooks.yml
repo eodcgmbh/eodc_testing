@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - 'results/logs/**'
   schedule:
-    - cron: "0 10 * * 6"  # Friday 10:00 
+    - cron: "0 */6 * * *"  # 6 hours intervall
 
   workflow_dispatch:
 
