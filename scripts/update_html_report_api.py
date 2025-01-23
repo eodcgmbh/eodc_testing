@@ -36,6 +36,15 @@ def generate_html(collections_status, html_file):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     logo_path = "eodc_logo_2025.png"  # Adjust the path if necessary
 
+    # Count statuses for summary
+    summary = {"SUCCESS": 0, "FAILURE": 0}
+    for data in collections_status.values():
+        summary[data["status"].upper()] = summary.get(data["status"].upper(), 0) + 1
+
+    total = len(collections_status)
+    success_percentage = (summary["SUCCESS"] / total) * 100 if total else 0
+    failure_percentage = (summary["FAILURE"] / total) * 100 if total else 0
+
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -66,6 +75,28 @@ def generate_html(collections_status, html_file):
             .headline span {{
                 font-size: 24px;
                 font-weight: bold;
+            }}
+            .chartContainer {{
+                margin: 20px 0;
+            }}
+            .chartBar {{
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }}
+            .barLabel {{
+                width: 100px;
+                font-weight: bold;
+            }}
+            .bar {{
+                height: 20px;
+                border-radius: 5px;
+            }}
+            .bar.success {{
+                background-color: green;
+            }}
+            .bar.failure {{
+                background-color: red;
             }}
             table {{
                 width: 100%;
@@ -102,6 +133,18 @@ def generate_html(collections_status, html_file):
                 <img src="{logo_path}" alt="Company Logo">
                 <span>STAC API Test Results</span>
             </div>
+            <div class="chartContainer">
+                <div class="chartBar">
+                    <div class="barLabel">Success</div>
+                    <div class="bar success" style="width: {success_percentage}%;"></div>
+                    <span>{summary['SUCCESS']} ({success_percentage:.1f}%)</span>
+                </div>
+                <div class="chartBar">
+                    <div class="barLabel">Failure</div>
+                    <div class="bar failure" style="width: {failure_percentage}%;"></div>
+                    <span>{summary['FAILURE']} ({failure_percentage:.1f}%)</span>
+                </div>
+            </div>
             <table>
                 <thead>
                     <tr>
@@ -114,7 +157,7 @@ def generate_html(collections_status, html_file):
     """
 
     for collection, data in collections_status.items():
-        status_class = "success" if data["status"] == "success" else "failure"
+        status_class = "success" if data["status"].lower() == "success" else "failure"
         html_content += f"""
         <tr>
             <td>{collection}</td>

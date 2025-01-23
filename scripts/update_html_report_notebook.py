@@ -1,47 +1,60 @@
 import os
 from datetime import datetime
 
-LOG_FILE = "results/logs/latest_test.log"
-HTML_FILE = "docs/index.html"
+LOG_FILE = "results/logs/test_notebooks.log"
+HTML_FILE = "docs/index_notebook.html"
 
 def parse_logs(log_file):
-    """Parse the log file and return a dictionary of notebooks with their statuses and errors."""
-    notebooks_status = {}
-
+    """Parse the log file and extract notebook statuses."""
+    notebook_status = []
     if not os.path.exists(log_file):
         print(f"Log file not found: {log_file}")
-        return notebooks_status
+        return notebook_status
 
     with open(log_file, "r") as file:
         for line in file:
-            parts = line.strip().split(", ")
-            if len(parts) < 3:
-                continue
+            # Split log line into parts
+            parts = line.strip().split(" - ", maxsplit=4)
 
-            notebook_name = parts[0]
-            status = parts[1]
-            error_message = parts[2] if len(parts) > 2 else "N/A"
+            # Ensure the line has at least 3 components (SUCCESS or SKIPPED) or 4 (FAILURE)
+            if len(parts) == 3:  # SUCCESS or SKIPPED line
+                timestamp = parts[0]
+                status = parts[1]
+                notebook_path = parts[2]
+                notebook_status.append({
+                    "timestamp": timestamp,
+                    "status": status,
+                    "notebook": notebook_path,
+                    "error": None,  # No error for SUCCESS or SKIPPED
+                })
+            elif len(parts) == 4:  # FAILURE line
+                timestamp = parts[0]
+                status = parts[1]
+                error_message = parts[2]
+                notebook_path = parts[3]
+                notebook_status.append({
+                    "timestamp": timestamp,
+                    "status": status,
+                    "notebook": notebook_path,
+                    "error": error_message,
+                })
+            else:
+                print(f"Skipping malformed line: {line.strip()}")
 
-            # Update or add notebook status
-            notebooks_status[notebook_name] = {
-                "status": status,
-                "error": error_message,
-            }
+    return notebook_status
 
-    return notebooks_status
-
-def generate_html(notebooks_status, html_file):
-    """Generate an HTML file displaying the notebooks and their statuses and errors."""
+def generate_html(notebook_status, html_file):
+    """Generate an HTML report displaying the notebook statuses."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    logo_path = "eodc_logo_2025.png"  # Adjust the path if necessary
 
     # Count statuses for summary
-    summary = {"SUCCESS": 0, "FAILURE": 0}
-    for data in notebooks_status.values():
-        summary[data["status"].upper()] = summary.get(data["status"].upper(), 0) + 1
+    summary = {"SUCCESS": 0, "FAILURE": 0, "SKIPPED": 0}
+    for notebook in notebook_status:
+        summary[notebook["status"]] = summary.get(notebook["status"], 0) + 1
 
-    total = len(notebooks_status)
-    success_percentage = (summary["SUCCESS"] / total) * 100 if total else 0
+    total = len(notebook_status)
+    success_count = summary["SUCCESS"] + summary["SKIPPED"]  # Include SKIPPED as success
+    success_percentage = (success_count / total) * 100 if total else 0
     failure_percentage = (summary["FAILURE"] / total) * 100 if total else 0
 
     html_content = f"""
@@ -50,7 +63,7 @@ def generate_html(notebooks_status, html_file):
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Notebook Test Results</title>
+        <title>Notebook Test Status</title>
         <style>
             body {{
                 font-family: Arial, sans-serif;
@@ -99,29 +112,39 @@ def generate_html(notebooks_status, html_file):
                 background-color: red;
                 width: {failure_percentage}%;
             }}
-            table {{
-                width: 100%;
-                max-width: 600px;
-                border-collapse: collapse;
-                margin-top: 20px;
-                margin-left: auto;
-                margin-right: auto;
-            }}
-            th, td {{
-                padding: 10px;
-                text-align: left;
+            .statusContainer {{
                 border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 15px;
+                margin-bottom: 15px;
+                background-color: #f9f9f9;
             }}
-            th {{
-                background-color: #f4f4f4;
+            .statusHeader {{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }}
+            .statusTitle {{
+                font-size: 18px;
+                margin: 0;
+            }}
+            .statusHeadline {{
+                padding: 5px 10px;
+                border-radius: 3px;
+                font-weight: bold;
             }}
             .success {{
-                color: green;
-                font-weight: bold;
+                color: white;
+                background-color: green;
             }}
             .failure {{
-                color: red;
-                font-weight: bold;
+                color: white;
+                background-color: red;
+            }}
+            .statusSubtitle {{
+                margin-top: 10px;
+                font-size: 14px;
+                color: #555;
             }}
             footer {{
                 text-align: center;
@@ -134,46 +157,42 @@ def generate_html(notebooks_status, html_file):
     <body>
         <div class="pageContainer">
             <div class="headline">
-                <img src="{logo_path}" alt="Company Logo">
-                <span>Notebook Test Results</span>
+                <img src="eodc_logo_2025.png"/>
+                <span>Notebook Test Status</span>
             </div>
             <div class="chartContainer">
                 <div class="chartBar">
                     <div class="barLabel">Success</div>
                     <div class="bar success"></div>
-                    <span>{summary['SUCCESS']} Success</span>
+                    <span>{summary['SUCCESS']} ({success_percentage:.1f}%)</span>
                 </div>
                 <div class="chartBar">
                     <div class="barLabel">Failure</div>
                     <div class="bar failure"></div>
-                    <span>{summary['FAILURE']} Failure</span>
+                    <span>{summary['FAILURE']} ({failure_percentage:.1f}%)</span>
                 </div>
             </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Notebook</th>
-                        <th>Status</th>
-                        <th>Error Message</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <div id="reports" class="reportContainer">
     """
 
-    for notebook, data in notebooks_status.items():
-        status_class = "success" if data["status"].lower() == "success" else "failure"
-        error_message = data["error"] or "N/A"
+    for notebook in notebook_status:
+        status_class = "success" if notebook["status"] in {"SUCCESS", "SKIPPED"} else "failure"
+        error_message = notebook["error"] or "N/A"
         html_content += f"""
-        <tr>
-            <td>{notebook}</td>
-            <td class="{status_class}">{data['status']}</td>
-            <td>{error_message}</td>
-        </tr>
+            <div class="statusContainer">
+                <div class="statusHeader">
+                    <h6 class="statusTitle">{notebook['notebook']}</h6>
+                    <div class="{status_class} statusHeadline">{notebook['status']}</div>
+                </div>
+                <div class="statusSubtitle">
+                    <div><strong>Timestamp:</strong> {notebook['timestamp']}</div>
+                    <div><strong>Error:</strong> {error_message}</div>
+                </div>
+            </div>
         """
 
     html_content += f"""
-                </tbody>
-            </table>
+            </div>
             <footer>
                 Generated on {timestamp}.
             </footer>
@@ -186,12 +205,11 @@ def generate_html(notebooks_status, html_file):
         file.write(html_content)
 
 def main():
-    notebooks_status = parse_logs(LOG_FILE)
-    if not notebooks_status:
+    notebook_status = parse_logs(LOG_FILE)
+    if not notebook_status:
         print("No notebook data found. Exiting.")
         return
-
-    generate_html(notebooks_status, HTML_FILE)
+    generate_html(notebook_status, HTML_FILE)
     print(f"HTML report generated: {HTML_FILE}")
 
 if __name__ == "__main__":
