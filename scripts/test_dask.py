@@ -26,7 +26,7 @@ def log_result(success):
     """
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     result = "SUCCESS" if success else "FAILURE"
-    with open("test_DaskGateway.log", "a") as log_file:
+    with open("results/logs/test_DaskGateway.log", "a") as log_file:
         log_file.write(f"{timestamp} - {result}\n")
 
 def create_and_connect_cluster(gateway):
@@ -72,7 +72,7 @@ def main():
     password = os.getenv("EODC_PASSWORD")
 
     if not username or not password:
-        log_result(False)  # Log für fehlende Umgebungsvariablen
+        log_result(False)  
         raise ValueError("Die Umgebungsvariablen EODC_USERNAME und EODC_PASSWORD müssen gesetzt sein.")
 
     with patch("getpass.getpass", return_value=password):
@@ -94,10 +94,10 @@ def main():
                 cluster.close()
                 print("Cluster erfolgreich geschlossen.")
 
-            log_result(True)  # Log bei erfolgreichem Test
+            log_result(True)  
         except Exception as e:
             print(f"Fehler bei der Verbindung: {e}")
-            log_result(False)  # Log bei fehlerhaftem Test
+           
 
 
 if __name__ == "__main__":
