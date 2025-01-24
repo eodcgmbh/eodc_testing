@@ -21,9 +21,6 @@ def get_cluster_options(gateway):
         print(f"Fehler beim Abrufen der Cluster-Optionen: {e}")
 
 def log_result(success):
-    """
-    Schreibt das Ergebnis in eine Logdatei.
-    """
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     result = "SUCCESS" if success else "FAILURE"
     with open("results/logs/test_DaskGateway.log", "a") as log_file:
@@ -48,9 +45,6 @@ def create_and_connect_cluster(gateway):
         return None, None
 
 def test_simple_computation(client):
-    """
-    Führt eine einfache Berechnung auf dem Cluster durch.
-    """
     print("Starte einfache Berechnung...")
     try:
         def add(x, y):
@@ -65,9 +59,6 @@ def test_simple_computation(client):
 
 
 def main():
-    """
-    Hauptfunktion, die den End-to-End-Test ausführt.
-    """
     username = os.getenv("EODC_USERNAME")
     password = os.getenv("EODC_PASSWORD")
 

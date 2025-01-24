@@ -34,8 +34,12 @@ jobs:
         EODC_PASSWORD: ${{ secrets.EODC_PASSWORD }}  # Passwort aus Secrets
       run: python scripts/test_dask.py
 
-    - name: Upload log file
-      uses: actions/upload-artifact@v3
-      with:
-        name: dask-gateway-test-log
-        path: results/logs/test_DaskGateway.log
+    - name: Commit and push log files
+      if: always()
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git pull --rebase --autostash
+        git add results/logs/test_DaskGateway.log
+        git commit -m "Updated Dask Gateway test logs" || echo "No changes to commit"
+        git push
