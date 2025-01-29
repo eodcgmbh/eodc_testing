@@ -3,17 +3,28 @@ import openeo
 import random
 from datetime import datetime
 
-# OpenEO Backend
 OPENEO_BACKEND = "https://openeo.cloud"
 TOKEN_PATH = os.path.expanduser("~/.openeo-refresh-token")
 
 LOG_DIR = "results/logs/"
 LOG_FILE = os.path.join(LOG_DIR, "test_openEO.log")
 
-# Verbindung herstellen
 connection = openeo.connect(OPENEO_BACKEND)
+if os.path.exists(TOKEN_PATH):
+    with open(TOKEN_PATH, "r") as file:
+        refresh_token = file.read().strip()
+        if not refresh_token:
+            print("❌ Fehler: Refresh Token Datei existiert, ist aber leer!")
+            exit(1)
+        print(f"🔑 Verwende Refresh Token: {refresh_token[:10]}********")
 
-# Authentifizierung mit gespeichertem Refresh Token
+        connection.authenticate_oidc(client_id="openeo-platform-default-client", refresh_token=refresh_token)
+
+        print("✅ Erfolgreich authentifiziert mit openEO!")
+else:
+    print("❌ Fehler: Kein Refresh Token gefunden!")
+    exit(1)
+
 if os.path.exists(TOKEN_PATH):
     with open(TOKEN_PATH, "r") as file:
         refresh_token = file.read().strip()
