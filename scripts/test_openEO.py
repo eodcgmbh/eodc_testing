@@ -17,11 +17,8 @@ connection = openeo.connect(OPENEO_BACKEND)
 if os.path.exists(TOKEN_PATH):
     with open(TOKEN_PATH, "r") as file:
         refresh_token = file.read().strip()
-        print("🔑 Authentifiziere mit gespeichertem Refresh Token...")
         connection.authenticate_oidc_refresh_token(refresh_token)
-    print("✅ Erfolgreich authentifiziert mit openEO!")
 else:
-    print("❌ Fehler: Kein Refresh Token gefunden!")
     exit(1)
 
 def log_message(status, message, collection_id="N/A"):
@@ -48,7 +45,6 @@ def get_random_collection():
 def test_collection(collection_id):
     try:
         collection = connection.load_collection(collection_id)
-        log_message("success", f"Collection {collection_id}", collection_id)
         return True
     except Exception as e:
         log_message("failure", f"Collection: {collection_id}: {str(e)}", collection_id)
