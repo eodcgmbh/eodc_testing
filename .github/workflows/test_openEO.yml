@@ -29,6 +29,16 @@ jobs:
       - name: Restore Refresh Token
         run: echo "${{ secrets.OPENEO_REFRESH_TOKEN }}" > ~/.openeo-refresh-token
 
+      - name: Debug Refresh Token
+        run: |
+          if [ -f ~/.openeo-refresh-token ]; then
+            echo "✅ Refresh Token Datei existiert!"
+            cat ~/.openeo-refresh-token | head -c 10 && echo "********"
+          else
+            echo "❌ Kein Refresh Token in GitHub Actions gefunden!"
+            exit 1
+          fi
+
       - name: Run openEO API Test
         run: python scripts/test_openEO.py
 
