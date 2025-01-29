@@ -28,7 +28,7 @@ jobs:
         run: echo "${{ secrets.OPENEO_REFRESH_TOKEN }}" > ~/.openeo-refresh-token
 
       - name: Run openEO API Test
-        run: python scripts/test_openeo_api.py
+        run: python scripts/test_openEO.py
 
       - name: Commit Logs
         if: always()
