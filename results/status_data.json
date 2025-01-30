@@ -15,7 +15,7 @@
         "extra_info": null
     },
     "Notebooks": {
-        "timestamp": "2025-01-30 08:03:21",
+        "timestamp": "2025-01-30 12:46:20",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -24,6 +24,10 @@
             },
             {
                 "notebook": "Import Error: '(' was never closed (<string>, line 1)",
+                "status": "FAILURE"
+            },
+            {
+                "notebook": "Import Error: No module named 'datacube'",
                 "status": "FAILURE"
             },
             {
