@@ -2,10 +2,8 @@ name: Test Dask Gateway
 
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - 'results/logs/**'
+    paths:
+      -'scripts/test_dask.py' 
   schedule:
     - cron: "0 * * * *"  
   workflow_dispatch:  
@@ -30,8 +28,8 @@ jobs:
 
     - name: Run Dask Gateway Test
       env:
-        EODC_USERNAME: ${{ secrets.EODC_USERNAME }}  # Benutzername aus Secrets
-        EODC_PASSWORD: ${{ secrets.EODC_PASSWORD }}  # Passwort aus Secrets
+        EODC_USERNAME: ${{ secrets.EODC_USERNAME }}  
+        EODC_PASSWORD: ${{ secrets.EODC_PASSWORD }} 
       run: python scripts/test_dask.py
 
     - name: Commit and push log files

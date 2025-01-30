@@ -1,13 +1,12 @@
 # eodc_testing
 
-**DRAFT:** This repository is a work-in-progress for setting up automated tests for services like the STAC API and for validating notebooks from the eodc-examples repository using GitHub Actions.
+**DRAFT:**
 
-The tests are designed to ensure the reliability of:
-
-- **STAC API services** – validating endpoints and data integrity.
-  👉 [View the live STAC API test report here](https://eodcgmbh.github.io/eodc_testing/)
-
-- **Jupyter notebooks** in the eodc-examples repository – testing imports and functionality.
-  👉 [View the notebook test report here](https://eodcgmbh.github.io/eodc_testing/index_notebook.html)
+This repository contains automated tests for various EODC services using **GitHub Actions**. The main goal is to ensure the reliability and functionality of services like the **STAC API**, **Dask Gateway**, and **openEO API**, as well as validate the performance of Jupyter notebooks.
 
 ---
+
+## 🚀 Live Dashboard
+
+Monitor the current status of all services and notebooks in one place:
+👉 **[Service Status Dashboard](https://eodcgmbh.github.io/eodc_testing/docs/dashboard.html)**

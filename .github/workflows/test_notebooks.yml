@@ -2,10 +2,8 @@ name: Test Notebooks in EODC Examples
 
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - 'results/logs/**'
+    paths:
+      - 'scripts/test_notebooks.py' 
   schedule:
     - cron: "0 */6 * * *"  # 6 hours intervall
 
