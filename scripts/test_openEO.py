@@ -2,7 +2,6 @@ import os
 import openeo
 import random
 from datetime import datetime
-from dotenv import load_dotenv
 
 OPENEO_BACKEND = "https://openeo.cloud"
 TOKEN_PATH = os.path.expanduser("~/.openeo-refresh-token")
@@ -11,7 +10,6 @@ LOG_DIR = "results/logs/"
 LOG_FILE = os.path.join(LOG_DIR, "test_openEO.log")
 
 connection = openeo.connect(OPENEO_BACKEND)
-load_dotenv()
 
 def authenticate():
     """Authenticate with openEO using a stored or new refresh token."""
