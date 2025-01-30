@@ -2,6 +2,7 @@ import os
 import openeo
 import random
 from datetime import datetime
+from dotenv import load_dotenv
 
 OPENEO_BACKEND = "https://openeo.cloud"
 TOKEN_PATH = os.path.expanduser("~/.openeo-refresh-token")
@@ -10,44 +11,67 @@ LOG_DIR = "results/logs/"
 LOG_FILE = os.path.join(LOG_DIR, "test_openEO.log")
 
 connection = openeo.connect(OPENEO_BACKEND)
-if os.path.exists(TOKEN_PATH):
-    with open(TOKEN_PATH, "r") as file:
-        refresh_token = file.read().strip()
-        if not refresh_token:
-            print("❌ Fehler: Refresh Token Datei existiert, ist aber leer!")
-            exit(1)
-        print(f"🔑 Verwende Refresh Token: {refresh_token[:10]}********")
+load_dotenv()
 
-        connection.authenticate_oidc(client_id="openeo-platform-default-client", refresh_token=refresh_token)
+def authenticate():
+    """Authenticate with openEO using a stored or new refresh token."""
 
-        print("✅ Erfolgreich authentifiziert mit openEO!")
-else:
-    print("❌ Fehler: Kein Refresh Token gefunden!")
-    exit(1)
+    refresh_token = os.getenv("OPENEO_REFRESH_TOKEN")
+    
+    if refresh_token:
+        print("🔍 Using refresh token from environment (GitHub Secrets).")
+        try:
+            connection.authenticate_oidc_refresh_token(refresh_token)
+            print("Authenticated successfully using GitHub Secrets token.")
+            return
+        except Exception as e:
+            print(f"GitHub Secrets refresh token failed: {e}")
 
-if os.path.exists(TOKEN_PATH):
-    with open(TOKEN_PATH, "r") as file:
-        refresh_token = file.read().strip()
-        connection.authenticate_oidc_refresh_token(refresh_token)
-else:
-    exit(1)
+    if os.path.exists(TOKEN_PATH):
+        with open(TOKEN_PATH, "r") as file:
+            refresh_token = file.read().strip()
+            if refresh_token:
+                print("🔍 Using stored local refresh token.")
+                try:
+                    connection.authenticate_oidc_refresh_token(refresh_token)
+                    print("Authenticated successfully using stored local token.")
+                    return
+                except Exception as e:
+                    print(f"Local refresh token authentication failed: {e}")
 
-def log_message(status, message, collection_id="N/A"):
+    print("🔄 Attempting new interactive authentication...")
+    try:
+        connection.authenticate_oidc(client_id="openeo-platform-default-client")
+        print("✅ Interactive authentication successful.")
+    except Exception as e:
+        print(f"❌ Interactive authentication failed: {e}")
+        return
+
+authenticate()
+
+def log_message(status, collection_id):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-    log_entry = f"{timestamp}, {status}, collection: {collection_id}, {message}"
-    print(log_entry)
+    log_entry = f"{timestamp}, {status}, collection: {collection_id}"
+    
     os.makedirs(LOG_DIR, exist_ok=True)
-    with open(LOG_FILE, "a") as log:
-        log.write(log_entry + "\n")
+
+    try:
+        with open(LOG_FILE, "a") as log:
+            log.write(log_entry + "\n")
+    except Exception as e:
+        print(f"Error writing to log file: {e}")
+
+    print(log_entry)  
+
 
 def get_random_collection():
     try:
         collections = connection.list_collections()
+
         if not collections:
             return None
         
         collection_ids = [c["id"] for c in collections]
-        
         random_collection = random.choice(collection_ids)
         return random_collection
     except Exception as e:
@@ -56,12 +80,16 @@ def get_random_collection():
 def test_collection(collection_id):
     try:
         collection = connection.load_collection(collection_id)
+        log_message("success", collection_id)
         return True
     except Exception as e:
-        log_message("failure", f"Collection: {collection_id}: {str(e)}", collection_id)
+        log_message("failure", collection_id)
         return False
+
 
 if __name__ == "__main__":
     collection_id = get_random_collection()
     if collection_id:
         test_collection(collection_id)
+    else:
+        log_message("failure", "No collection found – test failed.")

@@ -26,16 +26,16 @@ jobs:
       - name: Install openEO Client
         run: pip install openeo
 
-      - name: Restore Refresh Token
-        run: echo "${{ secrets.OPENEO_REFRESH_TOKEN }}" > ~/.openeo-refresh-token
+      - name: Set Refresh Token as Environment Variable
+        run: echo "OPENEO_REFRESH_TOKEN=${{ secrets.OPENEO_REFRESH_TOKEN }}" >> $GITHUB_ENV
 
       - name: Debug Refresh Token
         run: |
-          if [ -f ~/.openeo-refresh-token ]; then
-            echo "✅ Refresh Token Datei existiert!"
-            cat ~/.openeo-refresh-token | head -c 10 && echo "********"
+          if [ -n "$OPENEO_REFRESH_TOKEN" ]; then
+            echo "Refresh Token is set in environment."
+            echo "Token first 10 chars: $(echo $OPENEO_REFRESH_TOKEN | head -c 10)********"
           else
-            echo "❌ Kein Refresh Token in GitHub Actions gefunden!"
+            echo "No Refresh Token found in GitHub Actions!"
             exit 1
           fi
 
@@ -48,6 +48,10 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git pull --rebase --autostash
-          git add results/logs/test_openEO.log 
-          git commit -m "Updated openEO API test logs" || echo "No changes to commit"
-          git push
+          if git diff --quiet results/logs/test_openEO.log; then
+            echo "No changes in the log file. No commit needed."
+          else
+            git add results/logs/test_openEO.log
+            git commit -m "Updated openEO API test logs"
+            git push
+          fi
