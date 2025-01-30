@@ -13,10 +13,9 @@ def parse_logs(log_file):
 
     with open(log_file, "r") as file:
         for line in file:
-            # Split log line into parts
+
             parts = line.strip().split(" - ", maxsplit=4)
 
-            # Ensure the line has at least 3 components (SUCCESS or SKIPPED) or 4 (FAILURE)
             if len(parts) == 3:  # SUCCESS or SKIPPED line
                 timestamp = parts[0]
                 status = parts[1]

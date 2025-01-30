@@ -13,7 +13,6 @@ def clear_log_file():
     """Clear the existing log file before starting new tests."""
     if os.path.exists(LOG_FILE):
         os.remove(LOG_FILE)
-        print(f"Cleared existing log file: {LOG_FILE}")
 
 def setup_log_directory():
     """Ensure the log directory exists."""
@@ -25,7 +24,6 @@ def log_message(notebook_path, status, details=""):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     notebook_relative_path = os.path.relpath(notebook_path, NOTEBOOK_DIR)
     log_entry = f"{timestamp} - {status} - {details} - {notebook_relative_path}"
-    print(log_entry)
     with open(LOG_FILE, "a") as log:
         log.write(log_entry + "\n")
 
@@ -34,9 +32,7 @@ def setup_virtual_environment():
     if not os.path.exists(VENV_DIR):
         try:
             subprocess.check_call(["python", "-m", "venv", VENV_DIR])
-            print(f"Virtual environment created in {VENV_DIR}")
         except subprocess.CalledProcessError as e:
-            print(f"Error creating virtual environment: {e}")
             return False
     try:
         pip_path = os.path.join(VENV_DIR, "bin", "pip")  
@@ -44,9 +40,7 @@ def setup_virtual_environment():
             pip_path = os.path.join(VENV_DIR, "Scripts", "pip")
         subprocess.check_call([pip_path, "install", "--upgrade", "pip"])
         subprocess.check_call([pip_path, "install", "-r", "requirements.txt"])
-        print("Dependencies installed successfully")
     except subprocess.CalledProcessError as e:
-        print(f"Error installing dependencies: {e}")
         return False
     return True
 

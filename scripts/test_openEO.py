@@ -17,32 +17,25 @@ def authenticate():
     refresh_token = os.getenv("OPENEO_REFRESH_TOKEN")
     
     if refresh_token:
-        print("🔍 Using refresh token from environment (GitHub Secrets).")
         try:
             connection.authenticate_oidc_refresh_token(refresh_token)
-            print("Authenticated successfully using GitHub Secrets token.")
             return
         except Exception as e:
-            print(f"GitHub Secrets refresh token failed: {e}")
+            return
 
     if os.path.exists(TOKEN_PATH):
         with open(TOKEN_PATH, "r") as file:
             refresh_token = file.read().strip()
             if refresh_token:
-                print("🔍 Using stored local refresh token.")
                 try:
                     connection.authenticate_oidc_refresh_token(refresh_token)
-                    print("Authenticated successfully using stored local token.")
                     return
                 except Exception as e:
-                    print(f"Local refresh token authentication failed: {e}")
+                    return 
 
-    print("🔄 Attempting new interactive authentication...")
     try:
         connection.authenticate_oidc(client_id="openeo-platform-default-client")
-        print("✅ Interactive authentication successful.")
     except Exception as e:
-        print(f"❌ Interactive authentication failed: {e}")
         return
 
 authenticate()

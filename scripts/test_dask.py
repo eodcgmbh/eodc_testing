@@ -13,16 +13,12 @@ class CustomEODCDaskGateway(EODCDaskGateway):
         return self._password
     
 def get_cluster_options(gateway):
-    
     try:
-
         cluster_options = gateway.cluster_options()
-
     except Exception as e:
         print(f"Error cluster options: {e}")
 
 def log_result(success):
-
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     result = "SUCCESS" if success else "FAILURE"
     with open("results/logs/test_DaskGateway.log", "a") as log_file:
@@ -31,15 +27,11 @@ def log_result(success):
 def create_and_connect_cluster(gateway):
     
     try:
-
         cluster = gateway.new_cluster()
         client = Client(cluster)
         cluster.scale(2)  
-
         return cluster, client
-    
     except Exception as e:
-        print(f"Connection Error: {e}")
         return None, None
 
 def test_simple_computation(client):
@@ -47,13 +39,12 @@ def test_simple_computation(client):
     try:
         def add(x, y):
             return x + y
-
         future = client.submit(add, 5, 10)
         result = future.result()
         assert result == 15
         
     except Exception as e:
-        print(f"Computation Error: {e}")
+        return
 
 def main():
     username = os.getenv("EODC_USERNAME")
@@ -66,14 +57,10 @@ def main():
     with patch("getpass.getpass", return_value=password):
         try:     
             gateway = CustomEODCDaskGateway(username=username, password=password)
-    
             get_cluster_options(gateway)
-
             cluster, client = create_and_connect_cluster(gateway)
-
             if client:
                 test_simple_computation(client)
-
             if cluster:
                 cluster.close()
                 
