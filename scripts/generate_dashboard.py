@@ -42,14 +42,13 @@ def parse_log_entry(file_path, service_name):
                         collection = parts[2].replace("collection: ", "")
                         item = parts[3].replace("item: ", "")
 
-                        # Save details for each collection
                         stac_collections[collection] = {
                             "timestamp": timestamp,
                             "status": status,
                             "item": item
                         }
                     except IndexError:
-                       return
+                        continue  
 
                 return "Multiple Collections", "Multiple Results", stac_collections
 
