@@ -43,3 +43,5 @@ jobs:
           git add docs/dashboard.html results/status_data.json
           git commit -m "Updated dashboard and status data [skip ci]"
           git push
+        fi
+    

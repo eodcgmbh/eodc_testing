@@ -72,7 +72,11 @@ def parse_log_entry(file_path, service_name):
 
 for service_name, log_file in services.items():
     log_path = os.path.join(log_dir, log_file)
-    timestamp, status, extra_info = parse_log_entry(log_path, service_name)
+    result = parse_log_entry(log_path, service_name)
+    if result is None:
+        timestamp, status, extra_info = "Never Tested", "ERROR", None
+    else:
+        timestamp, status, extra_info = result
     status_data[service_name] = {
         "timestamp": timestamp,
         "status": status,
