@@ -1,8 +1,8 @@
 import os
 import json
 
-log_dir = "results/logs"
-json_file = "results/status_data.json"
+log_dir = "docs"
+json_file = "status_data.json"
 
 services = {
     "Dask Gateway": "test_DaskGateway.log",

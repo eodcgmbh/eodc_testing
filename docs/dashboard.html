@@ -105,7 +105,7 @@
     <script>
         async function loadStatus() {
             try {
-                const response = await fetch('../results/status_data.json');
+                const response = await fetch('status_data.json');
                 if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
 
                 const data = await response.json();
