@@ -1,8 +1,8 @@
 import os
 import json
 
-log_dir = "results/logs" 
-docs_dir = "docs"  
+log_dir = "results/logs"
+docs_dir = "docs"
 json_file = os.path.join(docs_dir, "status_data.json")
 
 services = {
@@ -13,7 +13,6 @@ services = {
 }
 
 status_data = {}
-
 
 stac_collections = {}
 
@@ -65,27 +64,39 @@ def parse_log_entry(file_path, service_name):
                             "status": parts[1],
                             "message": parts[-2]
                         })
+        
                 return last_timestamp, notebook_results
 
     except Exception as e:
+        print(f"Error parsing log for {service_name}: {e}")
         return "Never Tested", "ERROR", None
 
 
 for service_name, log_file in services.items():
     log_path = os.path.join(log_dir, log_file)
     result = parse_log_entry(log_path, service_name)
-    if result is None:
-        timestamp, status, extra_info = "Never Tested", "ERROR", None
-    else:
+
+    if isinstance(result, dict):
+        status_data[service_name] = {
+            "timestamp": "Multiple Collections",
+            "status": "Multiple Results",
+            "extra_info": result 
+        }
+    elif isinstance(result, tuple) and len(result) == 3:  
         timestamp, status, extra_info = result
-    status_data[service_name] = {
-        "timestamp": timestamp,
-        "status": status,
-        "extra_info": extra_info
-    }
+        status_data[service_name] = {
+            "timestamp": timestamp,
+            "status": status,
+            "extra_info": extra_info
+        }
+    else:
+      
+        status_data[service_name] = {
+            "timestamp": "Never Tested",
+            "status": "ERROR",
+            "extra_info": None
+        }
 
 os.makedirs("results", exist_ok=True)
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
-
-
