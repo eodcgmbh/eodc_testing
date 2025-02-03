@@ -17,7 +17,7 @@
         }
 
         .container {
-            margin-top: 30px;
+            margin-top: 50px;
             max-width: 1200px;
         }
 
@@ -29,26 +29,27 @@
         }
 
         .header img {
-            width: 80px;
-            margin-right: 20px;
+            width: 50px;
+            margin-right: 15px;
         }
 
         .header h2 {
             font-size: 36px;
             margin-bottom: 10px;
+            font-weight: 500;
         }
 
         .service-card {
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 15px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-            transition: transform 0.2s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
             cursor: pointer;
         }
 
         .service-card:hover {
-            transform: scale(1.02);
+            transform: scale(1.05);
         }
 
         .success {
@@ -67,26 +68,23 @@
         }
 
         .collection-card {
-            background-color: #2c2f48;
+            background-color: #34495e;
             padding: 15px;
-            border-radius: 5px;
+            border-radius: 8px;
             margin-bottom: 10px;
+            color: #fff;
         }
 
         .collection-card h6 {
             margin: 0;
             font-size: 16px;
-            font-weight: bold;
+            font-weight: 500;
         }
 
         .collection-card p {
             margin: 5px 0 0;
             font-size: 14px;
-            color: #a5a5a5;
-            word-wrap: break-word; 
-            overflow-wrap: break-word;  
-            white-space: normal;
-            max-width: 100%;
+            color: #bdc3c7;
         }
 
         .notebook-list {
@@ -97,7 +95,7 @@
         .notebook-list li {
             margin-bottom: 10px;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 8px;
         }
 
         .notebook-success {
@@ -112,9 +110,16 @@
 
         footer {
             text-align: center;
-            margin-top: 30px;
+            margin-top: 50px;
             font-size: 14px;
             color: #888;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -130,6 +135,19 @@
             </div>
         </div>
 
+        <!-- Add a section for the Pie Charts -->
+        <div class="row">
+            <div class="col-md-6">
+                <h3>STAC API Status</h3>
+                <canvas id="stacApiChart"></canvas> <!-- Canvas for STAC API Pie Chart -->
+            </div>
+            <div class="col-md-6">
+                <h3>Notebooks Status</h3>
+                <canvas id="notebooksChart"></canvas> <!-- Canvas for Notebooks Pie Chart -->
+            </div>
+        </div>
+
+        <!-- Existing service status content will follow -->
         <div id="service-status" class="row"></div>
     </div>
 
@@ -149,25 +167,35 @@
                 const container = document.getElementById("service-status");
                 container.innerHTML = "";
 
+                // Data for STAC API and Notebooks Pie Charts
+                let stacApiSuccess = 0;
+                let stacApiFailure = 0;
+                let notebooksSuccess = 0;
+                let notebooksFailure = 0;
+
                 for (const [service, info] of Object.entries(data)) {
                     const statusClass = info.status === "SUCCESS" ? "success" :
                         info.status === "FAILURE" ? "failure" : "unknown";
 
                     let extraInfo = "";
-                    if (service === "STAC API") {
+                    if (service === "STAC API" && info.extra_info) {
                         extraInfo = "<h5>📌 Checked Collections:</h5>";
                         for (const [collection, details] of Object.entries(info.extra_info)) {
                             const collectionClass = details.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
                             extraInfo += `
-                                <p class="collection-card ${collectionClass}">
+                                <div class="collection-card ${collectionClass}">
                                     <h6>${collection}</h6>
                                     Item: ${details.item}<br>
                                     Status: ${details.status}<br>
                                     Last Checked: ${details.timestamp}
-                                </p>`;
+                                </div>`;
+                            // Count SUCCESS and FAILURE for STAC API
+                            if (details.status === "SUCCESS") stacApiSuccess++;
+                            if (details.status === "FAILURE") stacApiFailure++;
                         }
-                    } else if (service === "Notebooks") {
+                    } else if (service === "Notebooks" && info.extra_info) {
                         extraInfo = `<h5>📚 Checked Notebooks:</h5><ul class="notebook-list">`;
+                        let allSuccess = true;
                         info.extra_info.forEach(entry => {
                             const notebookClass = entry.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
                             extraInfo += `
@@ -176,6 +204,8 @@
                                     Status: ${entry.status}<br>
                                     Message: ${entry.message || "No message available"}
                                 </li>`;
+                            if (entry.status === "SUCCESS") notebooksSuccess++;
+                            if (entry.status === "FAILURE") notebooksFailure++;
                         });
                         extraInfo += "</ul>";
                     }
@@ -191,9 +221,48 @@
                         </div>`;
                 }
 
+                // Generate the Pie Charts for STAC API and Notebooks
+                createPieChart('stacApiChart', stacApiSuccess, stacApiFailure);
+                createPieChart('notebooksChart', notebooksSuccess, notebooksFailure);
+
             } catch (error) {
                 console.error("Error loading status data:", error);
             }
+        }
+
+        function createPieChart(canvasId, successCount, failureCount) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            const total = successCount + failureCount;
+            const successPercentage = total === 0 ? 0 : (successCount / total) * 100;
+            const failurePercentage = total === 0 ? 0 : (failureCount / total) * 100;
+
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Success', 'Failure'],
+                    datasets: [{
+                        data: [successPercentage, failurePercentage],
+                        backgroundColor: ['#27ae60', '#e74c3c'],
+                        borderColor: ['#2c3e50', '#2c3e50'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return tooltipItem.label + ": " + tooltipItem.raw.toFixed(2) + "%";
+                                }
+                            }
+                        }
+                    }
+                }
+            });
         }
 
         loadStatus();
