@@ -38,11 +38,11 @@
             transform: scale(1.02);
         }
         .success {
-            background: #27ae60; /* Green for success */
+            background: #27ae60; 
             color: #fff;
         }
         .failure {
-            background: #e74c3c; /* Red for failure */
+            background: #e74c3c; 
             color: #fff;
         }
         .unknown {
@@ -129,7 +129,7 @@
                 if (service === "STAC API" && info.extra_info) {
                     extraInfo = "<h5>📌 Checked Collections:</h5>";
                     for (const [collection, details] of Object.entries(info.extra_info)) {
-                        const collectionClass = details.status === "SUCCESS" ? "success" : "failure";
+                        const collectionClass = details.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
                         extraInfo += `
                             <div class="collection-card ${collectionClass}">
                                 <h6>${collection}</h6>
