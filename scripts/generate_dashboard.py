@@ -62,7 +62,8 @@ def parse_log_entry(file_path, service_name):
                         last_timestamp = parts[0]
                         notebook_results.append({
                             "notebook": parts[-1],
-                            "status": parts[1]
+                            "status": parts[1],
+                            "message": parts[-2]
                         })
                 return last_timestamp, "Notebook Results", notebook_results
 
