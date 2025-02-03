@@ -119,7 +119,7 @@
                 "item": "ENSEMBLE_FLOOD_20240903T101240_VV_SA020M_E063N066T3"
             },
             "RUCIO_SENTINEL2_MFCOVER": {
-                "timestamp": "2025-02-03 07:40",
+                "timestamp": "2025-02-03 15:05",
                 "status": "SUCCESS",
                 "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N017T1"
             },
@@ -211,8 +211,184 @@
         }
     },
     "Notebooks": {
-        "timestamp": "Never Tested",
-        "status": "ERROR",
-        "extra_info": null
+        "timestamp": "2025-02-03 12:46:35",
+        "status": "Notebook Results",
+        "extra_info": [
+            {
+                "notebook": "demos/dask.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/python-csw.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: '(' was never closed (<string>, line 1)"
+            },
+            {
+                "notebook": "demos/S2/indices.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: No module named 'datacube'"
+            },
+            {
+                "notebook": "demos/workspaces/demo-save-results.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-register-user.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-workspace-providers.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-create-workspace.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-stac-modify.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-register-workspace.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-show-files.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-share-workspace.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/workspaces/demo-load-data.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/eo-mqs/1-EO-MQS_DataDiscovery.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/eo-mqs/2-Simple-Metadata-Analysis.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/eo-mqs/3-Load-STAC-Items-xarray.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/STAC/python-stac_DataDiscovery.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/STAC/python-stac_LoadDataXarray.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/STAC/python-stac_AnalyzingMetadata.ipynb",
+                "status": "INVALID",
+                "message": "Not a valid JSON notebook"
+            },
+            {
+                "notebook": "demos/GFM/gfm_filter.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/GFM/gfm_rfm_evaluation.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/GFM/gfm_plot_flood_scene.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: No module named 'contextily'"
+            },
+            {
+                "notebook": "demos/GFM/download_gfm_python.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/GFM/gfm_maximum_flood_extent_stac.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/GFM/gfm_maximum_flood_extent_simple_plot.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/cloud4geo_webinar/python-stac.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: No module named 'contextily'"
+            },
+            {
+                "notebook": "demos/cloud4geo_webinar/landing.ipynb",
+                "status": "SKIPPED",
+                "message": "No imports found in notebook"
+            },
+            {
+                "notebook": "demos/cloud4geo_webinar/python-stac-xarray.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "tutorials/Ground_Motion_WFS.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: No module named 'contextily'"
+            },
+            {
+                "notebook": "tutorials/read_yipeeo_data.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: No module named 'contextily'"
+            },
+            {
+                "notebook": "tutorials/sen2like-ndvi.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "tutorials/sen2like.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "tutorials/AI4SAR_access_data.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "tutorials/eodc_sdk_argo.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "tutorials/wetland-explorer.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: No module named 'utils'"
+            },
+            {
+                "notebook": "tutorials/Sentinel-2.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            }
+        ]
     }
 }
