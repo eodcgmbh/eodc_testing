@@ -1,8 +1,9 @@
 import os
 import json
 
-log_dir = "docs"
-json_file = os.path.join(log_dir, "status_data.json")
+log_dir = "results/logs" 
+docs_dir = "docs"  
+json_file = os.path.join(docs_dir, "status_data.json")
 
 services = {
     "Dask Gateway": "test_DaskGateway.log",
