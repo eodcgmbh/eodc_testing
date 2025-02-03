@@ -97,7 +97,6 @@
     
 <div class="container">
     <div class="header">
-        <img src="eodc_logo_2025.png" alt="EODC Logo" class="logo">
         <div class="headline">
             <h2>Service Status Dashboard</h2>
             <p>Last Updated: <span id="last-update">Loading...</span></p>
@@ -152,19 +151,37 @@
                     extraInfo += "</ul>";
                 }
 
-                const serviceLink = (service === "STAC API") ? "https://stac-api-url.com" :
-                                    (service === "openEO") ? "https://openEO-url.com" :
-                                    (service === "DaskGateway") ? "https://daskgateway-url.com" : "#";
+                // Correct URLs for each service
+                const serviceLink = (service === "STAC API") ? "https://portal.services.eodc.eu/data_catalogue" :
+                                    (service === "openEO") ? "https://eodc.eu/services/openeo-platform/" :
+                                    (service === "DaskGateway") ? "https://portal.services.eodc.eu/docs/services/dask/" : "#";
 
+                // Append the service card and attach the event directly
                 container.innerHTML += `
                     <div class="col-md-6">
-                        <div class="service-card ${statusClass}" onclick="window.open('${serviceLink}', '_blank')">
+                        <div class="service-card ${statusClass}" id="${service}" >
                             <h3>${service}</h3>
                             <p><strong>Last Test:</strong> ${info.timestamp || "Unknown"}</p>
                             <p><strong>Status:</strong> ${info.status}</p>
                             ${extraInfo}
                         </div>
                     </div>`;
+
+                // Add an event listener specifically for STAC API click
+                if (service === "STAC API") {
+                    document.getElementById(service).addEventListener('click', function() {
+                        window.open('https://portal.services.eodc.eu/data_catalogue', '_blank');
+                    });
+                } else if (service === "openEO") {
+                    document.getElementById(service).addEventListener('click', function() {
+                        window.open('https://eodc.eu/services/openeo-platform/', '_blank');
+                    });
+                } else if (service === "DaskGateway") {
+                    document.getElementById(service).addEventListener('click', function() {
+                        window.open('https://portal.services.eodc.eu/docs/services/dask/', '_blank');
+                    });
+                }
+
             }
 
         } catch (error) {
