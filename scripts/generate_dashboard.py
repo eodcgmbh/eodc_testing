@@ -51,7 +51,7 @@ def parse_log_entry(file_path, service_name):
                     except IndexError:
                         continue  
 
-                return "Multiple Collections", "Multiple Results", stac_collections
+                return stac_collections
 
             elif service_name == "Notebooks":
                 last_timestamp = None
@@ -65,7 +65,7 @@ def parse_log_entry(file_path, service_name):
                             "status": parts[1],
                             "message": parts[-2]
                         })
-                return last_timestamp, "Notebook Results", notebook_results
+                return last_timestamp, notebook_results
 
     except Exception as e:
         return "Never Tested", "ERROR", None
