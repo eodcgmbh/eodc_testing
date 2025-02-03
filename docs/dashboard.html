@@ -86,6 +86,7 @@
             word-wrap: break-word; 
             overflow-wrap: break-word;  
             white-space: normal;
+            max-width: 100%;
         }
 
         .notebook-list {
@@ -158,12 +159,12 @@
                         for (const [collection, details] of Object.entries(info.extra_info)) {
                             const collectionClass = details.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
                             extraInfo += `
-                                <div class="collection-card ${collectionClass}">
+                                <p class="collection-card ${collectionClass}">
                                     <h6>${collection}</h6>
                                     Item: ${details.item}<br>
                                     Status: ${details.status}<br>
                                     Last Checked: ${details.timestamp}
-                                </div>`;
+                                </p>`;
                         }
                     } else if (service === "Notebooks") {
                         extraInfo = `<h5>📚 Checked Notebooks:</h5><ul class="notebook-list">`;
