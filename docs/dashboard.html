@@ -29,7 +29,7 @@
         }
 
         .header img {
-            width: 60px;
+            width: 80px;
             margin-right: 20px;
         }
 
@@ -83,6 +83,9 @@
             margin: 5px 0 0;
             font-size: 14px;
             color: #a5a5a5;
+            word-wrap: break-word; 
+            overflow-wrap: break-word;  
+            white-space: normal;
         }
 
         .notebook-list {
@@ -150,19 +153,19 @@
                         info.status === "FAILURE" ? "failure" : "unknown";
 
                     let extraInfo = "";
-                    if (service === "STAC API" && info.extra_info) {
+                    if (service === "STAC API") {
                         extraInfo = "<h5>📌 Checked Collections:</h5>";
                         for (const [collection, details] of Object.entries(info.extra_info)) {
                             const collectionClass = details.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
                             extraInfo += `
-                                <li class="collection-card ${collectionClass}">
+                                <div class="collection-card ${collectionClass}">
                                     <h6>${collection}</h6>
-                                    Item: ${details.item}
-                                    Status: ${details.status}
+                                    Item: ${details.item}<br>
+                                    Status: ${details.status}<br>
                                     Last Checked: ${details.timestamp}
-                                </li>`;
+                                </div`;
                         }
-                    } else if (service === "Notebooks" && info.extra_info) {
+                    } else if (service === "Notebooks") {
                         extraInfo = `<h5>📚 Checked Notebooks:</h5><ul class="notebook-list">`;
                         info.extra_info.forEach(entry => {
                             const notebookClass = entry.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
