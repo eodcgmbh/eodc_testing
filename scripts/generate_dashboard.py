@@ -56,6 +56,7 @@ def parse_log_entry(file_path, service_name):
                 last_timestamp = None
                 notebook_results = []
                 for line in lines:
+                    # Check if the line is formatted correctly
                     parts = line.strip().split(" - ")
                     if len(parts) >= 4:
                         last_timestamp = parts[0]
@@ -64,8 +65,13 @@ def parse_log_entry(file_path, service_name):
                             "status": parts[1],
                             "message": parts[-2]
                         })
+                    else:
+                        print(f"Skipping line due to format issue: {line.strip()}")
         
-                return last_timestamp, notebook_results
+                if notebook_results:
+                    return last_timestamp, notebook_results
+                else:
+                    return "Never Tested", "UNKNOWN", None  # In case no valid notebook data is found
 
     except Exception as e:
         print(f"Error parsing log for {service_name}: {e}")
@@ -76,13 +82,13 @@ for service_name, log_file in services.items():
     log_path = os.path.join(log_dir, log_file)
     result = parse_log_entry(log_path, service_name)
 
-    if isinstance(result, dict):
+    if isinstance(result, dict):  # STAC API returns a dictionary (collections)
         status_data[service_name] = {
             "timestamp": "Multiple Collections",
             "status": "Multiple Results",
             "extra_info": result 
         }
-    elif isinstance(result, tuple) and len(result) == 3:  
+    elif isinstance(result, tuple) and len(result) == 3:  # Other services return a tuple of 3 values
         timestamp, status, extra_info = result
         status_data[service_name] = {
             "timestamp": timestamp,
@@ -90,7 +96,7 @@ for service_name, log_file in services.items():
             "extra_info": extra_info
         }
     else:
-      
+        # In case of unexpected results
         status_data[service_name] = {
             "timestamp": "Never Tested",
             "status": "ERROR",
@@ -100,3 +106,4 @@ for service_name, log_file in services.items():
 os.makedirs("results", exist_ok=True)
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
+
