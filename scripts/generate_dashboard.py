@@ -57,10 +57,10 @@ def parse_log_entry(file_path, service_name):
                 notebook_results = []
                 for line in lines:
                     parts = line.strip().split(" - ")
-                    if len(parts) >= 3:
+                    if len(parts) >= 4:
                         last_timestamp = parts[0]
                         notebook_results.append({
-                            "notebook": parts[2],
+                            "notebook": parts[-1],
                             "status": parts[1]
                         })
                 return last_timestamp, "Notebook Results", notebook_results
