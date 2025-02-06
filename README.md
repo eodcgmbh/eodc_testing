@@ -7,4 +7,4 @@ This repository contains automated tests for various EODC services using **GitHu
 ### 🚀 Live Dashboard (DRAFT)
 
 Monitor the current status of all services and notebooks in one place:  
-👉 **[Service Status Dashboard(Draft, not finished)]
+👉 **[Service Status Dashboard(Draft, not finished)](https://eodcgmbh.github.io/eodc_testing/dashboard.html)** 
