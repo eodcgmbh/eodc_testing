@@ -12,11 +12,7 @@ services = {
     "Notebooks": "test_notebooks.log"
 }
 
-if os.path.exists(json_file):
-    with open(json_file, "r") as file:
-        status_data = json.load(file)
-else:
-    status_data = {}
+status_data = {}
 
 def parse_log_entry(file_path, service_name):
     try:
@@ -25,18 +21,53 @@ def parse_log_entry(file_path, service_name):
             if not lines:
                 return "Never Tested", "UNKNOWN", None
 
-            last_line = lines[-1].strip()
-            parts = last_line.split(" - ")
-
-            timestamp = parts[0]
-            status = parts[1].upper()
-
             if service_name == "Dask Gateway":
-                if service_name not in status_data:
-                    status_data[service_name] = {"history": []}
-                status_data[service_name]["history"].append({"timestamp": timestamp, "status": status})
+                last_line = lines[-1].strip()
+                parts = last_line.split(" - ")
+                return parts[0], parts[1], None
 
-            return timestamp, status, None
+            elif service_name == "openEO API":
+                last_line = lines[-1].strip()
+                parts = last_line.split(", ")
+                return parts[0], parts[1].upper(), parts[2].replace("collection: ", "")
+
+            elif service_name == "STAC API":
+                stac_collections_dict = {}  
+
+                for line in lines:
+                    try:
+                        parts = line.strip().split(", ")
+                        timestamp = parts[0]
+                        status = parts[1].upper()
+                        collection = parts[2].replace("collection: ", "")
+                        item = parts[3].replace("item: ", "")
+
+                        if collection not in stac_collections_dict or timestamp > stac_collections_dict[collection]["timestamp"]:
+                            stac_collections_dict[collection] = {
+                                "collection": collection,
+                                "timestamp": timestamp,
+                                "status": status,
+                                "item": item
+                            }
+                    except IndexError:
+                        continue 
+
+                return "Latest Collections", "Filtered Results", list(stac_collections_dict.values())
+
+            elif service_name == "Notebooks":
+                last_timestamp = None
+                notebook_results = []
+
+                for line in lines:
+                    parts = line.strip().split(" - ")
+                    if len(parts) >= 4:
+                        last_timestamp = parts[0]
+                        notebook_results.append({
+                            "notebook": parts[-1],
+                            "status": parts[1],
+                            "message": parts[-2]
+                        })
+                return last_timestamp, "Notebook Results", notebook_results
 
     except Exception as e:
         return "Never Tested", "ERROR", None
@@ -46,14 +77,18 @@ for service_name, log_file in services.items():
     log_path = os.path.join(log_dir, log_file)
     result = parse_log_entry(log_path, service_name)
 
-    if result is not None:
+    if result is None:
+        timestamp, status, extra_info = "Never Tested", "ERROR", None
+    else:
         timestamp, status, extra_info = result
-        status_data[service_name] = {
-            "timestamp": timestamp,
-            "status": status,
-            "extra_info": extra_info
-        }
+
+    status_data[service_name] = {
+        "timestamp": timestamp,
+        "status": status,
+        "extra_info": extra_info
+    }
 
 os.makedirs(docs_dir, exist_ok=True)
+
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
