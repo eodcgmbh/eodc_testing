@@ -15,8 +15,6 @@ services = {
 status_data = {}
 
 
-stac_collections = {}
-
 def parse_log_entry(file_path, service_name):
     try:
         with open(file_path, "r") as file:
@@ -35,6 +33,7 @@ def parse_log_entry(file_path, service_name):
                 return parts[0], parts[1].upper(), parts[2].replace("collection: ", "")
 
             elif service_name == "STAC API":
+                stac_collections_list = []  
                 for line in lines:
                     try:
                         parts = line.strip().split(", ")
@@ -43,15 +42,16 @@ def parse_log_entry(file_path, service_name):
                         collection = parts[2].replace("collection: ", "")
                         item = parts[3].replace("item: ", "")
 
-                        stac_collections[collection] = {
+                        stac_collections_list.append({
+                            "collection": collection,
                             "timestamp": timestamp,
                             "status": status,
                             "item": item
-                        }
+                        })
                     except IndexError:
                         continue  
 
-                return "Multiple Collections", "Multiple Results", stac_collections
+                return "Multiple Collections", "Multiple Results", stac_collections_list
 
             elif service_name == "Notebooks":
                 last_timestamp = None
@@ -87,5 +87,3 @@ for service_name, log_file in services.items():
 os.makedirs("results", exist_ok=True)
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
-
-

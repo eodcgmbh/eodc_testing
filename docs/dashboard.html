@@ -179,17 +179,18 @@
                         info.status === "FAILURE" ? "failure" : "unknown";
 
                     let extraInfo = "";
-                    if (service === "STAC API" && info.extra_info) {
+                    if (service === "STAC API" && Array.isArray(info.extra_info)) {
                         extraInfo = "<h5>📌 Checked Collections:</h5>";
-                        for (const [collection, details] of Object.entries(info.extra_info)) {
+                        for (const details of info.extra_info) {  // Iteration über das Array
                             const collectionClass = details.status === "SUCCESS" ? "notebook-success" : "notebook-failure";
                             extraInfo += `
                                 <div class="collection-card ${collectionClass}">
-                                    <h6>${collection}</h6>
+                                    <h6>Collection: ${details.collection}</h6>
                                     Item: ${details.item}<br>
                                     Status: ${details.status}<br>
                                     Last Checked: ${details.timestamp}
                                 </div>`;
+                            
                             // Count SUCCESS and FAILURE for STAC API
                             if (details.status === "SUCCESS") stacApiSuccess++;
                             if (details.status === "FAILURE") stacApiFailure++;
