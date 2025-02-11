@@ -33,7 +33,8 @@ def parse_log_entry(file_path, service_name):
                 return parts[0], parts[1].upper(), parts[2].replace("collection: ", "")
 
             elif service_name == "STAC API":
-                stac_collections_list = []  
+                stac_collections_dict = {} 
+
                 for line in lines:
                     try:
                         parts = line.strip().split(", ")
@@ -42,16 +43,17 @@ def parse_log_entry(file_path, service_name):
                         collection = parts[2].replace("collection: ", "")
                         item = parts[3].replace("item: ", "")
 
-                        stac_collections_list.append({
-                            "collection": collection,
-                            "timestamp": timestamp,
-                            "status": status,
-                            "item": item
-                        })
+                        if collection not in stac_collections_dict or timestamp > stac_collections_dict[collection]["timestamp"]:
+                            stac_collections_dict[collection] = {
+                                "collection": collection,
+                                "timestamp": timestamp,
+                                "status": status,
+                                "item": item
+                            }
                     except IndexError:
                         continue  
 
-                return "Multiple Collections", "Multiple Results", stac_collections_list
+                return "Latest Collections", "Filtered Results", list(stac_collections_dict.values())
 
             elif service_name == "Notebooks":
                 last_timestamp = None
