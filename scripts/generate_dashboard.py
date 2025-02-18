@@ -14,6 +14,51 @@ services = {
 
 status_data = {}
 
+# Lade bestehendes JSON, falls vorhanden
+if os.path.exists(json_file):
+    with open(json_file, "r") as file:
+        try:
+            status_data = json.load(file)
+        except json.JSONDecodeError:
+            status_data = {}
+else:
+    status_data = {}
+
+def parse_dask_log(file_path):
+    """ Liest die letzten 100 Einträge aus dem Dask Gateway Log. """
+    try:
+        with open(file_path, "r") as file:
+            lines = file.readlines()
+            if not lines:
+                return []
+
+            entries = []
+            for line in lines[-100:]:  # Nur die letzten 100 Einträge speichern
+                line = line.strip()
+                parts = line.split(" - ")
+                if len(parts) == 2:
+                    timestamp, status = parts
+                    entries.append({
+                        "timestamp": timestamp,
+                        "status": status.upper(),
+                        "extra_info": None
+                    })
+            return entries
+    except FileNotFoundError:
+        return []
+
+# Dask Gateway Logs parsen
+dask_entries = parse_dask_log(os.path.join(log_dir, services["Dask Gateway"]))
+
+# JSON aktualisieren (nur Dask Gateway!)
+if "Dask Gateway" in status_data:
+    old_entries = status_data["Dask Gateway"].get("history", [])
+    new_entries = old_entries + dask_entries
+    status_data["Dask Gateway"]["history"] = new_entries[-100:]  # Maximal 100 Einträge
+else:
+    status_data["Dask Gateway"] = {"history": dask_entries[-100:]}
+
+
 def parse_log_entry(file_path, service_name):
     try:
         with open(file_path, "r") as file:
@@ -21,12 +66,13 @@ def parse_log_entry(file_path, service_name):
             if not lines:
                 return "Never Tested", "UNKNOWN", None
 
+            ''' 
             if service_name == "Dask Gateway":
                 last_line = lines[-1].strip()
                 parts = last_line.split(" - ")
                 return parts[0], parts[1], None
-
-            elif service_name == "openEO API":
+            '''
+            if service_name == "openEO API":
                 last_line = lines[-1].strip()
                 parts = last_line.split(", ")
                 return parts[0], parts[1].upper(), parts[2].replace("collection: ", "")
