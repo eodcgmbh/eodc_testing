@@ -28,7 +28,7 @@ def parse_dask_log(file_path):
         with open(file_path, "r") as file:
             lines = file.readlines()
             if not lines:
-                return [], "Never Tested", "ERROR", None
+                return [], "Never Tested", 0, None  # Fehlerwert als 0
 
             entries = []
             for line in lines[-100:]:  # Nur die letzten 100 Einträge speichern
@@ -36,18 +36,20 @@ def parse_dask_log(file_path):
                 parts = line.split(" - ")
                 if len(parts) == 2:
                     timestamp, status = parts
+                    # Konvertiere "SUCCESS" zu 1, "FAILURE" zu 0
+                    status_numeric = 1 if status.upper() == "SUCCESS" else 0
                     entries.append({
                         "timestamp": timestamp,
-                        "status": status.upper(),
+                        "status": status_numeric,
                         "extra_info": None
                     })
             
             # Der letzte Eintrag wird als aktueller Status genutzt
-            last_entry = entries[-1] if entries else {"timestamp": "Never Tested", "status": "ERROR", "extra_info": None}
+            last_entry = entries[-1] if entries else {"timestamp": "Never Tested", "status": 0, "extra_info": None}
             return entries, last_entry["timestamp"], last_entry["status"], last_entry["extra_info"]
 
     except FileNotFoundError:
-        return [], "Never Tested", "ERROR", None
+        return [], "Never Tested", 0, None
 
 # Dask Gateway Logs parsen
 dask_entries, last_timestamp, last_status, last_extra_info = parse_dask_log(os.path.join(log_dir, services["Dask Gateway"]))
@@ -55,7 +57,7 @@ dask_entries, last_timestamp, last_status, last_extra_info = parse_dask_log(os.p
 # JSON aktualisieren (nur Dask Gateway!)
 status_data["Dask Gateway"] = {
     "timestamp": last_timestamp,
-    "status": last_status,
+    "status": last_status,  # Jetzt als 1 oder 0 gespeichert
     "extra_info": last_extra_info,
     "history": dask_entries[-100:]  # Maximal 100 Einträge
 }
@@ -137,4 +139,3 @@ os.makedirs(docs_dir, exist_ok=True)
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
 
-print("JSON aktualisiert: Letzte 100 Logs für Dask Gateway gespeichert!")
