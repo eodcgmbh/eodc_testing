@@ -12,8 +12,6 @@ services = {
     "Notebooks": "test_notebooks.log"
 }
 
-status_data = {}
-
 # Lade bestehendes JSON, falls vorhanden
 if os.path.exists(json_file):
     with open(json_file, "r") as file:
@@ -51,12 +49,10 @@ def parse_dask_log(file_path):
 dask_entries = parse_dask_log(os.path.join(log_dir, services["Dask Gateway"]))
 
 # JSON aktualisieren (nur Dask Gateway!)
-if "Dask Gateway" in status_data:
-    old_entries = status_data["Dask Gateway"].get("history", [])
-    new_entries = old_entries + dask_entries
-    status_data["Dask Gateway"]["history"] = new_entries[-100:]  # Maximal 100 Einträge
-else:
-    status_data["Dask Gateway"] = {"history": dask_entries[-100:]}
+if "Dask Gateway" not in status_data:
+    status_data["Dask Gateway"] = {}
+
+status_data["Dask Gateway"]["history"] = dask_entries[-100:]  # Nur die letzten 100 behalten
 
 
 def parse_log_entry(file_path, service_name):
@@ -66,12 +62,6 @@ def parse_log_entry(file_path, service_name):
             if not lines:
                 return "Never Tested", "UNKNOWN", None
 
-            ''' 
-            if service_name == "Dask Gateway":
-                last_line = lines[-1].strip()
-                parts = last_line.split(" - ")
-                return parts[0], parts[1], None
-            '''
             if service_name == "openEO API":
                 last_line = lines[-1].strip()
                 parts = last_line.split(", ")
@@ -118,8 +108,11 @@ def parse_log_entry(file_path, service_name):
     except Exception as e:
         return "Never Tested", "ERROR", None
 
-
+# JSON für alle anderen Services aktualisieren (Dask bleibt erhalten!)
 for service_name, log_file in services.items():
+    if service_name == "Dask Gateway":
+        continue  # Dask wurde schon oben verarbeitet
+
     log_path = os.path.join(log_dir, log_file)
     result = parse_log_entry(log_path, service_name)
 
