@@ -23,12 +23,12 @@ else:
     status_data = {}
 
 def parse_dask_log(file_path):
-    """ Liest die letzten 100 Einträge aus dem Dask Gateway Log. """
+    """ Liest die letzten 100 Einträge aus dem Dask Gateway Log und gibt den letzten Status zurück. """
     try:
         with open(file_path, "r") as file:
             lines = file.readlines()
             if not lines:
-                return []
+                return [], "Never Tested", "ERROR", None
 
             entries = []
             for line in lines[-100:]:  # Nur die letzten 100 Einträge speichern
@@ -41,19 +41,24 @@ def parse_dask_log(file_path):
                         "status": status.upper(),
                         "extra_info": None
                     })
-            return entries
+            
+            # Der letzte Eintrag wird als aktueller Status genutzt
+            last_entry = entries[-1] if entries else {"timestamp": "Never Tested", "status": "ERROR", "extra_info": None}
+            return entries, last_entry["timestamp"], last_entry["status"], last_entry["extra_info"]
+
     except FileNotFoundError:
-        return []
+        return [], "Never Tested", "ERROR", None
 
 # Dask Gateway Logs parsen
-dask_entries = parse_dask_log(os.path.join(log_dir, services["Dask Gateway"]))
+dask_entries, last_timestamp, last_status, last_extra_info = parse_dask_log(os.path.join(log_dir, services["Dask Gateway"]))
 
 # JSON aktualisieren (nur Dask Gateway!)
-if "Dask Gateway" not in status_data:
-    status_data["Dask Gateway"] = {}
-
-status_data["Dask Gateway"]["history"] = dask_entries[-100:]  # Nur die letzten 100 behalten
-
+status_data["Dask Gateway"] = {
+    "timestamp": last_timestamp,
+    "status": last_status,
+    "extra_info": last_extra_info,
+    "history": dask_entries[-100:]  # Maximal 100 Einträge
+}
 
 def parse_log_entry(file_path, service_name):
     try:
@@ -111,7 +116,7 @@ def parse_log_entry(file_path, service_name):
 # JSON für alle anderen Services aktualisieren (Dask bleibt erhalten!)
 for service_name, log_file in services.items():
     if service_name == "Dask Gateway":
-        continue  # Dask wurde schon oben verarbeitet
+        continue  # Dask wurde oben verarbeitet
 
     log_path = os.path.join(log_dir, log_file)
     result = parse_log_entry(log_path, service_name)
@@ -131,3 +136,5 @@ os.makedirs(docs_dir, exist_ok=True)
 
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
+
+print("JSON aktualisiert: Letzte 100 Logs für Dask Gateway gespeichert!")
