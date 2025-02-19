@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 23:44",
+        "timestamp": "2025-02-19 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "AGERA5",
             "history": [
-                {
-                    "timestamp": "2025-02-18 21:27",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2025-02-18 21:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 23:44",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-02-19 23:53",
+                    "status": 1,
+                    "collection": "AGERA5"
                 }
             ]
         }
@@ -1096,7 +1096,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-02-19 07:53",
+                "timestamp": "2025-02-19 23:53",
                 "status": "SUCCESS",
                 "item": "HPAR_SA020M_E099N063T3_D111"
             },
