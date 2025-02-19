@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 11:23",
+        "timestamp": "2025-02-19 11:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "SENTINEL_5P_L2",
             "history": [
-                {
-                    "timestamp": "2025-02-18 09:12",
-                    "status": 1,
-                    "collection": "AUT_DEM"
-                },
                 {
                     "timestamp": "2025-02-18 09:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 11:23",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-02-19 11:34",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
                 }
             ]
         }
@@ -946,9 +946,9 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-02-18 23:10",
+                "timestamp": "2025-02-19 11:34",
                 "status": "SUCCESS",
-                "item": "EU010M_E052N015T1_20231027_WETLAND"
+                "item": "EU010M_E053N015T1_20231003_WETLAND"
             },
             {
                 "collection": "CGLS_SSM_1KM",
