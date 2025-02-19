@@ -34,6 +34,12 @@ def parse_log_entry(file_path, service_name):
                 return current_timestamp, current_status, {"history": history}
 
             elif service_name == "openEO API":
+                history = []
+                for line in lines[-100:]:
+                    parts = line.strip().split(" - ")
+                    if len(parts) == 3:
+                        timestamp, status, coll = parts
+                        history.append({"timestamp": timestamp, "status": 1 if status == "SUCCESS" else 0, "collection": coll})
                 last_line = lines[-1].strip()
                 parts = last_line.split(", ")
                 return parts[0], parts[1].upper(), parts[2].replace("collection: ", "")
