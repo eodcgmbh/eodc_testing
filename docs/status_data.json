@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 16:15",
+        "timestamp": "2025-02-19 16:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-02-18 13:34",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-02-18 13:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 16:15",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-02-19 16:36",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -952,7 +952,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-02-19 09:50",
+                "timestamp": "2025-02-19 16:36",
                 "status": "SUCCESS",
                 "item": "CGLS_SSM1KM_20220404_EU1K0M_E066N024T6"
             },
