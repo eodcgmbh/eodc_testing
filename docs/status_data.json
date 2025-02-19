@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 18:37",
+        "timestamp": "2025-02-19 18:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WATER_BODIES",
+            "collection": "GLOBAL_LAND_COVER",
             "history": [
-                {
-                    "timestamp": "2025-02-18 15:44",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-02-18 15:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 18:37",
                     "status": 1,
                     "collection": "WATER_BODIES"
+                },
+                {
+                    "timestamp": "2025-02-19 18:48",
+                    "status": 1,
+                    "collection": "GLOBAL_LAND_COVER"
                 }
             ]
         }
@@ -952,9 +952,9 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-02-19 18:37",
+                "timestamp": "2025-02-19 18:48",
                 "status": "SUCCESS",
-                "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N006T6"
+                "item": "CGLS_SSM1KM_20220404_EU1K0M_E066N024T6"
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
