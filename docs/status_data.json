@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 20:43",
+        "timestamp": "2025-02-19 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-02-18 18:17",
-                    "status": 1,
-                    "collection": "CNR_TSM"
-                },
                 {
                     "timestamp": "2025-02-18 18:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 20:43",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-02-19 20:53",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
@@ -982,9 +982,9 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-02-19 15:53",
+                "timestamp": "2025-02-19 20:53",
                 "status": "SUCCESS",
-                "item": "Greenness-2022-66636"
+                "item": "Greenness-2022-66635"
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
