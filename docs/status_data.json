@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 13:43",
+        "timestamp": "2025-02-19 13:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-02-18 10:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
-                },
                 {
                     "timestamp": "2025-02-18 10:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 13:43",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-02-19 13:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
@@ -1102,9 +1102,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-02-18 14:44",
+                "timestamp": "2025-02-19 13:53",
                 "status": "SUCCESS",
-                "item": "X0013Y0014_20201231"
+                "item": "X0014Y0014_20201226"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
