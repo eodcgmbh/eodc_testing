@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 22:52",
+        "timestamp": "2025-02-19 23:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "OPENEO_CROPTYPE_2021",
             "history": [
-                {
-                    "timestamp": "2025-02-18 20:30",
-                    "status": 1,
-                    "collection": "SENTINEL3_SLSTR"
-                },
                 {
                     "timestamp": "2025-02-18 20:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 22:52",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-02-19 23:11",
+                    "status": 1,
+                    "collection": "OPENEO_CROPTYPE_2021"
                 }
             ]
         }
