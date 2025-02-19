@@ -32,17 +32,26 @@ def parse_log_entry(file_path, service_name):
                 parts = last_line.split(" - ")
                 current_timestamp, current_status = parts[0], parts[1]
                 return current_timestamp, current_status, {"history": history}
-
+            
             elif service_name == "openEO API":
                 history = []
                 for line in lines[-100:]:
                     parts = line.strip().split(", ")
                     if len(parts) == 3:
                         timestamp, status, coll = parts
-                        history.append({"timestamp": timestamp, "status": 1 if status.lower() == "success" else 0, "collection": coll.replace("collection: ", "")})
+                        history.append({
+                            "timestamp": timestamp,
+                            "status": 1 if status.lower() == "success" else 0,
+                            "collection": coll.replace("collection: ", "")
+                        })
+                
                 last_line = lines[-1].strip()
                 parts = last_line.split(", ")
-                return parts[0], parts[1].upper(), {"collection": parts[2].replace("collection: ", ""), "history": history}
+
+                return parts[0], parts[1].upper(), {
+                    "collection": parts[2].replace("collection: ", ""),
+                    "history": history
+                }
 
             elif service_name == "STAC API":
                 stac_collections_dict = {}
