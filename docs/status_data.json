@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 17:43",
+        "timestamp": "2025-02-19 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "ALOS_PALSAR2_L2_1_3M",
             "history": [
-                {
-                    "timestamp": "2025-02-18 14:53",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-02-18 15:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 17:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-02-19 17:53",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_3M"
                 }
             ]
         }
@@ -940,9 +940,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-02-19 05:53",
+                "timestamp": "2025-02-19 17:53",
                 "status": "SUCCESS",
-                "item": "4321-59"
+                "item": "4321-57"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
