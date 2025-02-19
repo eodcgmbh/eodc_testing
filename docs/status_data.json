@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 18:15",
+        "timestamp": "2025-02-19 18:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "WATER_BODIES",
             "history": [
-                {
-                    "timestamp": "2025-02-18 15:32",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-02-18 15:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 18:15",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-02-19 18:37",
+                    "status": 1,
+                    "collection": "WATER_BODIES"
                 }
             ]
         }
@@ -952,9 +952,9 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-02-19 16:36",
+                "timestamp": "2025-02-19 18:37",
                 "status": "SUCCESS",
-                "item": "CGLS_SSM1KM_20220404_EU1K0M_E066N024T6"
+                "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N006T6"
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
