@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 21:27",
+        "timestamp": "2025-02-19 21:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-02-18 18:56",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
-                },
                 {
                     "timestamp": "2025-02-18 19:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 21:27",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-02-19 21:36",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
