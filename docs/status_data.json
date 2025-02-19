@@ -1,7 +1,7 @@
 {
     "Dask Gateway": {
         "timestamp": "2025-02-19 07:14:47",
-        "status": 1,
+        "status": "SUCCESS",
         "extra_info": null,
         "history": [
             {
@@ -505,5 +505,522 @@
                 "extra_info": null
             }
         ]
+    },
+    "openEO API": {
+        "timestamp": "2025-02-19 07:44",
+        "status": "success",
+        "extra_info": null,
+        "history": [
+            {
+                "timestamp": "2025-02-18 05:32",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
+            },
+            {
+                "timestamp": "2025-02-18 05:43",
+                "status": 1,
+                "extra_info": "CDS_2M_TEMP_2020"
+            },
+            {
+                "timestamp": "2025-02-18 06:17",
+                "status": 1,
+                "extra_info": "SENTINEL1_MPLIA"
+            },
+            {
+                "timestamp": "2025-02-18 06:39",
+                "status": 1,
+                "extra_info": "COP_DEM_EU_25M"
+            },
+            {
+                "timestamp": "2025-02-18 06:49",
+                "status": 1,
+                "extra_info": "CGLS_LAI300_V1_GLOBAL"
+            },
+            {
+                "timestamp": "2025-02-18 06:57",
+                "status": 1,
+                "extra_info": "OPENEO_CROPTYPE_2021"
+            },
+            {
+                "timestamp": "2025-02-18 07:14",
+                "status": 1,
+                "extra_info": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+            },
+            {
+                "timestamp": "2025-02-18 07:27",
+                "status": 1,
+                "extra_info": "CGLS_NDVI300_V2_GLOBAL"
+            },
+            {
+                "timestamp": "2025-02-18 07:36",
+                "status": 1,
+                "extra_info": "SENTINEL1_GRD_SIGMA0"
+            },
+            {
+                "timestamp": "2025-02-18 07:44",
+                "status": 1,
+                "extra_info": "PLANETSCOPE"
+            },
+            {
+                "timestamp": "2025-02-18 07:53",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+            },
+            {
+                "timestamp": "2025-02-18 08:16",
+                "status": 1,
+                "extra_info": "ALOS_PALSAR2_L2_1_10M"
+            },
+            {
+                "timestamp": "2025-02-18 08:35",
+                "status": 1,
+                "extra_info": "JAXA_WQ_CHLA_ANOMALY"
+            },
+            {
+                "timestamp": "2025-02-18 08:47",
+                "status": 1,
+                "extra_info": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+            },
+            {
+                "timestamp": "2025-02-18 08:55",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+            },
+            {
+                "timestamp": "2025-02-18 09:12",
+                "status": 1,
+                "extra_info": "AUT_DEM"
+            },
+            {
+                "timestamp": "2025-02-18 09:30",
+                "status": 1,
+                "extra_info": "SENTINEL_5P_CH4_T7D_AVERAGE"
+            },
+            {
+                "timestamp": "2025-02-18 09:40",
+                "status": 1,
+                "extra_info": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
+            },
+            {
+                "timestamp": "2025-02-18 09:48",
+                "status": 1,
+                "extra_info": "SENTINEL1_GRD_SIGMA0"
+            },
+            {
+                "timestamp": "2025-02-18 09:56",
+                "status": 1,
+                "extra_info": "LANDSAT8-9_L2"
+            },
+            {
+                "timestamp": "2025-02-18 10:14",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+            },
+            {
+                "timestamp": "2025-02-18 10:34",
+                "status": 1,
+                "extra_info": "OPENEO_CROPTYPE_2021"
+            },
+            {
+                "timestamp": "2025-02-18 10:44",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_CO_TY"
+            },
+            {
+                "timestamp": "2025-02-18 10:53",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_NO2_TD"
+            },
+            {
+                "timestamp": "2025-02-18 11:10",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_NO2_TM"
+            },
+            {
+                "timestamp": "2025-02-18 11:23",
+                "status": 1,
+                "extra_info": "MODIS"
+            },
+            {
+                "timestamp": "2025-02-18 11:34",
+                "status": 1,
+                "extra_info": "LANDSAT8-9_L2"
+            },
+            {
+                "timestamp": "2025-02-18 11:43",
+                "status": 1,
+                "extra_info": "JAXA_WQ_CHLA_AVERAGE"
+            },
+            {
+                "timestamp": "2025-02-18 11:53",
+                "status": 1,
+                "extra_info": "PROBAV_L3_S1_TOC_333M"
+            },
+            {
+                "timestamp": "2025-02-18 12:23",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S2_TUR_V1"
+            },
+            {
+                "timestamp": "2025-02-18 12:56",
+                "status": 1,
+                "extra_info": "ESA_WORLDCEREAL_WINTERCEREALS"
+            },
+            {
+                "timestamp": "2025-02-18 13:19",
+                "status": 1,
+                "extra_info": "SENTINEL1_HPAR"
+            },
+            {
+                "timestamp": "2025-02-18 13:34",
+                "status": 1,
+                "extra_info": "ALOS_PALSAR2_AGRICULTURE"
+            },
+            {
+                "timestamp": "2025-02-18 13:43",
+                "status": 1,
+                "extra_info": "WORLDVIEW"
+            },
+            {
+                "timestamp": "2025-02-18 13:53",
+                "status": 1,
+                "extra_info": "DOP_AUT_K_TAMSWEG"
+            },
+            {
+                "timestamp": "2025-02-18 14:11",
+                "status": 1,
+                "extra_info": "CGLS_FAPAR_V2_GLOBAL"
+            },
+            {
+                "timestamp": "2025-02-18 14:32",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
+            },
+            {
+                "timestamp": "2025-02-18 14:44",
+                "status": 1,
+                "extra_info": "CGLS_FCOVER_V2_GLOBAL"
+            },
+            {
+                "timestamp": "2025-02-18 14:53",
+                "status": 1,
+                "extra_info": "SENTINEL3_SRAL_L2"
+            },
+            {
+                "timestamp": "2025-02-18 15:13",
+                "status": 1,
+                "extra_info": "CAMS_GLC"
+            },
+            {
+                "timestamp": "2025-02-18 15:32",
+                "status": 1,
+                "extra_info": "CAMS_GLC"
+            },
+            {
+                "timestamp": "2025-02-18 15:44",
+                "status": 1,
+                "extra_info": "SENTINEL2_L1C_INCD"
+            },
+            {
+                "timestamp": "2025-02-18 15:53",
+                "status": 1,
+                "extra_info": "VEGETATION_INDICES"
+            },
+            {
+                "timestamp": "2025-02-18 16:15",
+                "status": 1,
+                "extra_info": "SENTINEL2_L1C_INCD"
+            },
+            {
+                "timestamp": "2025-02-18 16:38",
+                "status": 1,
+                "extra_info": "SENTINEL3_SRAL_L2"
+            },
+            {
+                "timestamp": "2025-02-18 16:50",
+                "status": 1,
+                "extra_info": "ALOS_PALSAR2_L2_1_10M"
+            },
+            {
+                "timestamp": "2025-02-18 16:58",
+                "status": 1,
+                "extra_info": "SKYSAT"
+            },
+            {
+                "timestamp": "2025-02-18 17:15",
+                "status": 1,
+                "extra_info": "PLEIADES"
+            },
+            {
+                "timestamp": "2025-02-18 17:30",
+                "status": 1,
+                "extra_info": "WORLDVIEW"
+            },
+            {
+                "timestamp": "2025-02-18 17:43",
+                "status": 1,
+                "extra_info": "ESA_WORLDCEREAL_IRRIGATION"
+            },
+            {
+                "timestamp": "2025-02-18 17:53",
+                "status": 1,
+                "extra_info": "PROBAV_L3_S5_TOC_100M"
+            },
+            {
+                "timestamp": "2025-02-18 18:17",
+                "status": 1,
+                "extra_info": "CNR_TSM"
+            },
+            {
+                "timestamp": "2025-02-18 18:39",
+                "status": 1,
+                "extra_info": "DOP_AUT_K_ZELTWEG"
+            },
+            {
+                "timestamp": "2025-02-18 18:48",
+                "status": 1,
+                "extra_info": "CGLS_NDVI_LTS_V3_GLOBAL"
+            },
+            {
+                "timestamp": "2025-02-18 18:56",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_HCHO_TY"
+            },
+            {
+                "timestamp": "2025-02-18 19:12",
+                "status": 1,
+                "extra_info": "E12C_MOTORWAY"
+            },
+            {
+                "timestamp": "2025-02-18 19:24",
+                "status": 1,
+                "extra_info": "ESA_WORLDCEREAL_SPRINGCEREALS"
+            },
+            {
+                "timestamp": "2025-02-18 19:34",
+                "status": 1,
+                "extra_info": "S1_GRD_SIGMA0_ASCENDING"
+            },
+            {
+                "timestamp": "2025-02-18 19:43",
+                "status": 1,
+                "extra_info": "ESA_WORLDCEREAL_MAIZE"
+            },
+            {
+                "timestamp": "2025-02-18 19:53",
+                "status": 1,
+                "extra_info": "E12C_MOTORWAY"
+            },
+            {
+                "timestamp": "2025-02-18 20:13",
+                "status": 1,
+                "extra_info": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+            },
+            {
+                "timestamp": "2025-02-18 20:30",
+                "status": 1,
+                "extra_info": "SENTINEL3_SLSTR"
+            },
+            {
+                "timestamp": "2025-02-18 20:43",
+                "status": 1,
+                "extra_info": "DOP_AUT_K_TAMSWEG"
+            },
+            {
+                "timestamp": "2025-02-18 20:53",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S2_SPM_V1"
+            },
+            {
+                "timestamp": "2025-02-18 21:11",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S1_GAMMA0_V1"
+            },
+            {
+                "timestamp": "2025-02-18 21:27",
+                "status": 1,
+                "extra_info": "SENTINEL2_L2A"
+            },
+            {
+                "timestamp": "2025-02-18 21:36",
+                "status": 1,
+                "extra_info": "SENTINEL3_SLSTR"
+            },
+            {
+                "timestamp": "2025-02-18 21:44",
+                "status": 1,
+                "extra_info": "MODIS"
+            },
+            {
+                "timestamp": "2025-02-18 21:53",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S2_CHL_V1"
+            },
+            {
+                "timestamp": "2025-02-18 22:11",
+                "status": 1,
+                "extra_info": "PROBAV_L3_S5_TOC_100M"
+            },
+            {
+                "timestamp": "2025-02-18 22:31",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_CH4_TY"
+            },
+            {
+                "timestamp": "2025-02-18 22:43",
+                "status": 1,
+                "extra_info": "LANDSAT7_ETM_L2"
+            },
+            {
+                "timestamp": "2025-02-18 22:53",
+                "status": 1,
+                "extra_info": "ESA_WORLDCEREAL_WINTERCEREALS"
+            },
+            {
+                "timestamp": "2025-02-18 23:11",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+            },
+            {
+                "timestamp": "2025-02-18 23:27",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_NO2_TY"
+            },
+            {
+                "timestamp": "2025-02-18 23:36",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_HCHO_TM"
+            },
+            {
+                "timestamp": "2025-02-18 23:44",
+                "status": 1,
+                "extra_info": "WORLDVIEW"
+            },
+            {
+                "timestamp": "2025-02-18 23:52",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_CO_TY"
+            },
+            {
+                "timestamp": "2025-02-19 00:57",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+            },
+            {
+                "timestamp": "2025-02-19 02:15",
+                "status": 1,
+                "extra_info": "SENTINEL3_SYNERGY_VG1"
+            },
+            {
+                "timestamp": "2025-02-19 02:57",
+                "status": 1,
+                "extra_info": "ALOS_PALSAR2_L2_1_10M"
+            },
+            {
+                "timestamp": "2025-02-19 03:21",
+                "status": 1,
+                "extra_info": "LANDSAT4-5_TM_L1"
+            },
+            {
+                "timestamp": "2025-02-19 03:43",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_CO_TM"
+            },
+            {
+                "timestamp": "2025-02-19 03:53",
+                "status": 1,
+                "extra_info": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
+            },
+            {
+                "timestamp": "2025-02-19 04:14",
+                "status": 1,
+                "extra_info": "ALOS_PALSAR2_AGRICULTURE"
+            },
+            {
+                "timestamp": "2025-02-19 04:34",
+                "status": 1,
+                "extra_info": "SENTINEL1_GRD"
+            },
+            {
+                "timestamp": "2025-02-19 04:46",
+                "status": 1,
+                "extra_info": "CGLS_SSM_V1_EUROPE"
+            },
+            {
+                "timestamp": "2025-02-19 04:53",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_HCHO_TD"
+            },
+            {
+                "timestamp": "2025-02-19 05:12",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_CH4_TM"
+            },
+            {
+                "timestamp": "2025-02-19 05:31",
+                "status": 1,
+                "extra_info": "MAPZEN_DEM"
+            },
+            {
+                "timestamp": "2025-02-19 05:43",
+                "status": 1,
+                "extra_info": "PROBAV_L3_S1_TOC_100M"
+            },
+            {
+                "timestamp": "2025-02-19 05:53",
+                "status": 1,
+                "extra_info": "OPENEO_CROPTYPE_2021"
+            },
+            {
+                "timestamp": "2025-02-19 06:17",
+                "status": 1,
+                "extra_info": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+            },
+            {
+                "timestamp": "2025-02-19 06:39",
+                "status": 1,
+                "extra_info": "CGLS_GDMP_V2_GLOBAL"
+            },
+            {
+                "timestamp": "2025-02-19 06:49",
+                "status": 1,
+                "extra_info": "PROBAV_L3_S5_TOC_100M"
+            },
+            {
+                "timestamp": "2025-02-19 06:57",
+                "status": 1,
+                "extra_info": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+            },
+            {
+                "timestamp": "2025-02-19 07:15",
+                "status": 1,
+                "extra_info": "CGLS_SWI_V1_EUROPE"
+            },
+            {
+                "timestamp": "2025-02-19 07:27",
+                "status": 1,
+                "extra_info": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+            },
+            {
+                "timestamp": "2025-02-19 07:36",
+                "status": 1,
+                "extra_info": "SENTINEL2_L1C"
+            },
+            {
+                "timestamp": "2025-02-19 07:44",
+                "status": 1,
+                "extra_info": "CGLS_NDVI300_V2_GLOBAL"
+            }
+        ]
+    },
+    "STAC API": {
+        "timestamp": "2025-02-19 07:53",
+        "status": "success",
+        "extra_info": "Collection: collection: SENTINEL1_HPAR, Item: item: HPAR_SA020M_E099N063T3_D111"
+    },
+    "Notebooks": {
+        "timestamp": "2025-02-19 06:36:45",
+        "status": "SUCCESS",
+        "extra_info": "Notebook: tutorials/sen2like.ipynb"
     }
 }
