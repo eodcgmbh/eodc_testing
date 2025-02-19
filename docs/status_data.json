@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 11:34",
+        "timestamp": "2025-02-19 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_L2",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-02-18 09:30",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-02-18 09:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 11:34",
                     "status": 1,
                     "collection": "SENTINEL_5P_L2"
+                },
+                {
+                    "timestamp": "2025-02-19 11:43",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1048,9 +1048,9 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-02-19 08:47",
+                "timestamp": "2025-02-19 11:43",
                 "status": "SUCCESS",
-                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N015T1"
+                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N016T1"
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
