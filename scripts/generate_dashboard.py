@@ -13,57 +13,97 @@ services = {
     "Notebooks": "test_notebooks.log"
 }
 
-
 status_data = {}
 
-def parse_dask_log(file_path):
-    """ Liest die letzten 100 Einträge aus dem Dask Gateway Log und konvertiert SUCCESS/FAILURE in 1/0 """
+def parse_log(file_path, service_name):
+    """Liest die letzten 100 Einträge für Dask Gateway & openEO API, 
+       STAC API & Notebooks speichern nur den letzten Eintrag."""
     try:
         with open(file_path, "r") as file:
             lines = file.readlines()
             if not lines:
-                return [], "Never Tested", 0, None  # Falls keine Logs existieren
+                return [], "Never Tested", "UNKNOWN", None  
 
             entries = []
-            for line in lines[-100:]:  # Nur die letzten 100 Einträge speichern
+            last_status = "UNKNOWN"
+            last_timestamp = "Never Tested"
+            last_extra_info = None
+
+            for line in lines[-100:]:  # Letzte 100 Einträge speichern (nur für Dask & openEO)
                 line = line.strip()
-                parts = line.split(" - ")
-                if len(parts) == 2:
-                    timestamp, status = parts
-                    status_numeric = 1 if status.upper() == "SUCCESS" else 0
-                    entries.append({
-                        "timestamp": timestamp,
-                        "status": status_numeric,
-                        "extra_info": None
-                    })
+
+                if service_name == "Dask Gateway":
+                    parts = line.split(" - ")
+                    if len(parts) == 2:
+                        timestamp, status = parts
+                        status_numeric = 1 if status.upper() == "SUCCESS" else 0
+                        entries.append({
+                            "timestamp": timestamp,
+                            "status": status_numeric,
+                            "extra_info": None
+                        })
+                        last_timestamp, last_status = timestamp, status  # Originalstatus behalten
+
+                elif service_name == "openEO API":
+                    parts = line.split(", ")
+                    if len(parts) >= 3:
+                        timestamp, status, collection = parts[:3]
+                        status_numeric = 1 if status.upper() == "SUCCESS" else 0
+                        entries.append({
+                            "timestamp": timestamp,
+                            "status": status_numeric,
+                            "extra_info": collection.replace("collection: ", "")
+                        })
+                        last_timestamp, last_status = timestamp, status  # Originalstatus behalten
+
+                elif service_name == "STAC API":
+                    parts = line.split(", ")
+                    if len(parts) >= 4:
+                        timestamp, status, collection, item = parts[:4]
+                        last_timestamp, last_status = timestamp, status  # Originalstatus
+                        last_extra_info = f"Collection: {collection}, Item: {item}"
+
+                elif service_name == "Notebooks":
+                    parts = line.split(" - ")
+                    if len(parts) >= 4:
+                        timestamp = parts[0]
+                        status = parts[1]
+                        notebook_name = parts[-1]
+                        last_timestamp, last_status = timestamp, status  # Originalstatus
+                        last_extra_info = f"Notebook: {notebook_name}"
+
             
-            # Letzten Eintrag als aktuellen Status nutzen
-            last_entry = entries[-1] if entries else {"timestamp": "Never Tested", "status": 0, "extra_info": None}
-            return entries, last_entry["timestamp"], last_entry["status"], last_entry["extra_info"]
+            return entries, last_timestamp, last_status, last_extra_info
 
     except FileNotFoundError:
-        return [], "Never Tested", 0, None
+        return [], "Never Tested", "UNKNOWN", None
 
-# Dask Gateway Logs parsen
-dask_entries, last_timestamp, last_status, last_extra_info = parse_dask_log(os.path.join(log_dir, services["Dask Gateway"]))
+for service_name, log_file in services.items():
+    log_path = os.path.join(log_dir, log_file)
+    entries, last_timestamp, last_status, last_extra_info = parse_log(log_path, service_name)
 
-# Falls "Dask Gateway" schon existiert, nur die History aktualisieren
-if "Dask Gateway" in status_data:
-    old_history = status_data["Dask Gateway"].get("history", [])
-    new_history = old_history + dask_entries
-    status_data["Dask Gateway"]["history"] = new_history[-100:]  # Letzte 100 Einträge behalten
-else:
-    status_data["Dask Gateway"] = {
-        "timestamp": last_timestamp,
-        "status": last_status,  # 1 für SUCCESS, 0 für FAILURE
-        "extra_info": last_extra_info,
-        "history": dask_entries[-100:]  # Maximal 100 Einträge
-    }
-
-# JSON speichern
+    if service_name in ["Dask Gateway", "openEO API"]:
+       
+        if service_name in status_data:
+            old_history = status_data[service_name].get("history", [])
+            new_history = old_history + entries
+            status_data[service_name]["history"] = new_history[-100:]  
+        else:
+            status_data[service_name] = {
+                "timestamp": last_timestamp,
+                "status": last_status, 
+                "extra_info": last_extra_info,
+                "history": entries[-100:]  
+            }
+    else:
+        
+        status_data[service_name] = {
+            "timestamp": last_timestamp,
+            "status": last_status, 
+            "extra_info": last_extra_info
+        }
+        
 os.makedirs(docs_dir, exist_ok=True)
 
 with open(json_file, "w") as file:
     json.dump(status_data, file, indent=4)
-
-print("✅ JSON aktualisiert: Letzte 100 Logs für Dask Gateway gespeichert!")
