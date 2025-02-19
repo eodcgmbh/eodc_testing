@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-19 22:30",
+        "timestamp": "2025-02-19 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-02-18 19:53",
-                    "status": 1,
-                    "collection": "E12C_MOTORWAY"
-                },
                 {
                     "timestamp": "2025-02-18 20:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-19 22:30",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-02-19 22:43",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
