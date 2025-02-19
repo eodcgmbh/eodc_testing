@@ -12,93 +12,100 @@ services = {
     "Notebooks": "test_notebooks.log"
 }
 
-status_data = {}
+if os.path.exists(json_file):
+    try:
+        with open(json_file, "r") as file:
+            status_data = json.load(file)
+    except json.JSONDecodeError:
+        print("⚠ Fehler beim Laden von status_data.json, erstelle neues JSON.")
+        status_data = {}
+else:
+    status_data = {}
 
-def parse_log_entry(file_path, service_name):
+def parse_log(file_path, service_name):
+    """Liest die letzten 100 Einträge für Dask Gateway & openEO API, 
+       STAC API & Notebooks speichern nur den letzten Eintrag."""
     try:
         with open(file_path, "r") as file:
             lines = file.readlines()
             if not lines:
-                return "Never Tested", "UNKNOWN", None
+                return [], "Never Tested", "UNKNOWN", None  
 
-            if service_name == "Dask Gateway":
-                history = []
-                for line in lines[-100:]:
-                    parts = line.strip().split(" - ")
+            entries = []
+            last_status = "UNKNOWN"
+            last_timestamp = "Never Tested"
+            last_extra_info = None
+
+            for line in lines[-100:]:  
+                line = line.strip()
+
+                if service_name == "Dask Gateway":
+                    parts = line.split(" - ")
                     if len(parts) == 2:
                         timestamp, status = parts
-                        history.append({"timestamp": timestamp, "status": 1 if status == "SUCCESS" else 0})
-                last_line = lines[-1].strip()
-                parts = last_line.split(" - ")
-                current_timestamp, current_status = parts[0], parts[1]
-                return current_timestamp, current_status, {"history": history}
-
-            elif service_name == "openEO API":
-                history = []
-                for line in lines[-100:]:
-                    parts = line.strip().split(" , ")
-                    if len(parts) == 3:
-                        timestamp, status, coll = parts
-                        history.append({"timestamp": timestamp, "status": 1 if status == "SUCCESS" else 0, "collection": coll})
-                last_line = lines[-1].strip()
-                parts = last_line.split(", ")
-                return parts[0], parts[1].upper(), parts[2].replace("collection: ", "")
-
-            elif service_name == "STAC API":
-                stac_collections_dict = {}
-
-                for line in lines:
-                    try:
-                        parts = line.strip().split(", ")
-                        timestamp = parts[0]
-                        status = parts[1].upper()
-                        collection = parts[2].replace("collection: ", "")
-                        item = parts[3].replace("item: ", "")
-
-                        if collection not in stac_collections_dict or timestamp > stac_collections_dict[collection]["timestamp"]:
-                            stac_collections_dict[collection] = {
-                                "collection": collection,
-                                "timestamp": timestamp,
-                                "status": status,
-                                "item": item
-                            }
-                    except IndexError:
-                        continue
-
-                return "Latest Collections", "Filtered Results", list(stac_collections_dict.values())
-
-            elif service_name == "Notebooks":
-                last_timestamp = None
-                notebook_results = []
-
-                for line in lines:
-                    parts = line.strip().split(" - ")
-                    if len(parts) >= 4:
-                        last_timestamp = parts[0]
-                        notebook_results.append({
-                            "notebook": parts[-1],
-                            "status": parts[1],
-                            "message": parts[-2]
+                        status_numeric = 1 if status.upper() == "SUCCESS" else 0
+                        entries.append({
+                            "timestamp": timestamp,
+                            "status": status_numeric,
+                            "extra_info": None
                         })
-                return last_timestamp, "Notebook Results", notebook_results
+                        last_timestamp, last_status = timestamp, status
 
-    except Exception as e:
-        return "Never Tested", "ERROR", None
+                elif service_name == "openEO API":
+                    parts = line.split(", ")
+                    if len(parts) >= 3:
+                        timestamp, status, collection = parts[:3]
+                        status_numeric = 1 if status.upper() == "SUCCESS" else 0
+                        entries.append({
+                            "timestamp": timestamp,
+                            "status": status_numeric,
+                            "extra_info": collection.replace("collection: ", "")
+                        })
+                        last_timestamp, last_status = timestamp, status 
+
+                elif service_name == "STAC API":
+                    parts = line.split(", ")
+                    if len(parts) >= 4:
+                        timestamp, status, collection, item = parts[:4]
+                        last_timestamp, last_status = timestamp, status 
+                        last_extra_info = f"Collection: {collection}, Item: {item}"
+
+                elif service_name == "Notebooks":
+                    parts = line.split(" - ")
+                    if len(parts) >= 4:
+                        timestamp = parts[0]
+                        status = parts[1]
+                        notebook_name = parts[-1]
+                        last_timestamp, last_status = timestamp, status 
+                        last_extra_info = f"Notebook: {notebook_name}"
+
+            return entries, last_timestamp, last_status, last_extra_info
+
+    except FileNotFoundError:
+        return [], "Never Tested", "UNKNOWN", None
 
 for service_name, log_file in services.items():
     log_path = os.path.join(log_dir, log_file)
-    result = parse_log_entry(log_path, service_name)
+    entries, last_timestamp, last_status, last_extra_info = parse_log(log_path, service_name)
 
-    if result is None:
-        timestamp, status, extra_info = "Never Tested", "ERROR", None
+    if service_name in ["Dask Gateway", "openEO API"]:
+        if service_name in status_data:
+            old_history = status_data[service_name].get("history", [])
+            new_history = old_history + entries
+            status_data[service_name]["history"] = new_history[-100:]  
+        else:
+            status_data[service_name] = {
+                "timestamp": last_timestamp,
+                "status": last_status,  # SUCCESS oder FAILURE
+                "extra_info": last_extra_info,
+                "history": entries[-100:]  
+            }
     else:
-        timestamp, status, extra_info = result
-
-    status_data[service_name] = {
-        "timestamp": timestamp,
-        "status": status,
-        "extra_info": extra_info
-    }
+        status_data[service_name] = {
+            "timestamp": last_timestamp,
+            "status": last_status,  
+            "extra_info": last_extra_info
+        }
 
 os.makedirs(docs_dir, exist_ok=True)
 
