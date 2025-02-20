@@ -1,18 +1,5 @@
 {
     "Dask Gateway": {
-<<<<<<< Updated upstream
-        "timestamp": "Never Tested",
-        "status": "ERROR",
-        "extra_info": null
-    },
-    "openEO API": {
-        "timestamp": "2025-02-20 15:13",
-        "status": "SUCCESS",
-        "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
-            "history": [
-                {
-=======
         "timestamp": "2025-02-20 15:16:11",
         "status": "SUCCESS",
         "extra_info": {
@@ -385,17 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 15:13",
+        "timestamp": "2025-02-20 15:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
+            "collection": "EGM2008",
             "history": [
-                {
->>>>>>> Stashed changes
-                    "timestamp": "2025-02-19 11:43",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2025-02-19 12:21",
                     "status": 1,
@@ -890,6 +871,11 @@
                     "timestamp": "2025-02-20 15:13",
                     "status": 1,
                     "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-20 15:32",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
