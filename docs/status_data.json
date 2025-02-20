@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 02:15",
+        "timestamp": "2025-02-20 02:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_LAND_COVER",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-02-18 21:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-02-18 22:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-20 02:15",
                     "status": 1,
                     "collection": "GLOBAL_LAND_COVER"
+                },
+                {
+                    "timestamp": "2025-02-20 02:57",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
