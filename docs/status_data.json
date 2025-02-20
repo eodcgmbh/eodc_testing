@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 13:46",
+        "timestamp": "2025-02-20 13:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-02-19 10:34",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-02-19 10:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-20 13:46",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-02-20 13:54",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
