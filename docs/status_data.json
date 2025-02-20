@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 11:43",
+        "timestamp": "2025-02-20 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-02-19 08:56",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
-                },
                 {
                     "timestamp": "2025-02-19 09:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-20 11:43",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-20 11:53",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
