@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 09:30",
+        "timestamp": "2025-02-20 09:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "VEGETATION_INDICES",
             "history": [
-                {
-                    "timestamp": "2025-02-19 06:49",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2025-02-19 06:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-20 09:30",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-20 09:43",
+                    "status": 1,
+                    "collection": "VEGETATION_INDICES"
                 }
             ]
         }
