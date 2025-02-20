@@ -1163,7 +1163,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-02-20 06:36:15",
+        "timestamp": "2025-02-20 12:48:39",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1253,6 +1253,11 @@
             },
             {
                 "notebook": "demos/workspaces/demo-show-files.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
+            },
+            {
+                "notebook": "demos/GFM/gfm_dask_objectstorage.ipynb",
                 "status": "SUCCESS",
                 "message": "All imports executed successfully"
             },
