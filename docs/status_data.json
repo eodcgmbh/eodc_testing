@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 12:23",
+        "timestamp": "2025-02-20 12:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "SENTINEL3_SLSTR",
             "history": [
-                {
-                    "timestamp": "2025-02-19 09:30",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-02-19 09:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-20 12:23",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-02-20 12:57",
+                    "status": 1,
+                    "collection": "SENTINEL3_SLSTR"
                 }
             ]
         }
