@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 11:34",
+        "timestamp": "2025-02-20 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-19 08:48",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-19 08:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-20 11:34",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-20 11:43",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
                 }
             ]
         }
@@ -976,9 +976,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-02-20 09:12",
+                "timestamp": "2025-02-20 11:43",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld_2022"
+                "item": "vegetation_change_bgld_2020"
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
