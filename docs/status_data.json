@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 15:44",
+        "timestamp": "2025-02-20 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-02-19 12:55",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-02-19 13:20",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-20 15:44",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-02-20 15:53",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
@@ -1084,9 +1084,9 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-02-20 04:45",
+                "timestamp": "2025-02-20 15:53",
                 "status": "SUCCESS",
-                "item": "S2A_MSIL1C_20240322T065341_R077_T39LXD_20240322T082540"
+                "item": "S2A_MSIL1C_20240322T065341_R077_T39LWD_20240322T082540"
             },
             {
                 "collection": "SENTINEL1_SLC",
