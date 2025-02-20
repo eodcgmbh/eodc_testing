@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 21:10",
+        "timestamp": "2025-02-20 21:24",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-02-19 18:37",
-                    "status": 1,
-                    "collection": "WATER_BODIES"
-                },
                 {
                     "timestamp": "2025-02-19 18:48",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-20 21:10",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-02-20 21:24",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
@@ -1090,9 +1090,9 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-02-19 10:53",
+                "timestamp": "2025-02-20 21:24",
                 "status": "SUCCESS",
-                "item": "S1A_IW_SLC__1SDV_20180531T175902_20180531T175929_022152_026540"
+                "item": "S1A_IW_SLC__1SDV_20180531T175927_20180531T175954_022152_026540"
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
