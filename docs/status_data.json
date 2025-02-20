@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-20 19:34",
+        "timestamp": "2025-02-20 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-02-19 16:48",
-                    "status": 1,
-                    "collection": "SENTINEL1_HPAR"
-                },
                 {
                     "timestamp": "2025-02-19 16:56",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-20 19:34",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-02-20 19:43",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
