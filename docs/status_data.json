@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 07:36",
+        "timestamp": "2025-02-21 07:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-02-20 04:53",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S10_TOC_333M"
-                },
                 {
                     "timestamp": "2025-02-20 05:12",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 07:36",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-02-21 07:43",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
