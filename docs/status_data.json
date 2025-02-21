@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 21:43",
+        "timestamp": "2025-02-21 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
+            "collection": "GLOBAL_LAND_COVER",
             "history": [
-                {
-                    "timestamp": "2025-02-20 20:43",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-20 20:52",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 21:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
+                },
+                {
+                    "timestamp": "2025-02-21 21:53",
+                    "status": 1,
+                    "collection": "GLOBAL_LAND_COVER"
                 }
             ]
         }
