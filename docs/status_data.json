@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 12:56",
+        "timestamp": "2025-02-21 13:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-02-20 10:35",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2025-02-20 10:44",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 12:56",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-21 13:20",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
