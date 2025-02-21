@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 07:43",
+        "timestamp": "2025-02-21 07:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-02-20 05:12",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-20 05:31",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 07:43",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-02-21 07:53",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -1060,9 +1060,9 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-02-20 22:40",
+                "timestamp": "2025-02-21 07:53",
                 "status": "SUCCESS",
-                "item": "HPAR_SA020M_E102N063T3_A089"
+                "item": "HPAR_SA020M_E102N063T3_A162"
             },
             {
                 "collection": "BOA_LANDSAT_8",
