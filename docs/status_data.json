@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 23:44",
+        "timestamp": "2025-02-21 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-02-20 22:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_NDVI_V2"
-                },
                 {
                     "timestamp": "2025-02-20 22:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 23:44",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-02-21 23:53",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
