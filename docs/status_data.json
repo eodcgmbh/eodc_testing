@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 17:44",
+        "timestamp": "2025-02-21 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-02-20 15:53",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_10M"
-                },
                 {
                     "timestamp": "2025-02-20 16:15",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 17:44",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-02-21 17:53",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -988,9 +988,9 @@
             },
             {
                 "collection": "sen2like",
-                "timestamp": "2025-02-21 16:46",
+                "timestamp": "2025-02-21 17:53",
                 "status": "SUCCESS",
-                "item": "EU010M_E047N015T1_20240715T100359"
+                "item": "EU010M_E047N015T1_20240714T101011"
             },
             {
                 "collection": "BOA_SENTINEL_2",
