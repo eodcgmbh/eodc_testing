@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 23:28",
+        "timestamp": "2025-02-21 23:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SLC",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-20 22:11",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2025-02-20 22:32",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 23:28",
                     "status": 1,
                     "collection": "SENTINEL1_SLC"
+                },
+                {
+                    "timestamp": "2025-02-21 23:37",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
@@ -1108,9 +1108,9 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-02-20 20:31",
+                "timestamp": "2025-02-21 23:37",
                 "status": "SUCCESS",
-                "item": "EU010M_E053N015T1_20220101_WETLAND"
+                "item": "EU010M_E053N015T1_20180101_WETLAND"
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
