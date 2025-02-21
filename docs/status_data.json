@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 05:14",
+        "timestamp": "2025-02-21 05:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-02-19 23:53",
-                    "status": 1,
-                    "collection": "AGERA5"
-                },
                 {
                     "timestamp": "2025-02-20 00:57",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 05:14",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-02-21 05:31",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
