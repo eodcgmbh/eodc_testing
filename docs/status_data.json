@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 18:16",
+        "timestamp": "2025-02-21 18:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-02-20 16:39",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-02-20 16:51",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 18:16",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-02-21 18:37",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1048,7 +1048,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-02-21 06:38",
+                "timestamp": "2025-02-21 18:37",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
