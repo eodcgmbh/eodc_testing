@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 16:14",
+        "timestamp": "2025-02-21 16:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2025-02-20 14:12",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-02-20 14:33",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 16:14",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-02-21 16:36",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
