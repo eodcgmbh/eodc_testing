@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 20:12",
+        "timestamp": "2025-02-21 20:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-20 18:49",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2025-02-20 18:57",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 20:12",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-02-21 20:30",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-02-21 15:47",
+                "timestamp": "2025-02-21 20:30",
                 "status": "FAILURE",
                 "item": "N/A"
             },
