@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 05:31",
+        "timestamp": "2025-02-21 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
             "history": [
-                {
-                    "timestamp": "2025-02-20 00:57",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-02-20 02:15",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 05:31",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-02-21 05:43",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
                 }
             ]
         }
