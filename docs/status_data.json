@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 21:53",
+        "timestamp": "2025-02-21 22:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_LAND_COVER",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-02-20 20:52",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-02-20 21:10",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 21:53",
                     "status": 1,
                     "collection": "GLOBAL_LAND_COVER"
+                },
+                {
+                    "timestamp": "2025-02-21 22:11",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
