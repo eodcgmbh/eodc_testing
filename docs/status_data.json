@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 22:53",
+        "timestamp": "2025-02-21 23:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "DOP_AUT_K_TAMSWEG",
             "history": [
-                {
-                    "timestamp": "2025-02-20 21:43",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-02-20 21:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 22:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-02-21 23:12",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_TAMSWEG"
                 }
             ]
         }
@@ -1060,9 +1060,9 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-02-21 13:19",
+                "timestamp": "2025-02-21 23:12",
                 "status": "SUCCESS",
-                "item": "HPAR_SA020M_E099N063T3_A162"
+                "item": "HPAR_SA020M_E102N063T3_A162"
             },
             {
                 "collection": "BOA_LANDSAT_8",
