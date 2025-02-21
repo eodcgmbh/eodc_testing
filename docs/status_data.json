@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 15:30",
+        "timestamp": "2025-02-21 15:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-02-20 13:38",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-02-20 13:46",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 15:30",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-02-21 15:40",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
@@ -1072,9 +1072,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-02-21 09:30",
+                "timestamp": "2025-02-21 15:40",
                 "status": "SUCCESS",
-                "item": "4322-77"
+                "item": "4322-74"
             },
             {
                 "collection": "CORINE_LAND_COVER",
