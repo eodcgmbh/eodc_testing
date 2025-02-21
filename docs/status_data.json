@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 19:53",
+        "timestamp": "2025-02-21 20:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S5_TOC_100M",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2025-02-20 18:39",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-02-20 18:49",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 19:53",
                     "status": 1,
                     "collection": "PROBAV_L3_S5_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-02-21 20:12",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
@@ -916,9 +916,9 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-02-20 22:30",
+                "timestamp": "2025-02-21 20:12",
                 "status": "SUCCESS",
-                "item": "CGLS_SSM1KM_20220404_EU1K0M_E072N006T6"
+                "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N036T6"
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
