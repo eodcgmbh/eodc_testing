@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-21 21:35",
+        "timestamp": "2025-02-21 21:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
             "history": [
-                {
-                    "timestamp": "2025-02-20 20:30",
-                    "status": 1,
-                    "collection": "GLOBAL_LAND_COVER"
-                },
                 {
                     "timestamp": "2025-02-20 20:43",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-21 21:35",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-02-21 21:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
                 }
             ]
         }
@@ -1000,9 +1000,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-02-21 18:47",
+                "timestamp": "2025-02-21 21:43",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T37VFK"
+                "item": "GRI_L1C_T38VLQ"
             },
             {
                 "collection": "GFM",
