@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 04:34",
+        "timestamp": "2025-02-22 04:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-21 03:23",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-02-21 03:40",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 04:34",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-02-22 04:45",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
@@ -1120,9 +1120,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-02-22 02:06",
+                "timestamp": "2025-02-22 04:46",
                 "status": "SUCCESS",
-                "item": "wien_601000_534100.copc.laz"
+                "item": "wien_602000_533900.copc.laz"
             }
         ]
     },
