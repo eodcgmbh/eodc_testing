@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 14:09",
+        "timestamp": "2025-02-22 14:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_100M",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-02-21 13:20",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-02-21 13:36",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 14:09",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-02-22 14:26",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -970,9 +970,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-02-22 09:26",
+                "timestamp": "2025-02-22 14:26",
                 "status": "SUCCESS",
-                "item": "5622-43"
+                "item": "5622-36"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
