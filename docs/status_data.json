@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 23:35",
+        "timestamp": "2025-02-22 23:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-02-21 23:12",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-02-21 23:28",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 23:35",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-22 23:43",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -970,9 +970,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-02-22 19:53",
+                "timestamp": "2025-02-22 23:43",
                 "status": "SUCCESS",
-                "item": "5622-35"
+                "item": "5622-43"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
