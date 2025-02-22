@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 07:25",
+        "timestamp": "2025-02-22 07:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-02-21 06:17",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-02-21 06:39",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 07:25",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-02-22 07:34",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
                 }
             ]
         }
@@ -898,9 +898,9 @@
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-02-20 13:53",
+                "timestamp": "2025-02-22 07:34",
                 "status": "SUCCESS",
-                "item": "SENTINEL1_GRD_COVERAGE_20240819"
+                "item": "SENTINEL1_GRD_COVERAGE_20240816"
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
