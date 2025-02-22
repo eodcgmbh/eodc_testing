@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 02:52",
+        "timestamp": "2025-02-22 03:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-02-20 23:37",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
-                },
                 {
                     "timestamp": "2025-02-20 23:45",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 02:52",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-02-22 03:14",
+                    "status": 1,
+                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
