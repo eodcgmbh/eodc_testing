@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 15:44",
+        "timestamp": "2025-02-22 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-21 14:55",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-02-21 15:12",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 15:44",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-02-22 15:53",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -916,9 +916,9 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-02-22 12:18",
+                "timestamp": "2025-02-22 15:53",
                 "status": "SUCCESS",
-                "item": "CGLS_SSM1KM_20220404_EU1K0M_E066N006T6"
+                "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N036T6"
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
