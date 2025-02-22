@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 08:44",
+        "timestamp": "2025-02-22 08:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "SEA_ICE_INDEX",
             "history": [
-                {
-                    "timestamp": "2025-02-21 07:36",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-02-21 07:43",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 08:44",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-22 08:53",
+                    "status": 1,
+                    "collection": "SEA_ICE_INDEX"
                 }
             ]
         }
@@ -976,9 +976,9 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-02-21 17:43",
+                "timestamp": "2025-02-22 08:53",
                 "status": "SUCCESS",
-                "item": "AT_EGMS_L3_U_2016_2022"
+                "item": "AT_EGMS_L3_E_2016_2023"
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
