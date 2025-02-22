@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 05:11",
+        "timestamp": "2025-02-22 05:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-02-21 03:56",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
-                },
                 {
                     "timestamp": "2025-02-21 04:17",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 05:11",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-02-22 05:30",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
