@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 10:11",
+        "timestamp": "2025-02-22 10:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2025-02-21 09:12",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-02-21 09:29",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 10:11",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-22 10:35",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
