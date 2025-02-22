@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 10:53",
+        "timestamp": "2025-02-22 11:08",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-02-21 09:47",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-21 09:55",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 10:53",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-02-22 11:08",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -886,7 +886,7 @@
         "extra_info": [
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-02-21 12:21",
+                "timestamp": "2025-02-22 11:08",
                 "status": "SUCCESS",
                 "item": "5821-79"
             },
