@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 23:43",
+        "timestamp": "2025-02-22 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-02-21 23:28",
-                    "status": 1,
-                    "collection": "SENTINEL1_SLC"
-                },
                 {
                     "timestamp": "2025-02-21 23:37",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 23:43",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-02-22 23:53",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
