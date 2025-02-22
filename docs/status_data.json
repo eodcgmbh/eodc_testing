@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 15:10",
+        "timestamp": "2025-02-22 15:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-02-21 14:28",
-                    "status": 1,
-                    "collection": "CORINE_LAND_COVER"
-                },
                 {
                     "timestamp": "2025-02-21 14:39",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 15:10",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-22 15:28",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
