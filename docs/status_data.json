@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 07:13",
+        "timestamp": "2025-02-22 07:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2025-02-21 05:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_GAMMA0_V1"
-                },
                 {
                     "timestamp": "2025-02-21 06:17",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 07:13",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-02-22 07:25",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
