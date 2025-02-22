@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 15:28",
+        "timestamp": "2025-02-22 15:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-02-21 14:39",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-02-21 14:47",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 15:28",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-02-22 15:36",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
