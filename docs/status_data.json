@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 11:20",
+        "timestamp": "2025-02-22 11:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-02-21 10:13",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-21 10:34",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 11:20",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-02-22 11:33",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
