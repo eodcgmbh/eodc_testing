@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-22 09:12",
+        "timestamp": "2025-02-22 09:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_CARD4L",
+            "collection": "CGLS_LAI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-21 07:53",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-02-21 08:15",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-22 09:12",
                     "status": 1,
                     "collection": "SENTINEL1_CARD4L"
+                },
+                {
+                    "timestamp": "2025-02-22 09:28",
+                    "status": 1,
+                    "collection": "CGLS_LAI_V2_GLOBAL"
                 }
             ]
         }
