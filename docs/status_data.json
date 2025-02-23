@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-23 19:09",
+        "timestamp": "2025-02-23 19:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-02-22 18:14",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-02-22 18:34",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-23 19:09",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-23 19:19",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
@@ -1066,9 +1066,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-02-23 07:43",
+                "timestamp": "2025-02-23 19:19",
                 "status": "SUCCESS",
-                "item": "X0016Y0014_20201230"
+                "item": "X0014Y0015_20201226"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
