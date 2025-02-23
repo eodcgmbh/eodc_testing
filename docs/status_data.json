@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-23 15:45",
+        "timestamp": "2025-02-23 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "GFM",
             "history": [
-                {
-                    "timestamp": "2025-02-22 14:53",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-02-22 15:10",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-23 15:45",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-02-23 15:53",
+                    "status": 1,
+                    "collection": "GFM"
                 }
             ]
         }
@@ -886,9 +886,9 @@
         "extra_info": [
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-02-23 13:43",
+                "timestamp": "2025-02-23 15:53",
                 "status": "SUCCESS",
-                "item": "5821-77"
+                "item": "5821-79"
             },
             {
                 "collection": "AI4SAR_SIG0",
