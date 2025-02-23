@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-23 10:43",
+        "timestamp": "2025-02-23 10:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_SPM_V1",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-02-22 09:44",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2025-02-22 09:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-23 10:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_SPM_V1"
+                },
+                {
+                    "timestamp": "2025-02-23 10:53",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
