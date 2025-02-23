@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-23 07:11",
+        "timestamp": "2025-02-23 07:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-02-22 06:15",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-02-22 06:39",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-23 07:11",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-23 07:26",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
