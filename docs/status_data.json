@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-23 14:30",
+        "timestamp": "2025-02-23 14:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "CGLS_GDMP_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-22 13:34",
-                    "status": 1,
-                    "collection": "CORINE_LAND_COVER"
-                },
                 {
                     "timestamp": "2025-02-22 13:43",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-23 14:30",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-02-23 14:40",
+                    "status": 1,
+                    "collection": "CGLS_GDMP_V2_GLOBAL"
                 }
             ]
         }
