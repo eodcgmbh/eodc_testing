@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-23 06:15",
+        "timestamp": "2025-02-23 06:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2025-02-22 05:11",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-02-22 05:30",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-23 06:15",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-02-23 06:35",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
