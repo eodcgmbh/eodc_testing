@@ -388,16 +388,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 15:13",
+        "timestamp": "2025-02-24 15:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-02-23 13:37",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2025-02-23 13:45",
                     "status": 1,
@@ -892,6 +887,11 @@
                     "timestamp": "2025-02-24 15:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-02-24 15:32",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
