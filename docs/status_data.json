@@ -388,16 +388,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 14:44",
+        "timestamp": "2025-02-24 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2025-02-23 13:15",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-23 13:29",
                     "status": 1,
@@ -892,6 +887,11 @@
                     "timestamp": "2025-02-24 14:44",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-24 14:53",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -1118,9 +1118,9 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-02-24 03:03",
+                "timestamp": "2025-02-24 14:53",
                 "status": "SUCCESS",
-                "item": "5120-17"
+                "item": "5120-09"
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
