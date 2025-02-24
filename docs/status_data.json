@@ -376,16 +376,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 10:35",
+        "timestamp": "2025-02-24 10:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "SENTINEL1_CARD4L",
             "history": [
-                {
-                    "timestamp": "2025-02-23 09:29",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-02-23 09:39",
                     "status": 1,
@@ -880,6 +875,11 @@
                     "timestamp": "2025-02-24 10:35",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-02-24 10:45",
+                    "status": 1,
+                    "collection": "SENTINEL1_CARD4L"
                 }
             ]
         }
