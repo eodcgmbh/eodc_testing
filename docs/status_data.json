@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 21:44",
+        "timestamp": "2025-02-24 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-02-23 19:19",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_LAI_V2"
-                },
                 {
                     "timestamp": "2025-02-23 19:27",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-02-24 21:44",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-02-24 21:53",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -998,9 +998,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-02-24 19:43",
+                "timestamp": "2025-02-24 21:53",
                 "status": "SUCCESS",
-                "item": "5622-38"
+                "item": "5622-53"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
