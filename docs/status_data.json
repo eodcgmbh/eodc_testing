@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 03:05",
+        "timestamp": "2025-02-24 03:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "WATER_BODIES",
             "history": [
-                {
-                    "timestamp": "2025-02-22 23:43",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-02-22 23:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-24 03:05",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-02-24 03:33",
+                    "status": 1,
+                    "collection": "WATER_BODIES"
                 }
             ]
         }
