@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 12:23",
+        "timestamp": "2025-02-24 12:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GHS_BUILT_S2",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-02-23 10:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-02-23 11:10",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-02-24 12:23",
                     "status": 1,
                     "collection": "GHS_BUILT_S2"
+                },
+                {
+                    "timestamp": "2025-02-24 12:58",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
