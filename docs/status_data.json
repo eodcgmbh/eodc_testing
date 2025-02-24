@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 13:26",
+        "timestamp": "2025-02-24 13:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-02-23 11:22",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-02-23 11:34",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-02-24 13:26",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-02-24 13:40",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
