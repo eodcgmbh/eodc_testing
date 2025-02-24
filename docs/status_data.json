@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-24 04:53",
+        "timestamp": "2025-02-24 05:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "SENTINEL_5P_L2",
             "history": [
-                {
-                    "timestamp": "2025-02-23 03:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-02-23 04:13",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-02-24 04:53",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-02-24 05:12",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
                 }
             ]
         }
@@ -1054,9 +1054,9 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-02-23 06:53",
+                "timestamp": "2025-02-24 05:12",
                 "status": "SUCCESS",
-                "item": "DEM1_SAR_DGE_30_20190911T083210_20190911T083211_ADS_000000_3940"
+                "item": "DEM1_SAR_DGE_90_20190913T065028_20190913T065029_ADS_000000_3673"
             },
             {
                 "collection": "SENTINEL1_HPAR",
