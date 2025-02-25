@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-25 11:44",
+        "timestamp": "2025-02-25 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "VEGETATION_INDICES",
             "history": [
-                {
-                    "timestamp": "2025-02-24 08:48",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-02-24 08:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-25 11:44",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-02-25 11:53",
+                    "status": 1,
+                    "collection": "VEGETATION_INDICES"
                 }
             ]
         }
