@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-25 05:53",
+        "timestamp": "2025-02-25 06:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-02-24 00:59",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-02-24 02:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-25 05:53",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-02-25 06:17",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
