@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-25 19:43",
+        "timestamp": "2025-02-25 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-02-24 16:40",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-02-24 16:52",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-25 19:43",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-02-25 19:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -928,9 +928,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-02-25 13:47",
+                "timestamp": "2025-02-25 19:53",
                 "status": "SUCCESS",
-                "item": "SIG0_20231227T165056_A146_EU020M_E051N015T3_S1AIWGRDH"
+                "item": "SIG0_20231231T051048_D022_EU020M_E048N012T3_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
