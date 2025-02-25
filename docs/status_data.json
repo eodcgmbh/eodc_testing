@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-25 05:43",
+        "timestamp": "2025-02-25 05:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TD",
+            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-02-23 23:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
-                },
                 {
                     "timestamp": "2025-02-24 00:59",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-25 05:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TD"
+                },
+                {
+                    "timestamp": "2025-02-25 05:53",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
                 }
             ]
         }
@@ -1114,9 +1114,9 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-02-23 23:24",
+                "timestamp": "2025-02-25 05:53",
                 "status": "SUCCESS",
-                "item": "CLC2018_EU010M_E078N011T1"
+                "item": "CLC2018_EU010M_E077N017T1"
             },
             {
                 "collection": "SENTINEL2_L1C",
