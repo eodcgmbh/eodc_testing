@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-25 10:53",
+        "timestamp": "2025-02-25 11:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2025-02-24 07:44",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-02-24 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-25 10:53",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-02-25 11:10",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
@@ -1024,7 +1024,7 @@
             },
             {
                 "collection": "sen2like",
-                "timestamp": "2025-02-25 07:53",
+                "timestamp": "2025-02-25 11:10",
                 "status": "SUCCESS",
                 "item": "EU010M_E047N015T1_20240714T101011"
             },
