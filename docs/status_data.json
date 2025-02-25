@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-25 17:43",
+        "timestamp": "2025-02-25 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_LAND_COVER",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-02-24 14:33",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-24 14:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-25 17:43",
                     "status": 1,
                     "collection": "GLOBAL_LAND_COVER"
+                },
+                {
+                    "timestamp": "2025-02-25 17:53",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
