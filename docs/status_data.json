@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-26 09:31",
+        "timestamp": "2025-02-26 09:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_MAIZE",
+            "collection": "VEGETATION_INDICES",
             "history": [
-                {
-                    "timestamp": "2025-02-25 06:17",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-02-25 06:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-26 09:31",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_MAIZE"
+                },
+                {
+                    "timestamp": "2025-02-26 09:43",
+                    "status": 1,
+                    "collection": "VEGETATION_INDICES"
                 }
             ]
         }
@@ -1036,9 +1036,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-02-25 17:17",
+                "timestamp": "2025-02-26 09:43",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T40WEU"
+                "item": "GRI_L1C_T38VNQ"
             },
             {
                 "collection": "GFM",
