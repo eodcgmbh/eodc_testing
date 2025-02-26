@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-26 06:17",
+        "timestamp": "2025-02-26 06:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-02-25 02:19",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2025-02-25 03:02",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-26 06:17",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-02-26 06:40",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
