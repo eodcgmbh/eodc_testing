@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-02-26 03:23:07",
+        "timestamp": "2025-02-26 04:19:08",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-02-21 17:13:41",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-02-21 18:19:15",
                     "status": 1
@@ -403,21 +399,20 @@
                 {
                     "timestamp": "2025-02-26 03:23:07",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-02-26 04:19:08",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-26 03:55",
+        "timestamp": "2025-02-26 04:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-02-24 22:32",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-02-24 22:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-26 03:55",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-02-26 04:15",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
