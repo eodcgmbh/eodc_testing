@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 21:28",
+        "timestamp": "2025-02-27 21:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
             "history": [
-                {
-                    "timestamp": "2025-02-26 17:11",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-02-26 17:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 21:28",
                     "status": 1,
                     "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
+                },
+                {
+                    "timestamp": "2025-02-27 21:37",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
                 }
             ]
         }
@@ -940,9 +940,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-02-27 08:47",
+                "timestamp": "2025-02-27 21:37",
                 "status": "SUCCESS",
-                "item": "4321-53"
+                "item": "4321-58"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
