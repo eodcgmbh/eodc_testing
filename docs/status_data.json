@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 23:45",
+        "timestamp": "2025-02-27 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
             "history": [
-                {
-                    "timestamp": "2025-02-26 19:53",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-02-26 20:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 23:45",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-02-27 23:53",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
                 }
             ]
         }
@@ -1054,9 +1054,9 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-02-27 14:53",
+                "timestamp": "2025-02-27 23:53",
                 "status": "SUCCESS",
-                "item": "4622-12"
+                "item": "4522-14"
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
