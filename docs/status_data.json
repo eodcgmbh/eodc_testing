@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 11:10",
+        "timestamp": "2025-02-27 11:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-02-26 07:36",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2025-02-26 07:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 11:10",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-02-27 11:26",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
