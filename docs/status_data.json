@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 04:46",
+        "timestamp": "2025-02-27 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "ESA_WORLDCEREAL_MAIZE",
             "history": [
-                {
-                    "timestamp": "2025-02-25 22:43",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-02-25 22:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 04:46",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-02-27 04:53",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_MAIZE"
                 }
             ]
         }
@@ -1102,9 +1102,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-02-27 02:16",
+                "timestamp": "2025-02-27 04:53",
                 "status": "SUCCESS",
-                "item": "X0016Y0014_20201230"
+                "item": "X0014Y0014_20201226"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
