@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 13:26",
+        "timestamp": "2025-02-27 13:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-02-26 09:15",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-02-26 09:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 13:26",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-02-27 13:40",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
@@ -1054,9 +1054,9 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-02-27 12:21",
+                "timestamp": "2025-02-27 13:40",
                 "status": "SUCCESS",
-                "item": "5021-08"
+                "item": "4522-12"
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
