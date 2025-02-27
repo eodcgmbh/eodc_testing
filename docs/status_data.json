@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 11:53",
+        "timestamp": "2025-02-27 12:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-02-26 08:37",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FAPAR_V2"
-                },
                 {
                     "timestamp": "2025-02-26 08:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 11:53",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-02-27 12:23",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
