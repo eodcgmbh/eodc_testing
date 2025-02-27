@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-27 15:43",
+        "timestamp": "2025-02-27 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "VEGETATION_INDICES",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-02-26 11:35",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-02-26 11:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-27 15:43",
                     "status": 1,
                     "collection": "VEGETATION_INDICES"
+                },
+                {
+                    "timestamp": "2025-02-27 15:53",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
                 }
             ]
         }
@@ -1036,9 +1036,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-02-27 10:46",
+                "timestamp": "2025-02-27 15:53",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T40WET"
+                "item": "GRI_L1C_T37VFK"
             },
             {
                 "collection": "GFM",
