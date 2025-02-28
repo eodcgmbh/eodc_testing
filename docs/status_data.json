@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-28 17:13",
-        "status": "FAILURE",
+        "timestamp": "2025-02-28 17:30",
+        "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "ALOS_PALSAR2_L2_1_3M",
             "history": [
-                {
-                    "timestamp": "2025-02-27 13:26",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-02-27 13:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-28 17:13",
                     "status": 0,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-02-28 17:30",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_3M"
                 }
             ]
         }
