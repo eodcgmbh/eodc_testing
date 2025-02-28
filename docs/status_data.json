@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-28 07:12",
+        "timestamp": "2025-02-28 07:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEA_ICE_INDEX",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-02-27 02:20",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-02-27 03:02",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-28 07:12",
                     "status": 1,
                     "collection": "SEA_ICE_INDEX"
+                },
+                {
+                    "timestamp": "2025-02-28 07:28",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
