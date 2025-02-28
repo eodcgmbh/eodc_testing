@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-02-28 08:55",
+        "timestamp": "2025-02-28 09:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2025-02-27 05:13",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
-                },
                 {
                     "timestamp": "2025-02-27 05:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-02-28 08:55",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-02-28 09:13",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
