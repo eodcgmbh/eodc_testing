@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-01 16:44",
+        "timestamp": "2025-03-01 16:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2",
             "history": [
-                {
-                    "timestamp": "2025-02-28 14:43",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-02-28 14:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-01 16:44",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-03-01 16:53",
+                    "status": 1,
+                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
                 }
             ]
         }
@@ -982,9 +982,9 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-03-01 09:37",
+                "timestamp": "2025-03-01 16:53",
                 "status": "SUCCESS",
-                "item": "Greenness-2022-66634"
+                "item": "Greenness-2022-66636"
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
