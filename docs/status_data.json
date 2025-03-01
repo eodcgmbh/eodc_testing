@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-01 21:10",
+        "timestamp": "2025-03-01 21:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-02-28 20:13",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-02-28 20:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-01 21:10",
                     "status": 1,
                     "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS"
+                },
+                {
+                    "timestamp": "2025-03-01 21:26",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -1054,9 +1054,9 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-03-01 00:58",
+                "timestamp": "2025-03-01 21:26",
                 "status": "SUCCESS",
-                "item": "4622-11"
+                "item": "4522-14"
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
