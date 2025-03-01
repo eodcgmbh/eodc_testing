@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-01 05:43",
+        "timestamp": "2025-03-01 05:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
+            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
             "history": [
-                {
-                    "timestamp": "2025-02-27 23:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
-                },
                 {
                     "timestamp": "2025-02-28 00:58",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-01 05:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
+                },
+                {
+                    "timestamp": "2025-03-01 05:53",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
                 }
             ]
         }
@@ -1030,9 +1030,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-02-28 08:54",
+                "timestamp": "2025-03-01 05:53",
                 "status": "SUCCESS",
-                "item": "E050N017T1_20200930"
+                "item": "E051N017T1_20200930"
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
