@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-01 13:15",
+        "timestamp": "2025-03-01 13:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
+            "collection": "SENTINEL3_SYNERGY_VG10",
             "history": [
-                {
-                    "timestamp": "2025-02-28 10:13",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-02-28 10:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-01 13:15",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
+                },
+                {
+                    "timestamp": "2025-03-01 13:30",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG10"
                 }
             ]
         }
