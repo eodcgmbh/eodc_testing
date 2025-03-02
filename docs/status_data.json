@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-02 10:43",
+        "timestamp": "2025-03-02 10:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-03-01 09:53",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-03-01 10:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-02 10:43",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-03-02 10:53",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
