@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-02 15:45",
+        "timestamp": "2025-03-02 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-03-01 14:54",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-03-01 15:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-02 15:45",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-03-02 15:53",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
@@ -976,9 +976,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-03-02 10:43",
+                "timestamp": "2025-03-02 15:53",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld.tif"
+                "item": "vegetation_change_bgld_2022"
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
