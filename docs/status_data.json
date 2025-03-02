@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-02 16:53",
+        "timestamp": "2025-03-02 17:09",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "SENTINEL_5P_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-01 15:54",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-03-01 16:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-02 16:53",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-03-02 17:09",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
                 }
             ]
         }
@@ -952,9 +952,9 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-03-02 15:26",
+                "timestamp": "2025-03-02 17:09",
                 "status": "SUCCESS",
-                "item": "CGLS_SSM1KM_20220404_EU1K0M_E066N006T6"
+                "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N012T6"
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
