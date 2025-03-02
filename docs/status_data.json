@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-02 13:15",
+        "timestamp": "2025-03-02 13:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "SEA_ICE_INDEX",
             "history": [
-                {
-                    "timestamp": "2025-03-01 11:53",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-03-01 12:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-02 13:15",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-03-02 13:30",
+                    "status": 1,
+                    "collection": "SEA_ICE_INDEX"
                 }
             ]
         }
