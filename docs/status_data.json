@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-02 03:47",
+        "timestamp": "2025-03-02 03:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2025-03-01 01:02",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-03-01 02:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-02 03:47",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2025-03-02 03:55",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
@@ -982,9 +982,9 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-03-02 03:07",
+                "timestamp": "2025-03-02 03:55",
                 "status": "SUCCESS",
-                "item": "Greenness-2022-66635"
+                "item": "Greenness-2022-66633"
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
