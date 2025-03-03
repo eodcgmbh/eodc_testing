@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-03 13:53",
+        "timestamp": "2025-03-03 14:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY",
+            "collection": "SENTINEL1_CARD4L",
             "history": [
-                {
-                    "timestamp": "2025-03-02 11:10",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
-                },
                 {
                     "timestamp": "2025-03-02 11:22",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-03 13:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
+                },
+                {
+                    "timestamp": "2025-03-03 14:12",
+                    "status": 1,
+                    "collection": "SENTINEL1_CARD4L"
                 }
             ]
         }
@@ -1102,9 +1102,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-03-01 17:53",
+                "timestamp": "2025-03-03 14:12",
                 "status": "SUCCESS",
-                "item": "X0015Y0015_20201226"
+                "item": "X0014Y0014_20201226"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
