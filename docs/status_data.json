@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-03 23:45",
+        "timestamp": "2025-03-03 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-02 20:29",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2025-03-02 20:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-03 23:45",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-03-03 23:53",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1156,9 +1156,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-03-03 23:37",
+                "timestamp": "2025-03-03 23:53",
                 "status": "SUCCESS",
-                "item": "wien_602000_533900.copc.laz"
+                "item": "wien_602000_533800.copc.laz"
             }
         ]
     },
