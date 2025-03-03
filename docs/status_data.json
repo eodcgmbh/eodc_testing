@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-03 22:53",
+        "timestamp": "2025-03-03 23:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-03-02 19:34",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-03-02 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-03 22:53",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-03-03 23:11",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
