@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-03 10:36",
+        "timestamp": "2025-03-03 10:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-02 08:32",
-                    "status": 1,
-                    "collection": "SENTINEL1_SLC"
-                },
                 {
                     "timestamp": "2025-03-02 08:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-03 10:36",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-03-03 10:46",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -928,9 +928,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-03-03 09:44",
+                "timestamp": "2025-03-03 10:46",
                 "status": "SUCCESS",
-                "item": "SIG0_20231231T051023_D022_EU020M_E051N015T3_S1AIWGRDH"
+                "item": "SIG0_20231227T165056_A146_EU020M_E051N012T3_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
