@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-03 15:44",
+        "timestamp": "2025-03-03 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-03-02 13:15",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-03-02 13:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-03 15:44",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-03-03 15:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1120,9 +1120,9 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-03-01 22:45",
+                "timestamp": "2025-03-03 15:53",
                 "status": "SUCCESS",
-                "item": "S2A_MSIL1C_20240322T065341_R077_T39LYD_20240322T082540"
+                "item": "S2A_MSIL1C_20240322T065341_R077_T39LVC_20240322T082540"
             },
             {
                 "collection": "SENTINEL1_SLC",
