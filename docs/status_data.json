@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-04 11:43",
+        "timestamp": "2025-03-04 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_AGRICULTURE",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-03-03 08:38",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-03-03 08:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-04 11:43",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_AGRICULTURE"
+                },
+                {
+                    "timestamp": "2025-03-04 11:53",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1036,9 +1036,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-03-03 20:31",
+                "timestamp": "2025-03-04 11:53",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T40WDT"
+                "item": "GRI_L1C_T38VLQ"
             },
             {
                 "collection": "GFM",
