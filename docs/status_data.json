@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-04 04:19",
+        "timestamp": "2025-03-04 04:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-03-02 21:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-02 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-04 04:19",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-03-04 04:36",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
