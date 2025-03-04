@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-04 14:44",
+        "timestamp": "2025-03-04 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
             "history": [
-                {
-                    "timestamp": "2025-03-03 10:36",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-03-03 10:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-04 14:44",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-03-04 14:53",
+                    "status": 1,
+                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
                 }
             ]
         }
@@ -934,9 +934,9 @@
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-03-04 08:49",
+                "timestamp": "2025-03-04 14:53",
                 "status": "SUCCESS",
-                "item": "SENTINEL1_GRD_COVERAGE_20240819"
+                "item": "SENTINEL1_GRD_COVERAGE_20240815"
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
