@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-04 08:48",
+        "timestamp": "2025-03-04 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEA_ICE_INDEX",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-03-03 04:54",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-03-03 05:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-04 08:48",
                     "status": 1,
                     "collection": "SEA_ICE_INDEX"
+                },
+                {
+                    "timestamp": "2025-03-04 08:56",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -940,9 +940,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-03-02 08:53",
+                "timestamp": "2025-03-04 08:56",
                 "status": "SUCCESS",
-                "item": "4321-59"
+                "item": "4321-53"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
