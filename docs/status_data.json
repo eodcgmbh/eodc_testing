@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-04 23:28",
+        "timestamp": "2025-03-04 23:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_L2",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2025-03-03 19:43",
-                    "status": 1,
-                    "collection": "WATER_BODIES"
-                },
                 {
                     "timestamp": "2025-03-03 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-04 23:28",
                     "status": 1,
                     "collection": "SENTINEL_5P_L2"
+                },
+                {
+                    "timestamp": "2025-03-04 23:37",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
@@ -994,9 +994,9 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-03-04 19:09",
+                "timestamp": "2025-03-04 23:37",
                 "status": "SUCCESS",
-                "item": "WSM_ALPS_20210731T051919_E042N006T6_S1A_IW_SLC_039017_00498A_00_ENVEO"
+                "item": "WSM_ALPS_20210731T171451_E048N006T6_S1B_IW_SLC_028041_0043C2_00_ENVEO"
             },
             {
                 "collection": "AUT_DEM",
