@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-05 10:13",
+        "timestamp": "2025-03-05 10:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_TSM",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-03-04 06:17",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-03-04 06:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-05 10:13",
                     "status": 1,
                     "collection": "CNR_TSM"
+                },
+                {
+                    "timestamp": "2025-03-05 10:36",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-03-05 07:54",
+                "timestamp": "2025-03-05 10:36",
                 "status": "SUCCESS",
                 "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N015T1"
             },
