@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-05 00:59",
+        "timestamp": "2025-03-05 02:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-03-03 20:45",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-03 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-05 00:59",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2025-03-05 02:21",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
