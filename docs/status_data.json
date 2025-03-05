@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-05 13:53",
+        "timestamp": "2025-03-05 14:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "CORINE_LAND_COVER",
             "history": [
-                {
-                    "timestamp": "2025-03-04 09:31",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-04 09:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-05 13:53",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-03-05 14:12",
+                    "status": 1,
+                    "collection": "CORINE_LAND_COVER"
                 }
             ]
         }
@@ -1030,9 +1030,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-03-05 13:55",
+                "timestamp": "2025-03-05 14:11",
                 "status": "SUCCESS",
-                "item": "E049N015T1_20200930"
+                "item": "E048N014T1_20200930"
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
