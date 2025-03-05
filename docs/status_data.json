@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-05 15:44",
+        "timestamp": "2025-03-05 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_VILLACH",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-03-04 11:11",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2025-03-04 11:26",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-05 15:44",
                     "status": 1,
                     "collection": "DOP_AUT_K_VILLACH"
+                },
+                {
+                    "timestamp": "2025-03-05 15:53",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -976,9 +976,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-03-04 18:52",
+                "timestamp": "2025-03-05 15:53",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld.tif"
+                "item": "vegetation_change_bgld_2020"
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
