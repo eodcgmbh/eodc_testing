@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-05 06:17",
+        "timestamp": "2025-03-05 06:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_100M",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-03 23:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-04 00:59",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-05 06:17",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-03-05 06:41",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1120,9 +1120,9 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-03-05 06:17",
+                "timestamp": "2025-03-05 06:41",
                 "status": "SUCCESS",
-                "item": "S2A_MSIL1C_20240322T065341_R077_T39LXC_20240322T082540"
+                "item": "S2A_MSIL1C_20240322T065341_R077_T39LVD_20240322T082540"
             },
             {
                 "collection": "SENTINEL1_SLC",
