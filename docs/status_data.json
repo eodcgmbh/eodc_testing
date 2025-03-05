@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-05 03:05",
+        "timestamp": "2025-03-05 03:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-03 21:11",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-03-03 21:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-05 03:05",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
+                },
+                {
+                    "timestamp": "2025-03-05 03:34",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
@@ -964,9 +964,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-03-04 20:31",
+                "timestamp": "2025-03-05 03:34",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E096N066T3_D155"
+                "item": "MPLIA_SA020M_E099N060T3_D111"
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
