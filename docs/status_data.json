@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 16:38",
+        "timestamp": "2025-03-06 16:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1",
             "history": [
-                {
-                    "timestamp": "2025-03-05 11:43",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_WOLFSBERG"
-                },
                 {
                     "timestamp": "2025-03-05 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 16:38",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-03-06 16:51",
+                    "status": 1,
+                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
                 }
             ]
         }
@@ -946,9 +946,9 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-03-05 17:53",
+                "timestamp": "2025-03-06 16:51",
                 "status": "SUCCESS",
-                "item": "EU010M_E052N015T1_20230921_WETLAND"
+                "item": "EU010M_E052N015T1_20231003_WETLAND"
             },
             {
                 "collection": "CGLS_SSM_1KM",
