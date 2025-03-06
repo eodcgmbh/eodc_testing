@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 13:26",
+        "timestamp": "2025-03-06 13:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_SPM_V1",
+            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
             "history": [
-                {
-                    "timestamp": "2025-03-05 08:51",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-05 09:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 13:26",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_SPM_V1"
+                },
+                {
+                    "timestamp": "2025-03-06 13:40",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
                 }
             ]
         }
@@ -1114,9 +1114,9 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-03-06 03:04",
+                "timestamp": "2025-03-06 13:40",
                 "status": "SUCCESS",
-                "item": "CLC2018_EU010M_E077N017T1"
+                "item": "CLC2018_EU010M_E078N012T1"
             },
             {
                 "collection": "SENTINEL2_L1C",
