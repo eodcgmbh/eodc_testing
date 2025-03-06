@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 15:32",
+        "timestamp": "2025-03-06 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-03-05 10:53",
-                    "status": 1,
-                    "collection": "SEA_ICE_INDEX"
-                },
                 {
                     "timestamp": "2025-03-05 11:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 15:32",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-03-06 15:45",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
