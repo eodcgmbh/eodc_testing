@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 04:17",
+        "timestamp": "2025-03-06 04:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-03-04 22:11",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-03-04 22:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 04:17",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-03-06 04:37",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
