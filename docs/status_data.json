@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 06:17",
+        "timestamp": "2025-03-06 06:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
-                {
-                    "timestamp": "2025-03-04 23:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2025-03-04 23:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 06:17",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-03-06 06:41",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
                 }
             ]
         }
@@ -1090,9 +1090,9 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-03-06 03:56",
+                "timestamp": "2025-03-06 06:41",
                 "status": "SUCCESS",
-                "item": "DEM1_SAR_DGE_90_20190911T083347_20190911T083348_ADS_000000_3980"
+                "item": "DEM1_SAR_DGE_90_20190911T083028_20190911T083029_ADS_000000_3905"
             },
             {
                 "collection": "SENTINEL1_HPAR",
