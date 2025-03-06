@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 12:23",
+        "timestamp": "2025-03-06 12:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WATER_BODIES",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-03-05 08:18",
-                    "status": 1,
-                    "collection": "OPENEO_CROPTYPE_2021"
-                },
                 {
                     "timestamp": "2025-03-05 08:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 12:23",
                     "status": 1,
                     "collection": "WATER_BODIES"
+                },
+                {
+                    "timestamp": "2025-03-06 12:58",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
