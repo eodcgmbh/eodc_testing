@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 19:22",
+        "timestamp": "2025-03-06 19:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-03-05 14:53",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-03-05 15:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 19:22",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-03-06 19:34",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -958,7 +958,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-03-06 05:12",
+                "timestamp": "2025-03-06 19:34",
                 "status": "SUCCESS",
                 "item": "ERS2_IMS_NRB__1SVV_20001117T101134_20001117T101203_029163_000000_FCAE_33VVK"
             },
