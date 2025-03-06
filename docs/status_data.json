@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 09:43",
+        "timestamp": "2025-03-06 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "ALOS_PALSAR2_AGRICULTURE",
             "history": [
-                {
-                    "timestamp": "2025-03-05 05:32",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2025-03-05 05:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 09:43",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-03-06 09:53",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_AGRICULTURE"
                 }
             ]
         }
@@ -1018,9 +1018,9 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-03-04 22:11",
+                "timestamp": "2025-03-06 09:53",
                 "status": "SUCCESS",
-                "item": "S3A_SR_2_LAN_HY_20240610T201915_20240610T205315_2040_113_214"
+                "item": "S3A_SR_2_LAN_HY_20240614T203221_20240614T204125_0544_113_271"
             },
             {
                 "collection": "sen2like",
