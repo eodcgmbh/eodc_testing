@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 22:53",
+        "timestamp": "2025-03-06 23:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-03-05 19:25",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-03-05 19:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 22:53",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-03-06 23:12",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
