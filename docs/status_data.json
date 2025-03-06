@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-06 06:53",
+        "timestamp": "2025-03-06 07:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEA_ICE_INDEX",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-05 00:59",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-03-05 02:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-06 06:53",
                     "status": 1,
                     "collection": "SEA_ICE_INDEX"
+                },
+                {
+                    "timestamp": "2025-03-06 07:13",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
@@ -982,9 +982,9 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-03-06 05:53",
+                "timestamp": "2025-03-06 07:13",
                 "status": "SUCCESS",
-                "item": "Greenness-2022-66636"
+                "item": "Greenness-2022-66632"
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
