@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-07 10:13",
+        "timestamp": "2025-03-07 10:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-06 06:17",
-                    "status": 1,
-                    "collection": "PERSISTENT_SNOW_AREA"
-                },
                 {
                     "timestamp": "2025-03-06 06:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-07 10:13",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-03-07 10:35",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -970,9 +970,9 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-03-05 23:38",
+                "timestamp": "2025-03-07 10:35",
                 "status": "SUCCESS",
-                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N015T1"
+                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E051N018T1"
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
