@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-07 19:24",
+        "timestamp": "2025-03-07 19:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-06 16:15",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-03-06 16:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-07 19:24",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
+                },
+                {
+                    "timestamp": "2025-03-07 19:34",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
@@ -1024,9 +1024,9 @@
             },
             {
                 "collection": "sen2like",
-                "timestamp": "2025-03-07 00:55",
+                "timestamp": "2025-03-07 19:34",
                 "status": "SUCCESS",
-                "item": "EU010M_E047N015T1_20240715T100359"
+                "item": "EU010M_E047N015T1_20240714T101011"
             },
             {
                 "collection": "BOA_SENTINEL_2",
