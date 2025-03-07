@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-07 03:36",
+        "timestamp": "2025-03-07 03:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEA_ICE_INDEX",
+            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
             "history": [
-                {
-                    "timestamp": "2025-03-05 21:29",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-05 21:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-07 03:36",
                     "status": 1,
                     "collection": "SEA_ICE_INDEX"
+                },
+                {
+                    "timestamp": "2025-03-07 03:49",
+                    "status": 1,
+                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-03-06 05:32",
+                "timestamp": "2025-03-07 03:49",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
