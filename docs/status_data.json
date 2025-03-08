@@ -408,30 +408,11 @@
         }
     },
     "openEO API": {
-<<<<<<< Updated upstream
-        "timestamp": "2025-03-08 18:42",
+        "timestamp": "2025-03-08 18:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-03-07 21:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
-                {
-=======
-        "timestamp": "2025-03-08 18:45",
-        "status": "SUCCESS",
-        "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
-            "history": [
-                {
->>>>>>> Stashed changes
-                    "timestamp": "2025-03-07 22:10",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-03-07 22:25",
                     "status": 1,
@@ -876,14 +857,16 @@
                     "timestamp": "2025-03-08 18:42",
                     "status": 1,
                     "collection": "PLANETSCOPE"
-<<<<<<< Updated upstream
-=======
                 },
                 {
                     "timestamp": "2025-03-08 18:45",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
->>>>>>> Stashed changes
+                },
+                {
+                    "timestamp": "2025-03-08 18:53",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
