@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 05:09",
+        "timestamp": "2025-03-08 05:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "SEA_ICE_INDEX",
             "history": [
-                {
-                    "timestamp": "2025-03-07 03:49",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-03-07 04:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-08 05:09",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-03-08 05:25",
+                    "status": 1,
+                    "collection": "SEA_ICE_INDEX"
                 }
             ]
         }
@@ -1012,7 +1012,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-03-08 02:20",
+                "timestamp": "2025-03-08 05:25",
                 "status": "SUCCESS",
                 "item": "AT_EGMS_L3_E_2016_2022"
             },
