@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 21:42",
+        "timestamp": "2025-03-08 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-08 03:28",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-03-08 03:44",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-08 21:42",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-03-08 21:53",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
@@ -1111,9 +1111,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-03-08 19:53",
+                "timestamp": "2025-03-08 21:53",
                 "status": "SUCCESS",
-                "item": "wien_602000_533800.copc.laz"
+                "item": "wien_602000_534000.copc.laz"
             }
         ]
     },
