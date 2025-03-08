@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 15:53",
+        "timestamp": "2025-03-08 16:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SWI_V1_EUROPE",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-03-07 17:13",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-03-07 17:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-08 15:53",
                     "status": 1,
                     "collection": "CGLS_SWI_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-03-08 16:12",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
