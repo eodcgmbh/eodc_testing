@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 21:34",
+        "timestamp": "2025-03-08 21:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-03-08 03:11",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-03-08 03:28",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-08 21:34",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-03-08 21:42",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
