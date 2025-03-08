@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 21:53",
+        "timestamp": "2025-03-08 22:09",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
             "history": [
-                {
-                    "timestamp": "2025-03-08 03:44",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-03-08 03:53",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-08 21:53",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-03-08 22:09",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
                 }
             ]
         }
@@ -1027,9 +1027,9 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-03-08 09:43",
+                "timestamp": "2025-03-08 22:09",
                 "status": "SUCCESS",
-                "item": "S1A_IW_GRDH_1SDV_20240715T070325_20240715T070352_054768_06AB36"
+                "item": "S1A_IW_GRDH_1SDV_20240726T185941_20240726T190006_054936_06B10A"
             },
             {
                 "collection": "DSM_AUT",
