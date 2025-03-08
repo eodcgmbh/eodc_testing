@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 02:20",
+        "timestamp": "2025-03-08 02:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "OPENEO_CROPTYPE_2021",
             "history": [
-                {
-                    "timestamp": "2025-03-06 22:32",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-03-06 22:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-08 02:20",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-03-08 02:40",
+                    "status": 1,
+                    "collection": "OPENEO_CROPTYPE_2021"
                 }
             ]
         }
