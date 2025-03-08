@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 23:11",
+        "timestamp": "2025-03-08 23:24",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-08 04:53",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-03-08 05:09",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-08 23:11",
                     "status": 1,
                     "collection": "COPERNICUS_90"
+                },
+                {
+                    "timestamp": "2025-03-08 23:24",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
