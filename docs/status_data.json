@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 15:22",
+        "timestamp": "2025-03-08 15:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-03-07 16:37",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-03-07 16:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-08 15:22",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-03-08 15:33",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -976,7 +976,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-03-08 14:08",
+                "timestamp": "2025-03-08 15:33",
                 "status": "SUCCESS",
                 "item": "vegetation_change_bgld_2022"
             },
