@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 03:11",
+        "timestamp": "2025-03-08 03:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-03-06 23:12",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-03-06 23:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-08 03:11",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-03-08 03:28",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -922,9 +922,9 @@
         "extra_info": [
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-03-07 18:15",
+                "timestamp": "2025-03-08 03:28",
                 "status": "SUCCESS",
-                "item": "5821-60"
+                "item": "5821-61"
             },
             {
                 "collection": "AI4SAR_SIG0",
