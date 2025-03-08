@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 20:33",
+        "timestamp": "2025-03-08 20:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2",
             "history": [
-                {
-                    "timestamp": "2025-03-08 00:46",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-03-08 01:43",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-08 20:33",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-03-08 20:43",
+                    "status": 1,
+                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
                 }
             ]
         }
