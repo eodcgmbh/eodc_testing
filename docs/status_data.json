@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-08 10:10",
+        "timestamp": "2025-03-08 10:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "VEGETATION_INDICES",
+            "collection": "PROBAV_L3_S1_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-03-07 09:53",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-03-07 10:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-08 10:10",
                     "status": 1,
                     "collection": "VEGETATION_INDICES"
+                },
+                {
+                    "timestamp": "2025-03-08 10:29",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_333M"
                 }
             ]
         }
