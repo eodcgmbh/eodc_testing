@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 13:12",
+        "timestamp": "2025-03-09 13:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CORINE_LAND_COVER",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-08 16:44",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-08 16:53",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 13:12",
                     "status": 1,
                     "collection": "CORINE_LAND_COVER"
+                },
+                {
+                    "timestamp": "2025-03-09 13:26",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
