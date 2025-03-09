@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 12:17",
+        "timestamp": "2025-03-09 12:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-03-08 16:12",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-03-08 16:29",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 12:17",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-03-09 12:42",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
@@ -1033,7 +1033,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-03-09 03:11",
+                "timestamp": "2025-03-09 12:42",
                 "status": "SUCCESS",
                 "item": "Eisenstadt"
             },
