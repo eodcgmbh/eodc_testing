@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 04:53",
+        "timestamp": "2025-03-09 05:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-03-08 08:53",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-08 09:10",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 04:53",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-03-09 05:10",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
