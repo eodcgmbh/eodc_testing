@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 14:23",
+        "timestamp": "2025-03-09 14:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-08 17:53",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-03-08 18:13",
                     "status": 1,
@@ -882,6 +877,11 @@
                     "timestamp": "2025-03-09 14:23",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-03-09 14:33",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-03-08 09:23",
+                "timestamp": "2025-03-09 14:33",
                 "status": "SUCCESS",
                 "item": "dhm_at_lamb_10m_2018"
             },
