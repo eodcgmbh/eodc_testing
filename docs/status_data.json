@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 00:51",
+        "timestamp": "2025-03-09 01:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-03-08 05:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
-                },
                 {
                     "timestamp": "2025-03-08 06:13",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 00:51",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-03-09 01:59",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
