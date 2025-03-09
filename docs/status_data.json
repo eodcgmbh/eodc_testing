@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 13:26",
+        "timestamp": "2025-03-09 13:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-03-08 16:53",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-03-08 17:10",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 13:26",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-03-09 13:33",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
