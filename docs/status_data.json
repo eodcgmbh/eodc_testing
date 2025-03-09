@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 15:43",
+        "timestamp": "2025-03-09 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "JAXA_WQ_CHLA_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-03-08 18:34",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-03-08 18:34",
                     "status": 1,
@@ -897,6 +892,11 @@
                     "timestamp": "2025-03-09 15:43",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2025-03-09 15:53",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_AVERAGE"
                 }
             ]
         }
@@ -1117,9 +1117,9 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-03-09 11:43",
+                "timestamp": "2025-03-09 15:53",
                 "status": "SUCCESS",
-                "item": "5716-66"
+                "item": "5716-68"
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
