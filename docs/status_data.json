@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 05:10",
+        "timestamp": "2025-03-09 05:24",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
             "history": [
-                {
-                    "timestamp": "2025-03-08 09:10",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-03-08 09:23",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 05:10",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-03-09 05:24",
+                    "status": 1,
+                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
                 }
             ]
         }
@@ -1063,9 +1063,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-03-08 10:10",
+                "timestamp": "2025-03-09 05:24",
                 "status": "SUCCESS",
-                "item": "4322-67"
+                "item": "4322-66"
             },
             {
                 "collection": "CORINE_LAND_COVER",
