@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-09 08:13",
+        "timestamp": "2025-03-09 08:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-03-08 11:43",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2025-03-08 11:53",
                     "status": 1,
@@ -867,6 +862,11 @@
                     "timestamp": "2025-03-09 08:13",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-03-09 08:28",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
