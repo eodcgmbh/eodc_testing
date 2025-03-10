@@ -408,6 +408,7 @@
         }
     },
     "openEO API": {
+<<<<<<< Updated upstream
         "timestamp": "2025-03-10 09:36",
         "status": "SUCCESS",
         "extra_info": {
@@ -419,6 +420,14 @@
                     "collection": "SENTINEL_5P_L2"
                 },
                 {
+=======
+        "timestamp": "2025-03-10 09:43",
+        "status": "SUCCESS",
+        "extra_info": {
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "history": [
+                {
+>>>>>>> Stashed changes
                     "timestamp": "2025-03-09 11:08",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
@@ -912,6 +921,14 @@
                     "timestamp": "2025-03-10 09:36",
                     "status": 1,
                     "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
+<<<<<<< Updated upstream
+=======
+                },
+                {
+                    "timestamp": "2025-03-10 09:43",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
+>>>>>>> Stashed changes
                 }
             ]
         }
