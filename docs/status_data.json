@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 09:53",
+        "timestamp": "2025-03-10 10:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-03-09 11:18",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2025-03-09 11:26",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 09:53",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-03-10 10:11",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
@@ -1156,9 +1156,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-03-10 02:27",
+                "timestamp": "2025-03-10 10:11",
                 "status": "SUCCESS",
-                "item": "wien_603000_533800.copc.laz"
+                "item": "wien_601000_534000.copc.laz"
             }
         ]
     },
