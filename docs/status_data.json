@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 13:45",
+        "timestamp": "2025-03-10 13:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-03-09 14:09",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-03-09 14:23",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 13:45",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-03-10 13:53",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -946,9 +946,9 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-03-10 09:11",
+                "timestamp": "2025-03-10 13:53",
                 "status": "SUCCESS",
-                "item": "EU010M_E052N015T1_20230909_WETLAND"
+                "item": "EU010M_E052N015T1_20231003_WETLAND"
             },
             {
                 "collection": "CGLS_SSM_1KM",
