@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 14:46",
+        "timestamp": "2025-03-10 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_AGRICULTURE",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2025-03-09 14:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-09 15:09",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 14:46",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_AGRICULTURE"
+                },
+                {
+                    "timestamp": "2025-03-10 14:53",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
@@ -1054,9 +1054,9 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-03-10 13:29",
+                "timestamp": "2025-03-10 14:53",
                 "status": "SUCCESS",
-                "item": "4522-12"
+                "item": "5021-08"
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
