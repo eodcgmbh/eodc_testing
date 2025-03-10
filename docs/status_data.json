@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 22:53",
+        "timestamp": "2025-03-10 23:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "GHS_BUILT_S2",
             "history": [
-                {
-                    "timestamp": "2025-03-09 20:42",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-03-09 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 22:53",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-03-10 23:11",
+                    "status": 1,
+                    "collection": "GHS_BUILT_S2"
                 }
             ]
         }
