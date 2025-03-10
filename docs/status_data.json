@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 09:11",
+        "timestamp": "2025-03-10 09:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-03-09 10:32",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2025-03-09 10:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 09:11",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-03-10 09:27",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
@@ -964,9 +964,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-03-10 08:13",
+                "timestamp": "2025-03-10 09:32",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E099N060T3_D009"
+                "item": "MPLIA_SA020M_E099N057T3_D009"
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
@@ -1150,7 +1150,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-03-09 17:08",
+                "timestamp": "2025-03-10 09:27",
                 "status": "FAILURE",
                 "item": "N/A"
             },
