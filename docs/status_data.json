@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 10:31",
+        "timestamp": "2025-03-10 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "VEGETATION_INDICES",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-03-09 11:34",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-03-09 11:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 10:31",
                     "status": 1,
                     "collection": "VEGETATION_INDICES"
+                },
+                {
+                    "timestamp": "2025-03-10 10:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -922,9 +922,9 @@
         "extra_info": [
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-03-09 23:27",
+                "timestamp": "2025-03-10 10:43",
                 "status": "SUCCESS",
-                "item": "5821-69"
+                "item": "5821-60"
             },
             {
                 "collection": "AI4SAR_SIG0",
