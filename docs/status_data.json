@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 08:43",
+        "timestamp": "2025-03-10 08:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-03-09 09:53",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-09 10:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 08:43",
                     "status": 1,
                     "collection": "COPERNICUS_90"
+                },
+                {
+                    "timestamp": "2025-03-10 08:53",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -1144,9 +1144,9 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-03-09 16:11",
+                "timestamp": "2025-03-10 08:53",
                 "status": "SUCCESS",
-                "item": "EU010M_E053N015T1_20180101_WETLAND"
+                "item": "EU010M_E052N015T1_20200101_WETLAND"
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
