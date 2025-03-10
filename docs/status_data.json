@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 10:11",
+        "timestamp": "2025-03-10 10:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SLC",
+            "collection": "VEGETATION_INDICES",
             "history": [
-                {
-                    "timestamp": "2025-03-09 11:26",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2025-03-09 11:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-10 10:11",
                     "status": 1,
                     "collection": "SENTINEL1_SLC"
+                },
+                {
+                    "timestamp": "2025-03-10 10:31",
+                    "status": 1,
+                    "collection": "VEGETATION_INDICES"
                 }
             ]
         }
