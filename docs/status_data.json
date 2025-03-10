@@ -408,21 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-10 23:37",
+        "timestamp": "2025-03-10 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-03-09 21:22",
-                    "status": 1,
-                    "collection": "CORINE_LAND_COVER"
-                },
-                {
-                    "timestamp": "2025-03-09 21:34",
-                    "status": 1,
-                    "collection": "SENTINEL1_HPAR"
-                },
                 {
                     "timestamp": "2025-03-09 21:43",
                     "status": 1,
@@ -912,6 +902,16 @@
                     "timestamp": "2025-03-10 23:37",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-03-10 23:45",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
+                },
+                {
+                    "timestamp": "2025-03-10 23:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
