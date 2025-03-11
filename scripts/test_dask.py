@@ -54,19 +54,16 @@ def main():
         log_result(False)  
         raise ValueError("Error EODC_USERNAME or EODC_PASSWORD")
 
-    with patch("getpass.getpass", return_value=password):
-        try:     
-            gateway = CustomEODCDaskGateway(username=username, password=password)
-            get_cluster_options(gateway)
-            cluster, client = create_and_connect_cluster(gateway)
-            if client:
-                test_simple_computation(client)
-            if cluster:
-                cluster.close()
+    with patch("getpass.getpass", return_value=password):     
+        gateway = CustomEODCDaskGateway(username=username, password=password)
+        get_cluster_options(gateway)
+        cluster, client = create_and_connect_cluster(gateway)
+        if client:
+            test_simple_computation(client)
+        if cluster:
+            cluster.close()
                 
-            log_result(True)  
-        except Exception as e:
-            print(f"Connection Error: {e}")
+        log_result(True)  
            
 if __name__ == "__main__":
     main()
