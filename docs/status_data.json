@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-11 05:32",
+        "timestamp": "2025-03-11 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "ESA_WORLDCEREAL_MAIZE",
             "history": [
-                {
-                    "timestamp": "2025-03-09 23:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2025-03-10 00:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-11 05:32",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-03-11 05:43",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_MAIZE"
                 }
             ]
         }
