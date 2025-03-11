@@ -1163,7 +1163,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-03-11 06:38:37",
+        "timestamp": "2025-03-11 08:49:20",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1213,8 +1213,8 @@
             },
             {
                 "notebook": "demos/S2/indices.ipynb",
-                "status": "FAILURE",
-                "message": "Import Error: No module named 'datacube'"
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
             },
             {
                 "notebook": "demos/STAC/python-stac_DataDiscovery.ipynb",
@@ -1349,7 +1349,7 @@
             {
                 "notebook": "tutorials/wetland-explorer.ipynb",
                 "status": "FAILURE",
-                "message": "Import Error: No module named 'utils'"
+                "message": "Import Error: cannot import name 'download_file' from 'utils' (/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/utils/__init__.py)"
             },
             {
                 "notebook": "tutorials/read_yipeeo_data.ipynb",
