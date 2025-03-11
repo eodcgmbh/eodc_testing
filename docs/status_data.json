@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-11 10:47",
+        "timestamp": "2025-03-11 10:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WATER_BODIES",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-03-10 06:43",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-03-10 06:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-11 10:47",
                     "status": 1,
                     "collection": "WATER_BODIES"
+                },
+                {
+                    "timestamp": "2025-03-11 10:54",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
@@ -940,9 +940,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-03-10 07:11",
+                "timestamp": "2025-03-11 10:54",
                 "status": "SUCCESS",
-                "item": "4321-50"
+                "item": "4321-60"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
