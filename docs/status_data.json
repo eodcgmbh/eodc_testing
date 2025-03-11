@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-11 11:11",
+        "timestamp": "2025-03-11 11:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
             "history": [
-                {
-                    "timestamp": "2025-03-10 07:12",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-03-10 07:26",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-11 11:11",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-03-11 11:27",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
                 }
             ]
         }
