@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-12 14:46",
+        "timestamp": "2025-03-12 14:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-03-11 10:36",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2025-03-11 10:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-12 14:46",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-03-12 14:54",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -964,9 +964,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-03-12 07:53",
+                "timestamp": "2025-03-12 14:53",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E096N066T3_D082"
+                "item": "MPLIA_SA020M_E099N060T3_D111"
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
