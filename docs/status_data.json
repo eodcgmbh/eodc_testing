@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-13 20:53",
+        "timestamp": "2025-03-13 21:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "SENTINEL_5P_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-12 16:54",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-03-12 17:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-13 20:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-03-13 21:11",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
                 }
             ]
         }
@@ -1114,9 +1114,9 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-03-12 15:13",
+                "timestamp": "2025-03-13 21:11",
                 "status": "SUCCESS",
-                "item": "CLC2018_EU010M_E078N007T1"
+                "item": "CLC2018_EU010M_E078N012T1"
             },
             {
                 "collection": "SENTINEL2_L1C",
