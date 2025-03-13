@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-13 18:41",
+        "timestamp": "2025-03-13 18:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CORINE_LAND_COVER",
+            "collection": "SENTINEL3_SRAL_L2",
             "history": [
-                {
-                    "timestamp": "2025-03-12 13:53",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
-                },
                 {
                     "timestamp": "2025-03-12 14:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-13 18:41",
                     "status": 1,
                     "collection": "CORINE_LAND_COVER"
+                },
+                {
+                    "timestamp": "2025-03-13 18:52",
+                    "status": 1,
+                    "collection": "SENTINEL3_SRAL_L2"
                 }
             ]
         }
