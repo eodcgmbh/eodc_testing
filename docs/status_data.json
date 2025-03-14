@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-14 08:47",
+        "timestamp": "2025-03-14 08:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SIG0_20M",
+            "collection": "WATER_BODIES",
             "history": [
-                {
-                    "timestamp": "2025-03-13 04:48",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-03-13 04:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-14 08:47",
                     "status": 1,
                     "collection": "SENTINEL1_SIG0_20M"
+                },
+                {
+                    "timestamp": "2025-03-14 08:55",
+                    "status": 1,
+                    "collection": "WATER_BODIES"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-03-14 05:53",
+                "timestamp": "2025-03-14 08:55",
                 "status": "SUCCESS",
                 "item": "S1A_IW_SLC__1SDV_20180531T174650_20180531T174717_022152_02653F"
             },
