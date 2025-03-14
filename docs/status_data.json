@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-14 06:17",
+        "timestamp": "2025-03-14 06:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-03-12 23:39",
-                    "status": 1,
-                    "collection": "SENTINEL3_SLSTR"
-                },
                 {
                     "timestamp": "2025-03-12 23:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-14 06:17",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-03-14 06:40",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-03-13 20:13",
+                "timestamp": "2025-03-14 06:40",
                 "status": "SUCCESS",
                 "item": "dhm_at_lamb_10m_2018"
             },
