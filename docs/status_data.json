@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-14 03:52",
+        "timestamp": "2025-03-14 04:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "SENTINEL3_SLSTR",
             "history": [
-                {
-                    "timestamp": "2025-03-12 21:40",
-                    "status": 1,
-                    "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS"
-                },
                 {
                     "timestamp": "2025-03-12 21:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-14 03:52",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-03-14 04:15",
+                    "status": 1,
+                    "collection": "SENTINEL3_SLSTR"
                 }
             ]
         }
