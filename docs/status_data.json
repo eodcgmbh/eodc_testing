@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-14 22:53",
+        "timestamp": "2025-03-14 23:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1",
             "history": [
-                {
-                    "timestamp": "2025-03-13 20:13",
-                    "status": 1,
-                    "collection": "EGM2008"
-                },
                 {
                     "timestamp": "2025-03-13 20:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-14 22:53",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-03-14 23:12",
+                    "status": 1,
+                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
                 }
             ]
         }
@@ -928,9 +928,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-03-14 19:53",
+                "timestamp": "2025-03-14 23:11",
                 "status": "SUCCESS",
-                "item": "SIG0_20231231T051048_D022_EU020M_E051N015T3_S1AIWGRDH"
+                "item": "SIG0_20231231T051048_D022_EU020M_E048N012T3_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
