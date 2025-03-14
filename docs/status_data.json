@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-14 09:43",
+        "timestamp": "2025-03-14 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "SENTINEL3_SYNERGY_VG10",
             "history": [
-                {
-                    "timestamp": "2025-03-13 05:44",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-03-13 05:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-14 09:43",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-03-14 09:53",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG10"
                 }
             ]
         }
