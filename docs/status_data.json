@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-14 17:45",
+        "timestamp": "2025-03-14 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GHS_BUILT_S2",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-03-13 14:34",
-                    "status": 1,
-                    "collection": "SEASONAL_TRAJECTORIES"
-                },
                 {
                     "timestamp": "2025-03-13 14:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-14 17:45",
                     "status": 1,
                     "collection": "GHS_BUILT_S2"
+                },
+                {
+                    "timestamp": "2025-03-14 17:53",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -1102,9 +1102,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-03-14 14:53",
+                "timestamp": "2025-03-14 17:53",
                 "status": "SUCCESS",
-                "item": "X0016Y0014_20201230"
+                "item": "X0013Y0014_20201231"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
