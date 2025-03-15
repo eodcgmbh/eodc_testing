@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-15 07:11",
+        "timestamp": "2025-03-15 07:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
             "history": [
-                {
-                    "timestamp": "2025-03-14 04:15",
-                    "status": 1,
-                    "collection": "SENTINEL3_SLSTR"
-                },
                 {
                     "timestamp": "2025-03-14 04:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-15 07:11",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-03-15 07:27",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
                 }
             ]
         }
