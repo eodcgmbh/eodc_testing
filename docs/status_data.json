@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-15 03:33",
+        "timestamp": "2025-03-15 03:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-03-13 21:53",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-03-13 22:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-15 03:33",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-03-15 03:49",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
