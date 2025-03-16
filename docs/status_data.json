@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-16 08:53",
+        "timestamp": "2025-03-16 09:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_L2",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM",
             "history": [
-                {
-                    "timestamp": "2025-03-15 07:27",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-03-15 07:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-16 08:53",
                     "status": 1,
                     "collection": "SENTINEL_5P_L2"
+                },
+                {
+                    "timestamp": "2025-03-16 09:11",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
                 }
             ]
         }
@@ -1156,9 +1156,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-03-15 15:26",
+                "timestamp": "2025-03-16 09:11",
                 "status": "SUCCESS",
-                "item": "wien_601000_533800.copc.laz"
+                "item": "wien_601000_534200.copc.laz"
             }
         ]
     },
