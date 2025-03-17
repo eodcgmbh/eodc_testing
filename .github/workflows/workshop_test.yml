@@ -1,0 +1,11 @@
+name: Workshop
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Print a message
+        run: echo "Hello, Github actions workshop"
