@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-17 23:28",
+        "timestamp": "2025-03-17 23:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "ALOS_PALSAR2_AGRICULTURE",
             "history": [
-                {
-                    "timestamp": "2025-03-16 19:34",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-16 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-17 23:28",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-03-17 23:38",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_AGRICULTURE"
                 }
             ]
         }
@@ -928,9 +928,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-03-17 22:12",
+                "timestamp": "2025-03-17 23:38",
                 "status": "SUCCESS",
-                "item": "SIG0_20231231T051048_D022_EU020M_E048N015T3_S1AIWGRDH"
+                "item": "SIG0_20231231T051023_D022_EU020M_E051N015T3_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
