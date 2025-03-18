@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-18 21:37",
+        "timestamp": "2025-03-18 21:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-03-17 17:11",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E3"
-                },
                 {
                     "timestamp": "2025-03-17 17:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-18 21:37",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-03-18 21:45",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
