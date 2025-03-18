@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-18 23:46",
+        "timestamp": "2025-03-18 23:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CORINE_LAND_COVER",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-03-17 19:43",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-17 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-18 23:46",
                     "status": 1,
                     "collection": "CORINE_LAND_COVER"
+                },
+                {
+                    "timestamp": "2025-03-18 23:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -940,9 +940,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-03-18 20:44",
+                "timestamp": "2025-03-18 23:53",
                 "status": "SUCCESS",
-                "item": "4321-52"
+                "item": "4321-58"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
