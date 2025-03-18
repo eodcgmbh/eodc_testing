@@ -8,7 +8,7 @@ on:
     schedule:
         - cron: "*/10 * * * *" #triggered every 10 minutes
 
-    workflow_dispatch: #triggered manually via github actions 
+    workflow_dispatch: #triggered manually via github in your repository
  
 
 jobs:
