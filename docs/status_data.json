@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-19 16:54",
+        "timestamp": "2025-03-19 17:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-03-18 11:53",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-03-18 12:24",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-19 16:54",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-03-19 17:12",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
@@ -970,9 +970,9 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-03-19 04:48",
+                "timestamp": "2025-03-19 17:12",
                 "status": "SUCCESS",
-                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N017T1"
+                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E051N018T1"
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
