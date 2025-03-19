@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-19 09:54",
+        "timestamp": "2025-03-19 10:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-03-18 05:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-03-18 05:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-19 09:54",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-03-19 10:14",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -1126,9 +1126,9 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-03-19 09:54",
+                "timestamp": "2025-03-19 10:14",
                 "status": "SUCCESS",
-                "item": "S1A_IW_SLC__1SDV_20180531T175927_20180531T175954_022152_026540"
+                "item": "S1A_IW_SLC__1SDV_20180531T175837_20180531T175904_022152_026540"
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
