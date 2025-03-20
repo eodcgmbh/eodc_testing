@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 10:55",
+        "timestamp": "2025-03-20 11:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-03-19 06:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
-                },
                 {
                     "timestamp": "2025-03-19 06:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 10:55",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-03-20 11:11",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -994,9 +994,9 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-03-20 08:37",
+                "timestamp": "2025-03-20 11:10",
                 "status": "SUCCESS",
-                "item": "WSM_ALPS_20210731T051919_E042N006T6_S1A_IW_SLC_039017_00498A_00_ENVEO"
+                "item": "WSM_ALPS_20210731T171451_E042N018T6_S1B_IW_SLC_028041_0043C2_00_ENVEO"
             },
             {
                 "collection": "AUT_DEM",
