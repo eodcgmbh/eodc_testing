@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 02:23",
+        "timestamp": "2025-03-20 03:07",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-03-18 20:44",
-                    "status": 1,
-                    "collection": "OPENEO_CROPTYPE_2021"
-                },
                 {
                     "timestamp": "2025-03-18 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 02:23",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-03-20 03:07",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
