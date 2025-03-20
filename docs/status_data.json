@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 10:47",
+        "timestamp": "2025-03-20 10:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-03-19 06:18",
-                    "status": 1,
-                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
-                },
                 {
                     "timestamp": "2025-03-19 06:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 10:47",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-03-20 10:55",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
@@ -1126,9 +1126,9 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-03-19 11:43",
+                "timestamp": "2025-03-20 10:55",
                 "status": "SUCCESS",
-                "item": "S1A_IW_SLC__1SDV_20180531T175722_20180531T175749_022152_026540"
+                "item": "S1A_IW_SLC__1SDV_20180531T175927_20180531T175954_022152_026540"
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
