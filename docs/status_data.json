@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 09:53",
+        "timestamp": "2025-03-20 10:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-03-19 05:32",
-                    "status": 1,
-                    "collection": "VEGETATION_INDICES"
-                },
                 {
                     "timestamp": "2025-03-19 05:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 09:53",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-03-20 10:13",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -1108,9 +1108,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-03-19 16:40",
+                "timestamp": "2025-03-20 10:13",
                 "status": "SUCCESS",
-                "item": "4322-69"
+                "item": "4322-77"
             },
             {
                 "collection": "CORINE_LAND_COVER",
