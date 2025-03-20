@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 15:45",
+        "timestamp": "2025-03-20 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-03-19 10:54",
-                    "status": 1,
-                    "collection": "WORLDVIEW"
-                },
                 {
                     "timestamp": "2025-03-19 11:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 15:45",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-03-20 15:53",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
