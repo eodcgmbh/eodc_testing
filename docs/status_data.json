@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 20:13",
+        "timestamp": "2025-03-20 20:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-03-19 15:46",
-                    "status": 0,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-03-19 15:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 20:13",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-03-20 20:31",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
