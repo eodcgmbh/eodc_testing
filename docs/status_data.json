@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 17:12",
+        "timestamp": "2025-03-20 17:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-03-19 11:53",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-03-19 12:24",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 17:12",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-03-20 17:31",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
@@ -1138,9 +1138,9 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-03-20 04:37",
+                "timestamp": "2025-03-20 17:32",
                 "status": "SUCCESS",
-                "item": "5120-33"
+                "item": "5120-17"
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
