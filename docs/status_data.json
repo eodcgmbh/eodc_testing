@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 13:53",
+        "timestamp": "2025-03-20 14:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-03-19 09:14",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-19 09:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 13:53",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-03-20 14:13",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
@@ -1024,9 +1024,9 @@
             },
             {
                 "collection": "sen2like",
-                "timestamp": "2025-03-20 09:53",
+                "timestamp": "2025-03-20 14:13",
                 "status": "SUCCESS",
-                "item": "EU010M_E047N015T1_20240704T102803"
+                "item": "EU010M_E047N015T1_20240714T102802"
             },
             {
                 "collection": "BOA_SENTINEL_2",
