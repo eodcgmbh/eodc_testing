@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-20 14:13",
+        "timestamp": "2025-03-20 14:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "TERRASCOPE_S1_GAMMA0_V1",
             "history": [
-                {
-                    "timestamp": "2025-03-19 09:33",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2025-03-19 09:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-20 14:13",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-03-20 14:36",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_GAMMA0_V1"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-03-20 06:54",
+                "timestamp": "2025-03-20 14:36",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
