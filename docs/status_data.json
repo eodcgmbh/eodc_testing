@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-21 07:12",
+        "timestamp": "2025-03-21 07:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_CARD4L",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-03-20 00:59",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-20 02:23",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-21 07:12",
                     "status": 1,
                     "collection": "SENTINEL1_CARD4L"
+                },
+                {
+                    "timestamp": "2025-03-21 07:28",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
