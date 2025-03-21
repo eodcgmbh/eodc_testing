@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-21 09:53",
+        "timestamp": "2025-03-21 10:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-03-20 05:53",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-03-20 06:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-21 09:53",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-03-21 10:13",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
