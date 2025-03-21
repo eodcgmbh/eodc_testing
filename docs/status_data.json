@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-21 16:15",
+        "timestamp": "2025-03-21 16:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-03-20 11:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-03-20 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-21 16:15",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-03-21 16:40",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -928,9 +928,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-03-21 05:12",
+                "timestamp": "2025-03-21 16:40",
                 "status": "SUCCESS",
-                "item": "SIG0_20231227T165121_A146_EU020M_E051N015T3_S1AIWGRDH"
+                "item": "SIG0_20231227T165121_A146_EU020M_E048N015T3_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
