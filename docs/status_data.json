@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-21 16:40",
+        "timestamp": "2025-03-21 16:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "WATER_BODIES",
             "history": [
-                {
-                    "timestamp": "2025-03-20 11:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
-                },
                 {
                     "timestamp": "2025-03-20 12:24",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-21 16:40",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2025-03-21 16:53",
+                    "status": 1,
+                    "collection": "WATER_BODIES"
                 }
             ]
         }
@@ -982,9 +982,9 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-03-20 17:11",
+                "timestamp": "2025-03-21 16:52",
                 "status": "SUCCESS",
-                "item": "Greenness-2022-66633"
+                "item": "Greenness-2022-66635"
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
