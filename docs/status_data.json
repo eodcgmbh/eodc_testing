@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-21 07:28",
+        "timestamp": "2025-03-21 07:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-20 02:23",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_NDVI_V2"
-                },
                 {
                     "timestamp": "2025-03-20 03:07",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-21 07:28",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-03-21 07:37",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
