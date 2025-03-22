@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-22 03:40",
+        "timestamp": "2025-03-22 03:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-03-20 21:38",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-03-20 21:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-22 03:40",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-03-22 03:54",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
                 }
             ]
         }
