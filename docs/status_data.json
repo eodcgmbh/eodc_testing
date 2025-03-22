@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-22 11:25",
+        "timestamp": "2025-03-22 11:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
+            "collection": "DOP_AUT_K_OSTTIROL",
             "history": [
-                {
-                    "timestamp": "2025-03-21 08:16",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2025-03-21 08:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-22 11:25",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
+                },
+                {
+                    "timestamp": "2025-03-22 11:34",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_OSTTIROL"
                 }
             ]
         }
@@ -976,9 +976,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-03-22 04:54",
+                "timestamp": "2025-03-22 11:34",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld_2020"
+                "item": "vegetation_change_bgld_2018"
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
