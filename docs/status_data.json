@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-22 13:43",
+        "timestamp": "2025-03-22 13:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
+            "collection": "PROBAV_L3_S5_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2025-03-21 10:13",
-                    "status": 1,
-                    "collection": "PERSISTENT_SNOW_AREA"
-                },
                 {
                     "timestamp": "2025-03-21 10:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-22 13:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
+                },
+                {
+                    "timestamp": "2025-03-22 13:53",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S5_TOC_100M"
                 }
             ]
         }
@@ -952,7 +952,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-03-22 10:35",
+                "timestamp": "2025-03-22 13:53",
                 "status": "SUCCESS",
                 "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N012T6"
             },
