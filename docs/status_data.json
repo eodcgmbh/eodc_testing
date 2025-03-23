@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-23 12:55",
+        "timestamp": "2025-03-23 13:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "GHS_BUILT_S2",
             "history": [
-                {
-                    "timestamp": "2025-03-22 10:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-03-22 11:10",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-23 12:55",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-03-23 13:17",
+                    "status": 1,
+                    "collection": "GHS_BUILT_S2"
                 }
             ]
         }
@@ -1156,9 +1156,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-03-23 08:47",
+                "timestamp": "2025-03-23 13:17",
                 "status": "SUCCESS",
-                "item": "wien_603000_533800.copc.laz"
+                "item": "wien_602000_534200.copc.laz"
             }
         ]
     },
