@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-23 13:53",
+        "timestamp": "2025-03-23 14:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "WATER_BODIES",
             "history": [
-                {
-                    "timestamp": "2025-03-22 11:42",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-03-22 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-23 13:53",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-03-23 14:10",
+                    "status": 1,
+                    "collection": "WATER_BODIES"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-03-23 09:44",
+                "timestamp": "2025-03-23 14:10",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
