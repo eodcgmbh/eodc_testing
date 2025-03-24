@@ -40,8 +40,12 @@ jobs:
       - name: 🧪 Run OpenStack VM Test
         run: python scripts/test_openstack.py
 
-      - name: 📤 Upload Logfile as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: openstack-log
-          path: results/logs/test_openstack.log
+      - name: Commit Logs
+        if: always()
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git pull --rebase --autostash
+          git add results/logs/test_openstack.log
+          git commit -m "test logs"
+          git push
