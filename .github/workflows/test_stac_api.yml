@@ -2,11 +2,8 @@ name: Test STAC API
 
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - 'results/logs/**'
-      - 'docs/index.html'
+    paths:
+        - 'scripts/test_stac_api.py'   
   schedule:
     - cron: "*/10 * * * *"  
 
