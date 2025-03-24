@@ -1,6 +1,6 @@
 # eodc_testing
 
-This repository contains automated tests for various EODC services using **GitHub Actions**. The main goal is to ensure the reliability and functionality of services like the **STAC API**, **Dask Gateway**, and **openEO API**, as well as validate the performance of Jupyter notebooks.
+This repository contains automated tests for various EODC services using **GitHub Actions**. The main goal is to ensure the reliability and functionality of services like the **STAC API**, **Dask Gateway**, **OpenStack** and **openEO API**, as well as validate the performance of Jupyter notebooks.
 
 ### 🚀 Live Dashboard 
 
