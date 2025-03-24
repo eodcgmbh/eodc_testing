@@ -1,0 +1,47 @@
+name: Test OpenStack 
+
+on:
+  schedule:
+    - cron: '0 * * * *'  
+  workflow_dispatch:
+  push:
+    branches:
+        - main
+    paths:
+        - 'scripts/test_openstack.py'
+        - '.github/workflows/test_openstack.yml'      
+
+jobs:
+  openstack-test:
+    runs-on: ubuntu-latest
+
+    env:
+      OPENSTACK_IMAGE_ID: ${{ secrets.IMAGE_ID }}
+      OPENSTACK_FLAVOR_ID: ${{ secrets.FLAVOR_ID }}
+      OPENSTACK_NETWORK_ID: ${{ secrets.NETWORK_ID }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: pip install openstacksdk
+
+      - name: Create clouds.yaml from secret
+        run: |
+          mkdir -p ~/.config/openstack
+          echo "${{ secrets.OPENSTACK_CLOUDS_YAML }}" > ~/.config/openstack/clouds.yaml
+
+      - name: 🧪 Run OpenStack VM Test
+        run: python scripts/test_openstack.py
+
+      - name: 📤 Upload Logfile as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: openstack-log
+          path: results/logs/test_openstack.log
