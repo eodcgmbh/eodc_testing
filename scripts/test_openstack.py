@@ -36,16 +36,11 @@ echo $((17 * 3)) > /tmp/result.txt
         user_data=cloud_init_encoded
     )
 
-    print("⏳ Warte auf VM...")
     server = conn.compute.wait_for_server(server, status="ACTIVE", failures=["ERROR"], interval=5, wait=300)
 
-    print(f"✅ VM aktiv: {server.name}")
     log_result("SUCCESS", f"{server.name}")
 
-    print("🧹 Lösche VM wieder...")
     conn.compute.delete_server(server.id)
-    print("✅ VM gelöscht!")
 
 except Exception as e:
-    print("❌ Fehler:", str(e))
     log_result("FAILURE", str(e))
