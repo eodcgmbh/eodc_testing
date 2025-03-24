@@ -5,7 +5,7 @@ on:
     paths:
         - 'scripts/test_stac_api.py'   
   schedule:
-    - cron: "*/10 * * * *"  
+    - cron: "*/30 * * * *"  
 
 jobs:
   test-stac-api:
