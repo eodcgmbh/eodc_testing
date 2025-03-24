@@ -6,7 +6,7 @@ import os
 LOGFILE = "results/logs/test_openstack.log"
 
 def log_result(status, message=""):
-    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(LOGFILE, "a") as log:
         log.write(f"{timestamp}, {status}, {message}\n")
 
