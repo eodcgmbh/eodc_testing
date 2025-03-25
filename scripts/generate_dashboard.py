@@ -100,7 +100,7 @@ def parse_log_entry(file_path, service_name):
                         timestamp, status = parts
                         history.append({"timestamp": timestamp, "status": 1 if status == "SUCCESS" else 0})
                 last_line = lines[-1].strip()
-                parts = last_line.split(" , ")
+                parts = last_line.split(", ")
                 current_timestamp, current_status = parts[0], parts[1]
                 return current_timestamp, current_status, {"history": history}
 
