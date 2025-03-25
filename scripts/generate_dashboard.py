@@ -9,7 +9,8 @@ services = {
     "Dask Gateway": "test_DaskGateway.log",
     "openEO API": "test_openEO.log",
     "STAC API": "latest_test.log",
-    "Notebooks": "test_notebooks.log"
+    "Notebooks": "test_notebooks.log",
+    "Openstack": "test_openstack.log"
 }
 
 status_data = {}
@@ -90,6 +91,18 @@ def parse_log_entry(file_path, service_name):
                             "message": parts[-2]
                         })
                 return last_timestamp, "Notebook Results", notebook_results
+            
+            elif service_name == "Openstack":
+                history = []
+                for line in lines[-100:]:
+                    parts = line.strip().split(" , ")
+                    if len(parts) == 2:
+                        timestamp, status = parts
+                        history.append({"timestamp": timestamp, "status": 1 if status == "SUCCESS" else 0})
+                last_line = lines[-1].strip()
+                parts = last_line.split(" , ")
+                current_timestamp, current_status = parts[0], parts[1]
+                return current_timestamp, current_status, {"history": history}
 
     except Exception as e:
         return "Never Tested", "ERROR", None
