@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-25 10:13",
+        "timestamp": "2025-03-25 10:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TD",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-03-24 05:16",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-24 05:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-25 10:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TD"
+                },
+                {
+                    "timestamp": "2025-03-25 10:38",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -1362,7 +1362,59 @@
         "timestamp": "2025-03-25 10:14:34",
         "status": "SUCCESS",
         "extra_info": {
-            "history": []
+            "info": "vm-test-20250325-101427",
+            "history": [
+                {
+                    "timestamp": "2025-03-25 01:05:16",
+                    "status": 1,
+                    "info": "vm-test-20250325-010509"
+                },
+                {
+                    "timestamp": "2025-03-25 02:55:55",
+                    "status": 1,
+                    "info": "vm-test-20250325-025548"
+                },
+                {
+                    "timestamp": "2025-03-25 03:28:54",
+                    "status": 1,
+                    "info": "vm-test-20250325-032847"
+                },
+                {
+                    "timestamp": "2025-03-25 04:16:24",
+                    "status": 1,
+                    "info": "vm-test-20250325-041617"
+                },
+                {
+                    "timestamp": "2025-03-25 05:14:42",
+                    "status": 1,
+                    "info": "vm-test-20250325-051435"
+                },
+                {
+                    "timestamp": "2025-03-25 06:19:41",
+                    "status": 1,
+                    "info": "vm-test-20250325-061930"
+                },
+                {
+                    "timestamp": "2025-03-25 07:14:48",
+                    "status": 1,
+                    "info": "vm-test-20250325-071440"
+                },
+                {
+                    "timestamp": "2025-03-25 08:18:20",
+                    "status": 1,
+                    "info": "vm-test-20250325-081813"
+                },
+                {
+                    "timestamp": "2025-03-25 09:14:30",
+                    "status": 1,
+                    "info": "vm-test-20250325-091423"
+                },
+                {
+                    "timestamp": "2025-03-25 10:14:34",
+                    "status": 1,
+                    "info": "vm-test-20250325-101427"
+                }
+            ]
         }
     }
 }
