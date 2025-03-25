@@ -94,7 +94,7 @@ def parse_log_entry(file_path, service_name):
             
             elif service_name == "Openstack":
                 history = []
-                for line in lines[-100:]:
+                for line in lines[-10:]:
                     parts = line.strip().split(", ")
                     if len(parts) == 3:
                         timestamp, status, info = parts
