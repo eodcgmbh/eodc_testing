@@ -94,15 +94,23 @@ def parse_log_entry(file_path, service_name):
             
             elif service_name == "Openstack":
                 history = []
-                for line in lines[-5:]:
+                for line in lines[-100:]:
                     parts = line.strip().split(", ")
-                    if len(parts) == 2:
-                        timestamp, status = parts
-                        history.append({"timestamp": timestamp, "status": 1 if status == "SUCCESS" else 0})
+                    if len(parts) == 3:
+                        timestamp, status, info = parts
+                        history.append({
+                            "timestamp": timestamp,
+                            "status": 1 if status.lower() == "success" else 0,
+                            "info": info.replace("info: ", "")
+                        })
+                
                 last_line = lines[-1].strip()
                 parts = last_line.split(", ")
-                current_timestamp, current_status = parts[0], parts[1]
-                return current_timestamp, current_status, {"history": history}
+
+                return parts[0], parts[1].upper(), {
+                    "info": parts[2].replace("info: ", ""),
+                    "history": history
+                }
 
     except Exception as e:
         return "Never Tested", "ERROR", None
