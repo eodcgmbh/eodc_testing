@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-25 15:34",
+        "timestamp": "2025-03-25 15:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-03-24 10:37",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
-                },
                 {
                     "timestamp": "2025-03-24 10:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-25 15:34",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-03-25 15:46",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
