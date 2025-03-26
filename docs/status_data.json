@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-26 03:43",
+        "timestamp": "2025-03-26 03:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WATER_BODIES",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-03-24 20:52",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_10M"
-                },
                 {
                     "timestamp": "2025-03-24 21:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-26 03:43",
                     "status": 1,
                     "collection": "WATER_BODIES"
+                },
+                {
+                    "timestamp": "2025-03-26 03:54",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
