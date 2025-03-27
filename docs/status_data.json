@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-27 05:17",
+        "timestamp": "2025-03-27 05:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-03-25 22:44",
-                    "status": 1,
-                    "collection": "SENTINEL1_SLC"
-                },
                 {
                     "timestamp": "2025-03-25 22:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-27 05:17",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TY"
+                },
+                {
+                    "timestamp": "2025-03-27 05:33",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
