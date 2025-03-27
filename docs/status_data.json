@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-27 19:43",
+        "timestamp": "2025-03-27 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GHS_BUILT_S2",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-03-26 15:46",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-03-26 15:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-27 19:43",
                     "status": 1,
                     "collection": "GHS_BUILT_S2"
+                },
+                {
+                    "timestamp": "2025-03-27 19:53",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
