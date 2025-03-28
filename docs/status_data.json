@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-28 23:47",
+        "timestamp": "2025-03-28 23:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-03-27 19:53",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-27 20:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-28 23:47",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-03-28 23:54",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
