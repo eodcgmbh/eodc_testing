@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-28 05:34",
+        "timestamp": "2025-03-28 05:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-03-26 22:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-26 23:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-28 05:34",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2025-03-28 05:46",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
