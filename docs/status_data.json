@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-28 19:25",
+        "timestamp": "2025-03-28 19:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "CGLS_SSM_1KM",
             "history": [
-                {
-                    "timestamp": "2025-03-27 14:55",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-03-27 15:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-28 19:25",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-03-28 19:35",
+                    "status": 1,
+                    "collection": "CGLS_SSM_1KM"
                 }
             ]
         }
