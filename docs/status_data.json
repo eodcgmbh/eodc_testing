@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-29 17:54",
+        "timestamp": "2025-03-29 18:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "VEGETATION_INDICES",
             "history": [
-                {
-                    "timestamp": "2025-03-28 15:13",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-03-28 15:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-29 17:54",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-03-29 18:15",
+                    "status": 1,
+                    "collection": "VEGETATION_INDICES"
                 }
             ]
         }
