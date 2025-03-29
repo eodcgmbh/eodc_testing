@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-29 05:31",
+        "timestamp": "2025-03-29 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-03-27 22:44",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-27 22:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-29 05:31",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-03-29 05:43",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
