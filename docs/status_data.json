@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-29 09:54",
+        "timestamp": "2025-03-29 10:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-03-28 06:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
-                },
                 {
                     "timestamp": "2025-03-28 06:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-29 09:54",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-03-29 10:12",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
