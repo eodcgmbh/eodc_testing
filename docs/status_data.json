@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-29 11:53",
+        "timestamp": "2025-03-29 12:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-03-28 08:51",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2025-03-28 09:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-29 11:53",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-03-29 12:21",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
