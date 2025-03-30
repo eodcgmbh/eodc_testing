@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-30 19:34",
+        "timestamp": "2025-03-30 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG10",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-03-29 17:29",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
-                },
                 {
                     "timestamp": "2025-03-29 17:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-30 19:34",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG10"
+                },
+                {
+                    "timestamp": "2025-03-30 19:43",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
