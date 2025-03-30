@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-30 04:14",
+        "timestamp": "2025-03-30 04:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "OPENEO_CROPTYPE_2021",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2025-03-28 23:29",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2025-03-28 23:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-03-30 04:14",
                     "status": 1,
                     "collection": "OPENEO_CROPTYPE_2021"
+                },
+                {
+                    "timestamp": "2025-03-30 04:36",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
