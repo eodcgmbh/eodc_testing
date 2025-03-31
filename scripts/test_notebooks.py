@@ -24,9 +24,9 @@ def log_message(notebook_path, status, details=""):
     """Log messages in a consistent format."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     notebook_relative_path = os.path.relpath(notebook_path, NOTEBOOK_DIR)
-    log_entry = f"{timestamp} - {status} - {details} - {notebook_relative_path}\n"
+    log_entry = f"{timestamp} - {status} - {details} - {notebook_relative_path}"
     with open(LOG_FILE, "a") as log:
-        log.write(log_entry)
+        log.write(log_entry + "\n")
 
 def setup_virtual_environment():
     """Create and activate a virtual environment, then install dependencies."""
