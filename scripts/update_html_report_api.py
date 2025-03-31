@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-LOG_FILE = "results/logs/latest_test.log"
+LOG_FILE = "results/logs/test_stac_api.log"
 HTML_FILE = "docs/index.html"
 
 def parse_logs(log_file):

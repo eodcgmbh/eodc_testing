@@ -57,7 +57,7 @@ if __name__ == "__main__":
     log_dir = "results/logs/"
     os.makedirs(log_dir, exist_ok=True)
 
-    with open(os.path.join(log_dir, "latest_test.log"), "a") as log_file:
+    with open(os.path.join(log_dir, "test_stac_api.log"), "a") as log_file:
         log_file.write(log_entry + "\n")
 
     exit(0 if success else 1)

@@ -8,7 +8,7 @@ json_file = os.path.join(docs_dir, "status_data.json")
 services = {
     "Dask Gateway": "test_DaskGateway.log",
     "openEO API": "test_openEO.log",
-    "STAC API": "latest_test.log",
+    "STAC API": "test_stac_api.log",
     "Notebooks": "test_notebooks.log",
     "Openstack": "test_openstack.log"
 }
