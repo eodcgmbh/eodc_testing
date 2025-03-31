@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-31 14:47",
+        "timestamp": "2025-03-31 14:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-03-30 10:33",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-03-30 10:44",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-03-31 14:47",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-03-31 14:55",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
