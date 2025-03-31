@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-31 23:47",
+        "timestamp": "2025-03-31 23:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-03-30 19:34",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG10"
-                },
                 {
                     "timestamp": "2025-03-30 19:43",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-03-31 23:47",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-03-31 23:54",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
