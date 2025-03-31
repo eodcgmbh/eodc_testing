@@ -3,6 +3,7 @@ import nbformat
 from datetime import datetime
 from nbformat.reader import NotJSONError
 import subprocess
+from dask.utils import quote
 
 NOTEBOOK_DIR = "notebooks"
 LOG_DIR = "results/logs"
