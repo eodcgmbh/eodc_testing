@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-31 19:43",
+        "timestamp": "2025-03-31 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "VEGETATION_INDICES",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-03-30 15:29",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2025-03-30 15:39",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-03-31 19:43",
                     "status": 1,
                     "collection": "VEGETATION_INDICES"
+                },
+                {
+                    "timestamp": "2025-03-31 19:53",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
