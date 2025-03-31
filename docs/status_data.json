@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-31 21:12",
+        "timestamp": "2025-03-31 21:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-03-30 16:47",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-30 16:55",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-03-31 21:12",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-03-31 21:29",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
