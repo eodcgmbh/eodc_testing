@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-03-31 14:36",
+        "timestamp": "2025-03-31 14:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-03-30 10:12",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-03-30 10:33",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-03-31 14:36",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-03-31 14:47",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
