@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-01 22:12",
+        "timestamp": "2025-04-01 22:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-03-31 17:31",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-03-31 17:43",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-01 22:12",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-04-01 22:33",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
