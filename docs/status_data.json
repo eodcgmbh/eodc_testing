@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-01 23:12",
+        "timestamp": "2025-04-01 23:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_AGRICULTURE",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-03-31 18:42",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-03-31 18:54",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-01 23:12",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_AGRICULTURE"
+                },
+                {
+                    "timestamp": "2025-04-01 23:30",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
