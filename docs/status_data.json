@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-01 21:15:45",
+        "timestamp": "2025-04-01 19:14:12",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-27 10:17:30",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-27 11:14:50",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-01 19:14:12",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-01 21:15:45",
                     "status": 1
                 }
             ]
@@ -1098,9 +1098,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-04-01 07:18",
+                "timestamp": "2025-04-01 21:16",
                 "status": "SUCCESS",
-                "item": "X0016Y0013_20201226"
+                "item": "X0014Y0015_20201226"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-01 21:13:03",
+        "timestamp": "2025-04-01 20:15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250401-211255",
+            "info": "vm-test-20250401-201546",
             "history": [
+                {
+                    "timestamp": "2025-04-01 11:12:22",
+                    "status": 1,
+                    "info": "vm-test-20250401-111215"
+                },
                 {
                     "timestamp": "2025-04-01 12:28:22",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-01 20:15:53",
                     "status": 1,
                     "info": "vm-test-20250401-201546"
-                },
-                {
-                    "timestamp": "2025-04-01 21:13:03",
-                    "status": 1,
-                    "info": "vm-test-20250401-211255"
                 }
             ]
         }
