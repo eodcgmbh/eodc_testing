@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-01 14:48",
+        "timestamp": "2025-04-01 14:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SWI_V1_EUROPE",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-03-31 09:33",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-31 09:44",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-01 14:48",
                     "status": 1,
                     "collection": "CGLS_SWI_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-04-01 14:56",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
