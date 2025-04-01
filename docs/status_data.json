@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-01 18:42",
+        "timestamp": "2025-04-01 18:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-03-31 13:02",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-31 13:34",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-01 18:42",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-04-01 18:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
