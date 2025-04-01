@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-01 13:48",
+        "timestamp": "2025-04-01 13:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-03-31 08:18",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-03-31 08:41",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-01 13:48",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-04-01 13:56",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
