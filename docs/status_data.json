@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-01 05:16:57",
+        "timestamp": "2025-04-01 04:19:51",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-27 03:31:44",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-27 04:18:49",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-01 04:19:51",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-01 05:16:57",
                     "status": 1
                 }
             ]
@@ -1044,9 +1044,9 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-04-01 03:01",
+                "timestamp": "2025-04-01 05:18",
                 "status": "SUCCESS",
-                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N013T1"
+                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N015T1"
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-01 05:14:16",
+        "timestamp": "2025-04-01 04:17:03",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250401-051409",
+            "info": "vm-test-20250401-041655",
             "history": [
+                {
+                    "timestamp": "2025-03-31 12:27:37",
+                    "status": 1,
+                    "info": "vm-test-20250331-122730"
+                },
                 {
                     "timestamp": "2025-03-31 13:24:10",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-01 04:17:03",
                     "status": 1,
                     "info": "vm-test-20250401-041655"
-                },
-                {
-                    "timestamp": "2025-04-01 05:14:16",
-                    "status": 1,
-                    "info": "vm-test-20250401-051409"
                 }
             ]
         }
