@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-02 22:15:25",
+        "timestamp": "2025-04-02 17:15:18",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-27 17:15:09",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-27 18:21:27",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-02 17:15:18",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-02 22:15:25",
                     "status": 1
                 }
             ]
@@ -966,7 +966,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-04-01 23:38",
+                "timestamp": "2025-04-02 22:16",
                 "status": "SUCCESS",
                 "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N016T1"
             },
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-02 22:12:57",
+        "timestamp": "2025-04-02 20:15:01",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250402-221249",
+            "info": "vm-test-20250402-201454",
             "history": [
+                {
+                    "timestamp": "2025-04-02 09:14:35",
+                    "status": 1,
+                    "info": "vm-test-20250402-091427"
+                },
                 {
                     "timestamp": "2025-04-02 10:14:42",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-02 20:15:01",
                     "status": 1,
                     "info": "vm-test-20250402-201454"
-                },
-                {
-                    "timestamp": "2025-04-02 22:12:57",
-                    "status": 1,
-                    "info": "vm-test-20250402-221249"
                 }
             ]
         }
