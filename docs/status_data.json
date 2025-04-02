@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-01 23:56",
+        "timestamp": "2025-04-02 01:08",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-03-31 19:35",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E3"
-                },
                 {
                     "timestamp": "2025-03-31 19:43",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-01 23:56",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-04-02 01:08",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-02 01:05:54",
+        "timestamp": "2025-04-01 23:13:20",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250402-010547",
+            "info": "vm-test-20250401-231312",
             "history": [
+                {
+                    "timestamp": "2025-04-01 13:25:05",
+                    "status": 1,
+                    "info": "vm-test-20250401-132457"
+                },
                 {
                     "timestamp": "2025-04-01 14:14:07",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-01 23:13:20",
                     "status": 1,
                     "info": "vm-test-20250401-231312"
-                },
-                {
-                    "timestamp": "2025-04-02 01:05:54",
-                    "status": 1,
-                    "info": "vm-test-20250402-010547"
                 }
             ]
         }
