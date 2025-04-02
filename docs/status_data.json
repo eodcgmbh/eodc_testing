@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-02 10:55",
+        "timestamp": "2025-04-02 11:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-04-01 05:44",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-04-01 05:53",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-02 10:55",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-04-02 11:11",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1355,16 +1355,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-02 10:14:42",
+        "timestamp": "2025-04-02 11:11:50",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250402-101434",
+            "info": "vm-test-20250402-111138",
             "history": [
-                {
-                    "timestamp": "2025-04-01 23:13:20",
-                    "status": 1,
-                    "info": "vm-test-20250401-231312"
-                },
                 {
                     "timestamp": "2025-04-02 02:57:52",
                     "status": 1,
@@ -1409,6 +1404,11 @@
                     "timestamp": "2025-04-02 10:14:42",
                     "status": 1,
                     "info": "vm-test-20250402-101434"
+                },
+                {
+                    "timestamp": "2025-04-02 11:11:50",
+                    "status": 1,
+                    "info": "vm-test-20250402-111138"
                 }
             ]
         }
