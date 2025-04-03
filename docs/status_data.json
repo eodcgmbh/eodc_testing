@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-03 16:55",
+        "timestamp": "2025-04-03 17:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SLC",
+            "collection": "CGLS_SSM_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-04-02 11:44",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-04-02 11:53",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-03 16:55",
                     "status": 1,
                     "collection": "SENTINEL1_SLC"
+                },
+                {
+                    "timestamp": "2025-04-03 17:12",
+                    "status": 1,
+                    "collection": "CGLS_SSM_V1_EUROPE"
                 }
             ]
         }
@@ -1355,16 +1355,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-03 16:16:37",
+        "timestamp": "2025-04-03 17:12:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250403-161629",
+            "info": "vm-test-20250403-171230",
             "history": [
-                {
-                    "timestamp": "2025-04-03 03:31:29",
-                    "status": 1,
-                    "info": "vm-test-20250403-033122"
-                },
                 {
                     "timestamp": "2025-04-03 04:17:24",
                     "status": 1,
@@ -1409,6 +1404,11 @@
                     "timestamp": "2025-04-03 16:16:37",
                     "status": 1,
                     "info": "vm-test-20250403-161629"
+                },
+                {
+                    "timestamp": "2025-04-03 17:12:37",
+                    "status": 1,
+                    "info": "vm-test-20250403-171230"
                 }
             ]
         }
