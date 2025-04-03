@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-03 12:25",
+        "timestamp": "2025-04-03 13:01",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-04-02 07:53",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-04-02 08:17",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-03 12:25",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2025-04-03 13:01",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
