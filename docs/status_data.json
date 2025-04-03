@@ -960,9 +960,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-04-01 16:21",
+                "timestamp": "2025-04-03 16:21",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E096N066T3_D155"
+                "item": "MPLIA_SA020M_E096N066T3_D082"
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
@@ -1355,16 +1355,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-03 13:23:45",
+        "timestamp": "2025-04-03 16:16:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250403-132337",
+            "info": "vm-test-20250403-161629",
             "history": [
-                {
-                    "timestamp": "2025-04-03 02:56:19",
-                    "status": 1,
-                    "info": "vm-test-20250403-025606"
-                },
                 {
                     "timestamp": "2025-04-03 03:31:29",
                     "status": 1,
@@ -1409,6 +1404,11 @@
                     "timestamp": "2025-04-03 13:23:45",
                     "status": 1,
                     "info": "vm-test-20250403-132337"
+                },
+                {
+                    "timestamp": "2025-04-03 16:16:37",
+                    "status": 1,
+                    "info": "vm-test-20250403-161629"
                 }
             ]
         }
