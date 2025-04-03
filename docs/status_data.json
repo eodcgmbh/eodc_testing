@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-03 20:53",
+        "timestamp": "2025-04-03 21:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FCOVER_V2",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-04-02 16:43",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-04-02 16:56",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-03 20:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FCOVER_V2"
+                },
+                {
+                    "timestamp": "2025-04-03 21:12",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
