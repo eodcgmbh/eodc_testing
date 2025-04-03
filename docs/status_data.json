@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-03 07:29",
+        "timestamp": "2025-04-03 07:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2021_V2",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-01 23:48",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-04-01 23:56",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-03 07:29",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2021_V2"
+                },
+                {
+                    "timestamp": "2025-04-03 07:39",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
