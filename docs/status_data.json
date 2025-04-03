@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-03 22:12",
+        "timestamp": "2025-04-03 22:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "GLOBAL_LAND_COVER",
             "history": [
-                {
-                    "timestamp": "2025-04-02 18:18",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-04-02 18:42",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-03 22:12",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-04-03 22:33",
+                    "status": 1,
+                    "collection": "GLOBAL_LAND_COVER"
                 }
             ]
         }
