@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-04 17:15:07",
+        "timestamp": "2025-04-04 13:26:08",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-28 09:17:39",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-28 10:17:02",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-04 13:26:08",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-04 17:15:07",
                     "status": 1
                 }
             ]
@@ -936,9 +936,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-04-03 14:42",
+                "timestamp": "2025-04-04 17:15",
                 "status": "SUCCESS",
-                "item": "4321-49"
+                "item": "4321-52"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-04 17:12:29",
+        "timestamp": "2025-04-04 16:16:38",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250404-171221",
+            "info": "vm-test-20250404-161630",
             "history": [
+                {
+                    "timestamp": "2025-04-04 05:14:10",
+                    "status": 1,
+                    "info": "vm-test-20250404-051402"
+                },
                 {
                     "timestamp": "2025-04-04 06:19:32",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-04 16:16:38",
                     "status": 1,
                     "info": "vm-test-20250404-161630"
-                },
-                {
-                    "timestamp": "2025-04-04 17:12:29",
-                    "status": 1,
-                    "info": "vm-test-20250404-171221"
                 }
             ]
         }
