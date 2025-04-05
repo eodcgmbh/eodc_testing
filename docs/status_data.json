@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-05 08:54",
+        "timestamp": "2025-04-05 09:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-04-04 04:56",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-04-04 05:33",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-05 08:54",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-04-05 09:12",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
