@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-05 15:38",
+        "timestamp": "2025-04-05 15:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-04-04 11:54",
-                    "status": 1,
-                    "collection": "PLEIADES"
-                },
                 {
                     "timestamp": "2025-04-04 12:24",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-05 15:38",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-04-05 15:46",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
