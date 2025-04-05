@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-05 05:17:07",
+        "timestamp": "2025-04-05 03:29:28",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-28 12:27:20",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-28 13:25:30",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-05 03:29:28",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-05 05:17:07",
                     "status": 1
                 }
             ]
@@ -1080,7 +1080,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-03-31 14:43",
+                "timestamp": "2025-04-05 05:17",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-05 05:14:19",
+        "timestamp": "2025-04-05 04:16:20",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250405-051411",
+            "info": "vm-test-20250405-041611",
             "history": [
+                {
+                    "timestamp": "2025-04-04 13:23:04",
+                    "status": 1,
+                    "info": "vm-test-20250404-132257"
+                },
                 {
                     "timestamp": "2025-04-04 15:14:09",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-05 04:16:20",
                     "status": 1,
                     "info": "vm-test-20250405-041611"
-                },
-                {
-                    "timestamp": "2025-04-05 05:14:19",
-                    "status": 1,
-                    "info": "vm-test-20250405-051411"
                 }
             ]
         }
