@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-05 15:15:02",
+        "timestamp": "2025-04-05 13:22:10",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-28 16:19:19",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-28 17:15:32",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-05 13:22:10",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-05 15:15:02",
                     "status": 1
                 }
             ]
@@ -954,7 +954,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-04-04 18:46",
+                "timestamp": "2025-04-05 15:16",
                 "status": "SUCCESS",
                 "item": "ERS2_IMS_NRB__1SVV_20001117T101134_20001117T101203_029163_000000_FCAE_33VVK"
             },
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-05 15:12:10",
+        "timestamp": "2025-04-05 13:19:00",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250405-151202",
+            "info": "vm-test-20250405-131852",
             "history": [
+                {
+                    "timestamp": "2025-04-05 01:04:00",
+                    "status": 1,
+                    "info": "vm-test-20250405-010352"
+                },
                 {
                     "timestamp": "2025-04-05 02:54:00",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-05 13:19:00",
                     "status": 1,
                     "info": "vm-test-20250405-131852"
-                },
-                {
-                    "timestamp": "2025-04-05 15:12:10",
-                    "status": 1,
-                    "info": "vm-test-20250405-151202"
                 }
             ]
         }
