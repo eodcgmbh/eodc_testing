@@ -1002,9 +1002,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-04-04 15:41",
+                "timestamp": "2025-04-05 23:17",
                 "status": "SUCCESS",
-                "item": "5622-53"
+                "item": "5622-37"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
@@ -1355,11 +1355,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-05 23:13:32",
+        "timestamp": "2025-04-05 22:12:03",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250405-231323",
+            "info": "vm-test-20250405-221156",
             "history": [
+                {
+                    "timestamp": "2025-04-05 10:12:45",
+                    "status": 1,
+                    "info": "vm-test-20250405-101238"
+                },
                 {
                     "timestamp": "2025-04-05 11:10:45",
                     "status": 1,
@@ -1404,11 +1409,6 @@
                     "timestamp": "2025-04-05 22:12:03",
                     "status": 1,
                     "info": "vm-test-20250405-221156"
-                },
-                {
-                    "timestamp": "2025-04-05 23:13:32",
-                    "status": 1,
-                    "info": "vm-test-20250405-231323"
                 }
             ]
         }
