@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-05 14:43",
+        "timestamp": "2025-04-05 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
             "history": [
-                {
-                    "timestamp": "2025-04-04 11:12",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-04-04 11:27",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-05 14:43",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-04-05 14:53",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
                 }
             ]
         }
