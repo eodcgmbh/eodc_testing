@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-05 18:46",
+        "timestamp": "2025-04-05 18:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-04-04 16:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2025-04-04 16:39",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-05 18:46",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-04-05 18:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
