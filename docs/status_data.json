@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-06 06:42",
+        "timestamp": "2025-04-06 06:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2025-04-05 04:34",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-04-05 04:46",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-06 06:42",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-04-06 06:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
