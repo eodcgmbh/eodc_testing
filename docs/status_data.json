@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-06 14:43",
+        "timestamp": "2025-04-06 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-04-05 11:53",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S10_TOC_333M"
-                },
                 {
                     "timestamp": "2025-04-05 12:22",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-06 14:43",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-04-06 14:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
