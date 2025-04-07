@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-07 10:49",
+        "timestamp": "2025-04-07 10:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-04-06 07:35",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-04-06 07:43",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-07 10:49",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-04-07 10:57",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
