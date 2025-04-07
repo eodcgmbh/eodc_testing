@@ -1159,7 +1159,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-03-31 13:01:00",
+        "timestamp": "2025-04-07 07:03:41",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1234,6 +1234,11 @@
             },
             {
                 "notebook": "demos/GFM/gfm_maximum_flood_extent_simple_plot.ipynb",
+                "status": "FAILURE",
+                "message": "Import Error: cannot import name 'quote' from 'dask.base' (/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/dask/base.py)"
+            },
+            {
+                "notebook": "demos/GFM/gfm_maximum_flood_extent_local.ipynb",
                 "status": "FAILURE",
                 "message": "Import Error: cannot import name 'quote' from 'dask.base' (/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/dask/base.py)"
             },
