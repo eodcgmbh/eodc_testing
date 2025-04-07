@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-07 21:41",
+        "timestamp": "2025-04-07 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-04-06 17:10",
-                    "status": 1,
-                    "collection": "GLOBAL_LAND_COVER"
-                },
                 {
                     "timestamp": "2025-04-06 17:29",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-07 21:41",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-04-07 21:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
