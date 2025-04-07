@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-07 14:55",
+        "timestamp": "2025-04-07 15:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2025-04-06 10:53",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-04-06 11:09",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-07 14:55",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-04-07 15:14",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
@@ -1360,16 +1360,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-07 14:14:05",
+        "timestamp": "2025-04-07 15:14:32",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250407-141358",
+            "info": "vm-test-20250407-151425",
             "history": [
-                {
-                    "timestamp": "2025-04-07 05:14:53",
-                    "status": 1,
-                    "info": "vm-test-20250407-051446"
-                },
                 {
                     "timestamp": "2025-04-07 06:20:25",
                     "status": 1,
@@ -1414,6 +1409,11 @@
                     "timestamp": "2025-04-07 14:14:05",
                     "status": 1,
                     "info": "vm-test-20250407-141358"
+                },
+                {
+                    "timestamp": "2025-04-07 15:14:32",
+                    "status": 1,
+                    "info": "vm-test-20250407-151425"
                 }
             ]
         }
