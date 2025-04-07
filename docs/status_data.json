@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-07 06:44",
+        "timestamp": "2025-04-07 06:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2025-04-06 03:46",
-                    "status": 1,
-                    "collection": "VEGETATION_INDICES"
-                },
                 {
                     "timestamp": "2025-04-06 03:55",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-07 06:44",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-04-07 06:55",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
