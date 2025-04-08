@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-08 05:17:15",
+        "timestamp": "2025-04-08 03:32:52",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-29 16:17:33",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-29 17:14:10",
                     "status": 1
@@ -395,20 +399,21 @@
                 {
                     "timestamp": "2025-04-08 03:32:52",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-08 05:17:15",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 05:13",
+        "timestamp": "2025-04-08 04:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
+                {
+                    "timestamp": "2025-04-06 20:43",
+                    "status": 1,
+                    "collection": "tree_cover_density"
+                },
                 {
                     "timestamp": "2025-04-06 20:53",
                     "status": 1,
@@ -903,11 +908,6 @@
                     "timestamp": "2025-04-08 04:51",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
-                },
-                {
-                    "timestamp": "2025-04-08 05:13",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -1110,9 +1110,9 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-04-06 09:16",
+                "timestamp": "2025-04-08 05:17",
                 "status": "SUCCESS",
-                "item": "CLC2018_EU010M_E078N011T1"
+                "item": "CLC2018_EU010M_E078N010T1"
             },
             {
                 "collection": "SENTINEL2_L1C",
@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-08 05:14:21",
+        "timestamp": "2025-04-08 04:16:36",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250408-051414",
+            "info": "vm-test-20250408-041628",
             "history": [
+                {
+                    "timestamp": "2025-04-07 15:14:32",
+                    "status": 1,
+                    "info": "vm-test-20250407-151425"
+                },
                 {
                     "timestamp": "2025-04-07 16:15:42",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-08 04:16:36",
                     "status": 1,
                     "info": "vm-test-20250408-041628"
-                },
-                {
-                    "timestamp": "2025-04-08 05:14:21",
-                    "status": 1,
-                    "info": "vm-test-20250408-051414"
                 }
             ]
         }
