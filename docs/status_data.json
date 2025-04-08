@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-08 14:14:08",
+        "timestamp": "2025-04-08 13:24:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250408-141400",
+            "info": "vm-test-20250408-132430",
             "history": [
+                {
+                    "timestamp": "2025-04-07 21:13:09",
+                    "status": 1,
+                    "info": "vm-test-20250407-211302"
+                },
                 {
                     "timestamp": "2025-04-08 01:05:21",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-08 13:24:37",
                     "status": 1,
                     "info": "vm-test-20250408-132430"
-                },
-                {
-                    "timestamp": "2025-04-08 14:14:08",
-                    "status": 1,
-                    "info": "vm-test-20250408-141400"
                 }
             ]
         }
