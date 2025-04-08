@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-08 04:19:15",
+        "timestamp": "2025-04-08 03:32:52",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-29 16:17:33",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-29 17:14:10",
                     "status": 1
@@ -395,20 +399,21 @@
                 {
                     "timestamp": "2025-04-08 03:32:52",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-08 04:19:15",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 04:17",
+        "timestamp": "2025-04-08 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "MODIS",
             "history": [
+                {
+                    "timestamp": "2025-04-06 20:13",
+                    "status": 1,
+                    "collection": "MODIS"
+                },
                 {
                     "timestamp": "2025-04-06 20:30",
                     "status": 1,
@@ -903,11 +908,6 @@
                     "timestamp": "2025-04-08 03:56",
                     "status": 1,
                     "collection": "MODIS"
-                },
-                {
-                    "timestamp": "2025-04-08 04:17",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -1074,7 +1074,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-04-06 08:21",
+                "timestamp": "2025-04-08 04:21",
                 "status": "SUCCESS",
                 "item": "Eisenstadt"
             },
