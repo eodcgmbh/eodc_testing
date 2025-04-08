@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-08 23:16:15",
+        "timestamp": "2025-04-08 22:16:21",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-30 01:08:30",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-30 03:05:34",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-08 22:16:21",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-08 23:16:15",
                     "status": 1
                 }
             ]
@@ -978,7 +978,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-04-08 11:37",
+                "timestamp": "2025-04-08 23:16",
                 "status": "SUCCESS",
                 "item": "Greenness-2022-66636"
             },
@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-08 23:13:15",
+        "timestamp": "2025-04-08 22:13:00",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250408-231306",
+            "info": "vm-test-20250408-221253",
             "history": [
+                {
+                    "timestamp": "2025-04-08 12:27:44",
+                    "status": 1,
+                    "info": "vm-test-20250408-122737"
+                },
                 {
                     "timestamp": "2025-04-08 13:24:37",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-08 22:13:00",
                     "status": 1,
                     "info": "vm-test-20250408-221253"
-                },
-                {
-                    "timestamp": "2025-04-08 23:13:15",
-                    "status": 1,
-                    "info": "vm-test-20250408-231306"
                 }
             ]
         }
