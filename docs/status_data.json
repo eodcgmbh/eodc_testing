@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 23:29",
+        "timestamp": "2025-04-08 23:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-07 17:53",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-04-07 18:18",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 23:29",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-04-08 23:39",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
