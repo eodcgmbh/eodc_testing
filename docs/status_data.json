@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 11:45",
+        "timestamp": "2025-04-08 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SLSTR",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-04-07 05:44",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-04-07 05:53",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 11:45",
                     "status": 1,
                     "collection": "SENTINEL3_SLSTR"
+                },
+                {
+                    "timestamp": "2025-04-08 11:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
