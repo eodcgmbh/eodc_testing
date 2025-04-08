@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 23:12",
+        "timestamp": "2025-04-08 23:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-04-07 17:43",
-                    "status": 1,
-                    "collection": "SENTINEL1_HPAR"
-                },
                 {
                     "timestamp": "2025-04-07 17:53",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 23:12",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-04-08 23:29",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
