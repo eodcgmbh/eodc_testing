@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 11:37",
+        "timestamp": "2025-04-08 11:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "SENTINEL3_SLSTR",
             "history": [
-                {
-                    "timestamp": "2025-04-07 05:35",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-04-07 05:44",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 11:37",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-04-08 11:45",
+                    "status": 1,
+                    "collection": "SENTINEL3_SLSTR"
                 }
             ]
         }
