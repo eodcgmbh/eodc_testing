@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 21:55",
+        "timestamp": "2025-04-08 22:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-04-07 16:14",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
-                },
                 {
                     "timestamp": "2025-04-07 16:40",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 21:55",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-08 22:13",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -1360,16 +1360,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-08 20:14:49",
+        "timestamp": "2025-04-08 22:13:00",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250408-201440",
+            "info": "vm-test-20250408-221253",
             "history": [
-                {
-                    "timestamp": "2025-04-08 11:11:46",
-                    "status": 1,
-                    "info": "vm-test-20250408-111139"
-                },
                 {
                     "timestamp": "2025-04-08 12:27:44",
                     "status": 1,
@@ -1414,6 +1409,11 @@
                     "timestamp": "2025-04-08 20:14:49",
                     "status": 1,
                     "info": "vm-test-20250408-201440"
+                },
+                {
+                    "timestamp": "2025-04-08 22:13:00",
+                    "status": 1,
+                    "info": "vm-test-20250408-221253"
                 }
             ]
         }
