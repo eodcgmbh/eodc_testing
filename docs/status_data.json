@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 15:37",
+        "timestamp": "2025-04-08 15:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-04-07 09:15",
-                    "status": 1,
-                    "collection": "GLOBAL_LAND_COVER"
-                },
                 {
                     "timestamp": "2025-04-07 09:33",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 15:37",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-04-08 15:47",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
