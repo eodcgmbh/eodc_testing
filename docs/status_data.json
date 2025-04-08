@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-08 10:18:10",
+        "timestamp": "2025-04-08 03:32:52",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-29 16:17:33",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-29 17:14:10",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-08 03:32:52",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-08 10:18:10",
                     "status": 1
                 }
             ]
@@ -972,9 +972,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-04-07 17:16",
+                "timestamp": "2025-04-08 10:19",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld.tif"
+                "item": "vegetation_change_bgld_2020"
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-08 10:15:10",
+        "timestamp": "2025-04-08 08:19:11",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250408-101503",
+            "info": "vm-test-20250408-081903",
             "history": [
+                {
+                    "timestamp": "2025-04-07 17:12:48",
+                    "status": 1,
+                    "info": "vm-test-20250407-171241"
+                },
                 {
                     "timestamp": "2025-04-07 18:18:54",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-08 08:19:11",
                     "status": 1,
                     "info": "vm-test-20250408-081903"
-                },
-                {
-                    "timestamp": "2025-04-08 10:15:10",
-                    "status": 1,
-                    "info": "vm-test-20250408-101503"
                 }
             ]
         }
