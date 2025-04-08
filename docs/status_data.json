@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-08 07:16:59",
+        "timestamp": "2025-04-08 03:32:52",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-29 16:17:33",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-29 17:14:10",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-08 03:32:52",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-08 07:16:59",
                     "status": 1
                 }
             ]
@@ -1146,7 +1146,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-04-06 06:23",
+                "timestamp": "2025-04-08 07:17",
                 "status": "FAILURE",
                 "item": "N/A"
             },
@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-08 07:14:05",
+        "timestamp": "2025-04-08 06:19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250408-071358",
+            "info": "vm-test-20250408-061946",
             "history": [
+                {
+                    "timestamp": "2025-04-07 16:15:42",
+                    "status": 1,
+                    "info": "vm-test-20250407-161535"
+                },
                 {
                     "timestamp": "2025-04-07 17:12:48",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-08 06:19:53",
                     "status": 1,
                     "info": "vm-test-20250408-061946"
-                },
-                {
-                    "timestamp": "2025-04-08 07:14:05",
-                    "status": 1,
-                    "info": "vm-test-20250408-071358"
                 }
             ]
         }
