@@ -404,26 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 08:18",
+        "timestamp": "2025-04-08 09:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-04-06 23:27",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
-                {
-                    "timestamp": "2025-04-06 23:36",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
-                {
-                    "timestamp": "2025-04-06 23:44",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-04-06 23:52",
                     "status": 1,
@@ -908,6 +893,21 @@
                     "timestamp": "2025-04-08 08:18",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_IRRIGATION"
+                },
+                {
+                    "timestamp": "2025-04-08 08:41",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
+                },
+                {
+                    "timestamp": "2025-04-08 08:55",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-04-08 09:15",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
