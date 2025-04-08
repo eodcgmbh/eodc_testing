@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-08 06:18",
+        "timestamp": "2025-04-08 06:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "CGLS_FCOVER300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-06 21:37",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-04-06 21:45",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-08 06:18",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-04-08 06:43",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
                 }
             ]
         }
