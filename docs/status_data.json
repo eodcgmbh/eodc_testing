@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-09 14:17:39",
+        "timestamp": "2025-04-09 13:28:50",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-30 10:15:58",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-30 11:14:19",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-09 13:28:50",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-09 14:17:39",
                     "status": 1
                 }
             ]
@@ -1026,9 +1026,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-04-07 15:41",
+                "timestamp": "2025-04-09 14:18",
                 "status": "SUCCESS",
-                "item": "E048N015T1_20200930"
+                "item": "E049N015T1_20200930"
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-09 14:15:03",
+        "timestamp": "2025-04-09 13:25:31",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250409-141456",
+            "info": "vm-test-20250409-132523",
             "history": [
+                {
+                    "timestamp": "2025-04-09 03:33:49",
+                    "status": 1,
+                    "info": "vm-test-20250409-033341"
+                },
                 {
                     "timestamp": "2025-04-09 04:16:40",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-09 13:25:31",
                     "status": 1,
                     "info": "vm-test-20250409-132523"
-                },
-                {
-                    "timestamp": "2025-04-09 14:15:03",
-                    "status": 1,
-                    "info": "vm-test-20250409-141456"
                 }
             ]
         }
