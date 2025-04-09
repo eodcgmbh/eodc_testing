@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-09 04:19:56",
+        "timestamp": "2025-04-09 03:33:22",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-30 05:15:54",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-30 06:20:06",
                     "status": 1
@@ -395,20 +399,21 @@
                 {
                     "timestamp": "2025-04-09 03:33:22",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-09 04:19:56",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-09 04:18",
+        "timestamp": "2025-04-09 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
+                {
+                    "timestamp": "2025-04-07 19:53",
+                    "status": 1,
+                    "collection": "SKYSAT"
+                },
                 {
                     "timestamp": "2025-04-07 20:14",
                     "status": 1,
@@ -903,11 +908,6 @@
                     "timestamp": "2025-04-09 03:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
-                },
-                {
-                    "timestamp": "2025-04-09 04:18",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
@@ -1014,9 +1014,9 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-04-08 22:16",
+                "timestamp": "2025-04-09 04:21",
                 "status": "SUCCESS",
-                "item": "S3A_SR_2_LAN_HY_20240611T201003_20240611T202002_0599_113_228"
+                "item": "S3A_SR_2_LAN_HY_20240613T093832_20240613T094831_0599_113_250"
             },
             {
                 "collection": "sen2like",
