@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-09 13:52",
+        "timestamp": "2025-04-09 14:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-08 07:47",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_WOLFSBERG"
-                },
                 {
                     "timestamp": "2025-04-08 07:55",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-09 13:52",
                     "status": 1,
                     "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-04-09 14:13",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
