@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-09 11:11",
+        "timestamp": "2025-04-09 11:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-04-08 05:44",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-04-08 05:53",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-09 11:11",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-04-09 11:27",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
