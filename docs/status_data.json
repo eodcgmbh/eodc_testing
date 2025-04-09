@@ -404,11 +404,16 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-09 18:42",
+        "timestamp": "2025-04-09 18:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
+                {
+                    "timestamp": "2025-04-08 11:28",
+                    "status": 1,
+                    "collection": "CNR_TSM"
+                },
                 {
                     "timestamp": "2025-04-08 11:37",
                     "status": 1,
@@ -903,11 +908,6 @@
                     "timestamp": "2025-04-09 18:18",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
-                {
-                    "timestamp": "2025-04-09 18:42",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
                 }
             ]
         }
@@ -936,9 +936,9 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-04-09 16:22",
+                "timestamp": "2025-04-09 18:47",
                 "status": "SUCCESS",
-                "item": "4321-50"
+                "item": "4321-51"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
