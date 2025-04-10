@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-10 04:20:12",
+        "timestamp": "2025-04-10 03:35:34",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-30 17:14:24",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-30 18:19:06",
                     "status": 1
@@ -395,20 +399,21 @@
                 {
                     "timestamp": "2025-04-10 03:35:34",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-10 04:20:12",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-10 04:19",
+        "timestamp": "2025-04-10 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
+                {
+                    "timestamp": "2025-04-08 19:26",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
+                },
                 {
                     "timestamp": "2025-04-08 19:36",
                     "status": 1,
@@ -903,11 +908,6 @@
                     "timestamp": "2025-04-10 03:56",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
-                {
-                    "timestamp": "2025-04-10 04:19",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -1056,9 +1056,9 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2025-04-10 01:19",
+                "timestamp": "2025-04-10 04:21",
                 "status": "SUCCESS",
-                "item": "SIG0_20221231T235738_A135_E063N018T3_SA020M_V1M1R1_S1AIWGRDH"
+                "item": "SIG0_20221231T235713_A135_E063N015T3_SA020M_V1M1R1_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL2_L2A",
