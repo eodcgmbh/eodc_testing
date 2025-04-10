@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-10 11:27",
+        "timestamp": "2025-04-10 11:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-04-09 04:39",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-04-09 04:51",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-04-10 11:27",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-04-10 11:36",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
