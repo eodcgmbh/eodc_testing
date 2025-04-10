@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-10 14:17:25",
+        "timestamp": "2025-04-10 13:27:31",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-30 21:15:52",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-30 22:15:29",
                     "status": 1
@@ -394,10 +398,6 @@
                 },
                 {
                     "timestamp": "2025-04-10 13:27:31",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-10 14:17:25",
                     "status": 1
                 }
             ]
@@ -1152,9 +1152,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-04-09 09:42",
+                "timestamp": "2025-04-10 14:17",
                 "status": "SUCCESS",
-                "item": "wien_601000_534200.copc.laz"
+                "item": "wien_602000_533800.copc.laz"
             }
         ]
     },
@@ -1360,11 +1360,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-10 14:14:05",
+        "timestamp": "2025-04-10 13:24:06",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250410-141357",
+            "info": "vm-test-20250410-132358",
             "history": [
+                {
+                    "timestamp": "2025-04-10 01:05:26",
+                    "status": 1,
+                    "info": "vm-test-20250410-010519"
+                },
                 {
                     "timestamp": "2025-04-10 02:57:24",
                     "status": 1,
@@ -1409,11 +1414,6 @@
                     "timestamp": "2025-04-10 13:24:06",
                     "status": 1,
                     "info": "vm-test-20250410-132358"
-                },
-                {
-                    "timestamp": "2025-04-10 14:14:05",
-                    "status": 1,
-                    "info": "vm-test-20250410-141357"
                 }
             ]
         }
