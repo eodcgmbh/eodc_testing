@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-11 13:47",
+        "timestamp": "2025-04-11 13:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-04-10 07:31",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-04-10 07:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-11 13:47",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-04-11 13:55",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
