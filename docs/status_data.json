@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-11 04:20:22",
+        "timestamp": "2025-04-11 03:36:25",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-03-31 05:17:10",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-03-31 13:27:08",
                     "status": 1
@@ -395,20 +399,21 @@
                 {
                     "timestamp": "2025-04-11 03:36:25",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-11 04:20:22",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-11 04:18",
+        "timestamp": "2025-04-11 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TY",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
+                {
+                    "timestamp": "2025-04-09 20:14",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
+                },
                 {
                     "timestamp": "2025-04-09 20:33",
                     "status": 1,
@@ -903,11 +908,6 @@
                     "timestamp": "2025-04-11 03:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
-                },
-                {
-                    "timestamp": "2025-04-11 04:18",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
                 }
             ]
         }
@@ -1098,9 +1098,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-04-05 21:36",
+                "timestamp": "2025-04-11 04:21",
                 "status": "SUCCESS",
-                "item": "X0016Y0013_20201226"
+                "item": "X0016Y0015_20201230"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
