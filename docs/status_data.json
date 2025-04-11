@@ -1144,9 +1144,9 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-04-11 15:40",
+                "timestamp": "2025-04-11 22:17",
                 "status": "SUCCESS",
-                "item": "EU010M_E053N015T1_20220101_WETLAND"
+                "item": "EU010M_E053N015T1_20200101_WETLAND"
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
@@ -1364,16 +1364,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-11 21:12:49",
+        "timestamp": "2025-04-11 22:13:09",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250411-211242",
+            "info": "vm-test-20250411-221301",
             "history": [
-                {
-                    "timestamp": "2025-04-11 07:13:48",
-                    "status": 1,
-                    "info": "vm-test-20250411-071340"
-                },
                 {
                     "timestamp": "2025-04-11 08:18:46",
                     "status": 1,
@@ -1418,6 +1413,11 @@
                     "timestamp": "2025-04-11 21:12:49",
                     "status": 1,
                     "info": "vm-test-20250411-211242"
+                },
+                {
+                    "timestamp": "2025-04-11 22:13:09",
+                    "status": 1,
+                    "info": "vm-test-20250411-221301"
                 }
             ]
         }
