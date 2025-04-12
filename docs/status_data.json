@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-12 10:15:56",
+        "timestamp": "2025-04-12 05:16:17",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-01 14:16:38",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-01 17:16:56",
                     "status": 1
@@ -398,10 +402,6 @@
                 },
                 {
                     "timestamp": "2025-04-12 05:16:17",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-12 10:15:56",
                     "status": 1
                 }
             ]
@@ -1072,9 +1072,9 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-04-12 04:43",
+                "timestamp": "2025-04-12 10:16",
                 "status": "SUCCESS",
-                "item": "S1A_IW_GRDH_1SDV_20240726T185941_20240726T190006_054936_06B10A"
+                "item": "S1A_IW_GRDH_1SDV_20240725T150449_20240725T150511_054919_06B07C"
             },
             {
                 "collection": "DSM_AUT",
@@ -1364,11 +1364,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-12 10:12:53",
+        "timestamp": "2025-04-12 09:14:11",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250412-101247",
+            "info": "vm-test-20250412-091404",
             "history": [
+                {
+                    "timestamp": "2025-04-11 19:11:33",
+                    "status": 1,
+                    "info": "vm-test-20250411-191126"
+                },
                 {
                     "timestamp": "2025-04-11 21:12:49",
                     "status": 1,
@@ -1413,11 +1418,6 @@
                     "timestamp": "2025-04-12 09:14:11",
                     "status": 1,
                     "info": "vm-test-20250412-091404"
-                },
-                {
-                    "timestamp": "2025-04-12 10:12:53",
-                    "status": 1,
-                    "info": "vm-test-20250412-101247"
                 }
             ]
         }
