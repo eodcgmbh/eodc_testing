@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-12 15:55",
+        "timestamp": "2025-04-12 16:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "SENTINEL3_SRAL_L2",
             "history": [
-                {
-                    "timestamp": "2025-04-11 11:44",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-04-11 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-12 15:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2025-04-12 16:15",
+                    "status": 1,
+                    "collection": "SENTINEL3_SRAL_L2"
                 }
             ]
         }
@@ -1364,16 +1364,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-12 14:11:12",
+        "timestamp": "2025-04-12 16:15:30",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250412-141104",
+            "info": "vm-test-20250412-161522",
             "history": [
-                {
-                    "timestamp": "2025-04-12 02:54:53",
-                    "status": 1,
-                    "info": "vm-test-20250412-025445"
-                },
                 {
                     "timestamp": "2025-04-12 03:27:15",
                     "status": 1,
@@ -1418,6 +1413,11 @@
                     "timestamp": "2025-04-12 14:11:12",
                     "status": 1,
                     "info": "vm-test-20250412-141104"
+                },
+                {
+                    "timestamp": "2025-04-12 16:15:30",
+                    "status": 1,
+                    "info": "vm-test-20250412-161522"
                 }
             ]
         }
