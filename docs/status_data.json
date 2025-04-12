@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-12 15:15:28",
+        "timestamp": "2025-04-12 14:14:34",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-02 03:01:15",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-02 03:35:31",
                     "status": 1
@@ -398,10 +402,6 @@
                 },
                 {
                     "timestamp": "2025-04-12 14:14:34",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-12 15:15:28",
                     "status": 1
                 }
             ]
@@ -1012,9 +1012,9 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-04-11 04:44",
+                "timestamp": "2025-04-12 15:16",
                 "status": "SUCCESS",
-                "item": "AT_EGMS_L3_U_2016_2023"
+                "item": "AT_EGMS_L3_U_2016_2022"
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
@@ -1364,11 +1364,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-12 15:12:18",
+        "timestamp": "2025-04-12 14:11:12",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250412-151210",
+            "info": "vm-test-20250412-141104",
             "history": [
+                {
+                    "timestamp": "2025-04-12 02:54:53",
+                    "status": 1,
+                    "info": "vm-test-20250412-025445"
+                },
                 {
                     "timestamp": "2025-04-12 03:27:15",
                     "status": 1,
@@ -1413,11 +1418,6 @@
                     "timestamp": "2025-04-12 14:11:12",
                     "status": 1,
                     "info": "vm-test-20250412-141104"
-                },
-                {
-                    "timestamp": "2025-04-12 15:12:18",
-                    "status": 1,
-                    "info": "vm-test-20250412-151210"
                 }
             ]
         }
