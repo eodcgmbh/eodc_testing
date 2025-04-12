@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-12 22:11",
+        "timestamp": "2025-04-12 22:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS",
+            "collection": "SENTINEL3_SRAL_L2",
             "history": [
-                {
-                    "timestamp": "2025-04-11 19:35",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-04-11 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-12 22:11",
                     "status": 1,
                     "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS"
+                },
+                {
+                    "timestamp": "2025-04-12 22:32",
+                    "status": 1,
+                    "collection": "SENTINEL3_SRAL_L2"
                 }
             ]
         }
