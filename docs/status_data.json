@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-13 20:30",
+        "timestamp": "2025-04-13 20:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-04-12 15:29",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-04-12 15:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-13 20:30",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-04-13 20:43",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
