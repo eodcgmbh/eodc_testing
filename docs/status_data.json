@@ -1120,9 +1120,9 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-04-14 10:20",
+                "timestamp": "2025-04-14 23:16",
                 "status": "SUCCESS",
-                "item": "S2A_MSIL1C_20240322T065341_R077_T39LXD_20240322T082540"
+                "item": "S2A_MSIL1C_20240322T065341_R077_T39LVD_20240322T082540"
             },
             {
                 "collection": "SENTINEL1_SLC",
@@ -1364,11 +1364,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-14 23:12:45",
+        "timestamp": "2025-04-14 22:13:13",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-2bddbf78-83c5-4836-aae7-d8f034ca3fe3)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cf6ad994-0ee7-4e0c-ba83-962048269ba5)",
             "history": [
+                {
+                    "timestamp": "2025-04-14 12:27:41",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-57f74c6b-94d8-4fe2-9387-3f0988d7271e)"
+                },
                 {
                     "timestamp": "2025-04-14 13:25:20",
                     "status": 0,
@@ -1413,11 +1418,6 @@
                     "timestamp": "2025-04-14 22:13:13",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cf6ad994-0ee7-4e0c-ba83-962048269ba5)"
-                },
-                {
-                    "timestamp": "2025-04-14 23:12:45",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-2bddbf78-83c5-4836-aae7-d8f034ca3fe3)"
                 }
             ]
         }
