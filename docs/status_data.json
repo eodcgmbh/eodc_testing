@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-14 11:36",
+        "timestamp": "2025-04-14 11:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TY",
+            "collection": "VEGETATION_INDICES",
             "history": [
-                {
-                    "timestamp": "2025-04-13 07:28",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-04-13 07:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-14 11:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TY"
+                },
+                {
+                    "timestamp": "2025-04-14 11:44",
+                    "status": 1,
+                    "collection": "VEGETATION_INDICES"
                 }
             ]
         }
