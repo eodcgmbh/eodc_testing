@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-14 09:19:06",
+        "timestamp": "2025-04-14 07:17:48",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-04 11:15:45",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-04 12:27:27",
                     "status": 1
@@ -398,10 +402,6 @@
                 },
                 {
                     "timestamp": "2025-04-14 07:17:48",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-14 09:19:06",
                     "status": 1
                 }
             ]
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-04-12 21:15",
+                "timestamp": "2025-04-14 09:20",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
@@ -1364,11 +1364,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-14 09:16:03",
+        "timestamp": "2025-04-14 08:19:13",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250414-091556",
+            "info": "vm-test-20250414-081906",
             "history": [
+                {
+                    "timestamp": "2025-04-13 14:11:13",
+                    "status": 1,
+                    "info": "vm-test-20250413-141107"
+                },
                 {
                     "timestamp": "2025-04-13 17:11:32",
                     "status": 1,
@@ -1413,11 +1418,6 @@
                     "timestamp": "2025-04-14 08:19:13",
                     "status": 1,
                     "info": "vm-test-20250414-081906"
-                },
-                {
-                    "timestamp": "2025-04-14 09:16:03",
-                    "status": 1,
-                    "info": "vm-test-20250414-091556"
                 }
             ]
         }
