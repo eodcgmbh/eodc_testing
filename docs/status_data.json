@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-15 14:57",
+        "timestamp": "2025-04-15 15:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-14 08:55",
-                    "status": 1,
-                    "collection": "SENTINEL3_SLSTR"
-                },
                 {
                     "timestamp": "2025-04-14 09:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-15 14:57",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-04-15 15:19",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -1018,9 +1018,9 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-04-13 22:16",
+                "timestamp": "2025-04-15 15:19",
                 "status": "SUCCESS",
-                "item": "S3A_SR_2_LAN_HY_20240611T195453_20240611T202701_1928_113_228"
+                "item": "S3A_SR_2_LAN_HY_20240613T093832_20240613T094831_0599_113_250"
             },
             {
                 "collection": "sen2like",
