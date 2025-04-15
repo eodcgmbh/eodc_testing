@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-15 05:17:44",
+        "timestamp": "2025-04-15 03:05:08",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-05 17:13:36",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-05 19:12:53",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-04-15 03:05:08",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-15 05:17:44",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-15 04:58",
+        "timestamp": "2025-04-15 05:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2021_V2",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
             "history": [
-                {
-                    "timestamp": "2025-04-13 20:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2025-04-13 21:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-15 04:58",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2021_V2"
+                },
+                {
+                    "timestamp": "2025-04-15 05:19",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
                 }
             ]
         }
@@ -946,9 +946,9 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-04-15 05:18",
+                "timestamp": "2025-04-14 19:37",
                 "status": "SUCCESS",
-                "item": "EU010M_E052N015T1_20230909_WETLAND"
+                "item": "EU010M_E052N015T1_20231015_WETLAND"
             },
             {
                 "collection": "CGLS_SSM_1KM",
