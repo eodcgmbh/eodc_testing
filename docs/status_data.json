@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-15 10:38",
+        "timestamp": "2025-04-15 10:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-04-14 04:48",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-04-14 04:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-15 10:38",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-15 10:50",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
