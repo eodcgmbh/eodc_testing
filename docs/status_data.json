@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-16 16:16",
+        "timestamp": "2025-04-16 16:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SLSTR",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-04-15 10:38",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-04-15 10:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-16 16:16",
                     "status": 1,
                     "collection": "SENTINEL3_SLSTR"
+                },
+                {
+                    "timestamp": "2025-04-16 16:42",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
