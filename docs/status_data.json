@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-16 17:16:16",
+        "timestamp": "2025-04-16 13:28:04",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-07 12:29:51",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-07 13:28:03",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-04-16 13:28:04",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-16 17:16:16",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-16 16:58",
+        "timestamp": "2025-04-16 17:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-04-15 10:57",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2025-04-15 11:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-16 16:58",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-16 17:16",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-04-16 17:16",
+                "timestamp": "2025-04-14 17:16",
                 "status": "SUCCESS",
                 "item": "E049N014T1_20200930"
             },
