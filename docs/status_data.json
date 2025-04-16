@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-16 21:53",
+        "timestamp": "2025-04-16 22:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "SENTINEL1_CARD4L",
             "history": [
-                {
-                    "timestamp": "2025-04-15 16:52",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-04-15 17:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-16 21:53",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-04-16 22:12",
+                    "status": 1,
+                    "collection": "SENTINEL1_CARD4L"
                 }
             ]
         }
