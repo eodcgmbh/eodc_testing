@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-17 09:18:15",
+        "timestamp": "2025-04-17 03:40:16",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-07 19:14:22",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-07 21:15:57",
                     "status": 1
@@ -399,20 +403,21 @@
                 {
                     "timestamp": "2025-04-17 03:40:16",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-17 09:18:15",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-17 09:16",
+        "timestamp": "2025-04-17 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
+                {
+                    "timestamp": "2025-04-15 23:55",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
                 {
                     "timestamp": "2025-04-16 01:05",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-04-17 08:56",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
-                {
-                    "timestamp": "2025-04-17 09:16",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
@@ -1132,9 +1132,9 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-04-17 01:20",
+                "timestamp": "2025-04-17 09:20",
                 "status": "SUCCESS",
-                "item": "5716-68"
+                "item": "5716-59"
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
