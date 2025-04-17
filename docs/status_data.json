@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-17 05:53",
+        "timestamp": "2025-04-17 06:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-04-15 21:47",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2025-04-15 21:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-17 05:53",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-04-17 06:19",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
