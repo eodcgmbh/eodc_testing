@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-17 19:43",
+        "timestamp": "2025-04-17 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-04-16 14:14",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-04-16 14:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-17 19:43",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-04-17 19:53",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
