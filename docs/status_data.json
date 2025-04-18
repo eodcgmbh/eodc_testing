@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-18 15:13",
+        "timestamp": "2025-04-18 15:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WATER_BODIES",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-17 09:33",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2025-04-17 09:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-18 15:13",
                     "status": 1,
                     "collection": "WATER_BODIES"
+                },
+                {
+                    "timestamp": "2025-04-18 15:31",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
