@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-18 13:25:12",
+        "timestamp": "2025-04-18 12:28:23",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-08 22:16:21",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-09 01:04:35",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-04-18 12:28:23",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-18 13:25:12",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-18 12:59",
+        "timestamp": "2025-04-18 13:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-17 07:13",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-04-17 07:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-18 12:59",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-04-18 13:28",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
@@ -1096,9 +1096,9 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-04-18 13:25",
+                "timestamp": "2025-04-16 15:42",
                 "status": "SUCCESS",
-                "item": "HPAR_SA020M_E099N063T3_D082"
+                "item": "HPAR_SA020M_E099N063T3_D009"
             },
             {
                 "collection": "BOA_LANDSAT_8",
