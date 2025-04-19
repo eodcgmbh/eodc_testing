@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-19 09:16:25",
+        "timestamp": "2025-04-19 07:15:34",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-09 11:15:35",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-09 12:29:22",
                     "status": 1
@@ -398,10 +402,6 @@
                 },
                 {
                     "timestamp": "2025-04-19 07:15:34",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-04-19 09:16:25",
                     "status": 1
                 }
             ]
@@ -1156,9 +1156,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-04-19 04:20",
+                "timestamp": "2025-04-19 09:16",
                 "status": "SUCCESS",
-                "item": "wien_601000_533800.copc.laz"
+                "item": "wien_601000_534200.copc.laz"
             },
             {
                 "collection": "N/A",
@@ -1370,11 +1370,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-04-19 09:12:46",
+        "timestamp": "2025-04-19 08:15:57",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-57139fc4-42bf-4176-9c6c-269da7e63b92)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e2e93616-e735-4d20-922f-13222388466e)",
             "history": [
+                {
+                    "timestamp": "2025-04-18 19:10:55",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f3712fee-7b51-4686-be14-6814eee8399c)"
+                },
                 {
                     "timestamp": "2025-04-18 22:12:43",
                     "status": 0,
@@ -1419,11 +1424,6 @@
                     "timestamp": "2025-04-19 08:15:57",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e2e93616-e735-4d20-922f-13222388466e)"
-                },
-                {
-                    "timestamp": "2025-04-19 09:12:46",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-57139fc4-42bf-4176-9c6c-269da7e63b92)"
                 }
             ]
         }
