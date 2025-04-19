@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-19 16:48",
+        "timestamp": "2025-04-19 16:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-04-18 12:59",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-04-18 13:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-19 16:48",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-04-19 16:55",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
