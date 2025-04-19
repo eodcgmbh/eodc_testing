@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-19 01:02",
+        "timestamp": "2025-04-19 02:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "ESA_WORLDCEREAL_MAIZE",
             "history": [
-                {
-                    "timestamp": "2025-04-17 19:25",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-04-17 19:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-19 01:02",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-04-19 02:33",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_MAIZE"
                 }
             ]
         }
