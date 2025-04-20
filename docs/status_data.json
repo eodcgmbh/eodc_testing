@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-20 20:13",
+        "timestamp": "2025-04-20 20:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-04-19 16:55",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-04-19 17:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-20 20:13",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
+                },
+                {
+                    "timestamp": "2025-04-20 20:30",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
