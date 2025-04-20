@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-20 10:16:40",
+        "timestamp": "2025-04-20 09:15:48",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-10 11:15:08",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-10 12:29:05",
                     "status": 1
@@ -399,20 +403,21 @@
                 {
                     "timestamp": "2025-04-20 09:15:48",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-20 10:16:40",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-20 10:13",
+        "timestamp": "2025-04-20 09:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GFM",
+            "collection": "E12C_MOTORWAY",
             "history": [
+                {
+                    "timestamp": "2025-04-19 07:27",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
                 {
                     "timestamp": "2025-04-19 07:35",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-04-20 09:55",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
-                },
-                {
-                    "timestamp": "2025-04-20 10:13",
-                    "status": 1,
-                    "collection": "GFM"
                 }
             ]
         }
@@ -964,9 +964,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-04-18 21:16",
+                "timestamp": "2025-04-20 10:17",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E099N060T3_D082"
+                "item": "MPLIA_SA020M_E099N057T3_D009"
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
