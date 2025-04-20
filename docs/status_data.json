@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-20 21:45",
+        "timestamp": "2025-04-20 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-04-19 18:47",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-04-19 18:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-20 21:45",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-04-20 21:53",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
