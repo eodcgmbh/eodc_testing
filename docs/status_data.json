@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-21 09:18:22",
+        "timestamp": "2025-04-21 11:15:05",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-04-11 11:15:05",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-04-11 12:29:04",
                     "status": 1
@@ -403,21 +399,20 @@
                 {
                     "timestamp": "2025-04-21 09:18:22",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-04-21 11:15:05",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-21 10:57",
+        "timestamp": "2025-04-21 11:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-04-20 07:29",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_3M"
-                },
                 {
                     "timestamp": "2025-04-20 07:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-21 10:57",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-04-21 11:15",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
