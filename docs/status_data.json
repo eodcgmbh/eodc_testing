@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-21 13:00",
+        "timestamp": "2025-04-21 13:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-04-20 08:54",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-04-20 09:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-21 13:00",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-04-21 13:34",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
