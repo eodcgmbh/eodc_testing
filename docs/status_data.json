@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-22 21:40",
+        "timestamp": "2025-04-22 21:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER_V2_GLOBAL",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2025-04-21 15:53",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-04-21 16:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-22 21:40",
                     "status": 1,
                     "collection": "CGLS_FCOVER_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-22 21:48",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
