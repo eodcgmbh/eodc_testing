@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-22 14:48",
+        "timestamp": "2025-04-22 14:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-21 08:56",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-04-21 09:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-22 14:48",
                     "status": 1,
                     "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
+                },
+                {
+                    "timestamp": "2025-04-22 14:56",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
