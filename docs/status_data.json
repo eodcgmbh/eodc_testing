@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-22 22:45",
+        "timestamp": "2025-04-22 22:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-04-21 17:32",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2025-04-21 17:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-22 22:45",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-04-22 22:53",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
