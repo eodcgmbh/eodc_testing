@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-22 19:10",
+        "timestamp": "2025-04-22 19:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL_5P_L2",
             "history": [
-                {
-                    "timestamp": "2025-04-21 13:00",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-04-21 13:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-22 19:10",
                     "status": 1,
                     "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-04-22 19:26",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
                 }
             ]
         }
