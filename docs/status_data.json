@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-22 08:41",
+        "timestamp": "2025-04-22 08:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-04-20 23:54",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-04-21 01:05",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-22 08:41",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-04-22 08:55",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
