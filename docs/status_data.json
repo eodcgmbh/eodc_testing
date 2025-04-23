@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-23 19:11",
+        "timestamp": "2025-04-23 19:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-04-22 12:25",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-04-22 13:02",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-23 19:11",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-23 19:26",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
