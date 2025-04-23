@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-23 15:18:40",
+        "timestamp": "2025-04-23 14:17:58",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-13 14:14:49",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-13 15:17:23",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-04-23 14:17:58",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-23 15:18:40",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-23 14:57",
+        "timestamp": "2025-04-23 15:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-04-22 08:55",
-                    "status": 1,
-                    "collection": "AUT_DEM"
-                },
                 {
                     "timestamp": "2025-04-22 09:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-23 14:57",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-23 15:19",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
