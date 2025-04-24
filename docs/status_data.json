@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-24 18:42",
+        "timestamp": "2025-04-24 18:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-04-23 11:45",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-04-23 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-24 18:42",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-04-24 18:54",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
