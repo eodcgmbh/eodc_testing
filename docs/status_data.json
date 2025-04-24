@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-24 04:49",
+        "timestamp": "2025-04-24 04:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-04-22 20:14",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-04-22 20:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-24 04:49",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-04-24 04:57",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
