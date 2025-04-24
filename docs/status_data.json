@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-24 10:57",
+        "timestamp": "2025-04-24 11:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-04-23 03:57",
-                    "status": 1,
-                    "collection": "SEA_ICE_INDEX"
-                },
                 {
                     "timestamp": "2025-04-23 04:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-24 10:57",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-04-24 11:15",
+                    "status": 1,
+                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
