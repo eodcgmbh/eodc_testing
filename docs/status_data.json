@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-24 09:18:39",
+        "timestamp": "2025-04-24 07:17:44",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-14 05:18:05",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-14 07:17:48",
                     "status": 1
@@ -399,20 +403,21 @@
                 {
                     "timestamp": "2025-04-24 07:17:44",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-24 09:18:39",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-24 09:16",
+        "timestamp": "2025-04-24 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
+                {
+                    "timestamp": "2025-04-22 23:29",
+                    "status": 1,
+                    "collection": "SKYSAT"
+                },
                 {
                     "timestamp": "2025-04-22 23:40",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-04-24 08:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
-                },
-                {
-                    "timestamp": "2025-04-24 09:16",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -1144,9 +1144,9 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-04-22 22:17",
+                "timestamp": "2025-04-24 09:20",
                 "status": "SUCCESS",
-                "item": "EU010M_E052N015T1_20180101_WETLAND"
+                "item": "EU010M_E053N015T1_20190101_WETLAND"
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
