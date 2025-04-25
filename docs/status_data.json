@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-25 11:12",
+        "timestamp": "2025-04-25 11:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-04-24 05:36",
-                    "status": 1,
-                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
-                },
                 {
                     "timestamp": "2025-04-24 05:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-25 11:12",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-04-25 11:28",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
