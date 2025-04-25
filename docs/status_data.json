@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-25 09:17:56",
+        "timestamp": "2025-04-25 07:17:26",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-15 01:06:36",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-15 03:05:08",
                     "status": 1
@@ -399,20 +403,21 @@
                 {
                     "timestamp": "2025-04-25 07:17:26",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-25 09:17:56",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-25 09:16",
+        "timestamp": "2025-04-25 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
+                {
+                    "timestamp": "2025-04-24 02:43",
+                    "status": 1,
+                    "collection": "WATER_BODIES"
+                },
                 {
                     "timestamp": "2025-04-24 03:28",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-04-25 08:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
-                {
-                    "timestamp": "2025-04-25 09:16",
-                    "status": 1,
-                    "collection": "PLEIADES"
                 }
             ]
         }
@@ -940,7 +940,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-04-25 02:52",
+                "timestamp": "2025-04-25 09:19",
                 "status": "SUCCESS",
                 "item": "4321-49"
             },
