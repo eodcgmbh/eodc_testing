@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-25 13:02",
+        "timestamp": "2025-04-25 13:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-04-24 07:31",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-04-24 07:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-25 13:02",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-04-25 13:34",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
