@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-25 15:32",
+        "timestamp": "2025-04-25 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-04-24 10:14",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S1_TOC_333M"
-                },
                 {
                     "timestamp": "2025-04-24 10:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-25 15:32",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-04-25 15:45",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
