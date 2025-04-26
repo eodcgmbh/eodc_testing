@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-26 03:20",
+        "timestamp": "2025-04-26 03:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2025-04-24 20:14",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-04-24 20:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-26 03:20",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-04-26 03:47",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
