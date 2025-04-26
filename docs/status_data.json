@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-26 21:44",
+        "timestamp": "2025-04-26 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "GLOBAL_LAND_COVER",
             "history": [
-                {
-                    "timestamp": "2025-04-25 19:26",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-04-25 19:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-26 21:44",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-04-26 21:53",
+                    "status": 1,
+                    "collection": "GLOBAL_LAND_COVER"
                 }
             ]
         }
