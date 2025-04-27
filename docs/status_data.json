@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-27 19:13",
+        "timestamp": "2025-04-27 19:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2025-04-26 16:36",
-                    "status": 1,
-                    "collection": "SENTINEL1_CARD4L"
-                },
                 {
                     "timestamp": "2025-04-26 16:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-27 19:13",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-04-27 19:26",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
