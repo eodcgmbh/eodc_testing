@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-27 18:16",
+        "timestamp": "2025-04-27 18:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "SENTINEL3_SLSTR",
             "history": [
-                {
-                    "timestamp": "2025-04-26 15:39",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-04-26 15:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-27 18:16",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-04-27 18:38",
+                    "status": 1,
+                    "collection": "SENTINEL3_SLSTR"
                 }
             ]
         }
