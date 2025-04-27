@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-04-27 19:12:13",
+        "timestamp": "2025-04-27 18:16:45",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-04-19 12:25:46",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-04-19 13:22:30",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-04-27 18:16:45",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-04-27 19:12:13",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-27 18:57",
+        "timestamp": "2025-04-27 19:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-04-26 16:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2025-04-26 16:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-27 18:57",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-04-27 19:13",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
