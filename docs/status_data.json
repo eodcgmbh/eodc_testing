@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-28 11:41",
+        "timestamp": "2025-04-28 12:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-04-27 03:29",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-04-27 03:51",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-28 11:41",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-28 12:26",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
