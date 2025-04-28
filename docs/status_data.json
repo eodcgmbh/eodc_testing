@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-28 18:43",
+        "timestamp": "2025-04-28 18:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-04-27 07:53",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-04-27 08:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-28 18:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
+                },
+                {
+                    "timestamp": "2025-04-28 18:54",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
