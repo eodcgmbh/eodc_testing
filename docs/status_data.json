@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-29 11:28",
+        "timestamp": "2025-04-29 11:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TY",
             "history": [
-                {
-                    "timestamp": "2025-04-27 21:28",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-04-27 21:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-29 11:28",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-04-29 11:38",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
                 }
             ]
         }
