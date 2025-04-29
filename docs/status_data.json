@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-29 17:44",
+        "timestamp": "2025-04-29 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-04-28 05:47",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-04-28 06:01",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-29 17:44",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-04-29 17:53",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
