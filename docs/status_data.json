@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-29 10:53",
+        "timestamp": "2025-04-29 11:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-04-27 20:53",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-04-27 21:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-29 10:53",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-04-29 11:11",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
