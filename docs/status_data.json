@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-30 07:30",
+        "timestamp": "2025-04-30 07:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "GHS_BUILT_S2",
             "history": [
-                {
-                    "timestamp": "2025-04-28 22:53",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-04-28 23:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-30 07:30",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-04-30 07:43",
+                    "status": 1,
+                    "collection": "GHS_BUILT_S2"
                 }
             ]
         }
