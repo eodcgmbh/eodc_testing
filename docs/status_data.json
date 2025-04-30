@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-30 19:10",
+        "timestamp": "2025-04-30 19:24",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GFM",
+            "collection": "SEASONAL_TRAJECTORIES",
             "history": [
-                {
-                    "timestamp": "2025-04-29 13:08",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-04-29 13:42",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-30 19:10",
                     "status": 1,
                     "collection": "GFM"
+                },
+                {
+                    "timestamp": "2025-04-30 19:24",
+                    "status": 1,
+                    "collection": "SEASONAL_TRAJECTORIES"
                 }
             ]
         }
