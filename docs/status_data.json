@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-30 01:04",
+        "timestamp": "2025-04-30 02:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "GFM",
             "history": [
-                {
-                    "timestamp": "2025-04-28 19:35",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-04-28 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-30 01:04",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-04-30 02:42",
+                    "status": 1,
+                    "collection": "GFM"
                 }
             ]
         }
