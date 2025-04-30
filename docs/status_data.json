@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-30 08:18",
+        "timestamp": "2025-04-30 08:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-04-28 23:40",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-04-28 23:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-30 08:18",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-04-30 08:41",
+                    "status": 1,
+                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
