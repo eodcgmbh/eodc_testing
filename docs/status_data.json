@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-30 21:43",
+        "timestamp": "2025-04-30 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
             "history": [
-                {
-                    "timestamp": "2025-04-29 16:16",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-04-29 16:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-30 21:43",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-04-30 21:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
                 }
             ]
         }
