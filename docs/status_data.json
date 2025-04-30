@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-04-30 19:24",
+        "timestamp": "2025-04-30 19:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-04-29 13:42",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-04-29 13:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-04-30 19:24",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-04-30 19:35",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
