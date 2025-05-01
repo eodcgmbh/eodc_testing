@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-01 07:15",
+        "timestamp": "2025-05-01 07:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-04-29 22:13",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-04-29 22:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-01 07:15",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-05-01 07:30",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
