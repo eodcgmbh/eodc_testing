@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-01 20:13",
+        "timestamp": "2025-05-01 20:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_MAIZE",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-04-30 14:36",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-04-30 14:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-01 20:13",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_MAIZE"
+                },
+                {
+                    "timestamp": "2025-05-01 20:32",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
