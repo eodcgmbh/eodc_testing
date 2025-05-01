@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-01 16:55",
+        "timestamp": "2025-05-01 17:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-04-30 10:38",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
-                },
                 {
                     "timestamp": "2025-04-30 10:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-01 16:55",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-05-01 17:13",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
