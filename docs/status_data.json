@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-01 17:13",
+        "timestamp": "2025-05-01 17:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-04-30 10:49",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
-                },
                 {
                     "timestamp": "2025-04-30 10:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-01 17:13",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-05-01 17:32",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
