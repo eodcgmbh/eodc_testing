@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-03 11:43",
+        "timestamp": "2025-05-03 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEA_ICE_INDEX",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-05-02 07:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-05-02 07:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-03 11:43",
                     "status": 1,
                     "collection": "SEA_ICE_INDEX"
+                },
+                {
+                    "timestamp": "2025-05-03 11:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
