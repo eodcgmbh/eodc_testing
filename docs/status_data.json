@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-03 02:40",
+        "timestamp": "2025-05-03 03:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2",
             "history": [
-                {
-                    "timestamp": "2025-05-01 19:10",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-05-01 19:26",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-03 02:40",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-05-03 03:25",
+                    "status": 1,
+                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2"
                 }
             ]
         }
