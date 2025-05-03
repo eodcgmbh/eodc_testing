@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-03 03:49",
+        "timestamp": "2025-05-03 03:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-05-01 19:36",
-                    "status": 1,
-                    "collection": "SENTINEL3_SLSTR"
-                },
                 {
                     "timestamp": "2025-05-01 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-03 03:49",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-05-03 03:57",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
