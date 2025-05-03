@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-03 16:49",
+        "timestamp": "2025-05-03 16:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-05-02 11:54",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-05-02 12:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-03 16:49",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-05-03 16:56",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
