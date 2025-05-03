@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-03 16:37",
+        "timestamp": "2025-05-03 16:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SLSTR",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-05-02 11:46",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-05-02 11:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-03 16:37",
                     "status": 1,
                     "collection": "SENTINEL3_SLSTR"
+                },
+                {
+                    "timestamp": "2025-05-03 16:49",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
