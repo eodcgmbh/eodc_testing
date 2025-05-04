@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-04 17:40",
+        "timestamp": "2025-05-04 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-05-03 13:54",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2025-05-03 14:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-04 17:40",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-05-04 17:53",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
