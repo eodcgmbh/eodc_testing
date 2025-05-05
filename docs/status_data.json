@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-05 04:24",
+        "timestamp": "2025-05-05 04:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-05-03 21:45",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_L2"
-                },
                 {
                     "timestamp": "2025-05-03 21:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-05 04:24",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-05-05 04:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
