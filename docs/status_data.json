@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-05 20:46",
+        "timestamp": "2025-05-05 20:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-05-04 15:30",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-05-04 15:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-05 20:46",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-05-05 20:54",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
