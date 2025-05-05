@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-05 14:50",
+        "timestamp": "2025-05-05 14:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-04 09:30",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-05-04 09:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-05 14:50",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-05-05 14:57",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
