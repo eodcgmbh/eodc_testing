@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-05 17:44",
+        "timestamp": "2025-05-05 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-04 11:53",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-05-04 12:23",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-05 17:44",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-05-05 17:53",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
