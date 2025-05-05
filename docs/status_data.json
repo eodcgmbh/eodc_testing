@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-05-05 07:14:57",
+        "timestamp": "2025-05-05 08:20:01",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-04-30 09:15:06",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-04-30 10:14:55",
                     "status": 1
@@ -402,6 +398,10 @@
                 },
                 {
                     "timestamp": "2025-05-05 07:14:57",
+                    "status": 1
+                },
+                {
+                    "timestamp": "2025-05-05 08:20:01",
                     "status": 1
                 }
             ]
@@ -1370,16 +1370,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-05-05 07:14:53",
+        "timestamp": "2025-05-05 08:20:08",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3f578cd6-8ce8-4696-8fb4-c22e00526d22)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-06b4a799-d54a-4909-b226-d51aef3a0374)",
             "history": [
-                {
-                    "timestamp": "2025-05-04 20:14:11",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3cf2152e-e460-4543-a186-646f85753dbc)"
-                },
                 {
                     "timestamp": "2025-05-04 21:12:07",
                     "status": 0,
@@ -1424,6 +1419,11 @@
                     "timestamp": "2025-05-05 07:14:53",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3f578cd6-8ce8-4696-8fb4-c22e00526d22)"
+                },
+                {
+                    "timestamp": "2025-05-05 08:20:08",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-06b4a799-d54a-4909-b226-d51aef3a0374)"
                 }
             ]
         }
