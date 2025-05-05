@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-05 10:15",
+        "timestamp": "2025-05-05 10:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "SENTINEL2_L1C_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-05-04 05:45",
-                    "status": 1,
-                    "collection": "VEGETATION_INDICES"
-                },
                 {
                     "timestamp": "2025-05-04 05:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-05 10:15",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-05-05 10:40",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_SENTINELHUB"
                 }
             ]
         }
