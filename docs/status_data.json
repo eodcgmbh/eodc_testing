@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-06 07:53",
+        "timestamp": "2025-05-06 08:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-05-04 22:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-05-04 23:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-06 07:53",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-05-06 08:18",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
