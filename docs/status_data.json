@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-06 15:41",
+        "timestamp": "2025-05-06 15:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SLC",
+            "collection": "GLOBAL_LAND_COVER",
             "history": [
-                {
-                    "timestamp": "2025-05-05 08:43",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-05-05 08:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-06 15:41",
                     "status": 1,
                     "collection": "SENTINEL1_SLC"
+                },
+                {
+                    "timestamp": "2025-05-06 15:54",
+                    "status": 1,
+                    "collection": "GLOBAL_LAND_COVER"
                 }
             ]
         }
