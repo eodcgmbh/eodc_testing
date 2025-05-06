@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-06 09:46",
+        "timestamp": "2025-05-06 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "PROBAV_L3_S1_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2025-05-05 01:07",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-05-05 02:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-06 09:46",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-05-06 09:53",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_100M"
                 }
             ]
         }
