@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-06 11:54",
+        "timestamp": "2025-05-06 12:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WATER_BODIES",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-05-05 05:54",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_L2"
-                },
                 {
                     "timestamp": "2025-05-05 06:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-06 11:54",
                     "status": 1,
                     "collection": "WATER_BODIES"
+                },
+                {
+                    "timestamp": "2025-05-06 12:28",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
