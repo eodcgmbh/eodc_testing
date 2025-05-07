@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-05-07 18:19:47",
+        "timestamp": "2025-05-07 19:12:12",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-05-02 19:11:51",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-05-02 21:12:55",
                     "status": 1
@@ -403,21 +399,20 @@
                 {
                     "timestamp": "2025-05-07 18:19:47",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-05-07 19:12:12",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-07 18:55",
+        "timestamp": "2025-05-07 19:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-05-06 10:58",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-05-06 11:16",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-07 18:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
+                },
+                {
+                    "timestamp": "2025-05-07 19:12",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -1370,16 +1370,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-05-07 18:20:10",
+        "timestamp": "2025-05-07 19:12:09",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f8b012fb-a327-4025-9953-5eaac8f5e5cc)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-635a4c66-d1aa-4c2a-8446-57e6c7690acb)",
             "history": [
-                {
-                    "timestamp": "2025-05-07 08:19:55",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-48712ff4-5456-493a-890a-83d8de5694bb)"
-                },
                 {
                     "timestamp": "2025-05-07 09:15:45",
                     "status": 0,
@@ -1424,6 +1419,11 @@
                     "timestamp": "2025-05-07 18:20:10",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f8b012fb-a327-4025-9953-5eaac8f5e5cc)"
+                },
+                {
+                    "timestamp": "2025-05-07 19:12:09",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-635a4c66-d1aa-4c2a-8446-57e6c7690acb)"
                 }
             ]
         }
