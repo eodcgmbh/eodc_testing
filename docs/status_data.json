@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-08 09:53",
+        "timestamp": "2025-05-08 10:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-05-07 01:05",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-05-07 02:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-08 09:53",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-08 10:15",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
