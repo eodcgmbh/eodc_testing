@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-08 03:57",
+        "timestamp": "2025-05-08 04:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-05-06 19:09",
-                    "status": 1,
-                    "collection": "VEGETATION_INDICES"
-                },
                 {
                     "timestamp": "2025-05-06 19:23",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-08 03:57",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-08 04:23",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
