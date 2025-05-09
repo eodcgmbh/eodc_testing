@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-09 14:14",
+        "timestamp": "2025-05-09 14:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-05-08 07:44",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-05-08 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-09 14:14",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-05-09 14:36",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
