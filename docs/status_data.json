@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-10 06:17",
+        "timestamp": "2025-05-10 06:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SEASONAL_TRAJECTORIES",
+            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-05-08 21:43",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-05-08 21:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-10 06:17",
                     "status": 1,
                     "collection": "SEASONAL_TRAJECTORIES"
+                },
+                {
+                    "timestamp": "2025-05-10 06:40",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
                 }
             ]
         }
