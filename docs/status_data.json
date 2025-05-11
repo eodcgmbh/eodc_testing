@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-11 15:11",
+        "timestamp": "2025-05-11 15:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1",
             "history": [
-                {
-                    "timestamp": "2025-05-10 10:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2025-05-10 11:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-11 15:11",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-05-11 15:31",
+                    "status": 1,
+                    "collection": "VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_1"
                 }
             ]
         }
