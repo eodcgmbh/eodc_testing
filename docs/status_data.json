@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-11 07:28",
+        "timestamp": "2025-05-11 07:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-05-10 03:49",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-05-10 03:58",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-11 07:28",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-05-11 07:37",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-05-09 20:41",
+                "timestamp": "2025-05-11 07:37",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
