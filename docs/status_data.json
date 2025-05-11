@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-11 11:53",
+        "timestamp": "2025-05-11 12:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-05-10 08:48",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-05-10 08:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-11 11:53",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-05-11 12:23",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
