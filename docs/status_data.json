@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-13 23:43",
+        "timestamp": "2025-05-13 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "SENTINEL3_SRAL_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-12 17:45",
-                    "status": 1,
-                    "collection": "SENTINEL1_CARD4L"
-                },
                 {
                     "timestamp": "2025-05-12 17:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-13 23:43",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-13 23:53",
+                    "status": 1,
+                    "collection": "SENTINEL3_SRAL_L2"
                 }
             ]
         }
