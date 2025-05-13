@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-13 13:07",
+        "timestamp": "2025-05-13 13:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-05-12 05:55",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2025-05-12 06:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-13 13:07",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-05-13 13:41",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
