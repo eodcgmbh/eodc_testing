@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-14 13:37",
+        "timestamp": "2025-05-14 13:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-05-13 06:19",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
-                },
                 {
                     "timestamp": "2025-05-13 06:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-14 13:37",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2025-05-14 13:50",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -1138,9 +1138,9 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-05-14 01:23",
+                "timestamp": "2025-05-14 13:49",
                 "status": "SUCCESS",
-                "item": "5120-65"
+                "item": "5120-09"
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
