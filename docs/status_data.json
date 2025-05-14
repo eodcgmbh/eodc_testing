@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-05-14 17:13:41",
+        "timestamp": "2025-05-14 16:17:31",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-05-09 18:18:52",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-05-09 19:12:03",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-05-14 16:17:31",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-05-14 17:13:41",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-14 16:56",
+        "timestamp": "2025-05-14 17:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-05-13 09:49",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
-                },
                 {
                     "timestamp": "2025-05-13 09:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-14 16:56",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2025-05-14 17:15",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
