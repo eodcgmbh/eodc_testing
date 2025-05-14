@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-14 06:45",
+        "timestamp": "2025-05-14 06:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-05-12 21:13",
-                    "status": 1,
-                    "collection": "DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-05-12 21:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-14 06:45",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-05-14 06:57",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
