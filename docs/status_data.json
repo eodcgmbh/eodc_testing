@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-14 13:50",
+        "timestamp": "2025-05-14 13:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-05-13 06:45",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2025-05-13 06:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-14 13:50",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-05-14 13:57",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
