@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-14 08:57",
+        "timestamp": "2025-05-14 09:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_GAMMA0_V1",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2025-05-12 23:12",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-05-12 23:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-14 08:57",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_GAMMA0_V1"
+                },
+                {
+                    "timestamp": "2025-05-14 09:19",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -1156,9 +1156,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-05-12 06:52",
+                "timestamp": "2025-05-14 09:19",
                 "status": "SUCCESS",
-                "item": "wien_603000_533800.copc.laz"
+                "item": "wien_601000_534000.copc.laz"
             },
             {
                 "collection": "N/A",
