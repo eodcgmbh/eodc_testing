@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-15 11:46",
+        "timestamp": "2025-05-15 11:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "SENTINEL_5P_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-14 06:19",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-05-14 06:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-15 11:46",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-05-15 11:54",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_L2"
                 }
             ]
         }
