@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-15 08:43",
+        "timestamp": "2025-05-15 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-05-13 23:53",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-05-14 01:05",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-15 08:43",
                     "status": 1,
                     "collection": "CORINE_LAND_COVER_ACCOUNTING_LAYERS"
+                },
+                {
+                    "timestamp": "2025-05-15 08:56",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
