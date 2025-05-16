@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-16 17:32",
+        "timestamp": "2025-05-16 17:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-05-15 11:11",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FAPAR_V2"
-                },
                 {
                     "timestamp": "2025-05-15 11:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-16 17:32",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-05-16 17:44",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
