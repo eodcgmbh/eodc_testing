@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-16 17:13",
+        "timestamp": "2025-05-16 17:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-05-15 10:53",
-                    "status": 1,
-                    "collection": "AUT_DEM"
-                },
                 {
                     "timestamp": "2025-05-15 11:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-16 17:13",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-05-16 17:32",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
