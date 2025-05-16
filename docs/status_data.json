@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-16 20:53",
+        "timestamp": "2025-05-16 21:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-05-15 15:17",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-05-15 15:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-16 20:53",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-05-16 21:12",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
