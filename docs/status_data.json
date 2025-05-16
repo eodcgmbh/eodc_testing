@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-16 15:14",
+        "timestamp": "2025-05-16 15:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-15 08:56",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-05-15 09:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-16 15:14",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-05-16 15:32",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
