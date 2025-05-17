@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-17 13:55",
+        "timestamp": "2025-05-17 14:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SLC",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-05-16 08:56",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-05-16 09:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-17 13:55",
                     "status": 1,
                     "collection": "SENTINEL1_SLC"
+                },
+                {
+                    "timestamp": "2025-05-17 14:12",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -1370,16 +1370,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-05-17 13:21:03",
+        "timestamp": "2025-05-17 14:11:51",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-de44e50b-0ce1-4bef-af16-d32db1785cce)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-658041ab-c0a1-473c-8db3-4b2c133c7ae3)",
             "history": [
-                {
-                    "timestamp": "2025-05-17 03:03:27",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1605fb5a-e5c3-44fd-848f-a3223f5a856d)"
-                },
                 {
                     "timestamp": "2025-05-17 04:16:49",
                     "status": 0,
@@ -1424,6 +1419,11 @@
                     "timestamp": "2025-05-17 13:21:03",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-de44e50b-0ce1-4bef-af16-d32db1785cce)"
+                },
+                {
+                    "timestamp": "2025-05-17 14:11:51",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-658041ab-c0a1-473c-8db3-4b2c133c7ae3)"
                 }
             ]
         }
