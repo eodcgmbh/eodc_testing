@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-17 14:12",
+        "timestamp": "2025-05-17 14:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-05-16 09:17",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_GAMMA0_V1"
-                },
                 {
                     "timestamp": "2025-05-16 09:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-17 14:12",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-05-17 14:32",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
