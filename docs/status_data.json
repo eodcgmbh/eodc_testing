@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-17 06:41",
+        "timestamp": "2025-05-17 06:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-05-15 21:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
-                },
                 {
                     "timestamp": "2025-05-15 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-17 06:41",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-05-17 06:53",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
