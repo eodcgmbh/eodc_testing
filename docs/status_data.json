@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-18 19:53",
+        "timestamp": "2025-05-18 20:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-05-17 15:12",
-                    "status": 1,
-                    "collection": "PERSISTENT_SNOW_AREA"
-                },
                 {
                     "timestamp": "2025-05-17 15:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-18 19:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-05-18 20:14",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
