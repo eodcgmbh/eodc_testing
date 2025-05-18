@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-18 17:43",
+        "timestamp": "2025-05-18 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2025-05-17 12:58",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-05-17 13:26",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-18 17:43",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-18 17:53",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
