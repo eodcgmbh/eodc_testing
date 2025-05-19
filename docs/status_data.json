@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-19 05:17",
+        "timestamp": "2025-05-19 05:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-05-17 21:28",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-05-17 21:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-19 05:17",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-05-19 05:37",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
