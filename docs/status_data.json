@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-05-20 11:12:56",
+        "timestamp": "2025-05-20 12:28:14",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-05-15 12:27:16",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-05-15 13:25:31",
                     "status": 1
@@ -403,21 +399,20 @@
                 {
                     "timestamp": "2025-05-20 11:12:56",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-05-20 12:28:14",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-20 11:55",
+        "timestamp": "2025-05-20 12:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-05-19 05:17",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-05-19 05:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-20 11:55",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-05-20 12:28",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
