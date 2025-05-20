@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-20 11:47",
+        "timestamp": "2025-05-20 11:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-05-19 04:56",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2025-05-19 05:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-20 11:47",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-05-20 11:55",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
