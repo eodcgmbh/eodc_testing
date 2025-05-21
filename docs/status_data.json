@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-21 09:20",
+        "timestamp": "2025-05-21 09:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-05-19 23:30",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-05-19 23:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-21 09:20",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-05-21 09:38",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
