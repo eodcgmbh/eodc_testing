@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-21 07:44",
+        "timestamp": "2025-05-21 07:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2025-05-19 22:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_NDVI_V2"
-                },
                 {
                     "timestamp": "2025-05-19 22:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-21 07:44",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-05-21 07:53",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
