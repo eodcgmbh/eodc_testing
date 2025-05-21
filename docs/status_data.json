@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-21 16:57",
+        "timestamp": "2025-05-21 17:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-05-20 09:40",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2025-05-20 09:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-21 16:57",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-21 17:15",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
