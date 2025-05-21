@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-21 14:38",
+        "timestamp": "2025-05-21 14:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "SPOT",
             "history": [
-                {
-                    "timestamp": "2025-05-20 07:18",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-05-20 07:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-21 14:38",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-05-21 14:51",
+                    "status": 1,
+                    "collection": "SPOT"
                 }
             ]
         }
