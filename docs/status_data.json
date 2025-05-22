@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-22 13:07",
+        "timestamp": "2025-05-22 13:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-05-21 05:54",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_NDVI_V2"
-                },
                 {
                     "timestamp": "2025-05-21 06:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-22 13:07",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-05-22 13:39",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
