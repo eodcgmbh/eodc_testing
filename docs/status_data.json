@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-23 21:10",
+        "timestamp": "2025-05-23 21:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-05-22 15:34",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-05-22 15:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-23 21:10",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-23 21:28",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
