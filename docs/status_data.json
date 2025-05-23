@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-23 07:16",
+        "timestamp": "2025-05-23 07:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-05-21 21:43",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-05-21 21:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-23 07:16",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
+                },
+                {
+                    "timestamp": "2025-05-23 07:32",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
