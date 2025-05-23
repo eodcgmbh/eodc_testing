@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-23 05:46",
+        "timestamp": "2025-05-23 05:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-05-21 20:34",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-05-21 20:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-23 05:46",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-05-23 05:54",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
