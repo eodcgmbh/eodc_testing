@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-25 07:41",
+        "timestamp": "2025-05-25 07:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-05-23 23:31",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-05-23 23:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-25 07:41",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-05-25 07:53",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
