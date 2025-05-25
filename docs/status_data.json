@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-25 09:30",
+        "timestamp": "2025-05-25 09:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2025-05-24 03:51",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-05-24 04:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-25 09:30",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-25 09:40",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
