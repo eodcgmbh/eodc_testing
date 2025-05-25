@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-25 05:33",
+        "timestamp": "2025-05-25 05:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-05-23 21:39",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-05-23 21:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-25 05:33",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-05-25 05:44",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
