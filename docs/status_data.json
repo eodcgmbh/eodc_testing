@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-25 22:45",
+        "timestamp": "2025-05-25 22:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-05-24 17:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
-                },
                 {
                     "timestamp": "2025-05-24 17:52",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-25 22:45",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-25 22:53",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
