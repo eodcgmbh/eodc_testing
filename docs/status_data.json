@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-25 21:29",
+        "timestamp": "2025-05-25 21:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-05-24 15:53",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-05-24 16:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-25 21:29",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-05-25 21:39",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
