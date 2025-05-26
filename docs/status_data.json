@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-26 04:50",
+        "timestamp": "2025-05-26 05:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-05-24 20:31",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-05-24 20:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-26 04:50",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
+                },
+                {
+                    "timestamp": "2025-05-26 05:14",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
