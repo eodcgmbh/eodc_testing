@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-26 10:18",
+        "timestamp": "2025-05-26 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-05-24 23:12",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
-                },
                 {
                     "timestamp": "2025-05-24 23:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-26 10:18",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-05-26 10:43",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
