@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-27 10:15",
+        "timestamp": "2025-05-27 10:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "SENTINEL2_L1C_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-05-25 22:34",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-05-25 22:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-27 10:15",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-05-27 10:40",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_SENTINELHUB"
                 }
             ]
         }
