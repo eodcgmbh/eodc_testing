@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-27 22:46",
+        "timestamp": "2025-05-27 22:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-05-26 15:53",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-05-26 16:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-27 22:46",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-05-27 22:54",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
