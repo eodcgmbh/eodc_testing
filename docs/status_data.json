@@ -408,11 +408,16 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-27 19:13",
+        "timestamp": "2025-05-27 18:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
             "history": [
+                {
+                    "timestamp": "2025-05-26 11:28",
+                    "status": 1,
+                    "collection": "GFM"
+                },
                 {
                     "timestamp": "2025-05-26 11:37",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-05-27 18:57",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
-                },
-                {
-                    "timestamp": "2025-05-27 19:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-05-27 17:17",
+                "timestamp": "2025-05-27 19:14",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
