@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-28 19:36",
+        "timestamp": "2025-05-28 19:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-05-27 11:29",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
-                },
                 {
                     "timestamp": "2025-05-27 11:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-28 19:36",
                     "status": 1,
                     "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-05-28 19:44",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
