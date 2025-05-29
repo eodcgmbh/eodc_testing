@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-29 12:26",
+        "timestamp": "2025-05-29 13:05",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-28 04:55",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-05-28 05:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-29 12:26",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-05-29 13:05",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
