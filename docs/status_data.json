@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-29 14:38",
+        "timestamp": "2025-05-29 14:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-05-28 06:46",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-05-28 06:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-29 14:38",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-05-29 14:49",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
