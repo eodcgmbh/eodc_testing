@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-29 13:57",
+        "timestamp": "2025-05-29 14:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "LANDSAT4-5_TM_L2",
             "history": [
-                {
-                    "timestamp": "2025-05-28 05:55",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-05-28 06:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-29 13:57",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-05-29 14:17",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L2"
                 }
             ]
         }
