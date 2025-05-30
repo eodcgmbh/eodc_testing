@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-30 05:13",
+        "timestamp": "2025-05-30 05:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-05-28 19:53",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-05-28 20:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-30 05:13",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-05-30 05:34",
+                    "status": 1,
+                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
                 }
             ]
         }
