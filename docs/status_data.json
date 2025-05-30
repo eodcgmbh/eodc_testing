@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-30 04:55",
+        "timestamp": "2025-05-30 05:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-05-28 19:44",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-05-28 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-30 04:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-05-30 05:13",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
