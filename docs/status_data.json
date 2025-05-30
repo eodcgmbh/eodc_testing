@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-30 10:57",
+        "timestamp": "2025-05-30 11:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-05-29 04:31",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2025-05-29 04:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-30 10:57",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-05-30 11:15",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
@@ -928,9 +928,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-05-28 08:25",
+                "timestamp": "2025-05-30 11:15",
                 "status": "SUCCESS",
-                "item": "SIG0_20231231T051023_D022_EU020M_E048N015T3_S1AIWGRDH"
+                "item": "SIG0_20231231T051023_D022_EU020M_E051N015T3_S1AIWGRDH"
             },
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
