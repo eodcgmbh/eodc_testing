@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-31 07:39",
+        "timestamp": "2025-05-31 07:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-05-29 23:12",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-05-29 23:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-31 07:39",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-05-31 07:46",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
