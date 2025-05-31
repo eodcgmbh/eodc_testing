@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-31 15:44",
+        "timestamp": "2025-05-31 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-05-30 10:39",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-05-30 10:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-31 15:44",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-05-31 15:53",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
