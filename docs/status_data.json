@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-05-31 04:18:54",
+        "timestamp": "2025-05-31 03:08:08",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-05-25 16:15:28",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-05-25 18:17:20",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-05-31 03:08:08",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-05-31 04:18:54",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-05-31 03:56",
+        "timestamp": "2025-05-31 04:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-05-29 19:53",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-05-29 20:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-05-31 03:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-05-31 04:19",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
                 }
             ]
         }
