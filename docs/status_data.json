@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-02 23:13",
+        "timestamp": "2025-06-02 23:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-06-01 15:12",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-06-01 15:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-02 23:13",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2025-06-02 23:32",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
