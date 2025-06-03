@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-03 05:16",
+        "timestamp": "2025-06-03 05:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-06-01 17:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
-                },
                 {
                     "timestamp": "2025-06-01 18:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-03 05:16",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-06-03 05:37",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
