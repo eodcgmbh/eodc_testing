@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-04 21:11",
+        "timestamp": "2025-06-04 21:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-06-03 11:40",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-06-03 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-04 21:11",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-06-04 21:26",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
