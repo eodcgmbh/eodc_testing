@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 04:43",
+        "timestamp": "2025-06-05 04:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-06-03 17:53",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S10_TOC_333M"
-                },
                 {
                     "timestamp": "2025-06-03 18:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 04:43",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-06-05 04:56",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
