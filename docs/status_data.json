@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 22:34",
+        "timestamp": "2025-06-05 22:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-06-04 14:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-06-04 15:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 22:34",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2025-06-05 22:46",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-06-04 09:20",
+                "timestamp": "2025-06-05 22:46",
                 "status": "SUCCESS",
                 "item": "dhm_at_lamb_10m_2018"
             },
