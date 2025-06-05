@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 11:40",
+        "timestamp": "2025-06-05 11:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-06-03 23:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
-                },
                 {
                     "timestamp": "2025-06-03 23:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 11:40",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-06-05 11:48",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
