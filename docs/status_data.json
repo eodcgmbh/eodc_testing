@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 21:53",
+        "timestamp": "2025-06-05 22:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-06-04 13:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-06-04 14:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 21:53",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-06-05 22:12",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
