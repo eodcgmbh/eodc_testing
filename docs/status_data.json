@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-06-05 14:15:44",
+        "timestamp": "2025-06-05 13:29:42",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-05-31 11:12:19",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-05-31 12:25:30",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-06-05 13:29:42",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-06-05 14:15:44",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 13:56",
+        "timestamp": "2025-06-05 14:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_GAMMA0_V1",
+            "collection": "DOP_AUT_K_VILLACH",
             "history": [
-                {
-                    "timestamp": "2025-06-04 04:43",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-06-04 04:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 13:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_GAMMA0_V1"
+                },
+                {
+                    "timestamp": "2025-06-05 14:16",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_VILLACH"
                 }
             ]
         }
