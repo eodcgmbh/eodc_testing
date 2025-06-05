@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 19:53",
+        "timestamp": "2025-06-05 20:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "CGLS_FCOVER300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-06-04 10:41",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-06-04 10:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 19:53",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-06-05 20:12",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
                 }
             ]
         }
