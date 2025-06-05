@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-05 07:31",
+        "timestamp": "2025-06-05 07:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GFM",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-06-03 20:15",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-06-03 20:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-05 07:31",
                     "status": 1,
                     "collection": "GFM"
+                },
+                {
+                    "timestamp": "2025-06-05 07:44",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
