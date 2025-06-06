@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-06 06:20",
+        "timestamp": "2025-06-06 06:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-06-04 19:53",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2025-06-04 20:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-06 06:20",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-06-06 06:50",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
