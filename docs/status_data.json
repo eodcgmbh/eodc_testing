@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-06 09:55",
+        "timestamp": "2025-06-06 10:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-06-04 22:31",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-06-04 22:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-06 09:55",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-06-06 10:15",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
