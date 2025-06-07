@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-07 19:43",
+        "timestamp": "2025-06-07 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-06-06 14:46",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-06-06 14:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-07 19:43",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-06-07 19:53",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
