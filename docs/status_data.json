@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-08 09:31",
+        "timestamp": "2025-06-08 09:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-06-07 03:58",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
-                },
                 {
                     "timestamp": "2025-06-07 04:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-08 09:31",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-06-08 09:44",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
