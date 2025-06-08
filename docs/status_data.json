@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-08 15:53",
+        "timestamp": "2025-06-08 16:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-06-07 10:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2025-06-07 10:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-08 15:53",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-06-08 16:15",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
