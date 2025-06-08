@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-08 11:44",
+        "timestamp": "2025-06-08 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2025-06-07 06:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2025-06-07 07:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-08 11:44",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-06-08 11:53",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
