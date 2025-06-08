@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-08 12:24",
+        "timestamp": "2025-06-08 13:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
             "history": [
-                {
-                    "timestamp": "2025-06-07 07:29",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-06-07 07:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-08 12:24",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-06-08 13:00",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
                 }
             ]
         }
