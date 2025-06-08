@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-08 17:30",
+        "timestamp": "2025-06-08 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-06-07 11:26",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-06-07 11:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-08 17:30",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-06-08 17:43",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
