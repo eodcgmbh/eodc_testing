@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-08 21:54",
+        "timestamp": "2025-06-08 22:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-06-07 16:41",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-06-07 16:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-08 21:54",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2025-06-08 22:12",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
