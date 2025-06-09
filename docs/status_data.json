@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-09 21:53",
+        "timestamp": "2025-06-09 22:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-06-08 14:11",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-06-08 14:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-09 21:53",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-06-09 22:13",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
