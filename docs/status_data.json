@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-09 22:13",
+        "timestamp": "2025-06-09 22:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
             "history": [
-                {
-                    "timestamp": "2025-06-08 14:32",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-06-08 14:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-09 22:13",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-06-09 22:36",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
                 }
             ]
         }
