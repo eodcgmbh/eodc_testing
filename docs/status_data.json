@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-09 18:44",
+        "timestamp": "2025-06-09 18:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-06-08 10:13",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-06-08 10:35",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-09 18:44",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-06-09 18:56",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
