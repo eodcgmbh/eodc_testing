@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-09 20:47",
+        "timestamp": "2025-06-09 20:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2025-06-08 12:24",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-06-08 13:00",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-09 20:47",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-06-09 20:55",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
