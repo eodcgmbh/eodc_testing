@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-10 23:31",
+        "timestamp": "2025-06-10 23:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-06-09 15:55",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-06-09 16:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-10 23:31",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-06-10 23:44",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
