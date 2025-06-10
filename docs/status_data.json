@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-10 15:47",
+        "timestamp": "2025-06-10 15:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SIG0_20M",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-06-09 05:50",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2025-06-09 05:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-10 15:47",
                     "status": 1,
                     "collection": "SENTINEL1_SIG0_20M"
+                },
+                {
+                    "timestamp": "2025-06-10 15:55",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
