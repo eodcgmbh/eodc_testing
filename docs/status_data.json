@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-10 07:44",
+        "timestamp": "2025-06-10 07:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-06-08 20:32",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-06-08 20:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-10 07:44",
                     "status": 1,
                     "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-06-10 07:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
