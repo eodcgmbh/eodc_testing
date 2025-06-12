@@ -1181,7 +1181,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-06-12 12:52:35",
+        "timestamp": "2025-06-12 18:35:25",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1308,6 +1308,11 @@
                 "notebook": "demos/cloud4geo_webinar/landing.ipynb",
                 "status": "SKIPPED",
                 "message": "No imports found in notebook"
+            },
+            {
+                "notebook": "demos/ASAR/ENVISAT_OpenEO.ipynb",
+                "status": "SUCCESS",
+                "message": "All imports executed successfully"
             },
             {
                 "notebook": "demos/ASAR/ASAR_data_access.ipynb",
