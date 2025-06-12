@@ -408,11 +408,16 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-12 19:13",
+        "timestamp": "2025-06-12 18:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "PROBAV_L3_S1_TOC_333M",
             "history": [
+                {
+                    "timestamp": "2025-06-11 09:25",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+                },
                 {
                     "timestamp": "2025-06-11 09:41",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-06-12 18:57",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_333M"
-                },
-                {
-                    "timestamp": "2025-06-12 19:13",
-                    "status": 1,
-                    "collection": "WORLDVIEW"
                 }
             ]
         }
@@ -1174,7 +1174,7 @@
             },
             {
                 "collection": "SENTINEL_3_SLSTR_L1-RBT_COVERAGE_MAPS",
-                "timestamp": "2025-06-12 14:46",
+                "timestamp": "2025-06-12 19:14",
                 "status": "FAILURE",
                 "item": "N/A"
             }
