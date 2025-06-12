@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-12 19:52",
+        "timestamp": "2025-06-12 20:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-06-11 10:41",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-06-11 10:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-12 19:52",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-06-12 20:15",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
