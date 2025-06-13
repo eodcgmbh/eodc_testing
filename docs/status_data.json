@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-13 17:16",
+        "timestamp": "2025-06-13 17:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-06-12 06:59",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-06-12 07:23",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-13 17:16",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-06-13 17:34",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
