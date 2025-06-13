@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-13 15:20",
+        "timestamp": "2025-06-13 15:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
             "history": [
-                {
-                    "timestamp": "2025-06-12 05:16",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-06-12 05:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-13 15:20",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-06-13 15:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
                 }
             ]
         }
