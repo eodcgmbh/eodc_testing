@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-13 22:35",
+        "timestamp": "2025-06-13 22:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S10",
             "history": [
-                {
-                    "timestamp": "2025-06-12 14:15",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-06-12 14:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-13 22:35",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-06-13 22:47",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
                 }
             ]
         }
