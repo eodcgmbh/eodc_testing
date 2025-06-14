@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-14 23:32",
+        "timestamp": "2025-06-14 23:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-06-13 18:56",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-06-13 19:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-14 23:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+                },
+                {
+                    "timestamp": "2025-06-14 23:44",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
