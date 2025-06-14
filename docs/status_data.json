@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-14 22:34",
+        "timestamp": "2025-06-14 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-06-13 17:45",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2025-06-13 17:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-14 22:34",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-06-14 22:45",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
