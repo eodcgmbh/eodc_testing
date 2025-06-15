@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 20:32",
+        "timestamp": "2025-06-15 20:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-06-14 14:32",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
-                },
                 {
                     "timestamp": "2025-06-14 14:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-15 20:32",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-06-15 20:45",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
