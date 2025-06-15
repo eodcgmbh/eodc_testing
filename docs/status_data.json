@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 19:26",
+        "timestamp": "2025-06-15 19:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
             "history": [
-                {
-                    "timestamp": "2025-06-14 13:00",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-06-14 13:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-15 19:26",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-06-15 19:36",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
                 }
             ]
         }
