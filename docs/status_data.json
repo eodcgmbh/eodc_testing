@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 05:53",
+        "timestamp": "2025-06-15 06:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-06-13 21:12",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2025-06-13 21:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-15 05:53",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-06-15 06:18",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
