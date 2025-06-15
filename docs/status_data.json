@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-06-15 07:14:45",
+        "timestamp": "2025-06-15 08:18:04",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-06-10 01:10:23",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-06-10 03:18:09",
                     "status": 1
@@ -403,21 +399,20 @@
                 {
                     "timestamp": "2025-06-15 07:14:45",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-06-15 08:18:04",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 07:55",
+        "timestamp": "2025-06-15 08:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "OPENEO_CROPTYPE_2021",
             "history": [
-                {
-                    "timestamp": "2025-06-13 23:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
-                },
                 {
                     "timestamp": "2025-06-13 23:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-15 07:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-06-15 08:18",
+                    "status": 1,
+                    "collection": "OPENEO_CROPTYPE_2021"
                 }
             ]
         }
