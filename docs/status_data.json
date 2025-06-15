@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 15:46",
+        "timestamp": "2025-06-15 15:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-06-14 09:32",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-06-14 09:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-15 15:46",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-06-15 15:54",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
