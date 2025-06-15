@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 21:53",
+        "timestamp": "2025-06-15 22:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-06-14 15:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-06-14 16:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-15 21:53",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-06-15 22:12",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
