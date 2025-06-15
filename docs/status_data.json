@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-06-15 01:15:21",
+        "timestamp": "2025-06-15 04:25:43",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-06-09 20:18:20",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-06-09 21:16:06",
                     "status": 1
@@ -403,16 +399,25 @@
                 {
                     "timestamp": "2025-06-15 01:15:21",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-06-15 04:25:43",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-15 04:25",
+        "timestamp": "2025-06-15 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
+                {
+                    "timestamp": "2025-06-13 19:53",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
+                },
                 {
                     "timestamp": "2025-06-13 20:15",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-06-15 03:56",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
-                {
-                    "timestamp": "2025-06-15 04:25",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
