@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-16 13:09",
+        "timestamp": "2025-06-16 13:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-06-15 04:59",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-06-15 05:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-16 13:09",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-06-16 13:44",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
