@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-16 07:15",
+        "timestamp": "2025-06-16 07:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-06-14 20:53",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2025-06-14 21:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-16 07:15",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-06-16 07:33",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
