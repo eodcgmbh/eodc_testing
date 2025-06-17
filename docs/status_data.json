@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 23:31",
+        "timestamp": "2025-06-17 23:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-06-16 13:57",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-06-16 14:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 23:31",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-06-17 23:45",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
