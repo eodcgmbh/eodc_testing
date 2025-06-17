@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 21:54",
+        "timestamp": "2025-06-17 22:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-06-16 11:29",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-06-16 11:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 21:54",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-06-17 22:13",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
