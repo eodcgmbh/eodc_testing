@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 10:41",
-        "status": "FAILURE",
+        "timestamp": "2025-06-17 10:55",
+        "status": "SUCCESS",
         "extra_info": {
-            "collection": "No collection found \u2013 test failed.",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-06-15 20:53",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-06-15 21:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 10:41",
                     "status": 0,
                     "collection": "No collection found \u2013 test failed."
+                },
+                {
+                    "timestamp": "2025-06-17 10:55",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
