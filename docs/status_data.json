@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 21:32",
+        "timestamp": "2025-06-17 21:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-06-16 10:55",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-06-16 11:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 21:32",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-06-17 21:46",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
