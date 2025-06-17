@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 09:53",
+        "timestamp": "2025-06-17 10:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-06-15 20:32",
-                    "status": 1,
-                    "collection": "CGLS_SSM_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-06-15 20:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 09:53",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-06-17 10:15",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
