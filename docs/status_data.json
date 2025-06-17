@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 10:15",
-        "status": "SUCCESS",
+        "timestamp": "2025-06-17 10:41",
+        "status": "FAILURE",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "No collection found \u2013 test failed.",
             "history": [
-                {
-                    "timestamp": "2025-06-15 20:45",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-06-15 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 10:15",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-06-17 10:41",
+                    "status": 0,
+                    "collection": "No collection found \u2013 test failed."
                 }
             ]
         }
