@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-17 06:28",
+        "timestamp": "2025-06-17 06:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SIG0_20M",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-06-15 17:44",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-06-15 17:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-17 06:28",
                     "status": 1,
                     "collection": "SENTINEL1_SIG0_20M"
+                },
+                {
+                    "timestamp": "2025-06-17 06:52",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
