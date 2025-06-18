@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-18 20:49",
+        "timestamp": "2025-06-18 20:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-06-17 11:12",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-06-17 11:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-18 20:49",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-06-18 20:57",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
