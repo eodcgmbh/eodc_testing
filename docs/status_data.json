@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-18 20:16",
+        "timestamp": "2025-06-18 20:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-06-17 10:41",
-                    "status": 0,
-                    "collection": "No collection found \u2013 test failed."
-                },
                 {
                     "timestamp": "2025-06-17 10:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-18 20:16",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-06-18 20:36",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
