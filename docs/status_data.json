@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-19 23:45",
+        "timestamp": "2025-06-19 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-06-18 16:24",
-                    "status": 1,
-                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
-                },
                 {
                     "timestamp": "2025-06-18 16:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-19 23:45",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-06-19 23:53",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
