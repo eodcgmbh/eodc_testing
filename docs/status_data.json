@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-19 17:17",
+        "timestamp": "2025-06-19 17:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-06-18 07:50",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-06-18 07:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-19 17:17",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-06-19 17:38",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
