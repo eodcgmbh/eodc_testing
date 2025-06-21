@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-21 10:48",
+        "timestamp": "2025-06-21 10:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-06-19 23:53",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-06-20 01:07",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-21 10:48",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-06-21 10:56",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
