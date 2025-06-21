@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-21 13:01",
+        "timestamp": "2025-06-21 13:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-06-20 04:58",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2025-06-20 05:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-21 13:01",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-06-21 13:33",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
