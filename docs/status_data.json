@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-22 06:44",
+        "timestamp": "2025-06-22 06:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-06-20 20:55",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-06-20 21:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-22 06:44",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-06-22 06:56",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
