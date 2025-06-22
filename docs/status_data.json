@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-22 10:36",
+        "timestamp": "2025-06-22 10:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-06-21 01:06",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2025-06-21 02:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-22 10:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
+                },
+                {
+                    "timestamp": "2025-06-22 10:47",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
