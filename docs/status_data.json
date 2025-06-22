@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-22 20:45",
+        "timestamp": "2025-06-22 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-06-21 14:33",
-                    "status": 1,
-                    "collection": "SENTINEL1_SLC"
-                },
                 {
                     "timestamp": "2025-06-21 14:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-22 20:45",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-06-22 20:53",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
