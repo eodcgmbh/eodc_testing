@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-23 22:37",
+        "timestamp": "2025-06-23 22:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-06-22 14:33",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-06-22 14:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-23 22:37",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-06-23 22:48",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
