@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-23 15:15",
+        "timestamp": "2025-06-23 15:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-06-22 06:44",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-06-22 06:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-23 15:15",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-06-23 15:37",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
