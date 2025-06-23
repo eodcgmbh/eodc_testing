@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-23 19:55",
+        "timestamp": "2025-06-23 20:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-06-22 11:28",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-06-22 11:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-23 19:55",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-06-23 20:15",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
