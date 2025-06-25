@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-25 19:28",
+        "timestamp": "2025-06-25 19:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-06-24 08:59",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-06-24 09:27",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-25 19:28",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-06-25 19:38",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1246,7 +1246,7 @@
             },
             {
                 "collection": "SENTINEL-1-L1-SLC_COVERAGE",
-                "timestamp": "2025-06-25 14:19",
+                "timestamp": "2025-06-25 19:38",
                 "status": "FAILURE",
                 "item": "N/A"
             },
