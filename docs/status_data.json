@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-25 04:46",
+        "timestamp": "2025-06-25 05:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_VILLACH",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-06-23 17:23",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-06-23 17:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-25 04:46",
                     "status": 1,
                     "collection": "DOP_AUT_K_VILLACH"
+                },
+                {
+                    "timestamp": "2025-06-25 05:00",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
