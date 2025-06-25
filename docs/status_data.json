@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-25 21:34",
+        "timestamp": "2025-06-25 21:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-06-24 11:41",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-06-24 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-25 21:34",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-06-25 21:45",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
