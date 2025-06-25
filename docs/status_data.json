@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-25 21:20",
+        "timestamp": "2025-06-25 21:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-06-24 11:30",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-06-24 11:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-25 21:20",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-06-25 21:34",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
