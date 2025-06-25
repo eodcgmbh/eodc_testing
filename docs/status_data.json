@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-25 20:36",
+        "timestamp": "2025-06-25 20:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-06-24 10:42",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-06-24 10:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-25 20:36",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-06-25 20:49",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
