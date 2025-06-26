@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-26 09:25",
+        "timestamp": "2025-06-26 09:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-06-24 20:35",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-06-24 20:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-26 09:25",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
+                },
+                {
+                    "timestamp": "2025-06-26 09:41",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
