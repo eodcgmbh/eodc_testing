@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-27 18:19",
+        "timestamp": "2025-06-27 18:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-06-26 08:58",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2025-06-26 09:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-27 18:19",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-06-27 18:45",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
