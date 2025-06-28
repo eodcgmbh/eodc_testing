@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-28 04:29",
+        "timestamp": "2025-06-28 04:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-06-26 18:19",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-06-26 18:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-28 04:29",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-06-28 04:49",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -1246,7 +1246,7 @@
             },
             {
                 "collection": "SENTINEL-1-L1-SLC_COVERAGE",
-                "timestamp": "2025-06-26 18:27",
+                "timestamp": "2025-06-28 04:49",
                 "status": "FAILURE",
                 "item": "N/A"
             },
