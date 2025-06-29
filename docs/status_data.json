@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-29 08:52",
+        "timestamp": "2025-06-29 09:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-06-27 21:53",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-06-27 22:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-29 08:52",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-06-29 09:13",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
