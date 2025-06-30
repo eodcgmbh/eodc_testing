@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-30 11:30",
+        "timestamp": "2025-06-30 11:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-06-28 23:44",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG10"
-                },
                 {
                     "timestamp": "2025-06-28 23:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-30 11:30",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-06-30 11:45",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
