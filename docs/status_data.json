@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-30 08:20",
+        "timestamp": "2025-06-30 08:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-06-28 21:11",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2025-06-28 21:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-30 08:20",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-06-30 08:45",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
