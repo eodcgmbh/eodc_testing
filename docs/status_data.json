@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-06-30 10:41",
+        "timestamp": "2025-06-30 10:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-06-28 22:54",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-06-28 23:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-06-30 10:41",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-06-30 10:55",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
