@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-01 16:25",
+        "timestamp": "2025-07-01 16:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_3M",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-06-30 05:20",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2025-06-30 05:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-01 16:25",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_3M"
+                },
+                {
+                    "timestamp": "2025-07-01 16:49",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
