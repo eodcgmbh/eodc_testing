@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-02 18:46",
+        "timestamp": "2025-07-02 18:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-07-01 07:55",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-07-01 08:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-02 18:46",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-07-02 18:58",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
