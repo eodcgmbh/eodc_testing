@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-04 05:34",
+        "timestamp": "2025-07-04 05:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-07-02 17:00",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-07-02 17:24",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-04 05:34",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-07-04 05:50",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
