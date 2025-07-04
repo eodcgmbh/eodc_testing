@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-04 10:54",
+        "timestamp": "2025-07-04 11:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-07-02 21:31",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2025-07-02 21:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-04 10:54",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-07-04 11:12",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
