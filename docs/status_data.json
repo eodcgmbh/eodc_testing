@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-06 19:11",
+        "timestamp": "2025-07-06 19:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "OPENEO_CROPTYPE_2021",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2025-07-05 12:24",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-07-05 13:01",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-06 19:11",
                     "status": 1,
                     "collection": "OPENEO_CROPTYPE_2021"
+                },
+                {
+                    "timestamp": "2025-07-06 19:27",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
