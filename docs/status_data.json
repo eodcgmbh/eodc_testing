@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-07-07 08:21:21",
+        "timestamp": "2025-07-07 07:17:08",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-07-02 12:29:36",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-07-02 13:30:09",
                     "status": 1
@@ -398,10 +402,6 @@
                 },
                 {
                     "timestamp": "2025-07-07 07:17:08",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-07-07 08:21:21",
                     "status": 1
                 }
             ]
@@ -1483,16 +1483,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-07 07:17:00",
+        "timestamp": "2025-07-07 08:22:33",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250707-071647",
+            "info": "vm-test-20250707-082134",
             "history": [
-                {
-                    "timestamp": "2025-07-06 19:11:29",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f28d5e62-da25-43ae-b433-8a5483b7daae)"
-                },
                 {
                     "timestamp": "2025-07-06 20:15:28",
                     "status": 0,
@@ -1537,6 +1532,11 @@
                     "timestamp": "2025-07-07 07:17:00",
                     "status": 1,
                     "info": "vm-test-20250707-071647"
+                },
+                {
+                    "timestamp": "2025-07-07 08:22:33",
+                    "status": 1,
+                    "info": "vm-test-20250707-082134"
                 }
             ]
         }
