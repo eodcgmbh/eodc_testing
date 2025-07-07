@@ -1483,16 +1483,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-07 11:13:34",
+        "timestamp": "2025-07-07 12:30:40",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250707-111307",
+            "info": "vm-test-20250707-123001",
             "history": [
-                {
-                    "timestamp": "2025-07-06 23:13:48",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-de6fa8eb-d9ac-49fa-b85e-b8d88b8520b9)"
-                },
                 {
                     "timestamp": "2025-07-07 01:16:50",
                     "status": 0,
@@ -1537,6 +1532,11 @@
                     "timestamp": "2025-07-07 11:13:34",
                     "status": 1,
                     "info": "vm-test-20250707-111307"
+                },
+                {
+                    "timestamp": "2025-07-07 12:30:40",
+                    "status": 1,
+                    "info": "vm-test-20250707-123001"
                 }
             ]
         }
