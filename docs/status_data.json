@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-08 14:44",
+        "timestamp": "2025-07-08 14:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-07-07 03:03",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-07-07 03:59",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-08 14:44",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-07-08 14:55",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
