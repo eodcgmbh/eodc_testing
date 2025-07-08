@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-08 19:30",
+        "timestamp": "2025-07-08 19:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-07-07 09:34",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-07-07 09:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-08 19:30",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-07-08 19:40",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
