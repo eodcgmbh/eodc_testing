@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-08 15:57",
+        "timestamp": "2025-07-08 16:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-07-07 05:44",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-07-07 05:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-08 15:57",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-07-08 16:25",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-07-08 14:46",
+                "timestamp": "2025-07-08 16:24",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
