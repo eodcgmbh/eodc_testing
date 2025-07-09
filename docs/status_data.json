@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-09 09:55",
+        "timestamp": "2025-07-09 10:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-07-07 21:16",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-07-07 21:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-09 09:55",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-07-09 10:16",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
