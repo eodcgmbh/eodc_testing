@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-09 20:49",
+        "timestamp": "2025-07-09 20:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-07-08 10:15",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-07-08 10:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-09 20:49",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-07-09 20:56",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
