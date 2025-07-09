@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-07-09 16:16:06",
+        "timestamp": "2025-07-09 14:14:36",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-07-04 14:14:27",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-07-04 17:12:59",
                     "status": 1
@@ -398,10 +402,6 @@
                 },
                 {
                     "timestamp": "2025-07-09 14:14:36",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-07-09 16:16:06",
                     "status": 1
                 }
             ]
@@ -1483,16 +1483,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-09 15:16:15",
+        "timestamp": "2025-07-09 16:16:14",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250709-151608",
+            "info": "vm-test-20250709-161602",
             "history": [
-                {
-                    "timestamp": "2025-07-09 06:22:33",
-                    "status": 1,
-                    "info": "vm-test-20250709-062226"
-                },
                 {
                     "timestamp": "2025-07-09 07:16:18",
                     "status": 1,
@@ -1537,6 +1532,11 @@
                     "timestamp": "2025-07-09 15:16:15",
                     "status": 1,
                     "info": "vm-test-20250709-151608"
+                },
+                {
+                    "timestamp": "2025-07-09 16:16:14",
+                    "status": 1,
+                    "info": "vm-test-20250709-161602"
                 }
             ]
         }
