@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-10 13:57",
+        "timestamp": "2025-07-10 14:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-07-08 23:33",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-07-08 23:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-10 13:57",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-07-10 14:20",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -952,7 +952,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-07-07 18:52",
+                "timestamp": "2025-07-10 14:19",
                 "status": "SUCCESS",
                 "item": "CGLS_SSM1KM_20220404_EU1K0M_E060N036T6"
             },
