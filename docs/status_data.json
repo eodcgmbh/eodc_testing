@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-10 20:36",
+        "timestamp": "2025-07-10 20:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-07-09 09:46",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-07-09 09:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-10 20:36",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-07-10 20:50",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
