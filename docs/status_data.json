@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-11 20:49",
+        "timestamp": "2025-07-11 20:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-07-10 09:55",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-07-10 10:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-11 20:49",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-07-11 20:56",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
