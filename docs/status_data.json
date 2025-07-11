@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-11 20:56",
+        "timestamp": "2025-07-11 21:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-07-10 10:15",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-07-10 10:42",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-11 20:56",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-07-11 21:16",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
