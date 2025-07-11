@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-11 20:36",
+        "timestamp": "2025-07-11 20:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-07-10 09:45",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-07-10 09:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-11 20:36",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-07-11 20:49",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
