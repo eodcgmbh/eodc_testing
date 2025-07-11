@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-11 14:52",
+        "timestamp": "2025-07-11 15:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-07-09 23:54",
-                    "status": 1,
-                    "collection": "OPENEO_CROPTYPE_2021"
-                },
                 {
                     "timestamp": "2025-07-10 01:10",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-11 14:52",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2025-07-11 15:15",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
