@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-12 11:52",
+        "timestamp": "2025-07-12 12:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-07-10 23:18",
-                    "status": 1,
-                    "collection": "OPENEO_CROPTYPE_2021"
-                },
                 {
                     "timestamp": "2025-07-10 23:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-12 11:52",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-07-12 12:25",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
