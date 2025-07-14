@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-14 07:42",
+        "timestamp": "2025-07-14 07:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-07-12 19:37",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-07-12 19:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-14 07:42",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-07-14 07:54",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
