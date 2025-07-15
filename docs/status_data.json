@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-15 21:53",
+        "timestamp": "2025-07-15 22:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-07-14 08:53",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-07-14 09:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-15 21:53",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-07-15 22:14",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
