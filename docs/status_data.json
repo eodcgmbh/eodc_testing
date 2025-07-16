@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-16 14:40",
+        "timestamp": "2025-07-16 14:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-07-14 19:29",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-07-14 19:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-16 14:40",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-07-16 14:56",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
