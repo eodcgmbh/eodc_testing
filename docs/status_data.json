@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-16 14:56",
+        "timestamp": "2025-07-16 15:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-07-14 19:41",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-07-14 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-16 14:56",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-07-16 15:40",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
