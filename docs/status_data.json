@@ -408,11 +408,16 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-16 23:16",
+        "timestamp": "2025-07-16 22:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "AGERA5",
             "history": [
+                {
+                    "timestamp": "2025-07-15 06:27",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
                 {
                     "timestamp": "2025-07-15 06:54",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-07-16 22:56",
                     "status": 1,
                     "collection": "AGERA5"
-                },
-                {
-                    "timestamp": "2025-07-16 23:16",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1483,16 +1483,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-16 22:14:58",
+        "timestamp": "2025-07-16 23:17:20",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250716-221451",
+            "info": "vm-test-20250716-231712",
             "history": [
-                {
-                    "timestamp": "2025-07-16 13:33:40",
-                    "status": 1,
-                    "info": "vm-test-20250716-133333"
-                },
                 {
                     "timestamp": "2025-07-16 14:14:22",
                     "status": 1,
@@ -1537,6 +1532,11 @@
                     "timestamp": "2025-07-16 22:14:58",
                     "status": 1,
                     "info": "vm-test-20250716-221451"
+                },
+                {
+                    "timestamp": "2025-07-16 23:17:20",
+                    "status": 1,
+                    "info": "vm-test-20250716-231712"
                 }
             ]
         }
