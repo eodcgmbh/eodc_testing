@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-18 01:11",
+        "timestamp": "2025-07-18 03:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-07-16 07:56",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-07-16 08:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-18 01:11",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-07-18 03:10",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
