@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-20 23:40",
+        "timestamp": "2025-07-20 23:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-07-19 14:55",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-07-19 15:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-20 23:40",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-07-20 23:50",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
