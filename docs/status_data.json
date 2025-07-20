@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-20 17:55",
+        "timestamp": "2025-07-20 18:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-07-19 08:42",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-07-19 08:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-20 17:55",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-07-20 18:19",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1483,16 +1483,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-20 17:12:38",
+        "timestamp": "2025-07-20 18:19:55",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250720-171231",
+            "info": "vm-test-20250720-181948",
             "history": [
-                {
-                    "timestamp": "2025-07-20 08:18:47",
-                    "status": 1,
-                    "info": "vm-test-20250720-081840"
-                },
                 {
                     "timestamp": "2025-07-20 09:14:51",
                     "status": 1,
@@ -1537,6 +1532,11 @@
                     "timestamp": "2025-07-20 17:12:38",
                     "status": 1,
                     "info": "vm-test-20250720-171231"
+                },
+                {
+                    "timestamp": "2025-07-20 18:19:55",
+                    "status": 1,
+                    "info": "vm-test-20250720-181948"
                 }
             ]
         }
