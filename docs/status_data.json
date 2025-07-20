@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-20 19:15",
+        "timestamp": "2025-07-20 19:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-07-19 09:46",
-                    "status": 1,
-                    "collection": "OPENEO_CROPTYPE_2021"
-                },
                 {
                     "timestamp": "2025-07-19 09:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-20 19:15",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
+                },
+                {
+                    "timestamp": "2025-07-20 19:28",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
