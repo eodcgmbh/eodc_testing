@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-21 04:13",
+        "timestamp": "2025-07-21 04:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-07-19 15:57",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-07-19 16:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-21 04:13",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-07-21 04:56",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
