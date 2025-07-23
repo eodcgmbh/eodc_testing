@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-23 05:50",
+        "timestamp": "2025-07-23 05:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-07-21 11:48",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-07-21 11:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-23 05:50",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-07-23 05:59",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
