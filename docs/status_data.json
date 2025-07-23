@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-23 23:47",
+        "timestamp": "2025-07-23 23:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-07-22 09:19",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-07-22 09:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-23 23:47",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-07-23 23:55",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
