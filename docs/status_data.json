@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-07-24 15:16:04",
+        "timestamp": "2025-07-24 16:17:49",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-07-19 22:14:16",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-07-19 23:16:15",
                     "status": 1
@@ -402,6 +398,10 @@
                 },
                 {
                     "timestamp": "2025-07-24 15:16:04",
+                    "status": 1
+                },
+                {
+                    "timestamp": "2025-07-24 16:17:49",
                     "status": 1
                 }
             ]
@@ -1495,16 +1495,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-24 15:15:50",
+        "timestamp": "2025-07-24 16:17:50",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-ac0de2a0-e60c-46ce-bb44-6f8fa5be4196)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f37902eb-2cfa-4cd5-ad68-cf0da8130a42)",
             "history": [
-                {
-                    "timestamp": "2025-07-24 05:21:21",
-                    "status": 1,
-                    "info": "vm-test-20250724-052113"
-                },
                 {
                     "timestamp": "2025-07-24 06:23:20",
                     "status": 0,
@@ -1549,6 +1544,11 @@
                     "timestamp": "2025-07-24 15:15:50",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-ac0de2a0-e60c-46ce-bb44-6f8fa5be4196)"
+                },
+                {
+                    "timestamp": "2025-07-24 16:17:50",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f37902eb-2cfa-4cd5-ad68-cf0da8130a42)"
                 }
             ]
         }
