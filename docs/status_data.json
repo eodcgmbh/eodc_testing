@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-24 14:57",
+        "timestamp": "2025-07-24 15:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-07-22 20:39",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-07-22 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-24 14:57",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-07-24 15:19",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -1090,9 +1090,9 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-07-22 16:53",
+                "timestamp": "2025-07-24 15:19",
                 "status": "SUCCESS",
-                "item": "DEM1_SAR_DGE_90_20190911T083347_20190911T083348_ADS_000000_3980"
+                "item": "DEM1_SAR_DGE_30_20190911T082839_20190911T082840_ADS_000000_3865"
             },
             {
                 "collection": "SENTINEL1_HPAR",
