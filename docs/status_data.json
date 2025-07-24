@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-24 21:14",
+        "timestamp": "2025-07-24 21:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TD",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-07-23 05:59",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-07-23 06:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-24 21:14",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TD"
+                },
+                {
+                    "timestamp": "2025-07-24 21:33",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
