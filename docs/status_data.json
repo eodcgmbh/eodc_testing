@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-25 22:13",
+        "timestamp": "2025-07-25 22:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-07-24 08:50",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-07-24 09:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-25 22:13",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-07-25 22:38",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
