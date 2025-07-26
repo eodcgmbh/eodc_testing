@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-26 11:12",
+        "timestamp": "2025-07-26 11:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "OPENEO_CROPTYPE_2021",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-07-24 19:45",
-                    "status": 1,
-                    "collection": "CGLS_SSM_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-07-24 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-26 11:12",
                     "status": 1,
                     "collection": "OPENEO_CROPTYPE_2021"
+                },
+                {
+                    "timestamp": "2025-07-26 11:29",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
