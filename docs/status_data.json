@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-26 13:06",
+        "timestamp": "2025-07-26 13:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-07-24 21:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
-                },
                 {
                     "timestamp": "2025-07-24 21:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-26 13:06",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-07-26 13:39",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
