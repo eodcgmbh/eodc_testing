@@ -2,48 +2,68 @@ import os
 import requests
 import random
 from datetime import datetime
+import jsonschema
+
 
 STAC_URL = "https://dev.stac.eodc.eu/api/v1"
+ITEM_SCHEMA_URL = "https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/item.json"
 
-def get_random_item():
-    """Fetch a random item from the /collections endpoint and validate it."""
+
+def get_stac_item_schema():
+    """Fetch the STAC 1.1.0 item JSON schema."""
+    response = requests.get(ITEM_SCHEMA_URL)
+    response.raise_for_status()
+    return response.json()
+
+def validate_item_schema(item, schema):
+    """Validate a STAC item against the 1.1.0 schema."""
+    try:
+        jsonschema.validate(instance=item, schema=schema)
+        return True, "Item is valid according to STAC 1.1.0 schema"
+    except jsonschema.exceptions.ValidationError as e:
+        return False, f"Item validation failed: {e.message} at {list(e.path)} (validator: {e.validator}, expected: {e.validator_value})"
+
+
+def get_random_item_and_validate():
+    """Fetch a random item and validate against STAC schema."""
     try:
         collections_response = requests.get(f"{STAC_URL}/collections")
         if collections_response.status_code != 200:
             return False, f"Failed to fetch collections: {collections_response.status_code}", "N/A", "N/A"
 
-        collections_data = collections_response.json()
-        collections = collections_data.get("collections", [])
+        collections = collections_response.json().get("collections", [])
         if not collections:
-            return False, "No collections found in the API", "N/A", "N/A"
+            return False, "No collections found", "N/A", "N/A"
 
         random_collection = random.choice(collections)
         collection_id = random_collection.get("id", None)
         if not collection_id:
-            return False, "Random collection has no 'id' field", "N/A", "N/A"
+            return False, "Collection has no 'id'", "N/A", "N/A"
 
         items_response = requests.get(f"{STAC_URL}/collections/{collection_id}/items")
         if items_response.status_code != 200:
-            return False, f"Failed to fetch items from collection {collection_id}: {items_response.status_code}", collection_id, "N/A"
+            return False, f"Failed to fetch items from {collection_id}: {items_response.status_code}", collection_id, "N/A"
 
-        items_data = items_response.json()
-        features = items_data.get("features", [])
-        if not features:
-            return False, f"No items found in collection {collection_id}", collection_id, "N/A"
+        items = items_response.json().get("features", [])
+        if not items:
+            return False, f"No items in collection {collection_id}", collection_id, "N/A"
 
-        random_item = random.choice(features)
-        required_keys = ["id", "type", "geometry", "properties"]
-        missing_keys = [key for key in required_keys if key not in random_item]
-        if missing_keys:
-            return False, f"Random item missing required keys: {missing_keys}", collection_id, random_item.get("id", "N/A")
+        random_item = random.choice(items)
 
-        return True, "Random item test passed", collection_id, random_item.get("id", "N/A")
+        # STAC schema validation
+        schema = get_stac_item_schema()
+        is_valid, validation_message = validate_item_schema(random_item, schema)
+
+        if not is_valid:
+            return False, validation_message, collection_id, random_item.get("id", "N/A")
+
+        return True, "STAC item is valid and conforms to 1.1.0 schema", collection_id, random_item.get("id", "N/A")
 
     except Exception as e:
-        return False, f"Exception occurred: {str(e)}", "N/A", "N/A"
+        return False, f"Exception: {str(e)}", "N/A", "N/A"
 
 if __name__ == "__main__":
-    success, message, collection_id, item_id = get_random_item()
+    success, message, collection_id, item_id = get_random_item_and_validate()
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
     result = "success" if success else "failure"
