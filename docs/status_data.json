@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-29 18:55",
+        "timestamp": "2025-07-29 19:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-07-27 22:39",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
-                },
                 {
                     "timestamp": "2025-07-27 22:52",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-29 18:55",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-07-29 19:17",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -1501,16 +1501,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-29 18:23:21",
+        "timestamp": "2025-07-29 19:17:13",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250729-182314",
+            "info": "vm-test-20250729-191705",
             "history": [
-                {
-                    "timestamp": "2025-07-29 09:21:04",
-                    "status": 1,
-                    "info": "vm-test-20250729-092055"
-                },
                 {
                     "timestamp": "2025-07-29 10:16:58",
                     "status": 1,
@@ -1555,6 +1550,11 @@
                     "timestamp": "2025-07-29 18:23:21",
                     "status": 1,
                     "info": "vm-test-20250729-182314"
+                },
+                {
+                    "timestamp": "2025-07-29 19:17:13",
+                    "status": 1,
+                    "info": "vm-test-20250729-191705"
                 }
             ]
         }
