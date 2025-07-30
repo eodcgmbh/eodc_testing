@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-30 07:56",
+        "timestamp": "2025-07-30 08:22",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2025-07-28 12:38",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_NDVI_V2"
-                },
                 {
                     "timestamp": "2025-07-28 13:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-30 07:56",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-07-30 08:22",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -1501,16 +1501,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-07-30 07:20:30",
+        "timestamp": "2025-07-30 08:21:38",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250730-072022",
+            "info": "vm-test-20250730-082131",
             "history": [
-                {
-                    "timestamp": "2025-07-29 20:17:43",
-                    "status": 1,
-                    "info": "vm-test-20250729-201736"
-                },
                 {
                     "timestamp": "2025-07-29 21:14:54",
                     "status": 1,
@@ -1555,6 +1550,11 @@
                     "timestamp": "2025-07-30 07:20:30",
                     "status": 1,
                     "info": "vm-test-20250730-072022"
+                },
+                {
+                    "timestamp": "2025-07-30 08:21:38",
+                    "status": 1,
+                    "info": "vm-test-20250730-082131"
                 }
             ]
         }
