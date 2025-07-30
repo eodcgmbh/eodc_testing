@@ -4615,36 +4615,3 @@ STAC API TEST
 2025-07-29 08:28, success, collection: DOP_AUT_K_ZELL_AM_SEE, item: 4322-67
 2025-07-29 08:55, failure, collection: SENTINEL2_L1C_COVERAGE, item: N/A, reason: No items found in collection SENTINEL2_L1C_COVERAGE
 2025-07-29 09:25, success, collection: SENTINEL1_GRD, item: S1A_IW_GRDH_1SDV_20240715T070325_20240715T070352_054768_06AB36
-2025-07-29 09:39, failure, collection: DOP_AUT_K_TAMSWEG, item: 4622-11, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 09:49, failure, collection: DOP_AUT_K_VILLACH, item: 5120-33, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 10:21, failure, collection: VEGETATION_CHANGE_AUSTRIA, item: vegetation_change_bgld_2022, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 10:50, failure, collection: DOP_AUT_K_OSTTIROL, item: 4321-49, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 11:18, failure, collection: Sentinel-1_Lacken_Extent, item: EU010M_E052N015T1_20231027_WETLAND, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 11:41, failure, collection: SENTINEL-3-SLSTR-L1-RBT_COVERAGE, item: SENTINEL_3_SLSTR_L1_RBT_COVERAGE_20250709, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 12:42, failure, collection: DOP_AUT_K_WOLFSBERG, item: 5821-77, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 13:40, failure, collection: SENTINEL-1-L1-SLC_COVERAGE, item: N/A, reason: No items in collection SENTINEL-1-L1-SLC_COVERAGE
-2025-07-29 14:24, failure, collection: AUT_DEM, item: dhm_at_lamb_10m_2018, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 14:53, failure, collection: DSM_AUT, item: Eisenstadt, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 15:24, failure, collection: SENTINEL2_L2A, item: S2B_T33UWP_20250101T095321_L2A, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 15:50, failure, collection: SENTINEL1_GRD, item: S1A_IW_GRDH_1SDV_20240726T185941_20240726T190006_054936_06B10A, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 16:24, failure, collection: SENTINEL2_MFCOVER, item: MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N013T1, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 16:54, failure, collection: DOP_AUT_K_TAMSWEG, item: 4522-14, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 17:22, failure, collection: DOP_AUT_K_VILLACH, item: 5120-33, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 17:48, failure, collection: SENTINEL1_GRD_COVERAGE, item: SENTINEL1_GRD_COVERAGE_20240819, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 18:31, failure, collection: SENTINEL2_L2A, item: S2A_T38NLG_20250101T073540_L2A, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 18:59, failure, collection: Sentinel-1_Reed_Extent, item: EU010M_E053N015T1_20220101_WETLAND, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 19:25, failure, collection: SENTINEL-3-OLCI-L1-EFR_COVERAGE, item: SENTINEL_3_OLCI_L1_EFR_COVERAGE_20250706, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 20:22, failure, collection: incal-hourly, item: N/A, reason: No items in collection incal-hourly
-2025-07-29 20:46, failure, collection: SENTINEL-1-L2-OCN_COVERAGE, item: SENTINEL_1_L2_OCN_COVERAGE_20250725, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 21:20, failure, collection: spartacus-daily, item: N/A, reason: No items in collection spartacus-daily
-2025-07-29 21:43, failure, collection: DSM_AUT, item: Eisenstadt, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 22:20, failure, collection: SENTINEL2_GRI_L1C, item: GRI_L1C_T40WET, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 22:47, failure, collection: INTRA_FIELD_CROP_GROWTH_POTENTIAL, item: yield_potential.tif, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 23:19, failure, collection: DOP_AUT_K_VILLACH, item: 5120-65, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-29 23:43, failure, collection: SENTINEL2_GRI_L1C, item: GRI_L1C_T40WDT, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-30 01:43, success, collection: SENTINEL1_SIG0_20M, item: SIG0_20250608T174938_D161_E057N078T3_NA020M_V1M1R2_S1AIWGRDH
-2025-07-30 03:42, failure, collection: SENTINEL1_ALPS_WETSNOW, item: WSM_ALPS_20210731T051919_E048N006T6_S1A_IW_SLC_039017_00498A_00_ENVEO, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-30 04:43, failure, collection: SENTINEL3_SRAL_L2, item: S3A_SR_2_LAN_HY_20240609T094217_20240609T095216_0599_113_193, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-30 05:28, failure, collection: DSM_AUT, item: Eisenstadt, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)
-2025-07-30 05:55, failure, collection: SENTINEL2_L1C_COVERAGE, item: N/A, reason: No items in collection SENTINEL2_L1C_COVERAGE
-2025-07-30 06:32, failure, collection: Sentinel-2-Greenness-Austria, item: Greenness-2022-66636, reason: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0)

@@ -4,8 +4,75 @@ import random
 from datetime import datetime
 import jsonschema
 
-
 STAC_URL = "https://dev.stac.eodc.eu/api/v1"
+ITEM_SCHEMA_URL = "https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json"
+LOG_DIR = "results/logs/"
+LOG_FILE = "validate_all_collections.log"
+
+def fetch_item_schema():
+    response = requests.get(ITEM_SCHEMA_URL)
+    response.raise_for_status()
+    return response.json()
+
+def validate_item(item, schema):
+    try:
+        jsonschema.validate(instance=item, schema=schema)
+        return True, "Item valid"
+    except jsonschema.exceptions.ValidationError as e:
+        return False, f"{e.message} at {list(e.path)} (expected: {e.validator_value})"
+
+def test_collection(collection_id, schema):
+    items_url = f"{STAC_URL}/collections/{collection_id}/items"
+    response = requests.get(items_url)
+    if response.status_code != 200:
+        return False, f"Failed to fetch items: {response.status_code}", "N/A"
+    
+    items = response.json().get("features", [])
+    if not items:
+        return False, "No items found", "N/A"
+    
+    item = random.choice(items)
+    item_id = item.get("id", "N/A")
+    valid, message = validate_item(item, schema)
+    return valid, message, item_id
+
+def log_result(result_line):
+    os.makedirs(LOG_DIR, exist_ok=True)
+    with open(os.path.join(LOG_DIR, LOG_FILE), "a") as f:
+        f.write(result_line + "\n")
+
+def main():
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    response = requests.get(f"{STAC_URL}/collections")
+    if response.status_code != 200:
+        print("Failed to fetch collections.")
+        return
+
+    schema = fetch_item_schema()
+    collections = response.json().get("collections", [])
+    
+    for col in collections:
+        collection_id = col.get("id", "N/A")
+        success, message, item_id = test_collection(collection_id, schema)
+        result = "success" if success else "failure"
+        
+        log_line = f"{timestamp}, {result}, collection: {collection_id}, item: {item_id}, message: {message}"
+        print(log_line)
+        log_result(log_line)
+
+if __name__ == "__main__":
+    main()
+
+
+''' 
+import os
+import requests
+import random
+from datetime import datetime
+import jsonschema
+
+
+STAC_URL = "https://stac.eodc.eu/api/v1"
 ITEM_SCHEMA_URL = "https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/item.json"
 
 
@@ -81,3 +148,4 @@ if __name__ == "__main__":
         log_file.write(log_entry + "\n")
 
     exit(0 if success else 1)
+'''
