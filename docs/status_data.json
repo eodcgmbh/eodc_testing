@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-07-31 13:55",
+        "timestamp": "2025-07-31 14:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-07-29 19:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-07-29 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-07-31 13:55",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-07-31 14:17",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
