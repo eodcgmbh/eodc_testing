@@ -6,3 +6,5 @@ This repository contains automated tests for various EODC services using **GitHu
 
 Monitor the current status of all services and notebooks in one place:  
 👉 **[Service Status Dashboard](https://eodcgmbh.github.io/eodc_testing/dashboard.html)** 
+
+👉 **[Stac Api Specification Test](https://eodcgmbh.github.io/eodc_testing/results/logs/stac_report.html)** 

@@ -1,0 +1,667 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>STAC Validation Report</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    table { border-collapse: collapse; width: 100%; }
+    td, th { border: 1px solid #ccc; padding: 0.5em; }
+    .success { color: green; font-weight: bold; }
+    .error { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>STAC API Validation Report</h1>
+  <p><strong>API:</strong> https://dev.stac.eodc.eu/api/v1</p>
+  <p><strong>Last Teset:</strong> 2025-07-31T12:00:13.846897</p>
+
+  <table>
+    <tr>
+      <th>Collection</th>
+      <th>Item</th>
+      <th>Collection Validation</th>
+      <th>Item Validation</th>
+      <th>Timestamp</th>
+    </tr>
+    
+    <tr>
+      <td>AI4SAR_SIG0</td>
+      <td>SIG0_20231231T051048_D022_EU020M_E051N015T3_S1AIWGRDH</td>
+      <td class="error">
+        error: 'sentinel-1' is not valid under any of the given schemas
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:32.695381</td>
+    </tr>
+    
+    <tr>
+      <td>AUSTRIA_GROUND_MOTION</td>
+      <td>AT_EGMS_L3_U_2016_2023</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:36.018533</td>
+    </tr>
+    
+    <tr>
+      <td>AUT_DEM</td>
+      <td>dhm_at_lamb_10m_2018</td>
+      <td class="error">
+        error: 10 is not valid under any of the given schemas
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:37.890548</td>
+    </tr>
+    
+    <tr>
+      <td>BOA_LANDSAT_8</td>
+      <td>X0013Y0014_20201231</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:39.819704</td>
+    </tr>
+    
+    <tr>
+      <td>BOA_SENTINEL_2</td>
+      <td>E051N017T1_20200930</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:41.804366</td>
+    </tr>
+    
+    <tr>
+      <td>CGLS_SSM_1KM</td>
+      <td>CGLS_SSM1KM_20220404_EU1K0M_E072N006T6</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:43.721125</td>
+    </tr>
+    
+    <tr>
+      <td>COP_DEM</td>
+      <td>DEM1_SAR_DGE_90_20190913T065028_20190913T065029_ADS_000000_3673</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:45.758980</td>
+    </tr>
+    
+    <tr>
+      <td>CORINE_LAND_COVER</td>
+      <td>CLC2018_EU010M_E078N012T1</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:47.631432</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_KLAGENFURT</td>
+      <td>5716-68</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:49.776383</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_OSTTIROL</td>
+      <td>4321-61</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:51.918112</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_TAMSWEG</td>
+      <td>4622-12</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:55.618844</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_VILLACH</td>
+      <td>5120-73</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:57.806859</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_WOLFSBERG</td>
+      <td>5821-79</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:56:59.995834</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_ZELL_AM_SEE</td>
+      <td>4322-77</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:03.181836</td>
+    </tr>
+    
+    <tr>
+      <td>DOP_AUT_K_ZELTWEG</td>
+      <td>5622-53</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:05.258939</td>
+    </tr>
+    
+    <tr>
+      <td>DROUGHT_VULNERABILITY</td>
+      <td>drought_vulnerability.tif</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:06.360866</td>
+    </tr>
+    
+    <tr>
+      <td>DSM_AUT</td>
+      <td>Eisenstadt</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:09.483215</td>
+    </tr>
+    
+    <tr>
+      <td>ERS_ENVISAT_NRB</td>
+      <td>ERS2_IMS_NRB__1SVV_20001117T101134_20001117T101203_029163_000000_FCAE_33VVK</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:13.151381</td>
+    </tr>
+    
+    <tr>
+      <td>GFM</td>
+      <td>ENSEMBLE_FLOOD_20240903T101240_VV_SA020M_E063N066T3</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        error: '1.0.0' was expected
+      </td>
+      <td>2025-07-31T11:57:19.380256</td>
+    </tr>
+    
+    <tr>
+      <td>INTRA_FIELD_CROP_GROWTH_POTENTIAL</td>
+      <td>yield_potential.tif</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:21.301402</td>
+    </tr>
+    
+    <tr>
+      <td>RUCIO_SENTINEL2_MFCOVER</td>
+      <td>MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N017T1</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:24.846145</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-1-L1-GRD_COVERAGE</td>
+      <td>-</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        no items
+      </td>
+      <td>2025-07-31T11:57:45.633354</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-1-L1-SLC_COVERAGE</td>
+      <td>-</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        no items
+      </td>
+      <td>2025-07-31T11:57:45.720447</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-1-L2-OCN_COVERAGE</td>
+      <td>SENTINEL_1_L2_OCN_COVERAGE_20250728</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:47.199547</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-2-L1C_COVERAGE</td>
+      <td>SENTINEL_2_L1C_COVERAGE_20250729</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:59:43.997154</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-2-L2A_COVERAGE</td>
+      <td>-</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        no items
+      </td>
+      <td>2025-07-31T11:59:58.726455</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-3-OLCI-L1-EFR_COVERAGE</td>
+      <td>SENTINEL_3_OLCI_L1_EFR_COVERAGE_20250707</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:03.119166</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-3-OLCI-L1-ERR_COVERAGE</td>
+      <td>SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250709</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:04.756900</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-3-OLCI-L2-LFR_COVERAGE</td>
+      <td>SENTINEL_3_OLCI_L2_LFR_COVERAGE_20250707</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:06.222805</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-3-SLSTR-L1-RBT_COVERAGE</td>
+      <td>SENTINEL_3_SLSTR_L1_RBT_COVERAGE_20250709</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:07.646387</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL-3-SLSTR-L2-LST_COVERAGE</td>
+      <td>SENTINEL_3_SLSTR_L2_LST_COVERAGE_20250709</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:09.088028</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_ALPS_WETSNOW</td>
+      <td>WSM_ALPS_20210731T171451_E048N012T6_S1B_IW_SLC_028041_0043C2_00_ENVEO</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:30.253189</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_GRD</td>
+      <td>S1A_IW_GRDH_1SDV_20240726T190031_20240726T190044_054936_06B10A</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        error: '𒍟※' is not of type 'object'
+      </td>
+      <td>2025-07-31T11:57:40.305400</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_GRD_COVERAGE</td>
+      <td>SENTINEL1_GRD_COVERAGE_20240819</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:42.151436</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_HPAR</td>
+      <td>HPAR_SA020M_E105N069T3_D111</td>
+      <td class="error">
+        error: 'sentinel-1' is not valid under any of the given schemas
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:45.543612</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_MPLIA</td>
+      <td>MPLIA_SA020M_E102N063T3_D111</td>
+      <td class="error">
+        error: 'sentinel-1' is not valid under any of the given schemas
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:51.216552</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_SIG0_20M</td>
+      <td>SIG0_20250608T174938_D161_E060N078T3_NA020M_V1M1R2_S1AIWGRDH</td>
+      <td class="error">
+        error: 'sentinel-1' is not valid under any of the given schemas
+      </td>
+      <td class="error">
+        error: '1.0.0' was expected
+      </td>
+      <td>2025-07-31T11:57:56.108486</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL1_SLC</td>
+      <td>S1A_IW_SLC__1SDV_20240131T173935_20240131T174002_052354_0654A3</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        error: '𒍟※' is not of type 'object'
+      </td>
+      <td>2025-07-31T11:59:25.938276</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL2_GRI_L1C</td>
+      <td>GRI_L1C_T38VNQ</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:59:29.514456</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL2_L1C</td>
+      <td>S2A_MSIL1C_20240322T065341_R077_T39LYD_20240322T082540</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        error: '𒍟※' is not of type 'object'
+      </td>
+      <td>2025-07-31T11:59:42.552659</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL2_L1C_COVERAGE</td>
+      <td>-</td>
+      <td class="success">
+        success
+      </td>
+      <td class="error">
+        no items
+      </td>
+      <td>2025-07-31T11:59:44.083006</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL2_L2A</td>
+      <td>S2B_T33UXQ_20250101T095321_L2A</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:59:58.640148</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL2_MFCOVER</td>
+      <td>MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N017T1</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:01.716387</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL3_SRAL_L2</td>
+      <td>S3A_SR_2_LAN_HY_20240614T203221_20240614T204125_0544_113_271</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:11.174335</td>
+    </tr>
+    
+    <tr>
+      <td>SENTINEL_2_L2A_COVERAGE</td>
+      <td>SENTINEL_2_L2A_COVERAGE_20250729</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:00.490475</td>
+    </tr>
+    
+    <tr>
+      <td>Sentinel-1_Lacken_Extent</td>
+      <td>EU010M_E053N015T1_20231027_WETLAND</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:50.048470</td>
+    </tr>
+    
+    <tr>
+      <td>Sentinel-1_Reed_Extent</td>
+      <td>EU010M_E053N015T1_20220101_WETLAND</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:53.029699</td>
+    </tr>
+    
+    <tr>
+      <td>Sentinel-2-Greenness-Austria</td>
+      <td>Greenness-2022-66636</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:59:28.627316</td>
+    </tr>
+    
+    <tr>
+      <td>VEGETATION_CHANGE_AUSTRIA</td>
+      <td>vegetation_change_bgld.tif</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T12:00:13.836873</td>
+    </tr>
+    
+    <tr>
+      <td>incal-hourly</td>
+      <td>-</td>
+      <td class="error">
+        error: '1.0.0' was expected
+      </td>
+      <td class="error">
+        no items
+      </td>
+      <td>2025-07-31T11:57:20.137967</td>
+    </tr>
+    
+    <tr>
+      <td>point-cloud-vienna</td>
+      <td>wien_603000_533800.copc.laz</td>
+      <td class="error">
+        error: '1.0.0' was expected
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:22.604813</td>
+    </tr>
+    
+    <tr>
+      <td>sen2like</td>
+      <td>EU010M_E047N015T1_20240714T102802</td>
+      <td class="success">
+        success
+      </td>
+      <td class="success">
+        success
+      </td>
+      <td>2025-07-31T11:57:28.743792</td>
+    </tr>
+    
+    <tr>
+      <td>spartacus-daily</td>
+      <td>-</td>
+      <td class="error">
+        error: '1.0.0' was expected
+      </td>
+      <td class="error">
+        no items
+      </td>
+      <td>2025-07-31T12:00:11.971547</td>
+    </tr>
+    
+  </table>
+</body>
+</html>
