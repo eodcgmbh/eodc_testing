@@ -8,7 +8,7 @@ from jinja2 import Template
 # Konfiguration
 API_URL = "https://dev.stac.eodc.eu/api/v1"
 HISTORY_FILE = "stac_validation_log_history.json"
-HTML_FILE = "results/logs/stac_report.html"
+HTML_FILE = "docs/stac_report.html"
 
 COLLECTION_SCHEMA_URL = "https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json"
 ITEM_SCHEMA_URL = "https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json"
