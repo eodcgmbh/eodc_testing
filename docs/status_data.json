@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-02 20:48",
+        "timestamp": "2025-08-02 20:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "ALOS_PALSAR2_L2_1_3M",
             "history": [
-                {
-                    "timestamp": "2025-08-01 08:50",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-08-01 09:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-02 20:48",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-08-02 20:56",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_3M"
                 }
             ]
         }
