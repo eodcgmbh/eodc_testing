@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-01 23:55",
+        "timestamp": "2025-08-02 01:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-07-31 09:20",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-07-31 09:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-01 23:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+                },
+                {
+                    "timestamp": "2025-08-02 01:14",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
@@ -1501,16 +1501,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-01 22:15:08",
+        "timestamp": "2025-08-02 01:14:22",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250801-221500",
+            "info": "vm-test-20250802-011414",
             "history": [
-                {
-                    "timestamp": "2025-08-01 12:32:20",
-                    "status": 1,
-                    "info": "vm-test-20250801-123212"
-                },
                 {
                     "timestamp": "2025-08-01 13:34:15",
                     "status": 1,
@@ -1555,6 +1550,11 @@
                     "timestamp": "2025-08-01 22:15:08",
                     "status": 1,
                     "info": "vm-test-20250801-221500"
+                },
+                {
+                    "timestamp": "2025-08-02 01:14:22",
+                    "status": 1,
+                    "info": "vm-test-20250802-011414"
                 }
             ]
         }
