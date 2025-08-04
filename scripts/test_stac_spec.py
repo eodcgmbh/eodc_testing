@@ -68,7 +68,11 @@ def validate_json(obj, schema):
         validate(instance=obj, schema=schema)
         return "success"
     except ValidationError as e:
-        return f"error: {str(e).splitlines()[0]}"
+        error_path = " → ".join(str(p) for p in e.absolute_path)
+        schema_path = " → ".join(str(p) for p in e.absolute_schema_path)
+        message = e.message
+        return f"error: {message} (at {error_path}) [schema: {schema_path}]"
+
 
 collection_schema = load_schema(COLLECTION_SCHEMA_URL)
 item_schema = load_schema(ITEM_SCHEMA_URL)
