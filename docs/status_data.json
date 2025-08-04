@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-04 22:56",
+        "timestamp": "2025-08-04 23:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2025-08-03 08:17",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-08-03 08:42",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-04 22:56",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-08-04 23:17",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -1501,11 +1501,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-04 23:15:26",
+        "timestamp": "2025-08-04 21:15:21",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250804-231518",
+            "info": "vm-test-20250804-211514",
             "history": [
+                {
+                    "timestamp": "2025-08-04 12:34:24",
+                    "status": 1,
+                    "info": "vm-test-20250804-123416"
+                },
                 {
                     "timestamp": "2025-08-04 13:38:15",
                     "status": 1,
@@ -1550,11 +1555,6 @@
                     "timestamp": "2025-08-04 21:15:21",
                     "status": 1,
                     "info": "vm-test-20250804-211514"
-                },
-                {
-                    "timestamp": "2025-08-04 23:15:26",
-                    "status": 1,
-                    "info": "vm-test-20250804-231518"
                 }
             ]
         }
