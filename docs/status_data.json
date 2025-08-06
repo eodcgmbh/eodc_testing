@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-06 20:16",
+        "timestamp": "2025-08-06 20:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-08-04 23:35",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-08-04 23:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-06 20:16",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-08-06 20:40",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
