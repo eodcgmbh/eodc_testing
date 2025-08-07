@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-07 19:31",
+        "timestamp": "2025-08-07 19:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "JAXA_WQ_CHLA_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-08-05 22:56",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-08-05 23:16",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-07 19:31",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-08-07 19:45",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_AVERAGE"
                 }
             ]
         }
