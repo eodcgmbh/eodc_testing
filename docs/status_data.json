@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-09 12:26",
+        "timestamp": "2025-08-09 13:05",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-08-07 22:15",
-                    "status": 1,
-                    "collection": "SENTINEL1_HPAR"
-                },
                 {
                     "timestamp": "2025-08-07 22:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-09 12:26",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2025-08-09 13:05",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
