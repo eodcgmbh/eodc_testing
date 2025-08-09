@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-09 11:30",
+        "timestamp": "2025-08-09 11:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-08-07 21:33",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-08-07 21:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-09 11:30",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-09 11:41",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
