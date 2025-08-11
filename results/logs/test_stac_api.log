@@ -1,4 +1,3 @@
-STAC API TEST
 2025-04-05 19:12, success, collection: SENTINEL1_GRD_COVERAGE, item: SENTINEL1_GRD_COVERAGE_20240819
 2025-04-05 19:37, success, collection: DOP_AUT_K_TAMSWEG, item: 4622-10
 2025-04-05 21:16, success, collection: COP_DEM, item: DEM1_SAR_DGE_90_20190911T083347_20190911T083348_ADS_000000_3980
@@ -4620,3 +4619,5 @@ STAC API TEST
 2025-08-11 08:33, failed: Fetch collections failed: HTTP 502 for url: https://stac.eodc.eu/api/v1/collections, collection: N/A, item: N/A
 2025-08-11 06:35, failure: Fetch collections failed: HTTP 502 for url: https://stac.eodc.eu/api/v1/collections, collection: N/A, item: N/A
 >>>>>>> Stashed changes
+2025-08-11T06:57:08.957323+00:00, failed: False, stage: collections, http_status: 502, url: https://stac.eodc.eu/api/v1/collections, collection: N/A, item: N/A
+2025-08-11T06:57:34.957667+00:00, failed: False, stage: collections, http_status: 502, url: https://stac.eodc.eu/api/v1/collections, collection: N/A, item: N/A
