@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-11 08:27",
+        "timestamp": "2025-08-11 08:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-08-09 20:34",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-08-09 20:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-11 08:27",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-08-11 08:52",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
