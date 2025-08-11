@@ -1303,6 +1303,12 @@
                 "timestamp": "2025-08-11T07:46:35.903254+00:00",
                 "status": "FAILED: ITEM VALIDATION FAILED: '1.1.0' WAS EXPECTED AT ['STAC_VERSION'] (VALIDATOR: CONST",
                 "item": "stage: validation"
+            },
+            {
+                "collection": "stage: items",
+                "timestamp": "2025-08-11T08:29:06.367379+00:00",
+                "status": "FAILED: NO ITEMS IN COLLECTION INCAL-HOURLY",
+                "item": "http_status: 200"
             }
         ]
     },
