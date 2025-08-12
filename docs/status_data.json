@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-12 14:41",
+        "timestamp": "2025-08-12 14:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-10 22:56",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-08-10 23:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-12 14:41",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2025-08-12 14:55",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
