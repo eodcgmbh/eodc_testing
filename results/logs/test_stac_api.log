@@ -4686,3 +4686,4 @@
 2025-08-12T18:54:56.500592+00:00, failed: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0), stage: validation, http_status: 200, url: https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/item.json, collection: AI4SAR_SIG0, item: SIG0_20231231T051048_D022_EU020M_E051N012T3_S1AIWGRDH
 2025-08-12T19:16:20.356010+00:00, failed: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0), stage: validation, http_status: 200, url: https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/item.json, collection: DOP_AUT_ST_MURTAL, item: 7327-65
 2025-08-12T19:38:37.064494+00:00, success, collection: sentinel2-landsat8-l2f, item: EU010M_E051N014T1_20250611T101041
+2025-08-12T20:22:03.900919+00:00, failed: No items in collection incal-hourly, stage: items, http_status: 200, url: https://stac.eodc.eu/api/v1/collections/incal-hourly/items, collection: incal-hourly, item: N/A
