@@ -4746,3 +4746,4 @@
 2025-08-14T07:41:56.141788+00:00, failed: No items in collection incal-hourly, stage: items, http_status: 200, url: https://stac.eodc.eu/api/v1/collections/incal-hourly/items, collection: incal-hourly, item: N/A
 2025-08-14T08:27:25.670278+00:00, failed: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0), stage: validation, http_status: 200, url: https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/item.json, collection: SENTINEL1_GRD_COVERAGE, item: SENTINEL1_GRD_COVERAGE_20250810
 2025-08-14T08:52:53.137388+00:00, success, collection: GFM, item: ENSEMBLE_FLOOD_20250814T062113_VV_AF020M_E030N084T3
+2025-08-14T09:22:27.338096+00:00, failed: Item validation failed: '1.1.0' was expected at ['stac_version'] (validator: const, expected: 1.1.0), stage: validation, http_status: 200, url: https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/item.json, collection: BOA_SENTINEL_2, item: E053N016T1_20201231
