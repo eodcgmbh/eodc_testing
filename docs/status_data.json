@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-14 13:11",
+        "timestamp": "2025-08-14 13:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
             "history": [
-                {
-                    "timestamp": "2025-08-12 23:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-08-13 01:08",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-14 13:11",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-08-14 13:48",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
                 }
             ]
         }
