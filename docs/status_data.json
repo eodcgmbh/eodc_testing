@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-15 09:21",
+        "timestamp": "2025-08-15 09:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_ZELTWEG",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-08-13 20:55",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-08-13 21:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-15 09:21",
                     "status": 1,
                     "collection": "DOP_AUT_K_ZELTWEG"
+                },
+                {
+                    "timestamp": "2025-08-15 09:40",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
