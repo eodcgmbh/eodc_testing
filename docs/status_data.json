@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-15 09:40",
+        "timestamp": "2025-08-15 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
             "history": [
-                {
-                    "timestamp": "2025-08-13 21:12",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-08-13 21:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-15 09:40",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-08-15 09:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
                 }
             ]
         }
