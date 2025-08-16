@@ -1315,6 +1315,12 @@
                 "timestamp": "2025-08-15T06:55:13.179755+00:00",
                 "status": "SUCCESS",
                 "item": "EU010M_E047N015T1_20250612T102559"
+            },
+            {
+                "collection": "port=443): Max retries exceeded with url: /v1.1.0/item-spec/json-schema/item.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f768ec44160>",
+                "timestamp": "2025-08-16T15:40:44.890204+00:00",
+                "status": "FAILED: FETCH STAC ITEM SCHEMA REQUEST EXCEPTION: HTTPSCONNECTIONPOOL(HOST='SCHEMAS.STACSPEC.ORG'",
+                "item": "'Connection to schemas.stacspec.org timed out. (connect timeout=20)'))"
             }
         ]
     },
