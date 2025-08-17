@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-17 16:40",
+        "timestamp": "2025-08-17 16:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-08-16 09:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-08-16 10:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-08-17 16:40",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-08-17 16:55",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
