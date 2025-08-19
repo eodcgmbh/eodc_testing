@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-19 05:34",
+        "timestamp": "2025-08-19 05:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-08-17 16:15",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S10_TOC_333M"
-                },
                 {
                     "timestamp": "2025-08-17 16:40",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-19 05:34",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-08-19 05:46",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
