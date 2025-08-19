@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-19 14:39",
+        "timestamp": "2025-08-19 14:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-08-17 23:45",
-                    "status": 1,
-                    "collection": "SENTINEL1_SLC"
-                },
                 {
                     "timestamp": "2025-08-17 23:53",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-19 14:39",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-08-19 14:51",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
