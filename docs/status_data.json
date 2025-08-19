@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-19 07:21",
+        "timestamp": "2025-08-19 07:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-08-17 17:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-08-17 18:18",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-19 07:21",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-08-19 07:37",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
