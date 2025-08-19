@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-19 08:43",
+        "timestamp": "2025-08-19 08:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-08-17 19:27",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-08-17 19:36",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-19 08:43",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-08-19 08:57",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
