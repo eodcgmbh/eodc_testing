@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-20 13:37",
+        "timestamp": "2025-08-20 13:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-08-19 05:54",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_WOLFSBERG"
-                },
                 {
                     "timestamp": "2025-08-19 06:20",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-20 13:37",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-08-20 13:50",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
