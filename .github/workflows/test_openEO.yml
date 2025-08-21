@@ -32,6 +32,9 @@ jobs:
           echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
           echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
 
+      - name: Add repo to PYTHONPATH
+        run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+
       - name: Set Refresh Token as Environment Variable
         run: echo "OPENEO_REFRESH_TOKEN=${{ secrets.OPENEO_REFRESH_TOKEN }}" >> $GITHUB_ENV
 
