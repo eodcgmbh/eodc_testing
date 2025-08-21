@@ -106,7 +106,8 @@ def push_e2e_result(service: str, success: bool, duration_s: float):
 
     handler = None
     if user and pwd and basic_auth_handler:
-        handler = lambda u, m, t, h, d: basic_auth_handler(u, m, t, h, d, user, pwd)
+        def handler(url, method, timeout, headers, data):
+            return basic_auth_handler(url, method, timeout, headers, data, user, pwd)
 
     push_to_gateway(url, job="e2e_direct", registry=reg,
                     grouping_key={"env": env}, handler=handler, timeout=15)
