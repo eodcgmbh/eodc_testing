@@ -1138,9 +1138,9 @@
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-EFR_COVERAGE",
-                "timestamp": "2025-07-29 03:49",
+                "timestamp": "2025-08-21 17:21",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_OLCI_L1_EFR_COVERAGE_20250702"
+                "item": "SENTINEL_3_OLCI_L1_EFR_COVERAGE_20250813"
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-ERR_COVERAGE",
@@ -1441,16 +1441,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-21 16:22:32",
+        "timestamp": "2025-08-21 17:17:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250821-162225",
+            "info": "vm-test-20250821-171729",
             "history": [
-                {
-                    "timestamp": "2025-08-21 04:17:33",
-                    "status": 1,
-                    "info": "vm-test-20250821-041725"
-                },
                 {
                     "timestamp": "2025-08-21 05:14:53",
                     "status": 1,
@@ -1495,6 +1490,11 @@
                     "timestamp": "2025-08-21 16:22:32",
                     "status": 1,
                     "info": "vm-test-20250821-162225"
+                },
+                {
+                    "timestamp": "2025-08-21 17:17:37",
+                    "status": 1,
+                    "info": "vm-test-20250821-171729"
                 }
             ]
         }
