@@ -111,8 +111,15 @@ def push_e2e_result(service: str, success: bool, duration_s: float):
                     grouping_key={"env": env}, handler=handler, timeout=15)
 
 if __name__ == "__main__":
+    t0 = time.time()
+    service = "openeo"
+    success = False
+
     collection_id = get_random_collection()
     if collection_id:
-        test_collection(collection_id)
+        success = test_collection(collection_id)
     else:
         log_message("failure", "No collection found – test failed.")
+        success = False
+        
+    push_e2e_result(service, success, time.time() - t0)
