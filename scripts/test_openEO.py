@@ -3,6 +3,8 @@ import openeo
 import random
 from datetime import datetime
 import time
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__))) 
 from e2e_helpers.prom import push_e2e_result
 
 OPENEO_BACKEND = "https://openeo.cloud"
