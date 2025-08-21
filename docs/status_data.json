@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-21 16:57",
+        "timestamp": "2025-08-21 17:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
             "history": [
-                {
-                    "timestamp": "2025-08-20 07:54",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2025-08-20 08:18",
                     "status": 1,
@@ -822,6 +817,11 @@
                     "timestamp": "2025-08-21 16:57",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-08-21 17:15",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
                 }
             ]
         }
@@ -1441,16 +1441,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-21 16:22:32",
+        "timestamp": "2025-08-21 17:17:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250821-162225",
+            "info": "vm-test-20250821-171729",
             "history": [
-                {
-                    "timestamp": "2025-08-21 04:17:33",
-                    "status": 1,
-                    "info": "vm-test-20250821-041725"
-                },
                 {
                     "timestamp": "2025-08-21 05:14:53",
                     "status": 1,
@@ -1495,6 +1490,11 @@
                     "timestamp": "2025-08-21 16:22:32",
                     "status": 1,
                     "info": "vm-test-20250821-162225"
+                },
+                {
+                    "timestamp": "2025-08-21 17:17:37",
+                    "status": 1,
+                    "info": "vm-test-20250821-171729"
                 }
             ]
         }
