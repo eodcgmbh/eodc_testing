@@ -2,6 +2,7 @@ import os
 import openeo
 import random
 from datetime import datetime
+import time
 
 OPENEO_BACKEND = "https://openeo.cloud"
 TOKEN_PATH = os.path.expanduser("~/.openeo-refresh-token")
