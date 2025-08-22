@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-22 20:14",
+        "timestamp": "2025-08-22 20:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-08-21 14:51",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-08-21 15:14",
                     "status": 1,
@@ -822,6 +817,11 @@
                     "timestamp": "2025-08-22 20:14",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-08-22 20:33",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
