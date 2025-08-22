@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-22 07:35",
+        "timestamp": "2025-08-22 07:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-08-20 22:11",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2025-08-20 22:33",
                     "status": 1,
@@ -807,6 +802,11 @@
                     "timestamp": "2025-08-22 07:35",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-08-22 07:43",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
