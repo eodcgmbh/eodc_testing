@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-22 13:47",
+        "timestamp": "2025-08-22 13:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-08-21 08:42",
-                    "status": 1,
-                    "collection": "EGM2008"
-                },
                 {
                     "timestamp": "2025-08-21 08:56",
                     "status": 1,
@@ -807,6 +802,11 @@
                     "timestamp": "2025-08-22 13:47",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-08-22 13:55",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
