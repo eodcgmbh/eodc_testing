@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-23 17:44",
+        "timestamp": "2025-08-23 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-08-22 13:47",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2025-08-22 13:55",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-23 17:44",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-08-23 17:53",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
