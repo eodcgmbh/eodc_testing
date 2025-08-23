@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-23 05:31",
+        "timestamp": "2025-08-23 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "CGLS_SSM_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-08-21 20:54",
-                    "status": 1,
-                    "collection": "SENTINEL1_SIG0_20M"
-                },
                 {
                     "timestamp": "2025-08-21 21:12",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-23 05:31",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-08-23 05:43",
+                    "status": 1,
+                    "collection": "CGLS_SSM_V1_EUROPE"
                 }
             ]
         }
