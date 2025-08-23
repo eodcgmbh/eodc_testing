@@ -1060,9 +1060,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-08-23 13:41",
+                "timestamp": "2025-08-23 22:16",
                 "status": "SUCCESS",
-                "item": "E048N015T1_20200930"
+                "item": "E050N014T1_20200930"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
@@ -1477,11 +1477,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-23 22:12:29",
+        "timestamp": "2025-08-23 21:12:19",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250823-221222",
+            "info": "vm-test-20250823-211211",
             "history": [
+                {
+                    "timestamp": "2025-08-23 10:13:25",
+                    "status": 1,
+                    "info": "vm-test-20250823-101318"
+                },
                 {
                     "timestamp": "2025-08-23 11:10:44",
                     "status": 1,
@@ -1526,11 +1531,6 @@
                     "timestamp": "2025-08-23 21:12:19",
                     "status": 1,
                     "info": "vm-test-20250823-211211"
-                },
-                {
-                    "timestamp": "2025-08-23 22:12:29",
-                    "status": 1,
-                    "info": "vm-test-20250823-221222"
                 }
             ]
         }
