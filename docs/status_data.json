@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-23 19:22",
+        "timestamp": "2025-08-23 19:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-08-22 15:13",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-08-22 15:31",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-23 19:22",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-08-23 19:34",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
