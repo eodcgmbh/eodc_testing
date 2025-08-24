@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-24 07:12",
+        "timestamp": "2025-08-24 07:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "SENTINEL1_SLC",
             "history": [
-                {
-                    "timestamp": "2025-08-22 23:55",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-08-23 01:02",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-24 07:12",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-08-24 07:29",
+                    "status": 1,
+                    "collection": "SENTINEL1_SLC"
                 }
             ]
         }
