@@ -1012,7 +1012,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-08-21 21:38",
+                "timestamp": "2025-08-24 21:16",
                 "status": "SUCCESS",
                 "item": "HPAR_SA020M_E102N063T3_A162"
             },
@@ -1477,11 +1477,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-24 21:12:24",
+        "timestamp": "2025-08-24 20:14:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250824-211217",
+            "info": "vm-test-20250824-201429",
             "history": [
+                {
+                    "timestamp": "2025-08-24 01:15:11",
+                    "status": 1,
+                    "info": "vm-test-20250824-011503"
+                },
                 {
                     "timestamp": "2025-08-24 03:15:13",
                     "status": 1,
@@ -1526,11 +1531,6 @@
                     "timestamp": "2025-08-24 20:14:37",
                     "status": 1,
                     "info": "vm-test-20250824-201429"
-                },
-                {
-                    "timestamp": "2025-08-24 21:12:24",
-                    "status": 1,
-                    "info": "vm-test-20250824-211217"
                 }
             ]
         }
