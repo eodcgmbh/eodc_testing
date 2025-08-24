@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-24 22:33",
+        "timestamp": "2025-08-24 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-08-23 17:37",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2025-08-23 17:44",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-24 22:33",
                     "status": 1,
                     "collection": "TERRASCOPE_SENTINEL3_LST_S1"
+                },
+                {
+                    "timestamp": "2025-08-24 22:45",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
