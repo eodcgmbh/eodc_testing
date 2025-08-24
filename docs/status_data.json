@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-24 05:44",
+        "timestamp": "2025-08-24 05:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "PROBAV_L3_S1_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-08-22 22:53",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-08-22 23:12",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-08-24 05:44",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-08-24 05:53",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_333M"
                 }
             ]
         }
