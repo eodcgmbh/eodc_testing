@@ -348,11 +348,16 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-24 17:13",
+        "timestamp": "2025-08-24 16:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "OPENEO_CROPTYPE_2021",
             "history": [
+                {
+                    "timestamp": "2025-08-23 11:52",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
+                },
                 {
                     "timestamp": "2025-08-23 12:24",
                     "status": 1,
@@ -847,11 +852,6 @@
                     "timestamp": "2025-08-24 16:56",
                     "status": 1,
                     "collection": "OPENEO_CROPTYPE_2021"
-                },
-                {
-                    "timestamp": "2025-08-24 17:13",
-                    "status": 1,
-                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -1060,9 +1060,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-08-23 22:16",
+                "timestamp": "2025-08-24 17:15",
                 "status": "SUCCESS",
-                "item": "E050N014T1_20200930"
+                "item": "E049N013T1_20200930"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
