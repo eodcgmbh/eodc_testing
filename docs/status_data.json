@@ -348,11 +348,16 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-25 06:23",
+        "timestamp": "2025-08-25 05:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TM",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
+                {
+                    "timestamp": "2025-08-23 21:11",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
+                },
                 {
                     "timestamp": "2025-08-23 21:28",
                     "status": 1,
@@ -847,11 +852,6 @@
                     "timestamp": "2025-08-25 05:55",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
-                {
-                    "timestamp": "2025-08-25 06:23",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
                 }
             ]
         }
@@ -1264,9 +1264,9 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-08-23 15:38",
+                "timestamp": "2025-08-25 06:30",
                 "status": "SUCCESS",
-                "item": "N2779375_E4528527"
+                "item": "N2812143_E4635023"
             }
         ]
     },
