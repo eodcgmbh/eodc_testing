@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 14:34",
+        "timestamp": "2025-08-26 14:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
-                {
-                    "timestamp": "2025-08-25 02:51",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-08-25 03:43",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 14:34",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-08-26 14:46",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
                 }
             ]
         }
@@ -1042,9 +1042,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-08-25 16:23",
+                "timestamp": "2025-08-26 14:43",
                 "status": "SUCCESS",
-                "item": "5622-45"
+                "item": "5622-36"
             },
             {
                 "collection": "BOA_SENTINEL_2",
