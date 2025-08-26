@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 14:13",
+        "timestamp": "2025-08-26 14:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-08-25 01:06",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-08-25 02:51",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 14:13",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-08-26 14:34",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
@@ -886,9 +886,9 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-08-22 15:18",
+                "timestamp": "2025-08-26 14:19",
                 "status": "SUCCESS",
-                "item": "WSM_ALPS_20210731T051919_E048N012T6_S1A_IW_SLC_039017_00498A_00_ENVEO"
+                "item": "WSM_ALPS_20210730T172347_E048N012T6_S1A_IW_SLC_039010_004562_00_ENVEO"
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
