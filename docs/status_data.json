@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 11:12",
+        "timestamp": "2025-08-26 11:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG10",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
             "history": [
-                {
-                    "timestamp": "2025-08-24 22:33",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-08-24 22:45",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 11:12",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG10"
+                },
+                {
+                    "timestamp": "2025-08-26 11:29",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
                 }
             ]
         }
@@ -856,9 +856,9 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-08-25 18:27",
+                "timestamp": "2025-08-26 11:18",
                 "status": "SUCCESS",
-                "item": "4622-12"
+                "item": "5121-01"
             },
             {
                 "collection": "COP_DEM",
