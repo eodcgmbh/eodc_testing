@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 10:39",
+        "timestamp": "2025-08-26 10:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "DOP_AUT_K_TAMSWEG",
             "history": [
-                {
-                    "timestamp": "2025-08-24 21:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-24 22:12",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 10:39",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-08-26 10:51",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_TAMSWEG"
                 }
             ]
         }
@@ -952,9 +952,9 @@
             },
             {
                 "collection": "sen2like",
-                "timestamp": "2025-08-26 06:53",
+                "timestamp": "2025-08-26 10:46",
                 "status": "SUCCESS",
-                "item": "EU010M_E047N015T1_20240714T102802"
+                "item": "EU010M_E047N015T1_20240715T100359"
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
