@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 09:41",
+        "timestamp": "2025-08-26 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "SPOT",
             "history": [
-                {
-                    "timestamp": "2025-08-24 21:11",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-08-24 21:28",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 09:41",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-08-26 09:53",
+                    "status": 1,
+                    "collection": "SPOT"
                 }
             ]
         }
@@ -1198,7 +1198,7 @@
             },
             {
                 "collection": "SENTINEL-1-L1-GRD_COVERAGE",
-                "timestamp": "2025-08-24 18:24",
+                "timestamp": "2025-08-26 09:44",
                 "status": "FAILURE",
                 "item": "N/A"
             },
