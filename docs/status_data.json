@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 18:43",
+        "timestamp": "2025-08-26 18:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2025-08-25 08:45",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2025-08-25 08:58",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 18:43",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-08-26 18:55",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
@@ -1192,9 +1192,9 @@
             },
             {
                 "collection": "SENTINEL_2_L2A_COVERAGE",
-                "timestamp": "2025-08-23 04:43",
+                "timestamp": "2025-08-26 18:50",
                 "status": "SUCCESS",
-                "item": "SENTINEL_2_L2A_COVERAGE_20250723"
+                "item": "SENTINEL_2_L2A_COVERAGE_20250729"
             },
             {
                 "collection": "SENTINEL-1-L1-GRD_COVERAGE",
