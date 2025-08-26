@@ -1,46 +1,68 @@
+import os
+import time
+import base64
 import openstack
 from datetime import datetime
-import base64
-import os
+from e2e_helpers.prom import push_e2e_result
 
 LOGFILE = "results/logs/test_openstack.log"
 
 def log_result(status, message=""):
+    os.makedirs(os.path.dirname(LOGFILE), exist_ok=True)
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(LOGFILE, "a") as log:
         log.write(f"{timestamp}, {status}, {message}\n")
 
-try:
-    conn = openstack.connect(cloud="eodc-appcred")
+def main():
+    t0 = time.time()
+    service = "openstack"
+    success = False
+    server = None
 
-    IMAGE_ID = os.getenv("OPENSTACK_IMAGE_ID")
-    FLAVOR_ID = os.getenv("OPENSTACK_FLAVOR_ID")
-    NETWORK_ID = os.getenv("OPENSTACK_NETWORK_ID")
-    SECURITY_GROUP = "default"
+    try:
+        conn = openstack.connect(cloud="eodc-appcred")
 
-    vm_name = "vm-test-" + datetime.utcnow().strftime("%Y%m%d-%H%M%S")
-    print(f"🚀 Erstelle Test-VM: {vm_name}")
+        IMAGE_ID = os.getenv("OPENSTACK_IMAGE_ID")
+        FLAVOR_ID = os.getenv("OPENSTACK_FLAVOR_ID")
+        NETWORK_ID = os.getenv("OPENSTACK_NETWORK_ID")
+        SECURITY_GROUP = "default"
 
-    cloud_init = """#!/bin/bash
+        if not all([IMAGE_ID, FLAVOR_ID, NETWORK_ID]):
+            raise RuntimeError("Missing OPENSTACK_* IDs")
+
+        vm_name = "vm-test-" + datetime.utcnow().strftime("%Y%m%d-%H%M%S")
+
+        cloud_init = """#!/bin/bash
 echo $((17 * 3)) > /tmp/result.txt
 """
+        user_data = base64.b64encode(cloud_init.encode("utf-8")).decode("utf-8")
 
-    cloud_init_encoded = base64.b64encode(cloud_init.encode("utf-8")).decode("utf-8")
+        server = conn.compute.create_server(
+            name=vm_name,
+            image_id=IMAGE_ID,
+            flavor_id=FLAVOR_ID,
+            networks=[{"uuid": NETWORK_ID}],
+            security_groups=[{"name": SECURITY_GROUP}],
+            user_data=user_data,
+        )
 
-    server = conn.compute.create_server(
-        name=vm_name,
-        image_id=IMAGE_ID,
-        flavor_id=FLAVOR_ID,
-        networks=[{"uuid": NETWORK_ID}],
-        security_groups=[{"name": SECURITY_GROUP}],
-        user_data=cloud_init_encoded
-    )
+        server = conn.compute.wait_for_server(
+            server, status="ACTIVE", failures=["ERROR"], interval=5, wait=300
+        )
 
-    server = conn.compute.wait_for_server(server, status="ACTIVE", failures=["ERROR"], interval=5, wait=300)
+        success = True
+        log_result("SUCCESS", server.name)
 
-    log_result("SUCCESS", f"{server.name}")
+    except Exception as e:
+        log_result("FAILURE", str(e))
 
-    conn.compute.delete_server(server.id)
+    finally:
+        try:
+            if server:
+                conn.compute.delete_server(server.id)
+        except Exception:
+            pass
+        push_e2e_result(service, success, time.time() - t0)
 
-except Exception as e:
-    log_result("FAILURE", str(e))
+if __name__ == "__main__":
+    main()

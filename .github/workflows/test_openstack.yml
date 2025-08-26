@@ -30,6 +30,13 @@ jobs:
       - name: Install Dependencies
         run: pip install openstacksdk
 
+      - name: Set Pushgateway env
+        run: |
+          echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
+          echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
+          echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
+
+
       - name: Create clouds.yaml from secret
         run: |
           mkdir -p ~/.config/openstack
