@@ -28,7 +28,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install Dependencies
-        run: pip install openstacksdk
+        run: pip install openstacksdk prometheus-client
 
       - name: Set Pushgateway env
         run: |
@@ -42,7 +42,7 @@ jobs:
           mkdir -p ~/.config/openstack
           echo "${{ secrets.OPENSTACK_CLOUDS_YAML }}" > ~/.config/openstack/clouds.yaml
 
-      - name: 🧪 Run OpenStack VM Test
+      - name: Run OpenStack VM Test
         run: python scripts/test_openstack.py
 
       - name: Commit Logs
