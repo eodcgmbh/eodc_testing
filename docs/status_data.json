@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 23:12",
+        "timestamp": "2025-08-26 23:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-25 14:57",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2025-08-25 15:19",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 23:12",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-08-26 23:29",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
@@ -1042,9 +1042,9 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-08-26 14:43",
+                "timestamp": "2025-08-26 23:18",
                 "status": "SUCCESS",
-                "item": "5622-36"
+                "item": "5622-44"
             },
             {
                 "collection": "BOA_SENTINEL_2",
