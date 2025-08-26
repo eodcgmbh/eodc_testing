@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 22:32",
+        "timestamp": "2025-08-26 22:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TY",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-25 14:13",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-08-25 14:37",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 22:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TY"
+                },
+                {
+                    "timestamp": "2025-08-26 22:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -1012,9 +1012,9 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-08-26 16:47",
+                "timestamp": "2025-08-26 22:41",
                 "status": "SUCCESS",
-                "item": "5716-57"
+                "item": "5716-60"
             },
             {
                 "collection": "SENTINEL1_SLC",
