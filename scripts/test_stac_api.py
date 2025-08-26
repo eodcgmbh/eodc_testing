@@ -2,6 +2,10 @@ import os
 import requests
 import random
 from datetime import datetime
+import time
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__))) 
+from e2e_helpers.prom import push_e2e_result
  
  
 STAC_URL = "https://dev.stac.eodc.eu/api/v1"
@@ -67,30 +71,25 @@ def get_random_item():
  
  
 if __name__ == "__main__":
- 
+    t0 = time.time()
+    service = "stac"
+
     success, message, collection_id, item_id = get_random_item()
- 
- 
- 
+
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
     result = "SUCCESS" if success else "FAILURE"
     collection_id = collection_id or "N/A"
     item_id = item_id or "N/A"
- 
+
     log_entry = f"{timestamp}, {result}, collection: {collection_id}, item: {item_id}"
- 
     if not success:
         log_entry += f", reason: {message or 'Unknown error'}"
- 
+
     log_dir = "results/logs/"
- 
     os.makedirs(log_dir, exist_ok=True)
- 
- 
     with open(os.path.join(log_dir, "test_stac_api.log"), "a") as log_file:
- 
         log_file.write(log_entry + "\n")
- 
- 
- 
+
+    push_e2e_result(service, success, time.time() - t0)
+
     exit(0 if success else 1)

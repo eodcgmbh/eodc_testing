@@ -5,7 +5,7 @@ on:
     paths:
         - 'scripts/test_stac_api.py'   
   schedule:
-    - cron: "*/30 * * * *"  
+    - cron: "*/50 * * * *"  
 
 jobs:
   test-stac-api:
@@ -23,6 +23,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Set Pushgateway env
+        run: |
+          echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
+          echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
+          echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
 
       - name: Run STAC API Test
         run: python scripts/test_stac_api.py
