@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 08:44",
+        "timestamp": "2025-08-26 08:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_ZELTWEG",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-08-24 20:32",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-24 20:45",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 08:44",
                     "status": 1,
                     "collection": "DOP_AUT_K_ZELTWEG"
+                },
+                {
+                    "timestamp": "2025-08-26 08:58",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-08-25 21:17",
+                "timestamp": "2025-08-26 08:52",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
