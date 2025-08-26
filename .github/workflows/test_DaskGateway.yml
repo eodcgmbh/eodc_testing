@@ -26,6 +26,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Set Pushgateway env
+      run: |
+        echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
+        echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
+        echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
+
     - name: Run Dask Gateway Test
       env:
         EODC_USERNAME: ${{ secrets.EODC_USERNAME }}  
