@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 05:46",
+        "timestamp": "2025-08-26 05:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "SENTINEL1_MPLIA",
             "history": [
-                {
-                    "timestamp": "2025-08-24 18:17",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-08-24 18:41",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 05:46",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-08-26 05:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_MPLIA"
                 }
             ]
         }
