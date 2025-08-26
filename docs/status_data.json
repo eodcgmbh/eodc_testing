@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-26 19:10",
+        "timestamp": "2025-08-26 19:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-08-25 09:40",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
-                },
                 {
                     "timestamp": "2025-08-25 09:53",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-08-26 19:10",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-08-26 19:25",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
@@ -1084,9 +1084,9 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-08-26 05:42",
+                "timestamp": "2025-08-26 19:16",
                 "status": "SUCCESS",
-                "item": "S3A_SR_2_LAN_HY_20240610T203605_20240610T204323_0438_113_214"
+                "item": "S3A_SR_2_LAN_HY_20240609T094217_20240609T095216_0599_113_193"
             },
             {
                 "collection": "N/A",
@@ -1465,11 +1465,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-26 19:11:05",
+        "timestamp": "2025-08-26 16:17:27",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250826-191058",
+            "info": "vm-test-20250826-161719",
             "history": [
+                {
+                    "timestamp": "2025-08-26 01:08:50",
+                    "status": 1,
+                    "info": "vm-test-20250826-010843"
+                },
                 {
                     "timestamp": "2025-08-26 03:05:33",
                     "status": 1,
@@ -1514,11 +1519,6 @@
                     "timestamp": "2025-08-26 16:17:27",
                     "status": 1,
                     "info": "vm-test-20250826-161719"
-                },
-                {
-                    "timestamp": "2025-08-26 19:11:05",
-                    "status": 1,
-                    "info": "vm-test-20250826-191058"
                 }
             ]
         }
