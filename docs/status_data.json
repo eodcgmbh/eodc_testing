@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 23:12",
+        "timestamp": "2025-08-27 23:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-26 17:31",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2025-08-26 17:44",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 23:12",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-08-27 23:28",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -918,9 +918,9 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-08-26 21:18",
+                "timestamp": "2025-08-27 23:18",
                 "status": "SUCCESS",
-                "item": "5119-41"
+                "item": "5120-09"
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
