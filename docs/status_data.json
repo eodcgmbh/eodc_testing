@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 11:11",
+        "timestamp": "2025-08-27 11:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-08-26 03:32",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-08-26 03:57",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 11:11",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-08-27 11:27",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -1074,9 +1074,9 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-08-26 04:22",
+                "timestamp": "2025-08-27 11:17",
                 "status": "SUCCESS",
-                "item": "5821-60"
+                "item": "5821-79"
             },
             {
                 "collection": "SENTINEL1_GRD",
