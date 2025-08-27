@@ -1148,9 +1148,9 @@
             },
             {
                 "collection": "SENTINEL-2-L1C_COVERAGE",
-                "timestamp": "2025-08-26 02:54",
+                "timestamp": "2025-08-27 02:50",
                 "status": "SUCCESS",
-                "item": "SENTINEL_2_L1C_COVERAGE_20250804"
+                "item": "SENTINEL_2_L1C_COVERAGE_20250802"
             },
             {
                 "collection": "SENTINEL-3-SLSTR-L2-LST_COVERAGE",
@@ -1469,16 +1469,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-27 01:06:45",
+        "timestamp": "2025-08-27 02:58:50",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250827-010638",
+            "info": "vm-test-20250827-025842",
             "history": [
-                {
-                    "timestamp": "2025-08-26 04:17:58",
-                    "status": 1,
-                    "info": "vm-test-20250826-041750"
-                },
                 {
                     "timestamp": "2025-08-26 05:14:53",
                     "status": 1,
@@ -1523,6 +1518,11 @@
                     "timestamp": "2025-08-27 01:06:45",
                     "status": 1,
                     "info": "vm-test-20250827-010638"
+                },
+                {
+                    "timestamp": "2025-08-27 02:58:50",
+                    "status": 1,
+                    "info": "vm-test-20250827-025842"
                 }
             ]
         }
