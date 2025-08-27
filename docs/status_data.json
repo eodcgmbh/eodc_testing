@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 15:33",
+        "timestamp": "2025-08-27 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-08-26 07:37",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-08-26 07:45",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 15:33",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-08-27 15:45",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -996,7 +996,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-08-26 16:25",
+                "timestamp": "2025-08-27 15:42",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
