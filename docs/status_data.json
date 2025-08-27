@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 19:36",
+        "timestamp": "2025-08-27 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-26 13:08",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
-                },
                 {
                     "timestamp": "2025-08-26 13:41",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 19:36",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-08-27 19:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
                 }
             ]
         }
@@ -1080,9 +1080,9 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-08-23 01:19",
+                "timestamp": "2025-08-27 19:38",
                 "status": "SUCCESS",
-                "item": "S1A_IW_GRDH_1SDV_20240726T185941_20240726T190006_054936_06B10A"
+                "item": "S1A_IW_GRDH_1SDV_20240725T151101_20240725T151126_054919_06B07D"
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
