@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 17:31",
+        "timestamp": "2025-08-27 17:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-08-26 09:41",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-08-26 09:53",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 17:31",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-08-27 17:44",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -1128,7 +1128,7 @@
             },
             {
                 "collection": "SENTINEL-2-L2A_COVERAGE",
-                "timestamp": "2025-08-24 23:38",
+                "timestamp": "2025-08-27 17:41",
                 "status": "FAILURE",
                 "item": "N/A"
             },
