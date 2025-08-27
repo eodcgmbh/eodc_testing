@@ -5,10 +5,11 @@ on:
     paths:
         - 'scripts/test_jupyterhub.py'   
   schedule:
-    - cron: "*/30 * * * *"  
+    - cron: "*/30 * * * *" 
+  workflow_dispatch: 
 
 jobs:
-  test-stac-api:
+  test-eopf-jupyterhub:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
