@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 06:44",
+        "timestamp": "2025-08-27 06:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-08-25 20:14",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-08-25 20:33",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 06:44",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2025-08-27 06:55",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
@@ -1092,7 +1092,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-08-26 19:16",
+                "timestamp": "2025-08-27 06:51",
                 "status": "SUCCESS",
                 "item": "S3A_SR_2_LAN_HY_20240609T094217_20240609T095216_0599_113_193"
             },
