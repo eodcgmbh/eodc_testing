@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 17:11",
+        "timestamp": "2025-08-27 17:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-08-26 09:22",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
                 {
                     "timestamp": "2025-08-26 09:41",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 17:11",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-08-27 17:31",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
@@ -1092,7 +1092,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-08-27 09:21",
+                "timestamp": "2025-08-27 17:18",
                 "status": "SUCCESS",
                 "item": "S3A_SR_2_LAN_HY_20240610T201915_20240610T205315_2040_113_214"
             },
