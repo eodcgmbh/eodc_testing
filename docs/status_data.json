@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 14:34",
+        "timestamp": "2025-08-27 14:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
+            "collection": "CNES_LAND_COVER_MAP",
             "history": [
-                {
-                    "timestamp": "2025-08-26 06:21",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2025-08-26 06:50",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 14:34",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TD"
+                },
+                {
+                    "timestamp": "2025-08-27 14:46",
+                    "status": 1,
+                    "collection": "CNES_LAND_COVER_MAP"
                 }
             ]
         }
@@ -1182,7 +1182,7 @@
             },
             {
                 "collection": "SENTINEL-1-L1-SLC_COVERAGE",
-                "timestamp": "2025-08-23 14:15",
+                "timestamp": "2025-08-27 14:43",
                 "status": "FAILURE",
                 "item": "N/A"
             },
