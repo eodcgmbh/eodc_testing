@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 10:34",
+        "timestamp": "2025-08-27 10:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "TERRASCOPE_S2_TOC_V2",
             "history": [
-                {
-                    "timestamp": "2025-08-25 23:44",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S1_TOC_100M"
-                },
                 {
                     "timestamp": "2025-08-25 23:53",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 10:34",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-08-27 10:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TOC_V2"
                 }
             ]
         }
@@ -1170,9 +1170,9 @@
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-ERR_COVERAGE",
-                "timestamp": "2025-08-27 08:26",
+                "timestamp": "2025-08-27 10:43",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250702"
+                "item": "SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250813"
             },
             {
                 "collection": "SENTINEL-3-OLCI-L2-LFR_COVERAGE",
