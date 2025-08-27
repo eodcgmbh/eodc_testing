@@ -340,16 +340,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 03:24",
+        "timestamp": "2025-08-27 03:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-08-25 16:57",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-08-25 17:13",
                     "status": 1,
@@ -844,6 +839,11 @@
                     "timestamp": "2025-08-27 03:24",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-08-27 03:47",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
