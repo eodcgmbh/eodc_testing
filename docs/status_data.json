@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 07:13",
+        "timestamp": "2025-08-27 07:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-08-25 20:46",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
-                },
                 {
                     "timestamp": "2025-08-25 20:54",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 07:13",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-08-27 07:29",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
@@ -906,9 +906,9 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-08-26 18:28",
+                "timestamp": "2025-08-27 07:19",
                 "status": "SUCCESS",
-                "item": "SIG0_20231231T051023_D022_EU020M_E051N015T3_S1AIWGRDH"
+                "item": "SIG0_20231231T051048_D022_EU020M_E051N012T3_S1AIWGRDH"
             },
             {
                 "collection": "AUT_DEM",
