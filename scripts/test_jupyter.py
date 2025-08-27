@@ -10,10 +10,6 @@ from websocket import create_connection
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__))) 
 from e2e_helpers.prom import push_e2e_result
 
-
-from dotenv import load_dotenv
-load_dotenv()
-
 ENDPOINT_URL = os.getenv("EOPF_URL")
 USER = os.getenv("EOPF_USER")
 TOKEN = os.getenv("EOPF_TOKEN")
@@ -155,4 +151,5 @@ def main():
 if __name__ == "__main__":
 
     success, t0 = main()
-    push_e2e_result(SERVICE, success, time.time() - t0)
+    service = "eopfJupyter"
+    push_e2e_result(service, success, time.time() - t0)
