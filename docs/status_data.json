@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-27 04:18",
+        "timestamp": "2025-08-27 04:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L1",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2025-08-25 17:44",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-08-25 17:53",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-27 04:18",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L1"
+                },
+                {
+                    "timestamp": "2025-08-27 04:39",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
@@ -966,7 +966,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-08-25 19:37",
+                "timestamp": "2025-08-27 04:24",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
