@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 10:36",
+        "timestamp": "2025-08-28 10:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-08-27 04:18",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-08-27 04:39",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-28 10:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
+                },
+                {
+                    "timestamp": "2025-08-28 10:47",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -1170,9 +1170,9 @@
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-ERR_COVERAGE",
-                "timestamp": "2025-08-27 10:43",
+                "timestamp": "2025-08-28 10:44",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250813"
+                "item": "SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250706"
             },
             {
                 "collection": "SENTINEL-3-OLCI-L2-LFR_COVERAGE",
