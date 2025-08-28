@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 08:17",
+        "timestamp": "2025-08-28 08:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-08-26 23:29",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-26 23:38",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-28 08:17",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-08-28 08:41",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1032,7 +1032,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2025-08-27 20:22",
+                "timestamp": "2025-08-28 08:26",
                 "status": "SUCCESS",
                 "item": "ENSEMBLE_FLOOD_20240903T101240_VV_SA020M_E060N066T3"
             },
