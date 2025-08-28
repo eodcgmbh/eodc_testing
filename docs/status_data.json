@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 16:16",
+        "timestamp": "2025-08-28 16:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-08-27 10:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
-                },
                 {
                     "timestamp": "2025-08-27 10:34",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-28 16:16",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-08-28 16:40",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
@@ -1194,7 +1194,7 @@
             },
             {
                 "collection": "SENTINEL-1-L1-SLC_COVERAGE",
-                "timestamp": "2025-08-27 14:43",
+                "timestamp": "2025-08-28 16:25",
                 "status": "FAILURE",
                 "item": "N/A"
             },
