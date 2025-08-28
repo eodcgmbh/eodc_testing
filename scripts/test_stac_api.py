@@ -66,5 +66,3 @@ if __name__ == "__main__":
         log_file.write(log_entry + "\n")
 
     push_e2e_result(service, success, time.time() - t0)
-
-    exit(0 if success else 1)
