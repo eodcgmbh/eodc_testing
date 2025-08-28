@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 03:25",
+        "timestamp": "2025-08-28 03:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-08-26 19:25",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2025-08-26 19:35",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-28 03:25",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-08-28 03:48",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -1473,11 +1473,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-28 03:35:47",
+        "timestamp": "2025-08-28 02:58:37",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250828-033540",
+            "info": "vm-test-20250828-025829",
             "history": [
+                {
+                    "timestamp": "2025-08-27 02:58:50",
+                    "status": 1,
+                    "info": "vm-test-20250827-025842"
+                },
                 {
                     "timestamp": "2025-08-27 03:35:38",
                     "status": 1,
@@ -1522,11 +1527,6 @@
                     "timestamp": "2025-08-28 02:58:37",
                     "status": 1,
                     "info": "vm-test-20250828-025829"
-                },
-                {
-                    "timestamp": "2025-08-28 03:35:47",
-                    "status": 1,
-                    "info": "vm-test-20250828-033540"
                 }
             ]
         }
