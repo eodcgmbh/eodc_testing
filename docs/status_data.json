@@ -360,16 +360,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 22:32",
+        "timestamp": "2025-08-28 22:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
+            "collection": "CGLS_FCOVER300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-27 17:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
-                },
                 {
                     "timestamp": "2025-08-27 18:19",
                     "status": 1,
@@ -864,6 +859,11 @@
                     "timestamp": "2025-08-28 22:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TY"
+                },
+                {
+                    "timestamp": "2025-08-28 22:44",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
                 }
             ]
         }
@@ -964,9 +964,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-08-28 11:38",
+                "timestamp": "2025-08-28 22:40",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld_2022"
+                "item": "vegetation_change_bgld_2018"
             },
             {
                 "collection": "DSM_AUT",
