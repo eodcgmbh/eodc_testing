@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 16:40",
+        "timestamp": "2025-08-28 16:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-08-27 10:34",
-                    "status": 1,
-                    "collection": "PLEIADES"
-                },
                 {
                     "timestamp": "2025-08-27 10:45",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-28 16:40",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-08-28 16:55",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
@@ -1074,9 +1074,9 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-08-27 18:48",
+                "timestamp": "2025-08-28 16:47",
                 "status": "SUCCESS",
-                "item": "AT_EGMS_L3_E_2016_2022"
+                "item": "AT_EGMS_L3_U_2016_2022"
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
