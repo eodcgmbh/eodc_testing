@@ -364,16 +364,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 23:12",
+        "timestamp": "2025-08-28 23:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-08-27 18:54",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-27 19:11",
                     "status": 1,
@@ -868,6 +863,11 @@
                     "timestamp": "2025-08-28 23:12",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-08-28 23:29",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -1178,9 +1178,9 @@
             },
             {
                 "collection": "SENTINEL-3-SLSTR-L2-LST_COVERAGE",
-                "timestamp": "2025-08-27 18:28",
+                "timestamp": "2025-08-28 23:18",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_SLSTR_L2_LST_COVERAGE_20250709"
+                "item": "SENTINEL_3_SLSTR_L2_LST_COVERAGE_20250704"
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-EFR_COVERAGE",
