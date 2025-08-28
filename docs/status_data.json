@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 08:41",
+        "timestamp": "2025-08-28 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "CNES_LAND_COVER_MAP",
             "history": [
-                {
-                    "timestamp": "2025-08-26 23:38",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-08-26 23:46",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-08-28 08:41",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-08-28 08:56",
+                    "status": 1,
+                    "collection": "CNES_LAND_COVER_MAP"
                 }
             ]
         }
@@ -966,7 +966,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-08-27 22:41",
+                "timestamp": "2025-08-28 08:48",
                 "status": "SUCCESS",
                 "item": "drought_vulnerability.tif"
             },
