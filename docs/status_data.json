@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 18:43",
+        "timestamp": "2025-08-28 18:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-27 11:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-08-27 13:03",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-28 18:43",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-28 18:55",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -1032,9 +1032,9 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-08-28 15:21",
+                "timestamp": "2025-08-28 18:50",
                 "status": "SUCCESS",
-                "item": "5716-65"
+                "item": "5716-57"
             },
             {
                 "collection": "SENTINEL1_SLC",
