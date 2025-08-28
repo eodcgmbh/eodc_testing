@@ -4,8 +4,8 @@ from datetime import datetime
 from unittest.mock import patch
 from dask.distributed import Client
 from eodc.dask import EODCDaskGateway
-
-#sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from e2e_helpers.prom import push_e2e_result
 
 LOG_PATH = "results/logs/test_DaskGateway.log"
