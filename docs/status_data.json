@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 17:12",
+        "timestamp": "2025-08-28 17:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-08-27 10:53",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-27 11:11",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-28 17:12",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-08-28 17:31",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -1068,9 +1068,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-08-28 14:20",
+                "timestamp": "2025-08-28 17:17",
                 "status": "SUCCESS",
-                "item": "E049N013T1_20200930"
+                "item": "E048N014T1_20200930"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
