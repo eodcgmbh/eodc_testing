@@ -352,16 +352,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 14:35",
+        "timestamp": "2025-08-28 14:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-08-27 08:17",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-08-27 08:40",
                     "status": 1,
@@ -856,6 +851,11 @@
                     "timestamp": "2025-08-28 14:35",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2025-08-28 14:47",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -1202,9 +1202,9 @@
             },
             {
                 "collection": "SENTINEL-3-SLSTR-L1-RBT_COVERAGE",
-                "timestamp": "2025-08-24 01:38",
+                "timestamp": "2025-08-28 14:44",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_SLSTR_L1_RBT_COVERAGE_20250706"
+                "item": "SENTINEL_3_SLSTR_L1_RBT_COVERAGE_20250818"
             },
             {
                 "collection": "SENTINEL_2_L2A_COVERAGE",
