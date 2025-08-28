@@ -352,16 +352,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 14:13",
+        "timestamp": "2025-08-28 14:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2025-08-27 07:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
-                },
                 {
                     "timestamp": "2025-08-27 08:17",
                     "status": 1,
@@ -856,6 +851,11 @@
                     "timestamp": "2025-08-28 14:13",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-28 14:35",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
@@ -1064,9 +1064,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-08-28 01:26",
+                "timestamp": "2025-08-28 14:20",
                 "status": "SUCCESS",
-                "item": "E048N015T1_20200930"
+                "item": "E049N013T1_20200930"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
