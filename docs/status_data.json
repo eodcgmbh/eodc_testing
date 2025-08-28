@@ -352,16 +352,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-28 15:32",
+        "timestamp": "2025-08-28 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-08-27 09:32",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-08-27 09:45",
                     "status": 1,
@@ -856,6 +851,11 @@
                     "timestamp": "2025-08-28 15:32",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-28 15:45",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
@@ -1004,7 +1004,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-08-27 15:42",
+                "timestamp": "2025-08-28 15:42",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
