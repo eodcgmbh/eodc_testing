@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 14:33",
+        "timestamp": "2025-08-29 14:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-08-28 08:41",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-08-28 08:56",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 14:33",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-08-29 14:45",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
@@ -972,9 +972,9 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-08-28 22:40",
+                "timestamp": "2025-08-29 14:42",
                 "status": "SUCCESS",
-                "item": "vegetation_change_bgld_2018"
+                "item": "vegetation_change_bgld_2020"
             },
             {
                 "collection": "DSM_AUT",
