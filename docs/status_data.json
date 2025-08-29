@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 15:11",
+        "timestamp": "2025-08-29 15:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_MAIZE",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-08-28 09:32",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
-                },
                 {
                     "timestamp": "2025-08-28 09:45",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 15:11",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_MAIZE"
+                },
+                {
+                    "timestamp": "2025-08-29 15:30",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1086,9 +1086,9 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-08-29 13:28",
+                "timestamp": "2025-08-29 15:19",
                 "status": "SUCCESS",
-                "item": "AT_EGMS_L3_E_2016_2022"
+                "item": "AT_EGMS_L3_U_2016_2022"
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
@@ -1497,11 +1497,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-08-29 15:12:31",
+        "timestamp": "2025-08-29 13:23:05",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250829-151223",
+            "info": "vm-test-20250829-132256",
             "history": [
+                {
+                    "timestamp": "2025-08-28 20:15:41",
+                    "status": 1,
+                    "info": "vm-test-20250828-201532"
+                },
                 {
                     "timestamp": "2025-08-28 22:13:18",
                     "status": 1,
@@ -1546,11 +1551,6 @@
                     "timestamp": "2025-08-29 13:23:05",
                     "status": 1,
                     "info": "vm-test-20250829-132256"
-                },
-                {
-                    "timestamp": "2025-08-29 15:12:31",
-                    "status": 1,
-                    "info": "vm-test-20250829-151223"
                 }
             ]
         }
