@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 11:36",
+        "timestamp": "2025-08-29 11:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
             "history": [
-                {
-                    "timestamp": "2025-08-28 06:21",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-08-28 06:46",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 11:36",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-29 11:44",
+                    "status": 1,
+                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
                 }
             ]
         }
@@ -1086,9 +1086,9 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-08-28 20:22",
+                "timestamp": "2025-08-29 11:39",
                 "status": "SUCCESS",
-                "item": "AT_EGMS_L3_U_2016_2023"
+                "item": "AT_EGMS_L3_E_2016_2023"
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
