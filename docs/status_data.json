@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 04:37",
+        "timestamp": "2025-08-29 04:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-27 21:29",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-27 21:38",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 04:37",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-08-29 04:47",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
                 }
             ]
         }
@@ -948,9 +948,9 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-08-27 07:39",
+                "timestamp": "2025-08-29 04:44",
                 "status": "SUCCESS",
-                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E052N014T1"
+                "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N016T1"
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
