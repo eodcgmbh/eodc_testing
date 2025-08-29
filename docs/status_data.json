@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 23:12",
+        "timestamp": "2025-08-29 23:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-08-28 17:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-08-28 17:53",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-29 23:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
+                },
+                {
+                    "timestamp": "2025-08-29 23:28",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -936,7 +936,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-08-29 04:44",
+                "timestamp": "2025-08-29 23:18",
                 "status": "SUCCESS",
                 "item": "MFCOVER---_SEN2COR_S2-_L3A------_20221201_20221231_EU010M_E053N016T1"
             },
