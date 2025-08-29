@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 04:16",
+        "timestamp": "2025-08-29 04:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TY",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
-                {
-                    "timestamp": "2025-08-27 20:54",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_3M"
-                },
                 {
                     "timestamp": "2025-08-27 21:29",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 04:16",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TY"
+                },
+                {
+                    "timestamp": "2025-08-29 04:37",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E13B"
                 }
             ]
         }
@@ -1218,9 +1218,9 @@
             },
             {
                 "collection": "SENTINEL-3-SLSTR-L1-RBT_COVERAGE",
-                "timestamp": "2025-08-28 14:44",
+                "timestamp": "2025-08-29 04:24",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_SLSTR_L1_RBT_COVERAGE_20250818"
+                "item": "SENTINEL_3_SLSTR_L1_RBT_COVERAGE_20250709"
             },
             {
                 "collection": "SENTINEL_2_L2A_COVERAGE",
