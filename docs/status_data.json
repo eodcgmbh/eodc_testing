@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 14:12",
+        "timestamp": "2025-08-29 14:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-08-28 08:17",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-08-28 08:41",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 14:12",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_IRRIGATION"
+                },
+                {
+                    "timestamp": "2025-08-29 14:33",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -996,9 +996,9 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2025-08-29 07:19",
+                "timestamp": "2025-08-29 14:19",
                 "status": "SUCCESS",
-                "item": "SIG0_20221231T235713_A135_E063N015T3_SA020M_V1M1R1_S1AIWGRDH"
+                "item": "SIG0_20221231T235713_A135_E060N018T3_SA020M_V1M1R1_S1AIWGRDH"
             },
             {
                 "collection": "CGLS_SSM_1KM",
