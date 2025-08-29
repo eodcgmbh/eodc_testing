@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-08-29 21:12:45",
+        "timestamp": "2025-08-29 19:16:20",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-08-18 20:15:50",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-08-18 21:12:42",
                     "status": 1
@@ -347,25 +351,16 @@
                 {
                     "timestamp": "2025-08-29 19:16:20",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-08-29 21:12:45",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 21:11",
+        "timestamp": "2025-08-29 21:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM",
             "history": [
-                {
-                    "timestamp": "2025-08-28 15:14",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
                 {
                     "timestamp": "2025-08-28 15:32",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-29 21:11",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-08-29 21:28",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
                 }
             ]
         }
@@ -1098,9 +1098,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-08-29 08:26",
+                "timestamp": "2025-08-29 21:17",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T38VNP"
+                "item": "GRI_L1C_T40WET"
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
