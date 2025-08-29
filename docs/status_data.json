@@ -368,16 +368,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 09:14",
+        "timestamp": "2025-08-29 09:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-08-28 03:25",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-08-28 03:48",
                     "status": 1,
@@ -872,6 +867,11 @@
                     "timestamp": "2025-08-29 09:14",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-08-29 09:32",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1020,7 +1020,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-08-28 15:42",
+                "timestamp": "2025-08-29 09:21",
                 "status": "SUCCESS",
                 "item": "yield_potential.tif"
             },
