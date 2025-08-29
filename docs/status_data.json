@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-29 19:34",
+        "timestamp": "2025-08-29 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
             "history": [
-                {
-                    "timestamp": "2025-08-28 13:35",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
                 {
                     "timestamp": "2025-08-28 13:47",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-29 19:34",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-08-29 19:43",
+                    "status": 1,
+                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
                 }
             ]
         }
@@ -1014,9 +1014,9 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-08-27 09:42",
+                "timestamp": "2025-08-29 19:38",
                 "status": "SUCCESS",
-                "item": "Greenness-2022-66633"
+                "item": "Greenness-2022-66634"
             },
             {
                 "collection": "SENTINEL1_HPAR",
