@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-30 07:11",
+        "timestamp": "2025-08-30 07:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12D_PRIMARY",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-28 22:12",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-08-28 22:32",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-30 07:11",
                     "status": 1,
                     "collection": "E12D_PRIMARY"
+                },
+                {
+                    "timestamp": "2025-08-30 07:27",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -1098,9 +1098,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-08-29 21:17",
+                "timestamp": "2025-08-30 07:17",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T40WET"
+                "item": "GRI_L1C_T38VNQ"
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
