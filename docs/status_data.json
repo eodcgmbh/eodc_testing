@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-30 08:34",
+        "timestamp": "2025-08-30 08:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-08-28 23:38",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-28 23:46",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-30 08:34",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-08-30 08:46",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -1176,9 +1176,9 @@
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-EFR_COVERAGE",
-                "timestamp": "2025-08-29 18:46",
+                "timestamp": "2025-08-30 08:43",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_OLCI_L1_EFR_COVERAGE_20250813"
+                "item": "SENTINEL_3_OLCI_L1_EFR_COVERAGE_20250704"
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-ERR_COVERAGE",
