@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-30 10:32",
+        "timestamp": "2025-08-30 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-08-29 04:37",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-08-29 04:47",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-30 10:32",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-08-30 10:43",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -900,9 +900,9 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-08-29 20:40",
+                "timestamp": "2025-08-30 10:40",
                 "status": "SUCCESS",
-                "item": "EU010M_E053N015T1_20231003_WETLAND"
+                "item": "EU010M_E052N015T1_20230921_WETLAND"
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
