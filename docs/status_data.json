@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-30 05:31",
+        "timestamp": "2025-08-30 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-28 20:53",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-08-28 21:12",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-30 05:31",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-30 05:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -942,9 +942,9 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-08-28 22:18",
+                "timestamp": "2025-08-30 05:40",
                 "status": "SUCCESS",
-                "item": "EU010M_E053N015T1_20220101_WETLAND"
+                "item": "EU010M_E053N015T1_20180101_WETLAND"
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
