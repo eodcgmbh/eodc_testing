@@ -5,16 +5,11 @@
         "extra_info": null
     },
     "openEO API": {
-        "timestamp": "2025-08-30 13:20",
+        "timestamp": "2025-08-30 13:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-08-29 07:30",
-                    "status": 1,
-                    "collection": "AGERA5"
-                },
                 {
                     "timestamp": "2025-08-29 07:48",
                     "status": 1,
@@ -509,6 +504,11 @@
                     "timestamp": "2025-08-30 13:20",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-08-30 13:36",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -579,9 +579,9 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-08-27 23:18",
+                "timestamp": "2025-08-30 13:23",
                 "status": "SUCCESS",
-                "item": "5120-09"
+                "item": "5120-73"
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
