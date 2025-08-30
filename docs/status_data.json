@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-30 09:53",
+        "timestamp": "2025-08-30 10:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
             "history": [
-                {
-                    "timestamp": "2025-08-29 04:16",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
-                },
                 {
                     "timestamp": "2025-08-29 04:37",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-08-30 09:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-08-30 10:32",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
                 }
             ]
         }
@@ -954,9 +954,9 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-08-29 09:41",
+                "timestamp": "2025-08-30 10:18",
                 "status": "SUCCESS",
-                "item": "CLC2018_EU010M_E078N010T1"
+                "item": "CLC2018_EU010M_E078N011T1"
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
