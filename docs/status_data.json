@@ -5,16 +5,11 @@
         "extra_info": null
     },
     "openEO API": {
-        "timestamp": "2025-08-30 16:14",
+        "timestamp": "2025-08-30 16:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "OPENEO_CROPTYPE_2021",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-08-29 11:11",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-08-29 11:27",
                     "status": 1,
@@ -509,6 +504,11 @@
                     "timestamp": "2025-08-30 16:14",
                     "status": 1,
                     "collection": "OPENEO_CROPTYPE_2021"
+                },
+                {
+                    "timestamp": "2025-08-30 16:34",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
@@ -531,9 +531,9 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-08-26 03:41",
+                "timestamp": "2025-08-30 16:22",
                 "status": "SUCCESS",
-                "item": "DEM1_SAR_DGE_30_20190911T082839_20190911T082840_ADS_000000_3865"
+                "item": "DEM1_SAR_DGE_90_20190911T082839_20190911T082840_ADS_000000_3869"
             },
             {
                 "collection": "BOA_LANDSAT_8",
