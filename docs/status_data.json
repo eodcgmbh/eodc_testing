@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 19:09",
+        "timestamp": "2025-08-31 19:22",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
             "history": [
-                {
-                    "timestamp": "2025-08-30 16:34",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-08-30 16:46",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 19:09",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-08-31 19:22",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
                 }
             ]
         }
@@ -1050,7 +1050,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-08-31 16:22",
+                "timestamp": "2025-08-31 19:15",
                 "status": "SUCCESS",
                 "item": "AT_EGMS_L3_E_2016_2022"
             },
