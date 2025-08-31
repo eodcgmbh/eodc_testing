@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 11:53",
+        "timestamp": "2025-08-31 12:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-08-30 09:29",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-08-30 09:37",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 11:53",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-08-31 12:23",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
