@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 11:34",
+        "timestamp": "2025-08-31 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
-                {
-                    "timestamp": "2025-08-30 08:54",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-08-30 09:12",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 11:34",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-08-31 11:43",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E13B"
                 }
             ]
         }
@@ -1158,9 +1158,9 @@
             },
             {
                 "collection": "SENTINEL-3-OLCI-L1-ERR_COVERAGE",
-                "timestamp": "2025-08-28 17:41",
+                "timestamp": "2025-08-31 11:38",
                 "status": "SUCCESS",
-                "item": "SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250813"
+                "item": "SENTINEL_3_OLCI_L1_ERR_COVERAGE_20250702"
             },
             {
                 "collection": "SENTINEL-3-OLCI-L2-LFR_COVERAGE",
