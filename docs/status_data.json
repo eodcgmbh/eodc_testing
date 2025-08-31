@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 08:15",
+        "timestamp": "2025-08-31 08:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-30 05:11",
-                    "status": 1,
-                    "collection": "PLEIADES"
-                },
                 {
                     "timestamp": "2025-08-30 05:31",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 08:15",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-08-31 08:34",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
                 }
             ]
         }
@@ -972,9 +972,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-08-30 22:40",
+                "timestamp": "2025-08-31 08:23",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E096N066T3_D155"
+                "item": "MPLIA_SA020M_E099N063T3_D009"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
