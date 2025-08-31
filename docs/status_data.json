@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 13:37",
+        "timestamp": "2025-08-31 13:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "TERRASCOPE_S5P_L3_CO_TD",
             "history": [
-                {
-                    "timestamp": "2025-08-30 10:32",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-08-30 10:43",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 13:37",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-08-31 13:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
                 }
             ]
         }
@@ -1032,9 +1032,9 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-08-31 10:18",
+                "timestamp": "2025-08-31 13:40",
                 "status": "SUCCESS",
-                "item": "S2A_T38NLG_20250101T073540_L2A"
+                "item": "S2B_T33TWN_20250101T095321_L2A"
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
