@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 15:11",
+        "timestamp": "2025-08-31 15:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-08-30 11:53",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-08-30 12:23",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 15:11",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-08-31 15:29",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -1026,9 +1026,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-08-30 03:30",
+                "timestamp": "2025-08-31 15:18",
                 "status": "SUCCESS",
-                "item": "wien_602000_534100.copc.laz"
+                "item": "wien_602000_534200.copc.laz"
             },
             {
                 "collection": "SENTINEL2_L2A",
