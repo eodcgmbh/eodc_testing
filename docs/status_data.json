@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 20:13",
+        "timestamp": "2025-08-31 20:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-30 17:35",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2025-08-30 17:43",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 20:13",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-08-31 20:31",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -1212,7 +1212,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-08-28 04:23",
+                "timestamp": "2025-08-31 20:20",
                 "status": "FAILURE",
                 "item": "N/A"
             },
