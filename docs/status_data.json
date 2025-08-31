@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 16:14",
+        "timestamp": "2025-08-31 16:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_CO_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-30 13:44",
-                    "status": 1,
-                    "collection": "AGERA5"
-                },
                 {
                     "timestamp": "2025-08-30 13:53",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 16:14",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-31 16:35",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
                 }
             ]
         }
@@ -1050,9 +1050,9 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-08-30 14:39",
+                "timestamp": "2025-08-31 16:22",
                 "status": "SUCCESS",
-                "item": "AT_EGMS_L3_U_2016_2022"
+                "item": "AT_EGMS_L3_E_2016_2022"
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
