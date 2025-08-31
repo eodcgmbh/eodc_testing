@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 20:31",
+        "timestamp": "2025-08-31 20:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-08-30 17:43",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-08-30 17:53",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 20:31",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-08-31 20:43",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -852,9 +852,9 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-08-31 04:43",
+                "timestamp": "2025-08-31 20:40",
                 "status": "SUCCESS",
-                "item": "4522-13"
+                "item": "4622-09"
             },
             {
                 "collection": "COP_DEM",
