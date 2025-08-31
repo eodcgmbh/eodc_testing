@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 05:13",
+        "timestamp": "2025-08-31 05:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-08-29 23:12",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2025-08-29 23:28",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 05:13",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-08-31 05:31",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -1206,7 +1206,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-08-26 11:40",
+                "timestamp": "2025-08-31 05:18",
                 "status": "FAILURE",
                 "item": "N/A"
             },
