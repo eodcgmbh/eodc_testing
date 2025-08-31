@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-08-31 05:31",
+        "timestamp": "2025-08-31 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SWI_V1_EUROPE",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-08-29 23:28",
-                    "status": 1,
-                    "collection": "CNR_TSM"
-                },
                 {
                     "timestamp": "2025-08-29 23:37",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-08-31 05:31",
                     "status": 1,
                     "collection": "CGLS_SWI_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-08-31 05:43",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
@@ -1008,9 +1008,9 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-08-30 15:17",
+                "timestamp": "2025-08-31 05:40",
                 "status": "SUCCESS",
-                "item": "5716-68"
+                "item": "5716-60"
             },
             {
                 "collection": "SENTINEL1_SLC",
