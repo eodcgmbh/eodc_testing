@@ -1,3 +1,4 @@
+
 import os, time
 from urllib.error import HTTPError
 from prometheus_client import CollectorRegistry, Gauge, pushadd_to_gateway
@@ -21,7 +22,7 @@ def push_e2e_result(service: str, success: bool, duration_s: float):
     handler = (lambda url, m, t, h, d: _bah(url, m, t, h, d, user, pwd)) if (user and pwd) else None
 
     try:
-        push_to_gateway(
+        pushadd_to_gateway(
             url,
             job="e2e_direct",
             registry=reg,
