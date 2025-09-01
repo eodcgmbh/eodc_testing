@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 19:35",
+        "timestamp": "2025-09-01 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2025-08-31 14:52",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2025-08-31 15:11",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-01 19:35",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-09-01 19:43",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
@@ -926,9 +926,9 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-08-31 08:23",
+                "timestamp": "2025-09-01 19:38",
                 "status": "SUCCESS",
-                "item": "MPLIA_SA020M_E099N063T3_D009"
+                "item": "N/A"
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
