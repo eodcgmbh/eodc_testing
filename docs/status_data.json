@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 04:45",
+        "timestamp": "2025-09-01 04:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-08-30 22:43",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-08-30 22:53",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-09-01 04:45",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-09-01 04:56",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -900,7 +900,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-08-31 10:40",
+                "timestamp": "2025-09-01 04:49",
                 "status": "SUCCESS",
                 "item": "dhm_at_lamb_10m_2018"
             },
