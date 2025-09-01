@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 20:31",
+        "timestamp": "2025-09-01 20:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-08-31 15:46",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-31 15:54",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-01 20:31",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-09-01 20:44",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -1166,8 +1166,8 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-08-31 20:20",
-                "status": "FAILURE",
+                "timestamp": "2025-09-01 20:40",
+                "status": "SUCCESS",
                 "item": "N/A"
             },
             {
