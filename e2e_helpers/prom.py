@@ -2,7 +2,7 @@
 # e2e_helpers/prom.py
 import os, time
 from urllib.error import HTTPError
-from prometheus_client import CollectorRegistry, Gauge, pushadd_to_gateway
+from prometheus_client import CollectorRegistry, Gauge, push_to_gateway
 from prometheus_client.exposition import basic_auth_handler as _bah
 
 def push_e2e_result(service: str, success: bool, duration_s: float):
