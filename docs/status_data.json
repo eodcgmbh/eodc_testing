@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 22:32",
+        "timestamp": "2025-09-01 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
+            "collection": "TERRASCOPE_S5P_L3_CO_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-31 17:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-08-31 17:53",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-01 22:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+                },
+                {
+                    "timestamp": "2025-09-01 22:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
                 }
             ]
         }
@@ -824,9 +824,9 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-08-30 11:38",
+                "timestamp": "2025-09-01 22:41",
                 "status": "SUCCESS",
-                "item": "S2A_MSIL1C_20240322T065341_R077_T39LYD_20240322T082540"
+                "item": "N/A"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
