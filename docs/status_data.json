@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 22:12",
+        "timestamp": "2025-09-01 22:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2025-08-31 17:36",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-08-31 17:44",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-01 22:12",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
+                },
+                {
+                    "timestamp": "2025-09-01 22:32",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -998,9 +998,9 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-08-29 22:18",
+                "timestamp": "2025-09-01 22:18",
                 "status": "SUCCESS",
-                "item": "E048N014T1_20200930"
+                "item": "N/A"
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
