@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 10:40",
+        "timestamp": "2025-09-01 10:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S5_TOC_100M",
+            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-08-31 05:13",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-08-31 05:31",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-01 10:40",
                     "status": 1,
                     "collection": "PROBAV_L3_S5_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-09-01 10:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
                 }
             ]
         }
@@ -1010,9 +1010,9 @@
             },
             {
                 "collection": "point-cloud-vienna",
-                "timestamp": "2025-08-31 15:18",
+                "timestamp": "2025-09-01 10:45",
                 "status": "SUCCESS",
-                "item": "wien_602000_534200.copc.laz"
+                "item": "wien_602000_534100.copc.laz"
             },
             {
                 "collection": "SENTINEL2_L2A",
