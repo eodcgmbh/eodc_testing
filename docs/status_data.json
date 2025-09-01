@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 04:56",
+        "timestamp": "2025-09-01 05:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "TERRASCOPE_S2_TOC_V2",
             "history": [
-                {
-                    "timestamp": "2025-08-30 22:53",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-08-30 23:11",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-09-01 04:56",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-09-01 05:34",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TOC_V2"
                 }
             ]
         }
@@ -1020,7 +1020,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2025-08-31 22:40",
+                "timestamp": "2025-09-01 05:21",
                 "status": "SUCCESS",
                 "item": "ENSEMBLE_FLOOD_20240903T101240_VV_SA020M_E060N066T3"
             },
