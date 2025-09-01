@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 07:30",
+        "timestamp": "2025-09-01 07:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-08-31 03:28",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-08-31 03:50",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-01 07:30",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-09-01 07:44",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -1058,9 +1058,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-08-30 07:17",
+                "timestamp": "2025-09-01 07:40",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T38VNQ"
+                "item": "GRI_L1C_T40WDT"
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
