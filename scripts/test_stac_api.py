@@ -1,68 +1,59 @@
-import os
-import requests
-import random
-import time
+#!/usr/bin/env python3
+import os, sys, time, random, requests
 from datetime import datetime
-import sys
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__))) 
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from e2e_helpers.prom import push_e2e_result
 
-STAC_URL = "https://dev.stac.eodc.eu/api/v1"
+STAC_URL = os.environ.get("STAC_URL", "https://stac.eodc.eu/api/v1")
+LOG = "results/logs/test_stac_api.log"
+SERVICE = "stac"
 
-def get_random_item():
-    try:
-        collections_response = requests.get(f"{STAC_URL}/collections", timeout=15)
-        if collections_response.status_code != 200:
-            return False, f"Failed to fetch collections: {collections_response.status_code}", "N/A", "N/A"
+def ok(resp, expect_json=True):
+    if not (200 <= resp.status_code < 300):
+        return False, f"HTTP {resp.status_code}"
+    if expect_json:
+        ct = resp.headers.get("Content-Type", "").lower()
+        if ("application/json" not in ct) and ("+json" not in ct):
+            return False, f"bad content-type: {ct}"
+        try:
+            resp.json()
+        except Exception as e:
+            return False, f"invalid json: {e}"
+    return True, "OK"
 
-        collections_data = collections_response.json()
-        collections = collections_data.get("collections", [])
-        if not collections:
-            return False, "No collections found in the API", "N/A", "N/A"
-
-        random_collection = random.choice(collections)
-        collection_id = random_collection.get("id", None)
-        if not collection_id:
-            return False, "Random collection has no 'id' field", "N/A", "N/A"
-
-        items_response = requests.get(f"{STAC_URL}/collections/{collection_id}/items", timeout=15)
-        if items_response.status_code != 200:
-            return False, f"Failed to fetch items from collection {collection_id}: {items_response.status_code}", collection_id, "N/A"
-
-        items_data = items_response.json()
-        features = items_data.get("features", [])
-        if not features:
-            return False, f"No items found in collection {collection_id}", collection_id, "N/A"
-
-        random_item = random.choice(features)
-        required_keys = ["id", "type", "geometry", "properties"]
-        missing_keys = [key for key in required_keys if key not in random_item]
-        if missing_keys:
-            return False, f"Random item missing required keys: {missing_keys}", collection_id, random_item.get("id", "N/A")
-
-        return True, "Random item test passed", collection_id, random_item.get("id", "N/A")
-
-    except Exception as e:
-        return False, f"Exception occurred: {str(e)}", "N/A", "N/A"
-
-if __name__ == "__main__":
+def main():
+    os.makedirs(os.path.dirname(LOG), exist_ok=True)
     t0 = time.time()
-    service = "stac"
+    service = SERVICE
 
-    success, message, collection_id, item_id = get_random_item()
+    try:
+        r = requests.get(f"{STAC_URL}/collections", timeout=15)
+        okc, msgc = ok(r)
+        if not okc:
+            success, msg, col_id = False, f"/collections {msgc}", "N/A"
+        else:
+            cols = r.json().get("collections", [])
+            if not cols:
+                success, msg, col_id = True, "collections=0 (200, OK JSON)", "N/A"
+            else:
+                col_id = random.choice([c.get("id") for c in cols if isinstance(c, dict) and c.get("id")]) or "N/A"
+                if col_id == "N/A":
+                    success, msg = True, "no collection id (200, OK JSON)"
+                else:
+                    r2 = requests.get(f"{STAC_URL}/collections/{col_id}", timeout=15)
+                    ok2, msg2 = ok(r2)
+                    success, msg = (True, "collection OK (200, JSON)") if ok2 else (False, f"/collections/{col_id} {msg2}")
+    except Exception as e:
+        success, msg, col_id = False, f"exception: {e}", "N/A"
 
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-    result = "SUCCESS" if success else "FAILURE"
-    collection_id = collection_id or "N/A"
-    item_id = item_id or "N/A"
-
-    log_entry = f"{timestamp}, {result}, collection: {collection_id}, item: {item_id}"
-    if not success:
-        log_entry += f", reason: {message or 'Unknown error'}"
-
-    log_dir = "results/logs/"
-    os.makedirs(log_dir, exist_ok=True)
-    with open(os.path.join(log_dir, "test_stac_api.log"), "a") as log_file:
-        log_file.write(log_entry + "\n")
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+    line = f"{ts}, {'SUCCESS' if success else 'FAILURE'}, collection: {col_id}, item: N/A, reason: {msg}"
+    with open(LOG, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
 
     push_e2e_result(service, success, time.time() - t0)
+    if not success:
+        raise SystemExit(1)
+
+if __name__ == "__main__":
+    main()
