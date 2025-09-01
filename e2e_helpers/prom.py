@@ -1,38 +1,39 @@
-
+# e2e_helpers/prom.py
 import os, time
-from urllib.error import HTTPError
 from prometheus_client import CollectorRegistry, Gauge, push_to_gateway
-from prometheus_client.exposition import basic_auth_handler as _bah
+try:
+    from prometheus_client.exposition import basic_auth_handler
+except Exception:
+    basic_auth_handler = None
 
 def push_e2e_result(service: str, success: bool, duration_s: float):
-    url  = os.getenv("PUSHGATEWAY_URL")
+    url = os.getenv("PUSHGATEWAY_URL")
     if not url:
         return
-    env  = os.getenv("E2E_ENV", "dev").strip().lower()
+    env  = os.getenv("E2E_ENV", "dev")
     user = os.getenv("PUSHGATEWAY_USERNAME")
     pwd  = os.getenv("PUSHGATEWAY_PASSWORD")
 
     reg = CollectorRegistry()
-    Gauge("eodc_e2e_last_result", "1 success, 0 failure", registry=reg).set(1 if success else 0)
-    Gauge("eodc_e2e_test_duration_seconds", "total duration", registry=reg).set(float(duration_s))
+    g_last = Gauge("eodc_e2e_last_result", "1 success, 0 failure", ["service","env"], registry=reg)
+    g_dur  = Gauge("eodc_e2e_test_duration_seconds", "total duration", ["service","env"], registry=reg)
+    g_ts   = Gauge("eodc_e2e_last_success_timestamp", "unix ts last success", ["service","env"], registry=reg)
 
+    g_last.labels(service, env).set(1 if success else 0)
+    g_dur.labels(service, env).set(duration_s)
     if success:
-        Gauge("eodc_e2e_last_success_timestamp", "unix ts last success", registry=reg).set(time.time())
+        g_ts.labels(service, env).set(time.time())
 
-    handler = (lambda url, m, t, h, d: _bah(url, m, t, h, d, user, pwd)) if (user and pwd) else None
+    handler = None
+    if user and pwd and basic_auth_handler:
+        def handler(url, method, timeout, headers, data):
+            return basic_auth_handler(url, method, timeout, headers, data, user, pwd)
 
-    try:
-        push_to_gateway(
-            url,
-            job="e2e_direct",
-            registry=reg,
-            grouping_key={"env": env, "service": service.strip().lower()},
-            handler=handler,
-            timeout=15,
-        )
-    except HTTPError as e:
-        try:
-            print("Pushgateway error body:", e.read().decode("utf-8", "ignore"))
-        except Exception:
-            pass
-        raise
+    push_to_gateway(
+        url,
+        job="e2e_direct",
+        registry=reg,
+        grouping_key={"env": env, "service": service},
+        handler=handler,
+        timeout=15,
+    )
