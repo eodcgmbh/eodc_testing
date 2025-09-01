@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-01 15:31",
+        "timestamp": "2025-09-01 15:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-08-31 10:43",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
-                },
                 {
                     "timestamp": "2025-08-31 10:53",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-01 15:31",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-09-01 15:44",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
@@ -1028,9 +1028,9 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-09-01 07:40",
+                "timestamp": "2025-09-01 15:40",
                 "status": "SUCCESS",
-                "item": "GRI_L1C_T40WDT"
+                "item": "N/A"
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
