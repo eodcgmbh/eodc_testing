@@ -5,16 +5,11 @@
         "extra_info": null
     },
     "openEO API": {
-        "timestamp": "2025-09-01 07:14",
+        "timestamp": "2025-09-01 07:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2025-08-31 02:44",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-08-31 03:28",
                     "status": 1,
@@ -509,6 +504,11 @@
                     "timestamp": "2025-09-01 07:14",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-09-01 07:30",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -531,9 +531,9 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-08-30 16:22",
+                "timestamp": "2025-09-01 07:21",
                 "status": "SUCCESS",
-                "item": "DEM1_SAR_DGE_90_20190911T082839_20190911T082840_ADS_000000_3869"
+                "item": "DEM1_SAR_DGE_30_20190911T083028_20190911T083029_ADS_000000_3901"
             },
             {
                 "collection": "BOA_LANDSAT_8",
