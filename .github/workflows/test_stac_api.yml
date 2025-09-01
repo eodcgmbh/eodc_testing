@@ -6,6 +6,7 @@ on:
         - 'scripts/test_stac_api.py'   
   schedule:
     - cron: "*/30 * * * *"  
+  workflow_dispatch:
 
 jobs:
   test-stac-api:
