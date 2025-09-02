@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 08:41",
+        "timestamp": "2025-09-02 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-08-31 23:38",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-08-31 23:45",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 08:41",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-09-02 08:56",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
@@ -830,9 +830,9 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-08-31 17:16",
+                "timestamp": "2025-09-02 08:50",
                 "status": "SUCCESS",
-                "item": "EU010M_E053N015T1_20231003_WETLAND"
+                "item": "N/A"
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
