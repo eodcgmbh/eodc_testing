@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 22:11",
+        "timestamp": "2025-09-02 22:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-09-01 16:50",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-09-01 16:57",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-02 22:11",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-09-02 22:30",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -1058,7 +1058,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-09-01 15:40",
+                "timestamp": "2025-09-02 22:16",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
