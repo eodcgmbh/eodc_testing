@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 10:14",
+        "timestamp": "2025-09-02 10:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_3M",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-09-01 03:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-09-01 04:23",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 10:14",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_3M"
+                },
+                {
+                    "timestamp": "2025-09-02 10:36",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -908,9 +908,9 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-08-30 14:16",
+                "timestamp": "2025-09-02 10:21",
                 "status": "SUCCESS",
-                "item": "drought_vulnerability.tif"
+                "item": "N/A"
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
