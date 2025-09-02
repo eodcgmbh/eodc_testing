@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 07:33",
+        "timestamp": "2025-09-02 07:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-08-31 22:44",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2025-08-31 22:53",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 07:33",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-09-02 07:44",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -992,7 +992,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-09-01 21:17",
+                "timestamp": "2025-09-02 07:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
