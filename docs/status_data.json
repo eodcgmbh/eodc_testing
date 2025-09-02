@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 05:34",
+        "timestamp": "2025-09-02 05:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-08-31 21:27",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-08-31 21:36",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 05:34",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-09-02 05:45",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
@@ -1238,7 +1238,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2025-09-02 05:20",
+                "timestamp": "2025-09-02 05:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
