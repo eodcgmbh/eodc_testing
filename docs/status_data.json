@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 09:33",
+        "timestamp": "2025-09-02 09:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_TSM",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-08-31 23:53",
-                    "status": 1,
-                    "collection": "WORLDVIEW"
-                },
                 {
                     "timestamp": "2025-09-01 01:13",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 09:33",
                     "status": 1,
                     "collection": "CNR_TSM"
+                },
+                {
+                    "timestamp": "2025-09-02 09:45",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
@@ -962,9 +962,9 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-08-31 05:40",
+                "timestamp": "2025-09-02 09:42",
                 "status": "SUCCESS",
-                "item": "5716-60"
+                "item": "N/A"
             },
             {
                 "collection": "SENTINEL1_SLC",
