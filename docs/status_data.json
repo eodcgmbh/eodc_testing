@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 20:13",
+        "timestamp": "2025-09-02 20:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "AGERA5",
             "history": [
-                {
-                    "timestamp": "2025-09-01 14:13",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-09-01 14:33",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-02 20:13",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-09-02 20:29",
+                    "status": 1,
+                    "collection": "AGERA5"
                 }
             ]
         }
@@ -854,7 +854,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-09-01 22:41",
+                "timestamp": "2025-09-02 20:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
