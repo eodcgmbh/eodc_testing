@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 13:36",
+        "timestamp": "2025-09-02 13:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "SENTINEL2_L1C_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-09-01 07:44",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-01 07:53",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 13:36",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-09-02 13:57",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_SENTINELHUB"
                 }
             ]
         }
