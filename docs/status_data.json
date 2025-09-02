@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 11:11",
+        "timestamp": "2025-09-02 11:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-01 05:34",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2025-09-01 05:45",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 11:11",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-09-02 11:28",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1232,7 +1232,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2025-09-01 23:20",
+                "timestamp": "2025-09-02 11:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
