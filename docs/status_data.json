@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-02 04:57",
+        "timestamp": "2025-09-02 05:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-08-31 21:10",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-08-31 21:27",
                     "status": 1,
@@ -790,6 +785,11 @@
                     "timestamp": "2025-09-02 04:57",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-09-02 05:34",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -1233,6 +1233,12 @@
             {
                 "collection": "DOP_AUT_ST_GRAZ",
                 "timestamp": "2025-09-01 23:20",
+                "status": "SUCCESS",
+                "item": "N/A"
+            },
+            {
+                "collection": "DOP_AUT_ST_MURTAL",
+                "timestamp": "2025-09-02 05:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
