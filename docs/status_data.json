@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 11:44",
+        "timestamp": "2025-09-03 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-09-02 07:33",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-09-02 07:44",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 11:44",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-09-03 11:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
