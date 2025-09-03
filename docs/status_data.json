@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 21:11",
+        "timestamp": "2025-09-03 21:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-02 17:55",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-02 18:18",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 21:11",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-09-03 21:27",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -1022,7 +1022,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-09-03 09:41",
+                "timestamp": "2025-09-03 21:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
