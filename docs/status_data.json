@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 17:30",
+        "timestamp": "2025-09-03 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2025-09-02 13:05",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
-                },
                 {
                     "timestamp": "2025-09-02 13:36",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 17:30",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-09-03 17:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -998,9 +998,9 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-08-31 14:39",
+                "timestamp": "2025-09-03 17:39",
                 "status": "SUCCESS",
-                "item": "S1A_IW_SLC__1SDV_20180531T175813_20180531T175840_022152_026540"
+                "item": "N/A"
             },
             {
                 "collection": "GFM",
