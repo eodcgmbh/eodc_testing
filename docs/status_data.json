@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 15:32",
+        "timestamp": "2025-09-03 15:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
             "history": [
-                {
-                    "timestamp": "2025-09-02 10:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
-                },
                 {
                     "timestamp": "2025-09-02 11:11",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 15:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
+                },
+                {
+                    "timestamp": "2025-09-03 15:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
                 }
             ]
         }
@@ -890,9 +890,9 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-09-01 11:38",
+                "timestamp": "2025-09-03 15:41",
                 "status": "SUCCESS",
-                "item": "5120-73"
+                "item": "N/A"
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
