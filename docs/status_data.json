@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 07:12",
+        "timestamp": "2025-09-03 07:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2025-09-01 22:53",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-09-01 23:12",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 07:12",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-09-03 07:28",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -926,9 +926,9 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-08-30 20:39",
+                "timestamp": "2025-09-03 07:19",
                 "status": "SUCCESS",
-                "item": "Eisenstadt"
+                "item": "N/A"
             },
             {
                 "collection": "sen2like",
