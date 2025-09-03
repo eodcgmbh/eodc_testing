@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 08:51",
+        "timestamp": "2025-09-03 09:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-09-02 03:30",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-09-02 03:52",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 08:51",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-09-03 09:14",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
