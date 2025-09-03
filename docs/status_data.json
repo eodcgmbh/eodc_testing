@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-03 23:11",
+        "timestamp": "2025-09-03 23:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-09-02 20:13",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-09-02 20:29",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-03 23:11",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-09-03 23:27",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -848,9 +848,9 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-08-31 18:25",
+                "timestamp": "2025-09-03 23:17",
                 "status": "SUCCESS",
-                "item": "X0015Y0013_20201226"
+                "item": "N/A"
             },
             {
                 "collection": "SENTINEL2_L1C",
