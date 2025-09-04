@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-04 05:12",
+        "timestamp": "2025-09-04 05:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-09-02 22:40",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
                 {
                     "timestamp": "2025-09-02 22:47",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-04 05:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-09-04 05:31",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -830,9 +830,9 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-08-31 23:18",
+                "timestamp": "2025-09-04 05:18",
                 "status": "SUCCESS",
-                "item": "SENTINEL1_GRD_COVERAGE_20240804_20240811"
+                "item": "N/A"
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
