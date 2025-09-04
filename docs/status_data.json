@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-04 17:29",
+        "timestamp": "2025-09-04 17:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-03 12:26",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-09-03 13:02",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-04 17:29",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-09-04 17:39",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
