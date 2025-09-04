@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-04 15:32",
+        "timestamp": "2025-09-04 15:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L1",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
-                {
-                    "timestamp": "2025-09-03 10:44",
-                    "status": 1,
-                    "collection": "EGM2008"
-                },
                 {
                     "timestamp": "2025-09-03 10:53",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-04 15:32",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L1"
+                },
+                {
+                    "timestamp": "2025-09-04 15:46",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E13B"
                 }
             ]
         }
@@ -980,9 +980,9 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-08-31 22:18",
+                "timestamp": "2025-09-04 15:42",
                 "status": "SUCCESS",
-                "item": "HPAR_SA020M_E102N063T3_D111"
+                "item": "N/A"
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
