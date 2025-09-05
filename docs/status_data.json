@@ -324,16 +324,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-05 04:35",
+        "timestamp": "2025-09-05 04:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-03 21:27",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2025-09-03 21:36",
                     "status": 1,
@@ -828,6 +823,11 @@
                     "timestamp": "2025-09-05 04:35",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2025-09-05 04:46",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
@@ -850,7 +850,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-09-02 23:17",
+                "timestamp": "2025-09-05 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
