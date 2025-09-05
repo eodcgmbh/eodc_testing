@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-05 23:37",
+        "timestamp": "2025-09-05 23:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-04 19:10",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-09-04 19:22",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-05 23:37",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-09-05 23:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
                 }
             ]
         }
@@ -944,7 +944,7 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2025-09-05 21:17",
+                "timestamp": "2025-09-05 23:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
