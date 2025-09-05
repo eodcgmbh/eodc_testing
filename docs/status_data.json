@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-05 16:16",
+        "timestamp": "2025-09-05 16:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2025-09-04 10:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-09-04 11:11",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-05 16:16",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-09-05 16:36",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -920,7 +920,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-09-04 23:17",
+                "timestamp": "2025-09-05 16:23",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
