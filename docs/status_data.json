@@ -1012,7 +1012,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2025-09-03 17:17",
+                "timestamp": "2025-09-05 06:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1325,7 +1325,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-09-05 01:49:22",
+        "timestamp": "2025-09-05 06:35:58",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1531,11 +1531,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-09-05 06:20:48",
+        "timestamp": "2025-09-05 03:27:28",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250905-062041",
+            "info": "vm-test-20250905-032720",
             "history": [
+                {
+                    "timestamp": "2025-09-04 12:28:09",
+                    "status": 1,
+                    "info": "vm-test-20250904-122801"
+                },
                 {
                     "timestamp": "2025-09-04 13:22:49",
                     "status": 1,
@@ -1580,11 +1585,6 @@
                     "timestamp": "2025-09-05 03:27:28",
                     "status": 1,
                     "info": "vm-test-20250905-032720"
-                },
-                {
-                    "timestamp": "2025-09-05 06:20:48",
-                    "status": 1,
-                    "info": "vm-test-20250905-062041"
                 }
             ]
         }
