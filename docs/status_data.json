@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-05 13:01",
+        "timestamp": "2025-09-05 13:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-09-04 07:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-09-04 08:17",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-05 13:01",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-09-05 13:33",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
@@ -1298,7 +1298,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-09-05 08:46",
+                "timestamp": "2025-09-05 13:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
