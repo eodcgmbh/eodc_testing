@@ -316,16 +316,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-05 17:11",
+        "timestamp": "2025-09-05 17:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "PROBAV_L3_S5_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2025-09-04 11:43",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-09-04 11:53",
                     "status": 1,
@@ -820,6 +815,11 @@
                     "timestamp": "2025-09-05 17:11",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-09-05 17:30",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S5_TOC_100M"
                 }
             ]
         }
@@ -1034,7 +1034,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-09-04 13:44",
+                "timestamp": "2025-09-05 17:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
