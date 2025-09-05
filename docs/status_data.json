@@ -324,16 +324,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-05 04:46",
+        "timestamp": "2025-09-05 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-09-03 21:36",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-09-03 21:44",
                     "status": 1,
@@ -828,6 +823,11 @@
                     "timestamp": "2025-09-05 04:46",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-05 04:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
