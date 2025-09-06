@@ -324,16 +324,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 15:10",
+        "timestamp": "2025-09-06 15:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SWI_V1_EUROPE",
+            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
             "history": [
-                {
-                    "timestamp": "2025-09-05 11:43",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-09-05 11:52",
                     "status": 1,
@@ -828,6 +823,11 @@
                     "timestamp": "2025-09-06 15:10",
                     "status": 1,
                     "collection": "CGLS_SWI_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-09-06 15:28",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
                 }
             ]
         }
@@ -1060,7 +1060,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-09-06 03:27",
+                "timestamp": "2025-09-06 15:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
