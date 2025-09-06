@@ -320,16 +320,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 04:14",
+        "timestamp": "2025-09-06 04:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2025-09-04 21:11",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_10M"
-                },
                 {
                     "timestamp": "2025-09-04 21:28",
                     "status": 1,
@@ -824,6 +819,11 @@
                     "timestamp": "2025-09-06 04:14",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-09-06 04:34",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -1315,6 +1315,12 @@
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
                 "timestamp": "2025-09-05 02:46",
+                "status": "SUCCESS",
+                "item": "N/A"
+            },
+            {
+                "collection": "DOP_AUT_ST_MARIAZELL",
+                "timestamp": "2025-09-06 04:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
