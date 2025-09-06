@@ -328,16 +328,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 23:10",
+        "timestamp": "2025-09-06 23:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2025-09-05 21:45",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2025-09-05 21:53",
                     "status": 1,
@@ -832,6 +827,11 @@
                     "timestamp": "2025-09-06 23:10",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-06 23:26",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -854,7 +854,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-09-06 18:24",
+                "timestamp": "2025-09-06 23:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
