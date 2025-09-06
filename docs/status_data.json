@@ -324,16 +324,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 10:11",
+        "timestamp": "2025-09-06 10:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-09-05 06:19",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-09-05 06:44",
                     "status": 1,
@@ -828,6 +823,11 @@
                     "timestamp": "2025-09-06 10:11",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_IRRIGATION"
+                },
+                {
+                    "timestamp": "2025-09-06 10:31",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -1042,7 +1042,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-09-05 17:17",
+                "timestamp": "2025-09-06 10:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
