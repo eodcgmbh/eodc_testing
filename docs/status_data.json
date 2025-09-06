@@ -328,16 +328,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 20:12",
+        "timestamp": "2025-09-06 20:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_MAIZE",
+            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
             "history": [
-                {
-                    "timestamp": "2025-09-05 18:40",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2025-09-05 18:49",
                     "status": 1,
@@ -832,6 +827,11 @@
                     "timestamp": "2025-09-06 20:12",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_MAIZE"
+                },
+                {
+                    "timestamp": "2025-09-06 20:29",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
                 }
             ]
         }
@@ -938,7 +938,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-09-03 07:19",
+                "timestamp": "2025-09-06 20:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
