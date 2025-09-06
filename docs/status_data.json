@@ -324,16 +324,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 10:31",
+        "timestamp": "2025-09-06 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-05 06:44",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_3M"
-                },
                 {
                     "timestamp": "2025-09-05 06:55",
                     "status": 1,
@@ -828,6 +823,11 @@
                     "timestamp": "2025-09-06 10:31",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-09-06 10:43",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
@@ -1258,7 +1258,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-09-05 13:45",
+                "timestamp": "2025-09-06 10:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
