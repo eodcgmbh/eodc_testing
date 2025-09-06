@@ -328,16 +328,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-06 21:35",
+        "timestamp": "2025-09-06 21:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2025-09-05 20:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-09-05 20:32",
                     "status": 1,
@@ -832,6 +827,11 @@
                     "timestamp": "2025-09-06 21:35",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-09-06 21:43",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
@@ -1256,7 +1256,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-09-03 08:46",
+                "timestamp": "2025-09-06 21:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
