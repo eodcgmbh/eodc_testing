@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-07 22:30",
+        "timestamp": "2025-09-07 22:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-09-06 20:12",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2025-09-06 20:29",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-09-07 22:30",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-09-07 22:47",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
