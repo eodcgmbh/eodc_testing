@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-07 23:11",
+        "timestamp": "2025-09-07 23:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-09-06 20:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2025-09-06 20:53",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-09-07 23:11",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2025-09-07 23:27",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2025-09-07 22:39",
+                "timestamp": "2025-09-07 23:17",
                 "status": "FAILURE",
                 "item": "N/A"
             },
