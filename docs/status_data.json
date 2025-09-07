@@ -328,16 +328,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-07 03:24",
+        "timestamp": "2025-09-07 03:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-09-05 23:12",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
-                },
                 {
                     "timestamp": "2025-09-05 23:28",
                     "status": 1,
@@ -832,6 +827,11 @@
                     "timestamp": "2025-09-07 03:24",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2025-09-07 03:45",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
@@ -1541,11 +1541,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-09-07 03:34:31",
+        "timestamp": "2025-09-07 02:58:45",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250907-033423",
+            "info": "vm-test-20250907-025837",
             "history": [
+                {
+                    "timestamp": "2025-09-06 12:23:56",
+                    "status": 1,
+                    "info": "vm-test-20250906-122348"
+                },
                 {
                     "timestamp": "2025-09-06 13:17:03",
                     "status": 1,
@@ -1590,11 +1595,6 @@
                     "timestamp": "2025-09-07 02:58:45",
                     "status": 1,
                     "info": "vm-test-20250907-025837"
-                },
-                {
-                    "timestamp": "2025-09-07 03:34:31",
-                    "status": 1,
-                    "info": "vm-test-20250907-033423"
                 }
             ]
         }
