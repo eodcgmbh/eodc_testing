@@ -332,16 +332,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-07 17:34",
+        "timestamp": "2025-09-07 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-09-06 15:28",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-09-06 15:36",
                     "status": 1,
@@ -836,6 +831,11 @@
                     "timestamp": "2025-09-07 17:34",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-09-07 17:43",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
@@ -1086,7 +1086,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2025-09-07 17:15",
+                "timestamp": "2025-09-07 17:38",
                 "status": "FAILURE",
                 "item": "N/A"
             },
