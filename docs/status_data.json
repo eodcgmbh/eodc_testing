@@ -328,16 +328,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-07 04:33",
+        "timestamp": "2025-09-07 04:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-05 23:53",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-09-06 00:59",
                     "status": 1,
@@ -832,6 +827,11 @@
                     "timestamp": "2025-09-07 04:33",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-07 04:44",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -1082,7 +1082,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2025-09-07 04:22",
+                "timestamp": "2025-09-07 04:42",
                 "status": "FAILURE",
                 "item": "N/A"
             },
