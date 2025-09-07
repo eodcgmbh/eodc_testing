@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-07 20:12",
+        "timestamp": "2025-09-07 20:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-06 18:15",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-09-06 18:36",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-09-07 20:12",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-09-07 20:30",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2025-09-07 19:38",
+                "timestamp": "2025-09-07 20:20",
                 "status": "FAILURE",
                 "item": "N/A"
             },
