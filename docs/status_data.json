@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-08 10:37",
+        "timestamp": "2025-09-08 10:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-07 07:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FAPAR_V2"
-                },
                 {
                     "timestamp": "2025-09-07 07:26",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-09-08 10:37",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2025-09-08 10:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -1032,7 +1032,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2025-09-06 08:21",
+                "timestamp": "2025-09-08 10:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
