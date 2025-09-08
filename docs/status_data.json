@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-08 19:11",
+        "timestamp": "2025-09-08 19:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-07 14:29",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-07 14:38",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-09-08 19:11",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-09-08 19:26",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
@@ -1326,7 +1326,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-09-05 15:20",
+                "timestamp": "2025-09-08 19:16",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
