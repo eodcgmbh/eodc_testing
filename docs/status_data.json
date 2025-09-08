@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-08 05:32",
+        "timestamp": "2025-09-08 05:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-09-06 23:36",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2025-09-06 23:43",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-09-08 05:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
+                },
+                {
+                    "timestamp": "2025-09-08 05:44",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2025-09-08 05:20",
+                "timestamp": "2025-09-08 05:41",
                 "status": "FAILURE",
                 "item": "N/A"
             },
