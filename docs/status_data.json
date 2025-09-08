@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-08 23:13",
+        "timestamp": "2025-09-08 23:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2025-09-07 18:16",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E3"
-                },
                 {
                     "timestamp": "2025-09-07 18:36",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-09-08 23:13",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-09-08 23:29",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
@@ -1050,7 +1050,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-09-06 06:26",
+                "timestamp": "2025-09-08 23:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
