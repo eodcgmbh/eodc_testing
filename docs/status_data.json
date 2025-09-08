@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-08 09:36",
+        "timestamp": "2025-09-08 09:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-09-07 06:17",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-09-07 06:40",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-09-08 09:36",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-09-08 09:47",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1044,7 +1044,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-09-05 10:21",
+                "timestamp": "2025-09-08 09:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
