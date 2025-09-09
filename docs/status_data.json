@@ -344,16 +344,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 06:20",
+        "timestamp": "2025-09-09 06:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-07 21:43",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-09-07 22:11",
                     "status": 1,
@@ -848,6 +843,11 @@
                     "timestamp": "2025-09-09 06:20",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-09-09 06:47",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
                 }
             ]
         }
