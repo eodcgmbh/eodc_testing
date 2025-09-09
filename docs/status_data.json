@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 22:31",
+        "timestamp": "2025-09-09 22:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-09-08 16:52",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2025-09-08 17:11",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-09 22:31",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-09-09 22:42",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
@@ -900,7 +900,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-09-09 10:44",
+                "timestamp": "2025-09-09 22:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
