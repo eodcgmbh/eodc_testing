@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 23:11",
+        "timestamp": "2025-09-09 23:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2025-09-08 17:43",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-09-08 17:53",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-09 23:11",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2025-09-09 23:27",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
@@ -930,7 +930,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-09-09 11:38",
+                "timestamp": "2025-09-09 23:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
