@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 09:45",
+        "timestamp": "2025-09-09 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "GFM",
             "history": [
-                {
-                    "timestamp": "2025-09-07 23:53",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-08 02:42",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-09-09 09:45",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-09-09 09:53",
+                    "status": 1,
+                    "collection": "GFM"
                 }
             ]
         }
