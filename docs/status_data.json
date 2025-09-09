@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 14:34",
+        "timestamp": "2025-09-09 14:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-08 07:32",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-09-08 07:43",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-09-09 14:34",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-09 14:46",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-09-08 18:49",
+                "timestamp": "2025-09-09 14:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
