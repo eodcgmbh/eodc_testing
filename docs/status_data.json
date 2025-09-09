@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 13:06",
+        "timestamp": "2025-09-09 13:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2025-09-08 06:21",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-09-08 06:49",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-09-09 13:06",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2025-09-09 13:38",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
@@ -1288,7 +1288,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-09-09 07:20",
+                "timestamp": "2025-09-09 13:32",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
