@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 22:10",
+        "timestamp": "2025-09-09 22:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "JAXA_WQ_CHLA_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-09-08 16:40",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-09-08 16:52",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-09 22:10",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-09-09 22:31",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_AVERAGE"
                 }
             ]
         }
@@ -1008,7 +1008,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-09-09 10:21",
+                "timestamp": "2025-09-09 22:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
