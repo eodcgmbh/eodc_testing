@@ -352,16 +352,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 17:55",
+        "timestamp": "2025-09-09 18:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12D_PRIMARY",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-09-08 10:56",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-09-08 11:13",
                     "status": 1,
@@ -856,6 +851,11 @@
                     "timestamp": "2025-09-09 17:55",
                     "status": 1,
                     "collection": "E12D_PRIMARY"
+                },
+                {
+                    "timestamp": "2025-09-09 18:15",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
