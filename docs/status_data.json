@@ -348,16 +348,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-09 14:11",
+        "timestamp": "2025-09-09 14:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-08 07:19",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-09-08 07:32",
                     "status": 1,
@@ -852,6 +847,11 @@
                     "timestamp": "2025-09-09 14:11",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2025-09-09 14:34",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -904,7 +904,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-09-04 20:40",
+                "timestamp": "2025-09-09 14:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
