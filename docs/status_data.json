@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 15:44",
+        "timestamp": "2025-09-10 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-09-09 10:14",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-09-09 10:36",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 15:44",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-09-10 15:53",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
