@@ -360,16 +360,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 20:13",
+        "timestamp": "2025-09-10 20:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-09-09 15:33",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-09-09 15:46",
                     "status": 1,
@@ -864,6 +859,11 @@
                     "timestamp": "2025-09-10 20:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
+                },
+                {
+                    "timestamp": "2025-09-10 20:32",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -1264,7 +1264,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-09-10 19:16",
+                "timestamp": "2025-09-10 20:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
