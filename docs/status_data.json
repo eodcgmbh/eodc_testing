@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 05:12",
+        "timestamp": "2025-09-10 05:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-09-08 20:45",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-09-08 20:53",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 05:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TM"
+                },
+                {
+                    "timestamp": "2025-09-10 05:31",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1326,7 +1326,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-09-05 17:40",
+                "timestamp": "2025-09-10 05:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
