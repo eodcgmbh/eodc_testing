@@ -360,16 +360,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 18:18",
+        "timestamp": "2025-09-10 18:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-09-09 13:06",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-09-09 13:38",
                     "status": 1,
@@ -864,6 +859,11 @@
                     "timestamp": "2025-09-10 18:18",
                     "status": 1,
                     "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-09-10 18:42",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
