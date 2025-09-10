@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 10:13",
+        "timestamp": "2025-09-10 10:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-09-09 04:16",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-09 04:36",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 10:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
+                },
+                {
+                    "timestamp": "2025-09-10 10:34",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -948,7 +948,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-09-09 06:52",
+                "timestamp": "2025-09-10 10:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
