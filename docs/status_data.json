@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 04:15",
+        "timestamp": "2025-09-10 04:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-08 19:43",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-09-08 19:53",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 04:15",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-09-10 04:34",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
@@ -1074,7 +1074,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-09-06 10:18",
+                "timestamp": "2025-09-10 04:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
