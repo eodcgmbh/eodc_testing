@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 16:40",
+        "timestamp": "2025-09-10 16:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2025-09-09 10:55",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-09-09 11:11",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 16:40",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-10 16:51",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -1020,7 +1020,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-09-10 02:42",
+                "timestamp": "2025-09-10 16:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
