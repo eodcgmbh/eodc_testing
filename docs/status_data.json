@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 17:29",
+        "timestamp": "2025-09-10 17:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-09-09 11:37",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-09-09 11:44",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 17:29",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-09-10 17:39",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
