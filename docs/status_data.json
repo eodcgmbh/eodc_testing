@@ -356,16 +356,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 07:13",
+        "timestamp": "2025-09-10 07:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-09-08 22:12",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-09-08 22:31",
                     "status": 1,
@@ -860,6 +855,11 @@
                     "timestamp": "2025-09-10 07:13",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-09-10 07:29",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -1314,7 +1314,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-09-04 14:43",
+                "timestamp": "2025-09-10 07:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
