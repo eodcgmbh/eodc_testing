@@ -948,7 +948,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-09-10 11:16",
+                "timestamp": "2025-09-10 12:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1363,7 +1363,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-09-10 06:35:43",
+        "timestamp": "2025-09-10 12:48:56",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1569,11 +1569,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-09-10 12:27:42",
+        "timestamp": "2025-09-10 06:20:57",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20250910-122734",
+            "info": "vm-test-20250910-062049",
             "history": [
+                {
+                    "timestamp": "2025-09-09 17:12:08",
+                    "status": 1,
+                    "info": "vm-test-20250909-171200"
+                },
                 {
                     "timestamp": "2025-09-09 18:17:20",
                     "status": 1,
@@ -1618,11 +1623,6 @@
                     "timestamp": "2025-09-10 06:20:57",
                     "status": 1,
                     "info": "vm-test-20250910-062049"
-                },
-                {
-                    "timestamp": "2025-09-10 12:27:42",
-                    "status": 1,
-                    "info": "vm-test-20250910-122734"
                 }
             ]
         }
