@@ -360,16 +360,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 19:43",
+        "timestamp": "2025-09-10 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "CGLS_FCOVER300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-09 14:59",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-09-09 15:14",
                     "status": 1,
@@ -864,6 +859,11 @@
                     "timestamp": "2025-09-10 19:43",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-09-10 19:53",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
                 }
             ]
         }
