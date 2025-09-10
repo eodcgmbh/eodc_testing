@@ -360,16 +360,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-10 20:44",
+        "timestamp": "2025-09-10 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-09 15:54",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-09-09 16:16",
                     "status": 1,
@@ -864,6 +859,11 @@
                     "timestamp": "2025-09-10 20:44",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-10 20:53",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
