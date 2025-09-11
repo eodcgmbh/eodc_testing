@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 06:44",
+        "timestamp": "2025-09-11 06:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-09-09 23:11",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-09-09 23:27",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-11 06:44",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-09-11 06:55",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
@@ -1372,7 +1372,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-09-09 16:25",
+                "timestamp": "2025-09-11 06:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
