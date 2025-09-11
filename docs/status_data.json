@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 23:12",
+        "timestamp": "2025-09-11 23:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_ZELTWEG",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-09-10 19:43",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-09-10 19:53",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-11 23:12",
                     "status": 1,
                     "collection": "DOP_AUT_K_ZELTWEG"
+                },
+                {
+                    "timestamp": "2025-09-11 23:27",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -1332,7 +1332,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2025-09-09 18:25",
+                "timestamp": "2025-09-11 23:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
