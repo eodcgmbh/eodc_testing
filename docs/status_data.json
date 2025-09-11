@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 04:15",
+        "timestamp": "2025-09-11 04:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-09-09 21:11",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_WOLFSBERG"
-                },
                 {
                     "timestamp": "2025-09-09 21:27",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-11 04:15",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-09-11 04:35",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1288,9 +1288,9 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-08-29 17:17",
+                "timestamp": "2025-09-11 04:23",
                 "status": "SUCCESS",
-                "item": "N2820335_E4659599"
+                "item": "N/A"
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
