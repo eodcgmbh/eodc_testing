@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 03:21",
+        "timestamp": "2025-09-11 03:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2025-09-09 20:31",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-09-09 20:43",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-11 03:21",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-09-11 03:46",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
@@ -1252,7 +1252,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-09-06 11:15",
+                "timestamp": "2025-09-11 03:33",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
