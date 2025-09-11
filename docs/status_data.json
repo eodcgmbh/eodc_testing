@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 03:46",
+        "timestamp": "2025-09-11 03:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-09 20:43",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-09-09 20:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-11 03:46",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2025-09-11 03:54",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
