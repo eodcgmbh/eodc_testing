@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 05:13",
+        "timestamp": "2025-09-11 05:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-09-09 21:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-09-09 22:10",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-11 05:13",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-09-11 05:31",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
@@ -904,7 +904,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-09-10 17:16",
+                "timestamp": "2025-09-11 05:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
