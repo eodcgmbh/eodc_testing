@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 05:31",
+        "timestamp": "2025-09-11 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
             "history": [
-                {
-                    "timestamp": "2025-09-09 22:10",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-09-09 22:31",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-11 05:31",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-09-11 05:43",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
                 }
             ]
         }
@@ -892,7 +892,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-09-10 21:17",
+                "timestamp": "2025-09-11 05:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
