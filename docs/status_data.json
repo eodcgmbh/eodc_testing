@@ -376,16 +376,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 14:13",
+        "timestamp": "2025-09-11 14:33",
         "status": "SUCCESS",
         "extra_info": {
             "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-10 08:54",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-09-10 09:14",
                     "status": 1,
@@ -880,6 +875,11 @@
                     "timestamp": "2025-09-11 14:13",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-11 14:33",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -914,7 +914,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-09-03 11:16",
+                "timestamp": "2025-09-11 14:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
