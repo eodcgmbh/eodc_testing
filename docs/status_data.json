@@ -376,16 +376,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 11:43",
+        "timestamp": "2025-09-11 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-09-10 07:13",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-09-10 07:29",
                     "status": 1,
@@ -880,6 +875,11 @@
                     "timestamp": "2025-09-11 11:43",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-09-11 11:53",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
