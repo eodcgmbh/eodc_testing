@@ -376,16 +376,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 11:10",
+        "timestamp": "2025-09-11 11:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2025-09-10 06:19",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-09-10 06:44",
                     "status": 1,
@@ -880,6 +875,11 @@
                     "timestamp": "2025-09-11 11:10",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-09-11 11:26",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -1076,7 +1076,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-09-08 09:43",
+                "timestamp": "2025-09-11 11:15",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
