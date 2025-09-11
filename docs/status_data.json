@@ -376,16 +376,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-11 09:13",
+        "timestamp": "2025-09-11 09:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2025-09-10 04:34",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-10 04:44",
                     "status": 1,
@@ -880,6 +875,11 @@
                     "timestamp": "2025-09-11 09:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-09-11 09:31",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -1058,7 +1058,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-09-10 23:17",
+                "timestamp": "2025-09-11 09:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
