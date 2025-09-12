@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 12:59",
+        "timestamp": "2025-09-12 13:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S10",
             "history": [
-                {
-                    "timestamp": "2025-09-11 09:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-09-11 09:31",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 12:59",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-09-12 13:28",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
                 }
             ]
         }
@@ -1260,7 +1260,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-09-11 09:40",
+                "timestamp": "2025-09-12 13:26",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
