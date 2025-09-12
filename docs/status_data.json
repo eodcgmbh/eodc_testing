@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 04:44",
+        "timestamp": "2025-09-12 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-10 22:12",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
-                },
                 {
                     "timestamp": "2025-09-10 22:31",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 04:44",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-09-12 04:53",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
