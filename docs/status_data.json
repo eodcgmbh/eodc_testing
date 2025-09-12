@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 12:25",
+        "timestamp": "2025-09-12 12:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-09-11 08:52",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-09-11 09:13",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 12:25",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-09-12 12:59",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
