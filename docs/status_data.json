@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 05:12",
+        "timestamp": "2025-09-12 05:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_KLAGENFURT",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
             "history": [
-                {
-                    "timestamp": "2025-09-10 22:43",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-09-10 22:53",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 05:12",
                     "status": 1,
                     "collection": "DOP_AUT_K_KLAGENFURT"
+                },
+                {
+                    "timestamp": "2025-09-12 05:32",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
                 }
             ]
         }
@@ -1254,7 +1254,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-09-11 18:45",
+                "timestamp": "2025-09-12 05:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
