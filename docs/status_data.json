@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 04:33",
+        "timestamp": "2025-09-12 04:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-09-10 21:53",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-09-10 22:12",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 04:33",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-09-12 04:44",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -1056,7 +1056,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-09-11 07:19",
+                "timestamp": "2025-09-12 04:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
