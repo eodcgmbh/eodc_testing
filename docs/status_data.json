@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 17:11",
+        "timestamp": "2025-09-12 17:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-09-11 14:13",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-11 14:33",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 17:11",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-09-12 17:29",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -1284,7 +1284,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-09-12 08:46",
+                "timestamp": "2025-09-12 17:16",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
