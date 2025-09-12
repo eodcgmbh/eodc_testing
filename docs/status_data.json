@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-12 18:37",
+        "timestamp": "2025-09-12 18:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "CGLS_FCOVER300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-11 15:40",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-09-11 15:48",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-12 18:37",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2025-09-12 18:47",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
                 }
             ]
         }
@@ -1284,7 +1284,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-09-12 17:16",
+                "timestamp": "2025-09-12 18:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
