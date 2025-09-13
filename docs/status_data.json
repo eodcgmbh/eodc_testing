@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 19:36",
+        "timestamp": "2025-09-13 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-09-12 17:54",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-12 18:16",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 19:36",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-09-13 19:43",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -1366,7 +1366,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-09-13 07:38",
+                "timestamp": "2025-09-13 19:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
