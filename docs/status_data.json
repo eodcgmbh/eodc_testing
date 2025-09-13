@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 11:34",
+        "timestamp": "2025-09-13 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-12 09:13",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-09-12 09:31",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 11:34",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-09-13 11:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
                 }
             ]
         }
@@ -1078,7 +1078,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-09-12 05:40",
+                "timestamp": "2025-09-13 11:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
