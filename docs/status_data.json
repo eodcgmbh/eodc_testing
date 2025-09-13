@@ -392,16 +392,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 05:55",
+        "timestamp": "2025-09-13 06:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-09-11 23:53",
-                    "status": 1,
-                    "collection": "PERSISTENT_SNOW_AREA"
-                },
                 {
                     "timestamp": "2025-09-12 00:58",
                     "status": 1,
@@ -896,6 +891,11 @@
                     "timestamp": "2025-09-13 05:55",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-13 06:17",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
