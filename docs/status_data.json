@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 16:13",
+        "timestamp": "2025-09-13 16:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2025-09-12 14:45",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_3M"
-                },
                 {
                     "timestamp": "2025-09-12 14:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 16:13",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-09-13 16:32",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -916,7 +916,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-09-11 05:41",
+                "timestamp": "2025-09-13 16:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
