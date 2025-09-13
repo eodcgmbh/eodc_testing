@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 10:31",
+        "timestamp": "2025-09-13 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "JAXA_WQ_CHLA_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-09-12 07:44",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-09-12 07:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 10:31",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-09-13 10:43",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_AVERAGE"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-09-12 23:17",
+                "timestamp": "2025-09-13 10:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
