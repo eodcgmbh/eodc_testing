@@ -388,16 +388,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 02:12",
+        "timestamp": "2025-09-13 02:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2025-09-11 21:11",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-09-11 21:27",
                     "status": 1,
@@ -892,6 +887,11 @@
                     "timestamp": "2025-09-13 02:12",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-09-13 02:57",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -1046,7 +1046,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-09-11 16:24",
+                "timestamp": "2025-09-13 02:34",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
