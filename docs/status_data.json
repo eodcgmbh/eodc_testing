@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 13:16",
+        "timestamp": "2025-09-13 13:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-12 10:34",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-09-12 10:44",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 13:16",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-09-13 13:29",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-09-13 05:17",
+                "timestamp": "2025-09-13 13:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
