@@ -392,16 +392,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 05:12",
+        "timestamp": "2025-09-13 05:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "S1_GRD_SIGMA0_DESCENDING",
             "history": [
-                {
-                    "timestamp": "2025-09-11 23:12",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2025-09-11 23:27",
                     "status": 1,
@@ -896,6 +891,11 @@
                     "timestamp": "2025-09-13 05:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-09-13 05:30",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_DESCENDING"
                 }
             ]
         }
@@ -1050,7 +1050,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-09-13 02:34",
+                "timestamp": "2025-09-13 05:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
