@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 17:23",
+        "timestamp": "2025-09-13 17:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-09-12 15:46",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-09-12 15:54",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 17:23",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2025-09-13 17:33",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
