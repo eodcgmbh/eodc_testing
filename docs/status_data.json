@@ -392,16 +392,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 08:15",
+        "timestamp": "2025-09-13 08:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2025-09-12 05:12",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-09-12 05:32",
                     "status": 1,
@@ -896,6 +891,11 @@
                     "timestamp": "2025-09-13 08:15",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-09-13 08:33",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
@@ -1374,7 +1374,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-09-12 22:17",
+                "timestamp": "2025-09-13 08:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
