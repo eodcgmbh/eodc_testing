@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-13 20:12",
+        "timestamp": "2025-09-13 20:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2025-09-12 18:47",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-12 18:55",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-13 20:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-09-13 20:28",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
@@ -976,7 +976,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-09-09 20:40",
+                "timestamp": "2025-09-13 20:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
