@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 05:30",
+        "timestamp": "2025-09-14 05:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2025-09-13 04:14",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-09-13 04:33",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 05:30",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-09-14 05:40",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-09-12 03:28",
+                "timestamp": "2025-09-14 05:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
