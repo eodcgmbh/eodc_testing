@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 20:54",
+        "timestamp": "2025-09-14 21:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-13 19:36",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-09-13 19:43",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 20:54",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-09-14 21:10",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
