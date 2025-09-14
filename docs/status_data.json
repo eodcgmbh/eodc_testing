@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 23:10",
+        "timestamp": "2025-09-14 23:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-13 21:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
-                },
                 {
                     "timestamp": "2025-09-13 21:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 23:10",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-09-14 23:26",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -1120,7 +1120,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-09-12 15:19",
+                "timestamp": "2025-09-14 23:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
