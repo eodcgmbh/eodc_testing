@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 13:15",
+        "timestamp": "2025-09-14 13:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-09-13 11:21",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-09-13 11:34",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 13:15",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-14 13:29",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -1270,7 +1270,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-09-12 20:21",
+                "timestamp": "2025-09-14 13:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
