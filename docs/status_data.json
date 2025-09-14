@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 19:34",
+        "timestamp": "2025-09-14 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-13 18:15",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-09-13 18:35",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 19:34",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-09-14 19:43",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -1318,7 +1318,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-09-13 17:14",
+                "timestamp": "2025-09-14 19:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
