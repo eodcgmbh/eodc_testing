@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 17:53",
+        "timestamp": "2025-09-14 18:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-13 16:43",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-09-13 16:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 17:53",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-09-14 18:15",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
