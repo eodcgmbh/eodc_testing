@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 03:53",
+        "timestamp": "2025-09-14 04:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-12 23:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FAPAR_V2"
-                },
                 {
                     "timestamp": "2025-09-13 02:12",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 03:53",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2025-09-14 04:15",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
