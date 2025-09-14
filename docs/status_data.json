@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 21:10",
+        "timestamp": "2025-09-14 21:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
             "history": [
-                {
-                    "timestamp": "2025-09-13 19:43",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-09-13 19:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 21:10",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-09-14 21:26",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-09-14 04:22",
+                "timestamp": "2025-09-14 21:16",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
