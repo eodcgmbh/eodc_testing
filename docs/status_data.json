@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 15:35",
+        "timestamp": "2025-09-14 15:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-13 14:24",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2025-09-13 14:34",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 15:35",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-09-14 15:43",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
@@ -1372,7 +1372,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_VILLACH",
-                "timestamp": "2025-09-10 06:29",
+                "timestamp": "2025-09-14 15:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
