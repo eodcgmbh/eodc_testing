@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 05:12",
+        "timestamp": "2025-09-14 05:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-09-13 03:53",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-09-13 04:14",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 05:12",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-09-14 05:30",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
@@ -1300,7 +1300,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-09-13 07:16",
+                "timestamp": "2025-09-14 05:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
