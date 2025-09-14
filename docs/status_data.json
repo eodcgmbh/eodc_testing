@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 08:45",
+        "timestamp": "2025-09-14 08:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-09-13 07:26",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-13 07:35",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 08:45",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-09-14 08:53",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
