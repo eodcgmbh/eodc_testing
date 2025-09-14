@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 04:15",
+        "timestamp": "2025-09-14 04:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-09-13 02:12",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-09-13 02:57",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 04:15",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-09-14 04:33",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-09-12 19:38",
+                "timestamp": "2025-09-14 04:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
