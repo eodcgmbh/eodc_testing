@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 04:46",
+        "timestamp": "2025-09-14 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-09-13 03:34",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S10_TOC_333M"
-                },
                 {
                     "timestamp": "2025-09-13 03:43",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 04:46",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-09-14 04:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
