@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 07:43",
+        "timestamp": "2025-09-14 07:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-09-13 06:17",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-09-13 06:38",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 07:43",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-09-14 07:53",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
