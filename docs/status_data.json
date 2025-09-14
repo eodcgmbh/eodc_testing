@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 17:43",
+        "timestamp": "2025-09-14 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-09-13 16:32",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-09-13 16:43",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 17:43",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-09-14 17:53",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
