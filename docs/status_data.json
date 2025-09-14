@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 11:34",
+        "timestamp": "2025-09-14 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "PLEIADES",
             "history": [
-                {
-                    "timestamp": "2025-09-13 10:11",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-09-13 10:31",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 11:34",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-09-14 11:43",
+                    "status": 1,
+                    "collection": "PLEIADES"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-09-14 05:39",
+                "timestamp": "2025-09-14 11:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
