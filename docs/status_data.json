@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 08:33",
+        "timestamp": "2025-09-14 08:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-09-13 06:55",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_10M"
-                },
                 {
                     "timestamp": "2025-09-13 07:26",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 08:33",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2025-09-14 08:45",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1324,7 +1324,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-09-06 21:38",
+                "timestamp": "2025-09-14 08:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
