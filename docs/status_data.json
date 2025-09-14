@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-14 07:11",
+        "timestamp": "2025-09-14 07:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-09-13 05:40",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-09-13 05:47",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-14 07:11",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-14 07:26",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
@@ -1330,7 +1330,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-09-12 21:16",
+                "timestamp": "2025-09-14 07:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
