@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 04:16",
+        "timestamp": "2025-09-15 04:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-09-13 23:26",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-09-13 23:35",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 04:16",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-09-15 04:37",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
@@ -958,7 +958,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-09-09 04:24",
+                "timestamp": "2025-09-15 04:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
