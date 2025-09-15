@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 21:44",
+        "timestamp": "2025-09-15 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-09-14 17:23",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-14 17:34",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 21:44",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-09-15 21:53",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
