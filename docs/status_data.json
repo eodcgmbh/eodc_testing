@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 04:37",
+        "timestamp": "2025-09-15 04:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-09-13 23:35",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
-                },
                 {
                     "timestamp": "2025-09-13 23:43",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 04:37",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-09-15 04:48",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -1330,7 +1330,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-09-14 07:17",
+                "timestamp": "2025-09-15 04:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
