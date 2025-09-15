@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 15:32",
+        "timestamp": "2025-09-15 15:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2025-09-14 11:43",
-                    "status": 1,
-                    "collection": "PLEIADES"
-                },
                 {
                     "timestamp": "2025-09-14 11:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 15:32",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-09-15 15:44",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -1270,7 +1270,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-09-14 13:20",
+                "timestamp": "2025-09-15 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
