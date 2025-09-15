@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 11:44",
+        "timestamp": "2025-09-15 11:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-14 09:12",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-09-14 09:28",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 11:44",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-15 11:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
