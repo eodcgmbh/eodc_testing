@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 07:19",
+        "timestamp": "2025-09-15 07:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-09-14 04:46",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-09-14 04:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 07:19",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2025-09-15 07:32",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -976,7 +976,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-09-13 20:18",
+                "timestamp": "2025-09-15 07:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
