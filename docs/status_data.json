@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 21:11",
+        "timestamp": "2025-09-15 21:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-09-14 16:43",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-09-14 16:53",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 21:11",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-09-15 21:28",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-09-09 23:17",
+                "timestamp": "2025-09-15 21:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
