@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-15 21:37",
+        "timestamp": "2025-09-15 21:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-09-14 17:09",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-09-14 17:23",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-15 21:37",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-09-15 21:44",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
