@@ -1318,7 +1318,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-09-14 19:38",
+                "timestamp": "2025-09-15 12:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1403,7 +1403,7 @@
         ]
     },
     "Notebooks": {
-        "timestamp": "2025-09-15 06:38:19",
+        "timestamp": "2025-09-15 12:51:17",
         "status": "Notebook Results",
         "extra_info": [
             {
@@ -1609,11 +1609,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-09-15 12:28:37",
+        "timestamp": "2025-09-15 10:15:24",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-82466904-5756-4ee1-80f5-c47673cffab0)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-8b55ff01-cf5b-47f6-bfb0-24be170540e2)",
             "history": [
+                {
+                    "timestamp": "2025-09-14 16:14:02",
+                    "status": 1,
+                    "info": "vm-test-20250914-161354"
+                },
                 {
                     "timestamp": "2025-09-14 17:10:26",
                     "status": 1,
@@ -1658,11 +1663,6 @@
                     "timestamp": "2025-09-15 10:15:24",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-8b55ff01-cf5b-47f6-bfb0-24be170540e2)"
-                },
-                {
-                    "timestamp": "2025-09-15 12:28:37",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-82466904-5756-4ee1-80f5-c47673cffab0)"
                 }
             ]
         }
