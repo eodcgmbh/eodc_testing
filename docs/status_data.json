@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 10:13",
+        "timestamp": "2025-09-16 10:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-15 04:37",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-09-15 04:48",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-09-16 10:13",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-09-16 10:35",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -1332,7 +1332,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-09-14 08:42",
+                "timestamp": "2025-09-16 10:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
