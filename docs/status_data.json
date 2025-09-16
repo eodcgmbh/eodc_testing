@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 16:16",
+        "timestamp": "2025-09-16 16:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-09-15 10:36",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-15 10:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-16 16:16",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-09-16 16:40",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-09-16 14:20",
+                "timestamp": "2025-09-16 16:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
