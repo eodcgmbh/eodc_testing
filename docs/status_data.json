@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 22:11",
+        "timestamp": "2025-09-16 22:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-09-15 17:11",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2025-09-15 17:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-16 22:11",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-09-16 22:29",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -922,7 +922,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-09-13 18:43",
+                "timestamp": "2025-09-16 22:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
