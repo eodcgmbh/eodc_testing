@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 04:46",
+        "timestamp": "2025-09-16 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-14 20:54",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-09-14 21:10",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-09-16 04:46",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2025-09-16 04:53",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
                 }
             ]
         }
