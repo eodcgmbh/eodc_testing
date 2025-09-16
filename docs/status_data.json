@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 18:42",
+        "timestamp": "2025-09-16 18:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-09-15 12:27",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-15 13:03",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-16 18:42",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-09-16 18:54",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -1330,7 +1330,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-09-15 14:42",
+                "timestamp": "2025-09-16 18:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
