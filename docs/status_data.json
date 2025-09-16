@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 05:12",
+        "timestamp": "2025-09-16 05:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-09-14 21:26",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2025-09-14 21:35",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-09-16 05:12",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-09-16 05:32",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
                 }
             ]
         }
@@ -974,7 +974,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-09-15 21:17",
+                "timestamp": "2025-09-16 05:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
