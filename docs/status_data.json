@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 03:57",
+        "timestamp": "2025-09-16 04:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2025-09-14 20:12",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-09-14 20:29",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-09-16 03:57",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-09-16 04:19",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
