@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 04:19",
+        "timestamp": "2025-09-16 04:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
             "history": [
-                {
-                    "timestamp": "2025-09-14 20:29",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2025-09-14 20:46",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-09-16 04:19",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-09-16 04:36",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
                 }
             ]
         }
@@ -1100,7 +1100,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-09-13 23:38",
+                "timestamp": "2025-09-16 04:23",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
