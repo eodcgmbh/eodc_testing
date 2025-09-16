@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 13:55",
+        "timestamp": "2025-09-16 14:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-09-15 08:18",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
-                },
                 {
                     "timestamp": "2025-09-15 08:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-16 13:55",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2025-09-16 14:35",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-09-15 20:40",
+                "timestamp": "2025-09-16 14:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
