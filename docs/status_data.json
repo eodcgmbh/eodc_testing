@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 10:35",
+        "timestamp": "2025-09-16 10:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2021_V2",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-09-15 04:48",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-09-15 04:56",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-09-16 10:35",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2021_V2"
+                },
+                {
+                    "timestamp": "2025-09-16 10:46",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -1374,7 +1374,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-09-13 23:16",
+                "timestamp": "2025-09-16 10:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
