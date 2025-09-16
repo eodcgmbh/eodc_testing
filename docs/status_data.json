@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-16 17:30",
+        "timestamp": "2025-09-16 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-09-15 11:27",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-15 11:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-16 17:30",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-09-16 17:43",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-09-16 11:16",
+                "timestamp": "2025-09-16 17:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
