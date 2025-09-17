@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-17 09:31",
+        "timestamp": "2025-09-17 09:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L1",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2025-09-16 04:46",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-09-16 04:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-17 09:31",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L1"
+                },
+                {
+                    "timestamp": "2025-09-17 09:45",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-09-15 17:40",
+                "timestamp": "2025-09-17 09:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
