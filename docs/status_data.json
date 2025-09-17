@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-17 06:44",
+        "timestamp": "2025-09-17 06:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S10",
             "history": [
-                {
-                    "timestamp": "2025-09-15 23:11",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-09-15 23:27",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-17 06:44",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2025-09-17 06:55",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-09-12 18:24",
+                "timestamp": "2025-09-17 06:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
