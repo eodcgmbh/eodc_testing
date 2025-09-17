@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-17 13:33",
+        "timestamp": "2025-09-17 13:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2021_V2",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-09-16 08:18",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-09-16 08:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-17 13:33",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2021_V2"
+                },
+                {
+                    "timestamp": "2025-09-17 13:46",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-09-15 19:16",
+                "timestamp": "2025-09-17 13:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
