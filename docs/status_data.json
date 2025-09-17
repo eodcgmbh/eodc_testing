@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-17 03:07",
+        "timestamp": "2025-09-17 03:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "ALOS_PALSAR2_AGRICULTURE",
             "history": [
-                {
-                    "timestamp": "2025-09-15 19:53",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-09-15 20:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-17 03:07",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-09-17 03:36",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_AGRICULTURE"
                 }
             ]
         }
@@ -1360,7 +1360,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2025-09-15 16:25",
+                "timestamp": "2025-09-17 03:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
