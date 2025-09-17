@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-17 10:13",
+        "timestamp": "2025-09-17 10:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S10",
             "history": [
-                {
-                    "timestamp": "2025-09-16 05:32",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-09-16 05:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-17 10:13",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-09-17 10:34",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
                 }
             ]
         }
@@ -1336,7 +1336,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-09-16 10:21",
+                "timestamp": "2025-09-17 10:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
