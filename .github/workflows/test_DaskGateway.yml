@@ -19,14 +19,23 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
+<<<<<<< HEAD
         python-version: "3.11"
 
+=======
+        python-version: 3.11
+>>>>>>> daa2472e1ec07746c955758bb2349da0c1cfa1f6
     - name: Install GDAL system deps
       run: |
-        sudo apt-get update
+        sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+        sudo apt update
         sudo apt-get install -y gdal-bin libgdal-dev python3-gdal
     - name: Install Python deps
-      run: pip install -r requirements.txt
+      run: |
+        pip install --upgrade pip wheel setuptools
+        pip install GDAL==$(gdal-config --version)
+        python -m pip install pyyaml packaging importlib_metadata
+        pip install -r requirements.txt --no-deps
 
 
     - name: Set Pushgateway env
