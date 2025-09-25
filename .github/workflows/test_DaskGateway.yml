@@ -22,7 +22,7 @@ jobs:
         python-version: 3.11
     - name: Install GDAL system deps
       run: |
-        sudo add-apt-repository ppa:ubuntugis/ppa -y
+        sudo add-apt-repository ppa:ubuntugis-unstable/ppa -y
         sudo apt-get update
         sudo apt-get install -y gdal-bin libgdal-dev python3-gdal
     - name: Install Python deps
