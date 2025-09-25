@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-25 15:34",
+        "timestamp": "2025-09-25 15:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-24 06:55",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-09-24 07:30",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-25 15:34",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-09-25 15:46",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1354,7 +1354,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-09-21 14:17",
+                "timestamp": "2025-09-25 15:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
