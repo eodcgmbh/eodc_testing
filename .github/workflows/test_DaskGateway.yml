@@ -28,7 +28,8 @@ jobs:
     - name: Install Python deps
       run: |
         pip install --upgrade pip wheel setuptools
-        pip install GDAL==$(gdal-config --version)  # installs matching version
+        pip install GDAL==$(gdal-config --version)
+        pip install pyyaml
         pip install -r requirements.txt --no-deps
 
 
