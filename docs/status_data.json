@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-25 17:30",
+        "timestamp": "2025-09-25 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-09-24 08:55",
-                    "status": 1,
-                    "collection": "AUT_DEM"
-                },
                 {
                     "timestamp": "2025-09-24 09:32",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-25 17:30",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-09-25 17:43",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
@@ -1318,7 +1318,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2025-09-23 02:44",
+                "timestamp": "2025-09-25 17:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
