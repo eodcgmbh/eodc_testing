@@ -29,7 +29,7 @@ jobs:
       run: |
         pip install --upgrade pip wheel setuptools
         pip install GDAL==$(gdal-config --version)
-        pip install pyyaml packaging
+        python -m pip install pyyaml packaging importlib_metadata
         pip install -r requirements.txt --no-deps
 
 
