@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-25 10:35",
+        "timestamp": "2025-09-25 10:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
-                {
-                    "timestamp": "2025-09-24 02:35",
-                    "status": 1,
-                    "collection": "E12C_MOTORWAY"
-                },
                 {
                     "timestamp": "2025-09-24 03:19",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-09-25 10:35",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-25 10:46",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
                 }
             ]
         }
@@ -1280,7 +1280,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-09-24 09:42",
+                "timestamp": "2025-09-25 10:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
