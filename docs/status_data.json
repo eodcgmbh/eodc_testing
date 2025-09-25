@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-25 20:53",
+        "timestamp": "2025-09-25 21:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-09-24 13:04",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-09-24 13:35",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-25 20:53",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-09-25 21:11",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
