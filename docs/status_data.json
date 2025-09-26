@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-26 14:32",
+        "timestamp": "2025-09-26 14:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2025-09-25 05:13",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-09-25 05:32",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-26 14:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
+                },
+                {
+                    "timestamp": "2025-09-26 14:44",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
@@ -1342,7 +1342,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-09-23 18:50",
+                "timestamp": "2025-09-26 14:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
