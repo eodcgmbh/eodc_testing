@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-26 04:35",
+        "timestamp": "2025-09-26 04:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SIG0_20M",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-24 19:10",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-09-24 19:26",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-26 04:35",
                     "status": 1,
                     "collection": "SENTINEL1_SIG0_20M"
+                },
+                {
+                    "timestamp": "2025-09-26 04:46",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
@@ -1102,7 +1102,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-09-24 07:20",
+                "timestamp": "2025-09-26 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
