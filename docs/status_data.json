@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-26 19:35",
+        "timestamp": "2025-09-26 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "PLEIADES",
             "history": [
-                {
-                    "timestamp": "2025-09-25 13:05",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG10"
-                },
                 {
                     "timestamp": "2025-09-25 13:39",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-26 19:35",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-09-26 19:43",
+                    "status": 1,
+                    "collection": "PLEIADES"
                 }
             ]
         }
@@ -1330,7 +1330,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-09-25 08:27",
+                "timestamp": "2025-09-26 19:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
