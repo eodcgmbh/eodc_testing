@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-26 16:39",
+        "timestamp": "2025-09-26 16:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-09-25 07:31",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-09-25 07:44",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-26 16:39",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-09-26 16:51",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
@@ -1354,7 +1354,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-09-25 15:43",
+                "timestamp": "2025-09-26 16:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
