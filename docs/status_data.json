@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-26 09:32",
+        "timestamp": "2025-09-26 09:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "GFM",
             "history": [
-                {
-                    "timestamp": "2025-09-24 22:53",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2025-09-24 23:12",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-26 09:32",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-26 09:44",
+                    "status": 1,
+                    "collection": "GFM"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2025-09-26 09:22",
+                "timestamp": "2025-09-26 09:41",
                 "status": "FAILURE",
                 "item": "N/A"
             },
