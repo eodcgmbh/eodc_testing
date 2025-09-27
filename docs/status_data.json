@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 06:55",
+        "timestamp": "2025-09-27 07:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-25 21:53",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-09-25 22:10",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 06:55",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-09-27 07:26",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
