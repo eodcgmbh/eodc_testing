@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 11:09",
+        "timestamp": "2025-09-27 11:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-26 05:13",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-09-26 05:32",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 11:09",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-09-27 11:21",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1360,7 +1360,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-09-22 19:16",
+                "timestamp": "2025-09-27 11:14",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
