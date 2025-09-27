@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 23:36",
+        "timestamp": "2025-09-27 23:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-09-26 20:44",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-09-26 20:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 23:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-09-27 23:44",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-09-27 20:20",
+                "timestamp": "2025-09-27 23:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
