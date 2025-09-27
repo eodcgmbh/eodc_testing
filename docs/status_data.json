@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 19:09",
+        "timestamp": "2025-09-27 19:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-09-26 14:53",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-09-26 15:13",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 19:09",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-09-27 19:20",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1360,7 +1360,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-09-27 11:14",
+                "timestamp": "2025-09-27 19:14",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
