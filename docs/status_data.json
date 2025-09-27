@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 22:11",
+        "timestamp": "2025-09-27 22:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-09-26 19:10",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-26 19:22",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 22:11",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-09-27 22:30",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
