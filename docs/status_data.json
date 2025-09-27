@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 04:15",
+        "timestamp": "2025-09-27 04:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-09-25 19:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2025-09-25 19:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 04:15",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-09-27 04:34",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
