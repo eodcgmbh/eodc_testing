@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 17:34",
+        "timestamp": "2025-09-27 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-09-26 11:53",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2025-09-26 12:26",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 17:34",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-09-27 17:43",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1306,7 +1306,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-09-26 21:17",
+                "timestamp": "2025-09-27 17:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
