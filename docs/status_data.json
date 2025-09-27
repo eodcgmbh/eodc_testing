@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-27 23:44",
+        "timestamp": "2025-09-27 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
             "history": [
-                {
-                    "timestamp": "2025-09-26 20:53",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-09-26 21:11",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-27 23:44",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-09-27 23:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
                 }
             ]
         }
