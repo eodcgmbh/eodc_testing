@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 20:39",
+        "timestamp": "2025-09-28 20:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-09-27 17:34",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-09-27 17:43",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 20:39",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-09-28 20:47",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
