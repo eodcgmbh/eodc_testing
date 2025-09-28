@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 23:11",
+        "timestamp": "2025-09-28 23:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-27 19:53",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-09-27 20:13",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 23:11",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-09-28 23:27",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
