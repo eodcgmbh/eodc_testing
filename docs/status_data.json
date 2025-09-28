@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 16:33",
+        "timestamp": "2025-09-28 16:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_KLAGENFURT",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-09-27 12:56",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-09-27 13:43",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 16:33",
                     "status": 1,
                     "collection": "DOP_AUT_K_KLAGENFURT"
+                },
+                {
+                    "timestamp": "2025-09-28 16:44",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-09-28 15:17",
+                "timestamp": "2025-09-28 16:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
