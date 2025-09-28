@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 07:35",
+        "timestamp": "2025-09-28 07:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-09-27 04:15",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-09-27 04:34",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 07:35",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-09-28 07:43",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
