@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 08:15",
+        "timestamp": "2025-09-28 08:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "TERRASCOPE_S2_TOC_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-27 04:53",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-09-27 05:12",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 08:15",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2025-09-28 08:33",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TOC_V2"
                 }
             ]
         }
@@ -1096,7 +1096,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-09-28 01:40",
+                "timestamp": "2025-09-28 08:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
