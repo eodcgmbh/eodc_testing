@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 18:16",
+        "timestamp": "2025-09-28 18:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "SENTINEL2_L1C_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-09-27 15:10",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-09-27 15:28",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 18:16",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-09-28 18:46",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_SENTINELHUB"
                 }
             ]
         }
@@ -1024,7 +1024,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-09-24 15:42",
+                "timestamp": "2025-09-28 18:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
