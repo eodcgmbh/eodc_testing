@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 19:09",
+        "timestamp": "2025-09-28 19:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
             "history": [
-                {
-                    "timestamp": "2025-09-27 15:44",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-09-27 15:53",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 19:09",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-09-28 19:20",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-09-25 02:48",
+                "timestamp": "2025-09-28 19:14",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
