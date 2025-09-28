@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 10:12",
+        "timestamp": "2025-09-28 10:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-09-27 06:55",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-09-27 07:26",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 10:12",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-09-28 10:31",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
