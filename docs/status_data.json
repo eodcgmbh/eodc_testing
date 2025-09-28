@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 09:37",
+        "timestamp": "2025-09-28 09:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-09-27 05:53",
-                    "status": 1,
-                    "collection": "AUT_DEM"
-                },
                 {
                     "timestamp": "2025-09-27 06:17",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 09:37",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-09-28 09:45",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
@@ -1360,7 +1360,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-09-27 23:17",
+                "timestamp": "2025-09-28 09:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
