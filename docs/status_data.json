@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-28 10:31",
+        "timestamp": "2025-09-28 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
             "history": [
-                {
-                    "timestamp": "2025-09-27 07:26",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-27 07:35",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-28 10:31",
                     "status": 1,
                     "collection": "COPERNICUS_90"
+                },
+                {
+                    "timestamp": "2025-09-28 10:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
                 }
             ]
         }
@@ -1120,7 +1120,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-09-27 15:17",
+                "timestamp": "2025-09-28 10:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
