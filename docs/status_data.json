@@ -376,16 +376,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-29 20:40",
+        "timestamp": "2025-09-29 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER_V2_GLOBAL",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-28 15:10",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-09-28 15:27",
                     "status": 1,
@@ -880,6 +875,11 @@
                     "timestamp": "2025-09-29 20:40",
                     "status": 1,
                     "collection": "CGLS_FCOVER_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-29 20:53",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
