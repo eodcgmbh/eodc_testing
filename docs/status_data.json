@@ -380,16 +380,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-29 22:37",
+        "timestamp": "2025-09-29 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-28 16:44",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-09-28 16:53",
                     "status": 1,
@@ -884,6 +879,11 @@
                     "timestamp": "2025-09-29 22:37",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-09-29 22:45",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
