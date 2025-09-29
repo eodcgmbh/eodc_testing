@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-09-29 10:33:55",
+        "timestamp": "2025-09-29 11:25:58",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-09-16 13:25:08",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-09-16 15:15:18",
                     "status": 1
@@ -367,16 +363,25 @@
                 {
                     "timestamp": "2025-09-29 10:33:55",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-09-29 11:25:58",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-29 11:12",
+        "timestamp": "2025-09-29 10:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
+            "collection": "CNR_CHL",
             "history": [
+                {
+                    "timestamp": "2025-09-28 06:53",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
                 {
                     "timestamp": "2025-09-28 07:11",
                     "status": 1,
@@ -871,11 +876,6 @@
                     "timestamp": "2025-09-29 10:55",
                     "status": 1,
                     "collection": "CNR_CHL"
-                },
-                {
-                    "timestamp": "2025-09-29 11:12",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-09-28 07:17",
+                "timestamp": "2025-09-29 11:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
