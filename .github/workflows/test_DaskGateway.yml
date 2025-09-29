@@ -43,13 +43,13 @@ jobs:
         EODC_USERNAME: ${{ secrets.EODC_USERNAME }}  
         EODC_PASSWORD: ${{ secrets.EODC_PASSWORD }} 
       run: python scripts/test_dask.py
-
+      
     - name: Commit and push log files
       if: always()
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
-        git pull --autostash 
+        git pull --rebase --autostash origin main
         git add results/logs/test_DaskGateway.log
         git commit -m "Updated Dask Gateway test logs" || echo "No changes to commit"
         git push
