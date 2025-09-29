@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-29 03:28",
+        "timestamp": "2025-09-29 03:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-09-27 21:26",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-27 21:35",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-29 03:28",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-09-29 03:50",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-09-25 04:44",
+                "timestamp": "2025-09-29 03:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
