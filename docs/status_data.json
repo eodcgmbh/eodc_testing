@@ -372,16 +372,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-29 08:44",
+        "timestamp": "2025-09-29 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
             "history": [
-                {
-                    "timestamp": "2025-09-28 04:34",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-09-28 04:45",
                     "status": 1,
@@ -876,6 +871,11 @@
                     "timestamp": "2025-09-29 08:44",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-09-29 08:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-09-28 16:41",
+                "timestamp": "2025-09-29 08:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
