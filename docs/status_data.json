@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-30 05:33",
+        "timestamp": "2025-09-30 05:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-09-28 20:47",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-09-28 20:55",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-30 05:33",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-09-30 05:44",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
@@ -1354,7 +1354,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-09-26 19:38",
+                "timestamp": "2025-09-30 05:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
