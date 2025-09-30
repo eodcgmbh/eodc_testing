@@ -388,16 +388,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-30 01:01",
+        "timestamp": "2025-09-30 02:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2025-09-28 18:46",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-09-28 18:54",
                     "status": 1,
@@ -892,6 +887,11 @@
                     "timestamp": "2025-09-30 01:01",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-09-30 02:34",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
