@@ -396,16 +396,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-30 05:53",
+        "timestamp": "2025-09-30 06:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-09-28 21:10",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-28 21:35",
                     "status": 1,
@@ -900,6 +895,11 @@
                     "timestamp": "2025-09-30 05:53",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-09-30 06:20",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
