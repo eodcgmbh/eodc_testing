@@ -30,6 +30,7 @@ jobs:
           echo "URL=https://hub.services.eodc.eu" >> $GITHUB_ENV
           echo "USER=${{ secrets.EODC_USER }}" >> $GITHUB_ENV
           echo "TOKEN=${{ secrets.EODC_TOKEN }}" >> $GITHUB_ENV
+          echo "SERVICE=jupyterhub-eodc" >> $GITHUB_ENV
           echo "SERVICE_WS=hub.services.eodc.eu" >> $GITHUB_ENV
           echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
           echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
