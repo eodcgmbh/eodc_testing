@@ -157,4 +157,4 @@ def main():
 if __name__ == "__main__":
 
     success, t0 = main()
-    #push_e2e_result(SERVICE, success, time.time() - t0)
+    push_e2e_result(SERVICE, success, time.time() - t0)
