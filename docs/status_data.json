@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-30 17:11",
+        "timestamp": "2025-09-30 17:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TY",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-09-29 09:46",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-29 09:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-09-30 17:11",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TY"
+                },
+                {
+                    "timestamp": "2025-09-30 17:30",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-09-28 20:20",
+                "timestamp": "2025-09-30 17:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
