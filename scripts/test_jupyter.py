@@ -14,7 +14,8 @@ ENDPOINT_URL = os.getenv("URL")
 USER = os.getenv("USER")
 TOKEN = os.getenv("TOKEN")
 SERVICE = os.getenv("SERVICE")
-ENDPOINT_WS = os.getenv("SERVICE_WS") 
+ENDPOINT_WS = os.getenv("SERVICE_WS")
+
 
 class jupyter_test:
     def __init__(self):
@@ -126,24 +127,29 @@ def main():
 
     status = jp_test.start_server()
     if status == 0:
+        print("start_server", status)
         return 0, t0
 
     jp_test.wait_start()
 
     status, kernel_id = jp_test.start_kernel()
     if status == 0:
+        print("start_kernel", status)
         return 0, t0
 
     status = jp_test.start_session(kernel_id=kernel_id)
     if status == 0:
+        print("start_session", status)
         return 0, t0
 
     status = jp_test.create_websocket(kernel_id=kernel_id)
     if status == 0:
+        print("create_websocket", status)
         return 0, t0
     
     status = jp_test.stop_server()
     if status == 0:
+        print("stop_server", status)
         return 0, t0
     
     return 1, t0
@@ -151,4 +157,4 @@ def main():
 if __name__ == "__main__":
 
     success, t0 = main()
-    push_e2e_result(SERVICE, success, time.time() - t0)
+    #push_e2e_result(SERVICE, success, time.time() - t0)
