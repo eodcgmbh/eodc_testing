@@ -404,16 +404,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-30 08:43",
+        "timestamp": "2025-09-30 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2025-09-28 23:11",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-09-28 23:27",
                     "status": 1,
@@ -908,6 +903,11 @@
                     "timestamp": "2025-09-30 08:43",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-09-30 08:56",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
@@ -1374,7 +1374,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-09-28 06:48",
+                "timestamp": "2025-09-30 08:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
