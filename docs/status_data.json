@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-09-29 23:53",
+        "timestamp": "2025-09-30 01:01",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-09-28 18:16",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-09-28 18:46",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-09-29 23:53",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-09-30 01:01",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
