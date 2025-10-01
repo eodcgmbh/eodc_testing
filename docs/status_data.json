@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-01 13:06",
+        "timestamp": "2025-10-01 13:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-09-30 05:53",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-09-30 06:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-01 13:06",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-10-01 13:37",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
@@ -1342,7 +1342,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-09-30 10:44",
+                "timestamp": "2025-10-01 13:30",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
