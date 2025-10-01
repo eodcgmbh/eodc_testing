@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-01 15:34",
+        "timestamp": "2025-10-01 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-09-30 08:43",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-09-30 08:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-01 15:34",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-01 15:45",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -1408,7 +1408,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-09-30 09:21",
+                "timestamp": "2025-10-01 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
