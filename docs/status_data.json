@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-01 11:53",
+        "timestamp": "2025-10-01 12:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-09-30 05:33",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-09-30 05:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-01 11:53",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-10-01 12:28",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1621,16 +1621,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-01 09:15:58",
+        "timestamp": "2025-10-01 12:30:42",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251001-091551",
+            "info": "vm-test-20251001-123034",
             "history": [
-                {
-                    "timestamp": "2025-09-30 17:12:53",
-                    "status": 1,
-                    "info": "vm-test-20250930-171246"
-                },
                 {
                     "timestamp": "2025-09-30 19:11:16",
                     "status": 1,
@@ -1675,6 +1670,11 @@
                     "timestamp": "2025-10-01 09:15:58",
                     "status": 1,
                     "info": "vm-test-20251001-091551"
+                },
+                {
+                    "timestamp": "2025-10-01 12:30:42",
+                    "status": 1,
+                    "info": "vm-test-20251001-123034"
                 }
             ]
         }
