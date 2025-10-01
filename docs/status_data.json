@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-01 10:36",
+        "timestamp": "2025-10-01 10:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
             "history": [
-                {
-                    "timestamp": "2025-09-30 03:43",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-09-30 03:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-01 10:36",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-01 10:46",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
                 }
             ]
         }
@@ -1360,7 +1360,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2025-09-30 07:41",
+                "timestamp": "2025-10-01 10:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
