@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-02 16:15",
+        "timestamp": "2025-10-02 16:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2025-10-01 10:54",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-10-01 11:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-02 16:15",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-10-02 16:51",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
@@ -1138,7 +1138,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-10-02 07:18",
+                "timestamp": "2025-10-02 16:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
