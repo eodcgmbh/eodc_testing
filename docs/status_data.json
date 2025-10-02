@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-02 22:31",
+        "timestamp": "2025-10-02 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-10-01 17:43",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-10-01 17:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-02 22:31",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-10-02 22:43",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-10-01 17:18",
+                "timestamp": "2025-10-02 22:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
