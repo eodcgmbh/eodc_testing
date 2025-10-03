@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-03 11:26",
+        "timestamp": "2025-10-03 11:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-10-02 06:19",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-10-02 06:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-03 11:26",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-10-03 11:35",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
