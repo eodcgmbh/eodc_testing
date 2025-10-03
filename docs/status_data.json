@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-03 16:15",
+        "timestamp": "2025-10-03 16:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "E12C_MOTORWAY",
             "history": [
-                {
-                    "timestamp": "2025-10-02 10:53",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-10-02 11:10",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-03 16:15",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-10-03 16:48",
+                    "status": 1,
+                    "collection": "E12C_MOTORWAY"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-10-01 16:46",
+                "timestamp": "2025-10-03 16:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
