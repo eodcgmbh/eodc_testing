@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-03 13:00",
+        "timestamp": "2025-10-03 13:32",
         "status": "SUCCESS",
         "extra_info": {
             "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-10-02 07:37",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-10-02 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-03 13:00",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-10-03 13:32",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -1390,7 +1390,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-10-02 18:47",
+                "timestamp": "2025-10-03 13:26",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
