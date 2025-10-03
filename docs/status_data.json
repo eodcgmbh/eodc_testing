@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-03 19:10",
+        "timestamp": "2025-10-03 19:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
             "history": [
-                {
-                    "timestamp": "2025-10-02 14:13",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-10-02 14:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-03 19:10",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
+                },
+                {
+                    "timestamp": "2025-10-03 19:21",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
                 }
             ]
         }
@@ -1336,7 +1336,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-10-02 10:41",
+                "timestamp": "2025-10-03 19:16",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
