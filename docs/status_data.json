@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-04 08:33",
+        "timestamp": "2025-10-04 08:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-10-03 04:35",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-10-03 04:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-04 08:33",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-10-04 08:45",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-10-03 23:17",
+                "timestamp": "2025-10-04 08:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
