@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-04 06:40",
+        "timestamp": "2025-10-04 06:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_100M",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-10-02 23:53",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-03 00:59",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-04 06:40",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-10-04 06:53",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -1408,7 +1408,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-10-03 17:16",
+                "timestamp": "2025-10-04 06:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
