@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-04 17:34",
+        "timestamp": "2025-10-04 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-10-03 14:44",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-10-03 14:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-04 17:34",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-04 17:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
@@ -1042,7 +1042,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-10-03 09:19",
+                "timestamp": "2025-10-04 17:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
