@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-04 03:31",
+        "timestamp": "2025-10-04 03:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "SENTINEL3_SRAL_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-02 20:53",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-10-02 21:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-04 03:31",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-10-04 03:45",
+                    "status": 1,
+                    "collection": "SENTINEL3_SRAL_L2"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-10-03 16:45",
+                "timestamp": "2025-10-04 03:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
