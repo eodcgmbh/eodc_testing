@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-04 09:28",
+        "timestamp": "2025-10-04 09:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-10-03 05:32",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-10-03 05:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-04 09:28",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-04 09:36",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
