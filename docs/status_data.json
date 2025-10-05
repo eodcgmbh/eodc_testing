@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-05 18:38",
+        "timestamp": "2025-10-05 18:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-10-04 15:36",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
-                },
                 {
                     "timestamp": "2025-10-04 15:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-05 18:38",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-10-05 18:48",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
@@ -1042,7 +1042,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-10-05 04:41",
+                "timestamp": "2025-10-05 18:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
