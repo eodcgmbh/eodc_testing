@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-05 06:53",
+        "timestamp": "2025-10-05 07:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-10-04 04:33",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-10-04 04:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-05 06:53",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-05 07:11",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
