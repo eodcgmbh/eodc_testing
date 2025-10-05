@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-10-05 10:28:06",
+        "timestamp": "2025-10-05 11:21:12",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-09-30 21:25:01",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-09-30 22:26:51",
                     "status": 1
@@ -402,6 +398,10 @@
                 },
                 {
                     "timestamp": "2025-10-05 10:28:06",
+                    "status": 1
+                },
+                {
+                    "timestamp": "2025-10-05 11:21:12",
                     "status": 1
                 }
             ]
@@ -1012,7 +1012,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-10-02 18:28",
+                "timestamp": "2025-10-05 11:15",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1621,11 +1621,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-05 11:10:22",
+        "timestamp": "2025-10-05 10:13:11",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251005-111014",
+            "info": "vm-test-20251005-101303",
             "history": [
+                {
+                    "timestamp": "2025-10-04 17:10:38",
+                    "status": 1,
+                    "info": "vm-test-20251004-171030"
+                },
                 {
                     "timestamp": "2025-10-04 18:17:38",
                     "status": 1,
@@ -1670,11 +1675,6 @@
                     "timestamp": "2025-10-05 10:13:11",
                     "status": 1,
                     "info": "vm-test-20251005-101303"
-                },
-                {
-                    "timestamp": "2025-10-05 11:10:22",
-                    "status": 1,
-                    "info": "vm-test-20251005-111014"
                 }
             ]
         }
