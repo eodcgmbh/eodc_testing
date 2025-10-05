@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-05 08:44",
+        "timestamp": "2025-10-05 08:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-10-04 05:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-10-04 06:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-05 08:44",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-05 08:53",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
