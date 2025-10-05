@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-05 19:53",
+        "timestamp": "2025-10-05 20:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
             "history": [
-                {
-                    "timestamp": "2025-10-04 17:09",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
-                },
                 {
                     "timestamp": "2025-10-04 17:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-05 19:53",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-10-05 20:12",
+                    "status": 1,
+                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
                 }
             ]
         }
@@ -1621,16 +1621,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-05 19:10:00",
+        "timestamp": "2025-10-05 20:13:50",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251005-190953",
+            "info": "vm-test-20251005-201342",
             "history": [
-                {
-                    "timestamp": "2025-10-05 03:03:30",
-                    "status": 1,
-                    "info": "vm-test-20251005-030322"
-                },
                 {
                     "timestamp": "2025-10-05 05:12:57",
                     "status": 1,
@@ -1675,6 +1670,11 @@
                     "timestamp": "2025-10-05 19:10:00",
                     "status": 1,
                     "info": "vm-test-20251005-190953"
+                },
+                {
+                    "timestamp": "2025-10-05 20:13:50",
+                    "status": 1,
+                    "info": "vm-test-20251005-201342"
                 }
             ]
         }
