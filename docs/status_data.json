@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-05 08:14",
+        "timestamp": "2025-10-05 08:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-04 05:43",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-04 05:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-05 08:14",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-05 08:44",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
@@ -1108,7 +1108,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-10-05 05:17",
+                "timestamp": "2025-10-05 08:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
