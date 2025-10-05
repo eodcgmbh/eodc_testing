@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-05 09:11",
+        "timestamp": "2025-10-05 09:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-10-04 06:40",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S1_TOC_100M"
-                },
                 {
                     "timestamp": "2025-10-04 06:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-05 09:11",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-10-05 09:36",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
