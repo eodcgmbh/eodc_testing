@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 08:41",
+        "timestamp": "2025-10-06 08:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-10-05 04:33",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-10-05 04:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 08:41",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-10-06 08:55",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
@@ -1012,7 +1012,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-10-05 11:15",
+                "timestamp": "2025-10-06 08:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
