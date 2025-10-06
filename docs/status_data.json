@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 13:04",
+        "timestamp": "2025-10-06 13:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-10-05 08:44",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-05 08:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 13:04",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-10-06 13:36",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -1360,7 +1360,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2025-10-05 09:38",
+                "timestamp": "2025-10-06 13:30",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
