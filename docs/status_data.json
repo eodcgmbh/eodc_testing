@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 04:35",
+        "timestamp": "2025-10-06 04:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2025-10-04 22:30",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-10-04 22:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 04:35",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-06 04:45",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-10-03 05:19",
+                "timestamp": "2025-10-06 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
