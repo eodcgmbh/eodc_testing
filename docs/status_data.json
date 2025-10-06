@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 15:32",
+        "timestamp": "2025-10-06 15:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2025-10-05 10:53",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-10-05 11:09",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 15:32",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-10-06 15:44",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-10-06 04:23",
+                "timestamp": "2025-10-06 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
