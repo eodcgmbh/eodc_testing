@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 05:32",
+        "timestamp": "2025-10-06 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2025-10-04 23:12",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-04 23:27",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 05:32",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-10-06 05:43",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -1144,7 +1144,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-10-05 21:16",
+                "timestamp": "2025-10-06 05:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
