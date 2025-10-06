@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 11:36",
+        "timestamp": "2025-10-06 11:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2025-10-05 07:35",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-10-05 07:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 11:36",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-10-06 11:44",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
@@ -1378,7 +1378,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-10-04 13:21",
+                "timestamp": "2025-10-06 11:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
