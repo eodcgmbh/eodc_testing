@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-06 22:31",
+        "timestamp": "2025-10-06 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
+            "collection": "LANDSAT4-5_TM_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-05 17:53",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-10-05 18:16",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-06 22:31",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
+                },
+                {
+                    "timestamp": "2025-10-06 22:43",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L2"
                 }
             ]
         }
@@ -1366,7 +1366,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-10-06 21:17",
+                "timestamp": "2025-10-06 22:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
