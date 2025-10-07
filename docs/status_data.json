@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-07 15:36",
+        "timestamp": "2025-10-07 15:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2025-10-06 09:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-10-06 09:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-07 15:36",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2025-10-07 15:47",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-10-06 04:43",
+                "timestamp": "2025-10-07 15:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
