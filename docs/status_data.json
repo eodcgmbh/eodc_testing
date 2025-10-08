@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 03:42",
+        "timestamp": "2025-10-08 03:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-10-06 19:43",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-10-06 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 03:42",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2025-10-08 03:53",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-10-07 09:21",
+                "timestamp": "2025-10-08 03:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
