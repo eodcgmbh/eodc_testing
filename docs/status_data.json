@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 10:14",
+        "timestamp": "2025-10-08 10:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-07 02:34",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-10-07 03:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 10:14",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-10-08 10:36",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
