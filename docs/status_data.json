@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 16:40",
+        "timestamp": "2025-10-08 16:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2025-10-07 09:14",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-10-07 09:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 16:40",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-10-08 16:54",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-10-08 15:21",
+                "timestamp": "2025-10-08 16:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
