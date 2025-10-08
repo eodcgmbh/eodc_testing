@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 09:33",
+        "timestamp": "2025-10-08 09:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-10-06 23:45",
-                    "status": 1,
-                    "collection": "WORLDVIEW"
-                },
                 {
                     "timestamp": "2025-10-06 23:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 09:33",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-10-08 09:45",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1072,7 +1072,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-10-08 07:39",
+                "timestamp": "2025-10-08 09:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
