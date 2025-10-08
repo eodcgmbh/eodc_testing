@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 16:16",
+        "timestamp": "2025-10-08 16:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-07 08:55",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-10-07 09:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 16:16",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-10-08 16:40",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
