@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 04:15",
+        "timestamp": "2025-10-08 04:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
+            "collection": "LANDSAT4-5_TM_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-06 20:14",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-10-06 20:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 04:15",
                     "status": 1,
                     "collection": "TERRASCOPE_SENTINEL3_LST_S1"
+                },
+                {
+                    "timestamp": "2025-10-08 04:35",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L2"
                 }
             ]
         }
