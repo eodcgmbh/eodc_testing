@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-08 18:45",
+        "timestamp": "2025-10-08 18:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_KLAGENFURT",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-10-07 11:11",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2025-10-07 11:27",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-08 18:45",
                     "status": 1,
                     "collection": "DOP_AUT_K_KLAGENFURT"
+                },
+                {
+                    "timestamp": "2025-10-08 18:56",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -1078,7 +1078,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-10-08 11:17",
+                "timestamp": "2025-10-08 18:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
