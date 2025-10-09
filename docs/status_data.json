@@ -408,26 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-09 14:18",
+        "timestamp": "2025-10-09 15:22",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_333M",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-10-08 07:55",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
-                {
-                    "timestamp": "2025-10-08 08:18",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
-                {
-                    "timestamp": "2025-10-08 08:41",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-10-08 08:56",
                     "status": 1,
@@ -912,6 +897,21 @@
                     "timestamp": "2025-10-09 14:18",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_333M"
+                },
+                {
+                    "timestamp": "2025-10-09 14:43",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_OSTTIROL"
+                },
+                {
+                    "timestamp": "2025-10-09 15:19",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-10-09 15:22",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-10-08 05:19",
+                "timestamp": "2025-10-09 14:59",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
