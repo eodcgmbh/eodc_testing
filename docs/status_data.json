@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-09 04:36",
+        "timestamp": "2025-10-09 04:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2025-10-07 20:14",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2025-10-07 20:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-09 04:36",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-10-09 04:47",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-10-08 20:21",
+                "timestamp": "2025-10-09 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
