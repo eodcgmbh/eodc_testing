@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-09 10:37",
+        "timestamp": "2025-10-09 10:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-10-08 03:53",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-10-08 04:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-09 10:37",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-10-09 10:47",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -952,7 +952,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-10-09 06:52",
+                "timestamp": "2025-10-09 10:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
