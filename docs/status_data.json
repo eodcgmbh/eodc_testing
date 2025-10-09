@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-09 20:45",
+        "timestamp": "2025-10-09 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-08 14:15",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-10-08 14:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-09 20:45",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-10-09 20:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
