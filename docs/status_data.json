@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-09 20:14",
+        "timestamp": "2025-10-09 20:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_KLAGENFURT",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-08 13:56",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-10-08 14:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-09 20:14",
                     "status": 1,
                     "collection": "DOP_AUT_K_KLAGENFURT"
+                },
+                {
+                    "timestamp": "2025-10-09 20:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
@@ -1288,7 +1288,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-10-09 18:28",
+                "timestamp": "2025-10-09 20:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
