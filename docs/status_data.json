@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-10 14:34",
+        "timestamp": "2025-10-10 14:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-10-09 07:43",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-09 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-10 14:34",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-10 14:46",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-10-09 16:49",
+                "timestamp": "2025-10-10 14:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
