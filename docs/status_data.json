@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-10 04:16",
+        "timestamp": "2025-10-10 04:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "DOP_AUT_K_TAMSWEG",
             "history": [
-                {
-                    "timestamp": "2025-10-08 20:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
-                },
                 {
                     "timestamp": "2025-10-08 20:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-10 04:16",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-10-10 04:46",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_TAMSWEG"
                 }
             ]
         }
@@ -1324,7 +1324,7 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-09-30 18:27",
+                "timestamp": "2025-10-10 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
