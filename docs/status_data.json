@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-10 06:46",
+        "timestamp": "2025-10-10 06:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-10-08 21:53",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-10-08 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-10 06:46",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
+                },
+                {
+                    "timestamp": "2025-10-10 06:56",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1138,7 +1138,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-10-09 06:30",
+                "timestamp": "2025-10-10 06:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
