@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-10 17:12",
+        "timestamp": "2025-10-10 17:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-10-09 10:37",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-10-09 10:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-10 17:12",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-10 17:30",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-10-10 14:19",
+                "timestamp": "2025-10-10 17:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
