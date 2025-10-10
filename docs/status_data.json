@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-10 05:32",
+        "timestamp": "2025-10-10 05:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-08 21:12",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-08 21:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-10 05:32",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-10-10 05:44",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -1108,7 +1108,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-10-09 21:18",
+                "timestamp": "2025-10-10 05:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
