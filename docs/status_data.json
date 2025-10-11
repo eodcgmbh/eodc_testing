@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-11 06:41",
+        "timestamp": "2025-10-11 06:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-09 21:54",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2025-10-09 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-11 06:41",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
+                },
+                {
+                    "timestamp": "2025-10-11 06:53",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
@@ -1138,7 +1138,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-10-10 06:52",
+                "timestamp": "2025-10-11 06:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
