@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-11 22:11",
+        "timestamp": "2025-10-11 22:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "ALOS_PALSAR2_AGRICULTURE",
             "history": [
-                {
-                    "timestamp": "2025-10-10 19:53",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-10-10 20:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-11 22:11",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-10-11 22:30",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_AGRICULTURE"
                 }
             ]
         }
