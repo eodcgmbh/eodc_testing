@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-11 07:11",
+        "timestamp": "2025-10-11 07:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-10-09 22:31",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2025-10-09 22:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-11 07:11",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-10-11 07:26",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
