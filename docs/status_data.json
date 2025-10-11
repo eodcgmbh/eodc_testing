@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-11 22:30",
+        "timestamp": "2025-10-11 22:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_AGRICULTURE",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-10-10 20:14",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-10 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-11 22:30",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_AGRICULTURE"
+                },
+                {
+                    "timestamp": "2025-10-11 22:39",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-10-11 05:40",
+                "timestamp": "2025-10-11 22:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
