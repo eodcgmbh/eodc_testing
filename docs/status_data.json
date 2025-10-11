@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-11 20:46",
+        "timestamp": "2025-10-11 20:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2025-10-10 17:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-10-10 18:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-11 20:46",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-10-11 20:54",
+                    "status": 1,
+                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
                 }
             ]
         }
