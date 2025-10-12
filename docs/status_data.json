@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-12 18:38",
+        "timestamp": "2025-10-12 18:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG10",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2025-10-11 16:14",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_WOLFSBERG"
-                },
                 {
                     "timestamp": "2025-10-11 16:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-12 18:38",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG10"
+                },
+                {
+                    "timestamp": "2025-10-12 18:48",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
@@ -1324,7 +1324,7 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-10-11 06:27",
+                "timestamp": "2025-10-12 18:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
