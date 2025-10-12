@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-12 19:34",
+        "timestamp": "2025-10-12 19:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-10-11 17:09",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
-                },
                 {
                     "timestamp": "2025-10-11 17:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-12 19:34",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-10-12 19:42",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -1072,7 +1072,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-10-11 13:22",
+                "timestamp": "2025-10-12 19:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
