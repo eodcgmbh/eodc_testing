@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-12 21:43",
+        "timestamp": "2025-10-12 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-10-11 19:28",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-10-11 19:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-12 21:43",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2025-10-12 21:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
