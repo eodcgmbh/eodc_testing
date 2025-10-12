@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-12 22:31",
+        "timestamp": "2025-10-12 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
             "history": [
-                {
-                    "timestamp": "2025-10-11 19:53",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-10-11 20:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-12 22:31",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-10-12 22:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-10-11 12:36",
+                "timestamp": "2025-10-12 22:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
