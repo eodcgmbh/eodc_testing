@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-13 03:33",
+        "timestamp": "2025-10-13 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-10-11 22:11",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-10-11 22:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-13 03:33",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-10-13 03:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-10-12 11:38",
+                "timestamp": "2025-10-13 03:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
