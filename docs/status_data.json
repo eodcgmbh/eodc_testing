@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-13 04:39",
+        "timestamp": "2025-10-13 04:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-10-11 22:47",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-10-11 22:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-13 04:39",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-10-13 04:49",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
                 }
             ]
         }
@@ -1138,7 +1138,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-10-11 06:46",
+                "timestamp": "2025-10-13 04:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
