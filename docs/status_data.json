@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-13 23:37",
+        "timestamp": "2025-10-13 23:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_VILLACH",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-10-12 17:43",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-10-12 17:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-13 23:37",
                     "status": 1,
                     "collection": "DOP_AUT_K_VILLACH"
+                },
+                {
+                    "timestamp": "2025-10-13 23:45",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
