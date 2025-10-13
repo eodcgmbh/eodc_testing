@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-13 15:45",
+        "timestamp": "2025-10-13 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-10-12 10:12",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-10-12 10:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-13 15:45",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-13 15:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
