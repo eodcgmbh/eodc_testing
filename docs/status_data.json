@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-13 21:35",
+        "timestamp": "2025-10-13 21:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER_V2_GLOBAL",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-10-12 15:44",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-10-12 15:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-13 21:35",
                     "status": 1,
                     "collection": "CGLS_FCOVER_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-13 21:43",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-10-13 09:44",
+                "timestamp": "2025-10-13 21:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
