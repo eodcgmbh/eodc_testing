@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-14 18:44",
+        "timestamp": "2025-10-14 18:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FCOVER_V2",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-10-13 10:50",
-                    "status": 1,
-                    "collection": "GFM"
-                },
                 {
                     "timestamp": "2025-10-13 11:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-14 18:44",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FCOVER_V2"
+                },
+                {
+                    "timestamp": "2025-10-14 18:53",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
@@ -958,7 +958,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-10-12 17:15",
+                "timestamp": "2025-10-14 18:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
