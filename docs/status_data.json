@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-14 22:32",
+        "timestamp": "2025-10-14 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "E12C_MOTORWAY",
             "history": [
-                {
-                    "timestamp": "2025-10-13 16:16",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-10-13 16:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-14 22:32",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-10-14 22:43",
+                    "status": 1,
+                    "collection": "E12C_MOTORWAY"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-10-10 17:40",
+                "timestamp": "2025-10-14 22:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
