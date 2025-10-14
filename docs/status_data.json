@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-14 14:19",
+        "timestamp": "2025-10-14 14:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-10-13 05:53",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-13 06:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-14 14:19",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-10-14 14:40",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
