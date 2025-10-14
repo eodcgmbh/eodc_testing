@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-14 09:15",
+        "timestamp": "2025-10-14 09:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM",
+            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
             "history": [
-                {
-                    "timestamp": "2025-10-12 23:27",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-12 23:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-14 09:15",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
+                },
+                {
+                    "timestamp": "2025-10-14 09:45",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-10-10 13:29",
+                "timestamp": "2025-10-14 09:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
