@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 15:30",
+        "timestamp": "2025-10-15 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-10-14 07:41",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-10-14 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 15:30",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-10-15 15:45",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -1006,7 +1006,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-10-13 17:17",
+                "timestamp": "2025-10-15 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
