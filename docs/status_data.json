@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 03:28",
+        "timestamp": "2025-10-15 03:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "E12C_MOTORWAY",
             "history": [
-                {
-                    "timestamp": "2025-10-13 19:10",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-10-13 19:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 03:28",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-10-15 03:50",
+                    "status": 1,
+                    "collection": "E12C_MOTORWAY"
                 }
             ]
         }
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-10-14 08:47",
+                "timestamp": "2025-10-15 03:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
