@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 04:40",
+        "timestamp": "2025-10-15 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_SPM_V1",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2025-10-13 20:15",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-10-13 20:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 04:40",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_SPM_V1"
+                },
+                {
+                    "timestamp": "2025-10-15 04:53",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -928,7 +928,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-10-12 23:38",
+                "timestamp": "2025-10-15 04:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
