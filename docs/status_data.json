@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 15:53",
+        "timestamp": "2025-10-15 16:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-10-14 08:17",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-10-14 08:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 15:53",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-10-15 16:14",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
