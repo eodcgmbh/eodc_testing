@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 20:15",
+        "timestamp": "2025-10-15 20:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-10-14 14:19",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-10-14 14:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 20:15",
                     "status": 1,
                     "collection": "TERRASCOPE_SENTINEL3_LST_S1"
+                },
+                {
+                    "timestamp": "2025-10-15 20:46",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -946,7 +946,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-10-11 01:22",
+                "timestamp": "2025-10-15 20:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
