@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 22:31",
+        "timestamp": "2025-10-15 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-10-14 16:41",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2025-10-14 16:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 22:31",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
+                },
+                {
+                    "timestamp": "2025-10-15 22:43",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1120,7 +1120,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-10-15 06:30",
+                "timestamp": "2025-10-15 22:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
