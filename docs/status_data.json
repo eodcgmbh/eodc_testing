@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 06:47",
+        "timestamp": "2025-10-15 06:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "ESA_WORLDCEREAL_MAIZE",
             "history": [
-                {
-                    "timestamp": "2025-10-13 21:53",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-10-13 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 06:47",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-10-15 06:56",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_MAIZE"
                 }
             ]
         }
@@ -1072,7 +1072,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-10-12 19:38",
+                "timestamp": "2025-10-15 06:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
