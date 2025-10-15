@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-15 02:41",
+        "timestamp": "2025-10-15 03:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-10-13 18:54",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2025-10-13 19:10",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-15 02:41",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-10-15 03:28",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
