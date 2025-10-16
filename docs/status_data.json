@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-16 14:37",
+        "timestamp": "2025-10-16 14:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
             "history": [
-                {
-                    "timestamp": "2025-10-15 06:56",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2025-10-15 07:32",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-16 14:37",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
+                },
+                {
+                    "timestamp": "2025-10-16 14:50",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
                 }
             ]
         }
@@ -1342,7 +1342,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-10-15 08:28",
+                "timestamp": "2025-10-16 14:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
