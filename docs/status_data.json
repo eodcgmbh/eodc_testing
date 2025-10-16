@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-16 22:45",
+        "timestamp": "2025-10-16 22:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-10-15 16:57",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2025-10-15 17:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-16 22:45",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-10-16 22:53",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
