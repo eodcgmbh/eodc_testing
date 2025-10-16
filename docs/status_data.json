@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-16 05:32",
+        "timestamp": "2025-10-16 05:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-10-14 20:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
-                },
                 {
                     "timestamp": "2025-10-14 20:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-16 05:32",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-10-16 05:44",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -946,7 +946,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-10-15 20:42",
+                "timestamp": "2025-10-16 05:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
