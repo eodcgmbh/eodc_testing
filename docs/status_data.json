@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-16 09:21",
+        "timestamp": "2025-10-16 09:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-14 23:37",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-14 23:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-16 09:21",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-10-16 09:48",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -1018,7 +1018,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-10-15 15:20",
+                "timestamp": "2025-10-16 09:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
