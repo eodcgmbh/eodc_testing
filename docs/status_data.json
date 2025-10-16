@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-16 20:33",
+        "timestamp": "2025-10-16 20:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "CGLS_SSM_1KM",
             "history": [
-                {
-                    "timestamp": "2025-10-15 14:14",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-10-15 14:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-16 20:33",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-10-16 20:45",
+                    "status": 1,
+                    "collection": "CGLS_SSM_1KM"
                 }
             ]
         }
@@ -946,7 +946,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-10-16 05:41",
+                "timestamp": "2025-10-16 20:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
