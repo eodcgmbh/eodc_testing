@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-16 17:32",
+        "timestamp": "2025-10-16 17:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "PLEIADES",
             "history": [
-                {
-                    "timestamp": "2025-10-15 09:55",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG10"
-                },
                 {
                     "timestamp": "2025-10-15 10:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-16 17:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-10-16 17:44",
+                    "status": 1,
+                    "collection": "PLEIADES"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-10-14 22:40",
+                "timestamp": "2025-10-16 17:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
