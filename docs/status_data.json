@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-17 16:16",
+        "timestamp": "2025-10-17 16:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-10-16 09:21",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-10-16 09:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-17 16:16",
                     "status": 1,
                     "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-10-17 16:40",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1060,7 +1060,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-10-16 15:43",
+                "timestamp": "2025-10-17 16:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
