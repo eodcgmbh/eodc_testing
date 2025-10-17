@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-10-17 16:41:29",
+        "timestamp": "2025-10-17 15:31:03",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-10-13 03:25:26",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-10-13 04:34:42",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-10-17 15:31:03",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-10-17 16:41:29",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-17 16:40",
+        "timestamp": "2025-10-17 16:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "CGLS_GDMP_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-16 09:48",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2025-10-16 09:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-17 16:40",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-10-17 16:52",
+                    "status": 1,
+                    "collection": "CGLS_GDMP_V2_GLOBAL"
                 }
             ]
         }
@@ -994,7 +994,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-10-16 21:17",
+                "timestamp": "2025-10-17 16:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
