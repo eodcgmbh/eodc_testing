@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-17 10:35",
+        "timestamp": "2025-10-17 10:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-10-16 03:26",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-10-16 03:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-17 10:35",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-17 10:46",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-10-16 13:32",
+                "timestamp": "2025-10-17 10:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
