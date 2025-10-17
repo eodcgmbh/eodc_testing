@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-17 17:30",
+        "timestamp": "2025-10-17 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_AGRICULTURE",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-10-16 10:40",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-10-16 10:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-17 17:30",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_AGRICULTURE"
+                },
+                {
+                    "timestamp": "2025-10-17 17:43",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-10-17 10:43",
+                "timestamp": "2025-10-17 17:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
