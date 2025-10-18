@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-18 17:35",
+        "timestamp": "2025-10-18 17:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-17 13:34",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-10-17 13:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-18 17:35",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-10-18 17:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -1408,7 +1408,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-10-17 17:17",
+                "timestamp": "2025-10-18 17:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
