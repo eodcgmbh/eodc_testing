@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-18 07:36",
+        "timestamp": "2025-10-18 07:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12D_PRIMARY",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2025-10-16 23:12",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-10-16 23:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-18 07:36",
                     "status": 1,
                     "collection": "E12D_PRIMARY"
+                },
+                {
+                    "timestamp": "2025-10-18 07:44",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -1330,7 +1330,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-10-16 08:28",
+                "timestamp": "2025-10-18 07:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
