@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-18 04:15",
+        "timestamp": "2025-10-18 04:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-10-16 19:53",
-                    "status": 1,
-                    "collection": "E12C_MOTORWAY"
-                },
                 {
                     "timestamp": "2025-10-16 20:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-18 04:15",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-10-18 04:33",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
