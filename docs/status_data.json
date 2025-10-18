@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-18 22:11",
+        "timestamp": "2025-10-18 22:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-10-17 19:10",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-17 19:25",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-18 22:11",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-10-18 22:30",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
