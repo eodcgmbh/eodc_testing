@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-19 21:36",
+        "timestamp": "2025-10-19 21:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_ZELTWEG",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-10-18 16:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-10-18 17:10",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-19 21:36",
                     "status": 1,
                     "collection": "DOP_AUT_K_ZELTWEG"
+                },
+                {
+                    "timestamp": "2025-10-19 21:44",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-10-19 17:16",
+                "timestamp": "2025-10-19 21:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
