@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-19 10:32",
+        "timestamp": "2025-10-19 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_100M",
+            "collection": "CGLS_GDMP_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-18 05:53",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-10-18 06:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-19 10:32",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-10-19 10:43",
+                    "status": 1,
+                    "collection": "CGLS_GDMP_V2_GLOBAL"
                 }
             ]
         }
@@ -1108,7 +1108,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-10-13 19:15",
+                "timestamp": "2025-10-19 10:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
