@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-19 13:53",
+        "timestamp": "2025-10-19 14:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM",
             "history": [
-                {
-                    "timestamp": "2025-10-18 08:47",
-                    "status": 1,
-                    "collection": "EGM2008"
-                },
                 {
                     "timestamp": "2025-10-18 08:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-19 13:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
+                },
+                {
+                    "timestamp": "2025-10-19 14:11",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
                 }
             ]
         }
@@ -1621,16 +1621,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-19 13:19:29",
+        "timestamp": "2025-10-19 14:11:52",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251019-131921",
+            "info": "vm-test-20251019-141145",
             "history": [
-                {
-                    "timestamp": "2025-10-18 22:12:14",
-                    "status": 1,
-                    "info": "vm-test-20251018-221207"
-                },
                 {
                     "timestamp": "2025-10-19 01:14:04",
                     "status": 1,
@@ -1675,6 +1670,11 @@
                     "timestamp": "2025-10-19 13:19:29",
                     "status": 1,
                     "info": "vm-test-20251019-131921"
+                },
+                {
+                    "timestamp": "2025-10-19 14:11:52",
+                    "status": 1,
+                    "info": "vm-test-20251019-141145"
                 }
             ]
         }
