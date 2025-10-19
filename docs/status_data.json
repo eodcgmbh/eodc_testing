@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-19 20:31",
+        "timestamp": "2025-10-19 20:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
             "history": [
-                {
-                    "timestamp": "2025-10-18 15:53",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-10-18 16:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-19 20:31",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TD"
+                },
+                {
+                    "timestamp": "2025-10-19 20:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-10-18 04:22",
+                "timestamp": "2025-10-19 20:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
