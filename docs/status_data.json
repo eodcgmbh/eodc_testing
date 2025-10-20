@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-20 22:32",
+        "timestamp": "2025-10-20 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "ESA_WORLDCOVER_10M_2020_V1",
             "history": [
-                {
-                    "timestamp": "2025-10-19 16:35",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-10-19 16:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-20 22:32",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-10-20 22:43",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-10-19 15:18",
+                "timestamp": "2025-10-20 22:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
