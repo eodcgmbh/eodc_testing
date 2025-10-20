@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-20 18:49",
+        "timestamp": "2025-10-20 18:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-10-19 12:57",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-19 13:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-20 18:49",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-10-20 18:59",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -946,7 +946,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-10-18 18:45",
+                "timestamp": "2025-10-20 18:53",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
