@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-20 14:36",
+        "timestamp": "2025-10-20 14:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
             "history": [
-                {
-                    "timestamp": "2025-10-19 08:33",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-10-19 08:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-20 14:36",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-10-20 14:48",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
                 }
             ]
         }
@@ -1288,7 +1288,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-10-18 03:29",
+                "timestamp": "2025-10-20 14:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
