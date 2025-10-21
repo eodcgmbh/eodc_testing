@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 22:30",
+        "timestamp": "2025-10-21 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-10-20 14:36",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-10-20 14:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 22:30",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-10-21 22:43",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1402,7 +1402,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
-                "timestamp": "2025-10-20 08:49",
+                "timestamp": "2025-10-21 22:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
