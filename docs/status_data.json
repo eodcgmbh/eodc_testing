@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 18:19",
+        "timestamp": "2025-10-21 18:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "LANDSAT4-5_TM_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-20 09:54",
-                    "status": 1,
-                    "collection": "CGLS_SSM_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-10-20 10:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 18:19",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-10-21 18:45",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L2"
                 }
             ]
         }
