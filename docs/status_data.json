@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 08:58",
+        "timestamp": "2025-10-21 09:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-10-19 23:11",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-19 23:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 08:58",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-10-21 09:20",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
