@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 03:30",
+        "timestamp": "2025-10-21 03:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-10-19 18:58",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2025-10-19 19:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 03:30",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-10-21 03:51",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
@@ -1408,7 +1408,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-10-18 17:38",
+                "timestamp": "2025-10-21 03:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
