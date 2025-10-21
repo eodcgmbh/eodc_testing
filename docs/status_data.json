@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 14:33",
+        "timestamp": "2025-10-21 14:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-10-20 06:21",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-10-20 06:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 14:33",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-10-21 14:48",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1012,7 +1012,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-10-19 13:23",
+                "timestamp": "2025-10-21 14:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
