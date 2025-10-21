@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 12:28",
+        "timestamp": "2025-10-21 13:08",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-10-20 04:55",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-10-20 05:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 12:28",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2025-10-21 13:08",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
