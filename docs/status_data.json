@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 06:48",
+        "timestamp": "2025-10-21 06:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-10-19 21:36",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2025-10-19 21:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 06:48",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-10-21 06:57",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1138,7 +1138,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-10-20 16:47",
+                "timestamp": "2025-10-21 06:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
