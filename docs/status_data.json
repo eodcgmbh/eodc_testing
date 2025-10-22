@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-22 15:33",
+        "timestamp": "2025-10-22 15:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
             "history": [
-                {
-                    "timestamp": "2025-10-21 04:55",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-10-21 05:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-22 15:33",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-10-22 15:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
                 }
             ]
         }
@@ -1372,7 +1372,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2025-10-21 15:21",
+                "timestamp": "2025-10-22 15:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
