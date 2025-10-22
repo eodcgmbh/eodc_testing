@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-22 19:53",
+        "timestamp": "2025-10-22 20:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-10-21 09:49",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2025-10-21 09:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-22 19:53",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-10-22 20:16",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
