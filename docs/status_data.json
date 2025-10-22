@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-22 20:34",
+        "timestamp": "2025-10-22 20:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-10-21 10:39",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-10-21 10:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-22 20:34",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-10-22 20:44",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -1402,7 +1402,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
-                "timestamp": "2025-10-22 06:32",
+                "timestamp": "2025-10-22 20:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
