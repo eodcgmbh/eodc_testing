@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-21 23:55",
+        "timestamp": "2025-10-22 01:07",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "S1_GRD_SIGMA0_DESCENDING",
             "history": [
-                {
-                    "timestamp": "2025-10-20 16:16",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-10-20 16:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-21 23:55",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-10-22 01:07",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_DESCENDING"
                 }
             ]
         }
