@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-22 05:46",
+        "timestamp": "2025-10-22 05:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-10-20 19:38",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2025-10-20 19:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-22 05:46",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-10-22 05:54",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
