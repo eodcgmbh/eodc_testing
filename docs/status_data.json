@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-22 23:11",
+        "timestamp": "2025-10-22 23:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-10-21 14:33",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-10-21 14:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-22 23:11",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-10-22 23:37",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
