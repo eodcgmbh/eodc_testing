@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-23 16:41",
+        "timestamp": "2025-10-23 16:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-22 07:45",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-10-22 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-23 16:41",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2025-10-23 16:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-10-19 23:18",
+                "timestamp": "2025-10-23 16:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
