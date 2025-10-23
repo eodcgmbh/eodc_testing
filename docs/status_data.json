@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-23 10:38",
+        "timestamp": "2025-10-23 10:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-10-21 23:30",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
-                },
                 {
                     "timestamp": "2025-10-21 23:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-23 10:38",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-23 10:47",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1150,7 +1150,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-10-22 16:50",
+                "timestamp": "2025-10-23 10:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
