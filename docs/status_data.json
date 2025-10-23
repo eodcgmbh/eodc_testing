@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-23 22:32",
+        "timestamp": "2025-10-23 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_OSTTIROL",
+            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
             "history": [
-                {
-                    "timestamp": "2025-10-22 15:33",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-10-22 15:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-23 22:32",
                     "status": 1,
                     "collection": "DOP_AUT_K_OSTTIROL"
+                },
+                {
+                    "timestamp": "2025-10-23 22:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
                 }
             ]
         }
@@ -946,7 +946,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-10-23 17:18",
+                "timestamp": "2025-10-23 22:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
