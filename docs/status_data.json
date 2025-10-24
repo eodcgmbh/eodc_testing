@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-24 07:55",
+        "timestamp": "2025-10-24 08:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-10-22 22:45",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-10-22 22:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-24 07:55",
                     "status": 1,
                     "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-24 08:18",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
