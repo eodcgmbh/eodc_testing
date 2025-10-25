@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-25 14:43",
+        "timestamp": "2025-10-25 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COP_DEM_EU_25M",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-10-24 07:55",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-24 08:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-25 14:43",
                     "status": 1,
                     "collection": "COP_DEM_EU_25M"
+                },
+                {
+                    "timestamp": "2025-10-25 14:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
