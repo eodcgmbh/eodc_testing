@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-25 05:31",
+        "timestamp": "2025-10-25 05:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-10-23 20:53",
-                    "status": 1,
-                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
-                },
                 {
                     "timestamp": "2025-10-23 21:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-25 05:31",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-10-25 05:43",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-10-24 14:21",
+                "timestamp": "2025-10-25 05:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
