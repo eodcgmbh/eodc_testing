@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-25 16:36",
+        "timestamp": "2025-10-25 16:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-10-24 09:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-24 10:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-25 16:36",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2025-10-25 16:47",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-10-24 04:24",
+                "timestamp": "2025-10-25 16:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
