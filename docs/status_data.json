@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-25 10:32",
+        "timestamp": "2025-10-25 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-10-24 04:16",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
-                },
                 {
                     "timestamp": "2025-10-24 04:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-25 10:32",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-10-25 10:43",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-10-25 07:18",
+                "timestamp": "2025-10-25 10:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
