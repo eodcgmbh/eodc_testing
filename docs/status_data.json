@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-25 04:34",
+        "timestamp": "2025-10-25 04:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "PROBAV_L3_S10_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2025-10-23 19:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TM"
-                },
                 {
                     "timestamp": "2025-10-23 19:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-25 04:34",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-10-25 04:45",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S10_TOC_333M"
                 }
             ]
         }
@@ -1144,7 +1144,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-10-24 08:49",
+                "timestamp": "2025-10-25 04:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
