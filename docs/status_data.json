@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-26 11:34",
+        "timestamp": "2025-10-26 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-10-25 07:37",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-10-25 07:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-26 11:34",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-10-26 11:43",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-10-25 16:44",
+                "timestamp": "2025-10-26 11:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
