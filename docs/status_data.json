@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-26 10:32",
+        "timestamp": "2025-10-26 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-10-25 05:53",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-10-25 06:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-26 10:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-10-26 10:43",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
@@ -940,7 +940,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-10-25 23:17",
+                "timestamp": "2025-10-26 10:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
