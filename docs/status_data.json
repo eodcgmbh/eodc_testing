@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-10-26 11:24:13",
+        "timestamp": "2025-10-26 10:29:29",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-10-21 21:27:53",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-10-21 22:27:48",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-10-26 10:29:29",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-10-26 11:24:13",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-26 11:23",
+        "timestamp": "2025-10-26 11:34",
         "status": "SUCCESS",
         "extra_info": {
             "collection": "SENTINEL1_MPLIA",
             "history": [
-                {
-                    "timestamp": "2025-10-25 07:12",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
                 {
                     "timestamp": "2025-10-25 07:37",
                     "status": 1,
@@ -910,6 +905,11 @@
                 },
                 {
                     "timestamp": "2025-10-26 11:23",
+                    "status": 1,
+                    "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-10-26 11:34",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
                 }
