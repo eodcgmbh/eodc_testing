@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-26 11:10",
+        "timestamp": "2025-10-26 11:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "SENTINEL1_MPLIA",
             "history": [
-                {
-                    "timestamp": "2025-10-25 06:53",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-10-25 07:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-26 11:10",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-10-26 11:23",
+                    "status": 1,
+                    "collection": "SENTINEL1_MPLIA"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-10-26 04:22",
+                "timestamp": "2025-10-26 11:15",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
