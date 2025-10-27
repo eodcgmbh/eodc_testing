@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-27 09:41",
+        "timestamp": "2025-10-27 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2025-10-26 04:15",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-10-26 04:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-27 09:41",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-10-27 09:53",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-10-22 16:27",
+                "timestamp": "2025-10-27 09:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
