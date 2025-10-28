@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-28 07:53",
+        "timestamp": "2025-10-28 08:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "DOP_AUT_K_TAMSWEG",
             "history": [
-                {
-                    "timestamp": "2025-10-26 21:37",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-10-26 21:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-28 07:53",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-10-28 08:19",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_TAMSWEG"
                 }
             ]
         }
@@ -1621,16 +1621,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-28 07:14:33",
+        "timestamp": "2025-10-28 08:20:14",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251028-071425",
+            "info": "vm-test-20251028-082002",
             "history": [
-                {
-                    "timestamp": "2025-10-27 16:18:43",
-                    "status": 1,
-                    "info": "vm-test-20251027-161836"
-                },
                 {
                     "timestamp": "2025-10-27 17:12:56",
                     "status": 1,
@@ -1675,6 +1670,11 @@
                     "timestamp": "2025-10-28 07:14:33",
                     "status": 1,
                     "info": "vm-test-20251028-071425"
+                },
+                {
+                    "timestamp": "2025-10-28 08:20:14",
+                    "status": 1,
+                    "info": "vm-test-20251028-082002"
                 }
             ]
         }
