@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-28 17:40",
+        "timestamp": "2025-10-28 17:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-10-27 09:41",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-10-27 09:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-28 17:40",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-10-28 17:49",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1006,7 +1006,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-10-27 14:43",
+                "timestamp": "2025-10-28 17:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
