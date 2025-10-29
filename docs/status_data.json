@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 22:34",
+        "timestamp": "2025-10-29 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2025-10-28 11:53",
-                    "status": 1,
-                    "collection": "CGLS_LAI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-28 12:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 22:34",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-10-29 22:45",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
@@ -1156,7 +1156,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-10-29 01:41",
+                "timestamp": "2025-10-29 22:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
