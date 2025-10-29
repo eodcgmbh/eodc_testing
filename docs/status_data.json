@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 14:40",
+        "timestamp": "2025-10-29 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER_V2_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
             "history": [
-                {
-                    "timestamp": "2025-10-28 04:57",
-                    "status": 1,
-                    "collection": "SENTINEL1_SIG0_20M"
-                },
                 {
                     "timestamp": "2025-10-28 05:19",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 14:40",
                     "status": 1,
                     "collection": "CGLS_FCOVER_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-29 14:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
                 }
             ]
         }
@@ -1342,7 +1342,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-10-28 07:40",
+                "timestamp": "2025-10-29 14:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
