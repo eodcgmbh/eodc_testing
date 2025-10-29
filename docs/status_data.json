@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 23:41",
+        "timestamp": "2025-10-29 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-10-28 14:14",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-10-28 14:38",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 23:41",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-10-29 23:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
