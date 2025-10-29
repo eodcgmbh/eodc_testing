@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 13:09",
+        "timestamp": "2025-10-29 13:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-28 03:55",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-10-28 04:39",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 13:09",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-29 13:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
