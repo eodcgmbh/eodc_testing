@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 09:34",
+        "timestamp": "2025-10-29 09:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "CGLS_LAI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-27 22:32",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
-                },
                 {
                     "timestamp": "2025-10-27 22:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 09:34",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-10-29 09:46",
+                    "status": 1,
+                    "collection": "CGLS_LAI_V2_GLOBAL"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-10-28 21:40",
+                "timestamp": "2025-10-29 09:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
