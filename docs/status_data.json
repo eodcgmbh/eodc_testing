@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 15:37",
+        "timestamp": "2025-10-29 15:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2025-10-28 05:47",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-10-28 05:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 15:37",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-10-29 15:50",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-10-29 08:29",
+                "timestamp": "2025-10-29 15:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
