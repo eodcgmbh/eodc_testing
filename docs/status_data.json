@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 17:37",
+        "timestamp": "2025-10-29 17:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-10-28 07:44",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-10-28 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 17:37",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-10-29 17:47",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
@@ -1354,7 +1354,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2025-10-29 15:24",
+                "timestamp": "2025-10-29 17:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
