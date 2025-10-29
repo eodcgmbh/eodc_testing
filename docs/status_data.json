@@ -994,7 +994,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-10-24 06:51",
+                "timestamp": "2025-10-29 18:30",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1621,11 +1621,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-29 18:21:49",
+        "timestamp": "2025-10-29 17:14:03",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251029-182141",
+            "info": "vm-test-20251029-171356",
             "history": [
+                {
+                    "timestamp": "2025-10-29 08:20:32",
+                    "status": 1,
+                    "info": "vm-test-20251029-082025"
+                },
                 {
                     "timestamp": "2025-10-29 09:15:41",
                     "status": 1,
@@ -1670,11 +1675,6 @@
                     "timestamp": "2025-10-29 17:14:03",
                     "status": 1,
                     "info": "vm-test-20251029-171356"
-                },
-                {
-                    "timestamp": "2025-10-29 18:21:49",
-                    "status": 1,
-                    "info": "vm-test-20251029-182141"
                 }
             ]
         }
