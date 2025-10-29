@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 07:31",
+        "timestamp": "2025-10-29 07:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-10-27 21:11",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_10M"
-                },
                 {
                     "timestamp": "2025-10-27 21:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 07:31",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-10-29 07:44",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -1042,7 +1042,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-10-27 22:19",
+                "timestamp": "2025-10-29 07:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
