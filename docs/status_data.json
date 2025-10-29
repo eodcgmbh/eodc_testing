@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 08:44",
+        "timestamp": "2025-10-29 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-10-27 21:54",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
-                },
                 {
                     "timestamp": "2025-10-27 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 08:44",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-10-29 08:56",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
@@ -928,7 +928,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-10-28 20:24",
+                "timestamp": "2025-10-29 08:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
