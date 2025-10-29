@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-29 23:30",
+        "timestamp": "2025-10-29 23:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-10-28 13:50",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-10-28 14:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-29 23:30",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-10-29 23:41",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
@@ -1078,7 +1078,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-10-28 15:45",
+                "timestamp": "2025-10-29 23:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
