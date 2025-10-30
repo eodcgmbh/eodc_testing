@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-30 14:37",
+        "timestamp": "2025-10-30 14:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-10-29 04:03",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2025-10-29 04:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-30 14:37",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-10-30 14:49",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1072,7 +1072,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-10-30 11:18",
+                "timestamp": "2025-10-30 14:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
