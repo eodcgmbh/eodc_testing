@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-10-30 22:28:22",
+        "timestamp": "2025-10-30 23:28:48",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-10-26 08:33:25",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-10-26 09:28:10",
                     "status": 1
@@ -402,6 +398,10 @@
                 },
                 {
                     "timestamp": "2025-10-30 22:28:22",
+                    "status": 1
+                },
+                {
+                    "timestamp": "2025-10-30 23:28:48",
                     "status": 1
                 }
             ]
@@ -1342,7 +1342,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-10-30 09:22",
+                "timestamp": "2025-10-30 23:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1627,11 +1627,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-10-30 23:13:25",
+        "timestamp": "2025-10-30 21:13:03",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251030-231318",
+            "info": "vm-test-20251030-211256",
             "history": [
+                {
+                    "timestamp": "2025-10-30 11:12:38",
+                    "status": 1,
+                    "info": "vm-test-20251030-111231"
+                },
                 {
                     "timestamp": "2025-10-30 12:29:33",
                     "status": 1,
@@ -1676,11 +1681,6 @@
                     "timestamp": "2025-10-30 21:13:03",
                     "status": 1,
                     "info": "vm-test-20251030-211256"
-                },
-                {
-                    "timestamp": "2025-10-30 23:13:25",
-                    "status": 1,
-                    "info": "vm-test-20251030-231318"
                 }
             ]
         }
