@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-30 08:43",
+        "timestamp": "2025-10-30 08:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-10-28 20:16",
-                    "status": 1,
-                    "collection": "CGLS_SSM_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-10-28 20:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-30 08:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2025-10-30 08:57",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -1060,7 +1060,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-10-27 16:50",
+                "timestamp": "2025-10-30 08:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
