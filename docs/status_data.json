@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-30 07:30",
+        "timestamp": "2025-10-30 07:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "CGLS_FCOVER300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-28 19:27",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-10-28 19:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-30 07:30",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-10-30 07:43",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-10-29 16:28",
+                "timestamp": "2025-10-30 07:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
