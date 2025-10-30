@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-30 04:38",
+        "timestamp": "2025-10-30 04:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-10-28 16:24",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-28 16:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-30 04:38",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-10-30 04:48",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1120,7 +1120,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-10-27 19:16",
+                "timestamp": "2025-10-30 04:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
