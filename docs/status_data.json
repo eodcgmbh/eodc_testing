@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-30 03:35",
+        "timestamp": "2025-10-30 03:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-28 15:35",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2025-10-28 15:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-30 03:35",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-10-30 03:56",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -1336,7 +1336,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-10-29 13:34",
+                "timestamp": "2025-10-30 03:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
