@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-31 01:04",
+        "timestamp": "2025-10-31 02:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-10-29 15:37",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-10-29 15:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-31 01:04",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-10-31 02:46",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
