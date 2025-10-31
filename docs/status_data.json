@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-31 16:42",
+        "timestamp": "2025-10-31 16:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-30 06:57",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-10-30 07:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-31 16:42",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-10-31 16:56",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-10-28 10:23",
+                "timestamp": "2025-10-31 16:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
