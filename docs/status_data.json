@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-31 18:45",
+        "timestamp": "2025-10-31 18:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-10-30 08:57",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-10-30 09:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-31 18:45",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-10-31 18:56",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
                 }
             ]
         }
@@ -1324,7 +1324,7 @@
             },
             {
                 "collection": "topo-dc-austria",
-                "timestamp": "2025-10-28 09:22",
+                "timestamp": "2025-10-31 18:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
