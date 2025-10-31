@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-31 15:46",
+        "timestamp": "2025-10-31 15:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-10-30 05:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-10-30 06:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-31 15:46",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-10-31 15:54",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
