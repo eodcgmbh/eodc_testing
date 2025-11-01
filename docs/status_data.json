@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-01 22:31",
+        "timestamp": "2025-11-01 22:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-10-31 18:45",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-10-31 18:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-01 22:31",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-11-01 22:43",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-10-31 16:26",
+                "timestamp": "2025-11-01 22:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
