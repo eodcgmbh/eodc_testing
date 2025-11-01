@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-01 16:14",
+        "timestamp": "2025-11-01 16:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "LANDSAT4-5_TM_L2",
             "history": [
-                {
-                    "timestamp": "2025-10-31 10:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-10-31 10:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-01 16:14",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-01 16:34",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L2"
                 }
             ]
         }
