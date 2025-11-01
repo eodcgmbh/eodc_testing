@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-01 03:35",
+        "timestamp": "2025-11-01 03:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V1_GLOBAL",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2025-10-30 16:43",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-10-30 16:58",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-01 03:35",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-01 03:55",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
@@ -958,7 +958,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-10-29 10:46",
+                "timestamp": "2025-11-01 03:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
