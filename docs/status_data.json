@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-10-31 23:53",
+        "timestamp": "2025-11-01 01:08",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-10-30 15:41",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-10-30 15:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-10-31 23:53",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-11-01 01:08",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
