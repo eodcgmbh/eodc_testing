@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-01 14:53",
+        "timestamp": "2025-11-01 15:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-10-31 07:53",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-10-31 08:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-01 14:53",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-11-01 15:11",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
