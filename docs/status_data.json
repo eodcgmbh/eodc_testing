@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 06:54",
+        "timestamp": "2025-11-02 07:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-10-31 23:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-11-01 01:08",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 06:54",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-11-02 07:12",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
