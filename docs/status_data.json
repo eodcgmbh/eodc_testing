@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 22:53",
+        "timestamp": "2025-11-02 23:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-11-01 19:34",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-11-01 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 22:53",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-11-02 23:12",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
