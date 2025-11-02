@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 11:10",
+        "timestamp": "2025-11-02 11:22",
         "status": "SUCCESS",
         "extra_info": {
             "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-11-01 07:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
                 {
                     "timestamp": "2025-11-01 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 11:10",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2025-11-02 11:22",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-11-02 08:42",
+                "timestamp": "2025-11-02 11:15",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
