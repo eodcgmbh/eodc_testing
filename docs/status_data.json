@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 23:45",
+        "timestamp": "2025-11-02 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-11-01 20:30",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-11-01 20:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 23:45",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-11-02 23:53",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
