@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 07:45",
+        "timestamp": "2025-11-02 07:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-11-01 03:55",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-11-01 04:34",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 07:45",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-11-02 07:53",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
