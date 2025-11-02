@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 04:01",
+        "timestamp": "2025-11-02 04:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V3_GLOBAL",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-10-31 21:36",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-10-31 21:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 04:01",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-02 04:32",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -1288,7 +1288,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-11-02 03:58",
+                "timestamp": "2025-11-02 04:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
