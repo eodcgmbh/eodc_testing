@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 07:12",
+        "timestamp": "2025-11-02 07:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-11-01 01:08",
-                    "status": 1,
-                    "collection": "AUT_DEM"
-                },
                 {
                     "timestamp": "2025-11-01 02:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 07:12",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2025-11-02 07:28",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
