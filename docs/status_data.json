@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-02 09:12",
+        "timestamp": "2025-11-02 09:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2025-11-01 05:43",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-11-01 05:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-02 09:12",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2025-11-02 09:37",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
