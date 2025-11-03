@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-03 22:34",
+        "timestamp": "2025-11-03 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-11-02 14:31",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-11-02 14:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-03 22:34",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-11-03 22:45",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-11-03 17:42",
+                "timestamp": "2025-11-03 22:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
