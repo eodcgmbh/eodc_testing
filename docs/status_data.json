@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-03 23:12",
+        "timestamp": "2025-11-03 23:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
             "history": [
-                {
-                    "timestamp": "2025-11-02 15:11",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-11-02 15:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-03 23:12",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-11-03 23:40",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-10-30 22:19",
+                "timestamp": "2025-11-03 23:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
