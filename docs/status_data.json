@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-03 02:53",
+        "timestamp": "2025-11-03 03:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-11-01 20:55",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-11-01 21:27",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-03 02:53",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-11-03 03:46",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
