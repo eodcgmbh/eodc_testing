@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-03 17:33",
+        "timestamp": "2025-11-03 17:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_VILLACH",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-11-02 09:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
-                },
                 {
                     "timestamp": "2025-11-02 10:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-03 17:33",
                     "status": 1,
                     "collection": "DOP_AUT_K_VILLACH"
+                },
+                {
+                    "timestamp": "2025-11-03 17:45",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-11-02 04:45",
+                "timestamp": "2025-11-03 17:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
