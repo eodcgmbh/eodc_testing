@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-11-03 06:44:55",
+        "timestamp": "2025-11-03 07:30:44",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-10-29 15:35:27",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-10-29 16:42:48",
                     "status": 1
@@ -402,6 +398,10 @@
                 },
                 {
                     "timestamp": "2025-11-03 06:44:55",
+                    "status": 1
+                },
+                {
+                    "timestamp": "2025-11-03 07:30:44",
                     "status": 1
                 }
             ]
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-11-03 04:02",
+                "timestamp": "2025-11-03 07:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1627,11 +1627,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-11-03 07:15:11",
+        "timestamp": "2025-11-03 06:23:32",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20251103-071504",
+            "info": "vm-test-20251103-062325",
             "history": [
+                {
+                    "timestamp": "2025-11-02 13:19:17",
+                    "status": 1,
+                    "info": "vm-test-20251102-131910"
+                },
                 {
                     "timestamp": "2025-11-02 14:11:54",
                     "status": 1,
@@ -1676,11 +1681,6 @@
                     "timestamp": "2025-11-03 06:23:32",
                     "status": 1,
                     "info": "vm-test-20251103-062325"
-                },
-                {
-                    "timestamp": "2025-11-03 07:15:11",
-                    "status": 1,
-                    "info": "vm-test-20251103-071504"
                 }
             ]
         }
