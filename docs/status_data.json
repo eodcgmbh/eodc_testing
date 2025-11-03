@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-03 05:16",
+        "timestamp": "2025-11-03 05:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "TERRASCOPE_S5P_L3_CO_TY",
             "history": [
-                {
-                    "timestamp": "2025-11-01 22:11",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-11-01 22:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-03 05:16",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-11-03 05:35",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
                 }
             ]
         }
