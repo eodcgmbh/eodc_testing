@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-04 21:40",
+        "timestamp": "2025-11-04 21:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-11-03 11:45",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-03 11:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-04 21:40",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-11-04 21:53",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
