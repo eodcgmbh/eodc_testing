@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-04 18:46",
+        "timestamp": "2025-11-04 18:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-11-03 07:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-03 08:20",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-04 18:46",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+                },
+                {
+                    "timestamp": "2025-11-04 18:55",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
@@ -1060,7 +1060,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-11-03 21:39",
+                "timestamp": "2025-11-04 18:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
