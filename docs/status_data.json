@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-05 08:44",
+        "timestamp": "2025-11-05 08:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_TAMSWEG",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-11-03 21:12",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-11-03 21:30",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-05 08:44",
                     "status": 1,
                     "collection": "DOP_AUT_K_TAMSWEG"
+                },
+                {
+                    "timestamp": "2025-11-05 08:58",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -1018,7 +1018,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-11-02 10:40",
+                "timestamp": "2025-11-05 08:53",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
