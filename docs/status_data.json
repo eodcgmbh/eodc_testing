@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-05 18:45",
+        "timestamp": "2025-11-05 18:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-11-04 08:19",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-11-04 08:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-05 18:45",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-11-05 18:57",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-11-05 14:21",
+                "timestamp": "2025-11-05 18:53",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
