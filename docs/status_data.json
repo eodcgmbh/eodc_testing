@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-06 08:44",
+        "timestamp": "2025-11-06 08:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-04 19:53",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-11-04 20:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-06 08:44",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-11-06 08:58",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
@@ -1132,7 +1132,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-11-01 08:44",
+                "timestamp": "2025-11-06 08:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
