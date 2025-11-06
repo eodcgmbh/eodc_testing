@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-06 05:14",
+        "timestamp": "2025-11-06 05:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
+            "collection": "CDS_2M_TEMP_2020",
             "history": [
-                {
-                    "timestamp": "2025-11-04 16:56",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
-                },
                 {
                     "timestamp": "2025-11-04 17:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-06 05:14",
                     "status": 1,
                     "collection": "TERRASCOPE_SENTINEL3_LST_S1"
+                },
+                {
+                    "timestamp": "2025-11-06 05:46",
+                    "status": 1,
+                    "collection": "CDS_2M_TEMP_2020"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-11-05 16:28",
+                "timestamp": "2025-11-06 05:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
