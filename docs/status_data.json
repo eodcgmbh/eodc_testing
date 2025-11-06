@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-06 14:37",
+        "timestamp": "2025-11-06 14:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2025-11-05 01:06",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-11-05 02:47",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-06 14:37",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-11-06 14:49",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
@@ -1096,7 +1096,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2025-11-06 07:20",
+                "timestamp": "2025-11-06 14:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
