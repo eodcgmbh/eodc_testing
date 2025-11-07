@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-07 22:12",
+        "timestamp": "2025-11-07 22:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FCOVER_V2",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2025-11-06 15:19",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-11-06 15:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-07 22:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FCOVER_V2"
+                },
+                {
+                    "timestamp": "2025-11-07 22:32",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
