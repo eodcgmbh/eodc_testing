@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-07 08:43",
+        "timestamp": "2025-11-07 08:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-11-05 20:35",
-                    "status": 1,
-                    "collection": "CNR_TSM"
-                },
                 {
                     "timestamp": "2025-11-05 20:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-07 08:43",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2025-11-07 08:57",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -1366,7 +1366,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-11-05 19:18",
+                "timestamp": "2025-11-07 08:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
