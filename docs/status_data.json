@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-07 21:34",
+        "timestamp": "2025-11-07 21:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-11-06 14:37",
-                    "status": 1,
-                    "collection": "EGM2008"
-                },
                 {
                     "timestamp": "2025-11-06 14:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-07 21:34",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-07 21:43",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
@@ -1384,7 +1384,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_VILLACH",
-                "timestamp": "2025-11-06 22:20",
+                "timestamp": "2025-11-07 21:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
