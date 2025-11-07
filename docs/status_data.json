@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-07 10:57",
+        "timestamp": "2025-11-07 11:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-11-05 22:53",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-11-05 23:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-07 10:57",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-11-07 11:28",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
