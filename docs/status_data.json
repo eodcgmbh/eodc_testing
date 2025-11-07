@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-07 08:57",
+        "timestamp": "2025-11-07 09:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-11-05 20:48",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-05 20:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-07 08:57",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-11-07 09:18",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
