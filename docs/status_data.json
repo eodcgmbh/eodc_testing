@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-08 06:43",
+        "timestamp": "2025-11-08 06:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-11-06 21:40",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2025-11-06 21:48",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-08 06:43",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-11-08 06:54",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
@@ -1390,7 +1390,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-11-03 06:33",
+                "timestamp": "2025-11-08 06:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
