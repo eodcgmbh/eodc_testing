@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-08 11:23",
+        "timestamp": "2025-11-08 11:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_SIG0_20M",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-07 06:21",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2025-11-07 06:49",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-08 11:23",
                     "status": 1,
                     "collection": "SENTINEL1_SIG0_20M"
+                },
+                {
+                    "timestamp": "2025-11-08 11:34",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
