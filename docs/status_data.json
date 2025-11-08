@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-08 04:36",
+        "timestamp": "2025-11-08 04:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-11-06 19:38",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-11-06 19:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-08 04:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-11-08 04:46",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -1372,7 +1372,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2025-11-02 10:19",
+                "timestamp": "2025-11-08 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
