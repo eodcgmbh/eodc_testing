@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-09 19:34",
+        "timestamp": "2025-11-09 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-11-08 14:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_NDVI_V2"
-                },
                 {
                     "timestamp": "2025-11-08 15:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-09 19:34",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-11-09 19:43",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1018,7 +1018,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-11-08 22:39",
+                "timestamp": "2025-11-09 19:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
