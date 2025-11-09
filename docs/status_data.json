@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-09 07:37",
+        "timestamp": "2025-11-09 07:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-11-08 01:02",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2025-11-08 02:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-09 07:37",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-11-09 07:45",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
