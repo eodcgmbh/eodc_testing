@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-09 11:35",
+        "timestamp": "2025-11-09 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
             "history": [
-                {
-                    "timestamp": "2025-11-08 07:12",
-                    "status": 1,
-                    "collection": "SKYSAT"
-                },
                 {
                     "timestamp": "2025-11-08 07:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-09 11:35",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-11-09 11:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-11-06 16:28",
+                "timestamp": "2025-11-09 11:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
