@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-10 20:38",
+        "timestamp": "2025-11-10 20:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-09 13:46",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
-                },
                 {
                     "timestamp": "2025-11-09 13:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-10 20:38",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-11-10 20:50",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-11-10 15:23",
+                "timestamp": "2025-11-10 20:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
