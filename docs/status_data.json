@@ -1627,16 +1627,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-11-10 06:24:16",
+        "timestamp": "2025-11-10 08:22:39",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-71290f50-1904-4926-8bd9-c719ecaa1d68)",
+            "info": "Gateway Timeout (HTTP 504)",
             "history": [
-                {
-                    "timestamp": "2025-11-09 14:11:29",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-210b47b5-45f8-4848-bb0e-60930a017511)"
-                },
                 {
                     "timestamp": "2025-11-09 17:11:45",
                     "status": 0,
@@ -1681,6 +1676,11 @@
                     "timestamp": "2025-11-10 06:24:16",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-71290f50-1904-4926-8bd9-c719ecaa1d68)"
+                },
+                {
+                    "timestamp": "2025-11-10 08:22:39",
+                    "status": 0,
+                    "info": "Gateway Timeout (HTTP 504)"
                 }
             ]
         }
