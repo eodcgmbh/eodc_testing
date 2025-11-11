@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-11 08:43",
+        "timestamp": "2025-11-11 08:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2025-11-09 20:31",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-11-09 20:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-11 08:43",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-11-11 08:57",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-11-11 07:21",
+                "timestamp": "2025-11-11 08:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
