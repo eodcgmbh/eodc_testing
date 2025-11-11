@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-11 19:36",
+        "timestamp": "2025-11-11 19:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-11-10 08:47",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-11-10 08:58",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-11 19:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+                },
+                {
+                    "timestamp": "2025-11-11 19:44",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
@@ -1132,7 +1132,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-11-11 15:22",
+                "timestamp": "2025-11-11 19:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
