@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-11 07:14",
+        "timestamp": "2025-11-11 07:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "ALOS_PALSAR2_AGRICULTURE",
             "history": [
-                {
-                    "timestamp": "2025-11-09 19:34",
-                    "status": 1,
-                    "collection": "E12C_MOTORWAY"
-                },
                 {
                     "timestamp": "2025-11-09 19:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-11 07:14",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2025-11-11 07:45",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_AGRICULTURE"
                 }
             ]
         }
@@ -940,7 +940,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-11-10 11:40",
+                "timestamp": "2025-11-11 07:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
