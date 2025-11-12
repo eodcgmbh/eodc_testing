@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-12 20:15",
+        "timestamp": "2025-11-12 20:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-11 08:18",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-11 08:43",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-12 20:15",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-11-12 20:46",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-11-11 23:40",
+                "timestamp": "2025-11-12 20:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
