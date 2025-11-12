@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-12 04:43",
+        "timestamp": "2025-11-12 04:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-11-10 16:18",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-10 16:45",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-12 04:43",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2025-11-12 04:55",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -928,7 +928,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-11-05 22:20",
+                "timestamp": "2025-11-12 04:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
