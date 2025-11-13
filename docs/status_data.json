@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 18:48",
+        "timestamp": "2025-11-13 18:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-11-12 05:54",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-11-12 06:21",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 18:48",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-11-13 18:57",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -1036,7 +1036,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-11-11 03:14",
+                "timestamp": "2025-11-13 18:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
