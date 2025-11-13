@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 11:13",
+        "timestamp": "2025-11-13 11:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2025-11-11 21:30",
-                    "status": 1,
-                    "collection": "GFM"
-                },
                 {
                     "timestamp": "2025-11-11 21:44",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 11:13",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-11-13 11:40",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
@@ -1288,7 +1288,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-11-11 14:46",
+                "timestamp": "2025-11-13 11:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
