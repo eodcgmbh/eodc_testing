@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 10:41",
+        "timestamp": "2025-11-13 10:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-11-11 20:54",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2025-11-11 21:12",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 10:41",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-11-13 10:54",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-11-13 10:24",
+                "timestamp": "2025-11-13 10:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
