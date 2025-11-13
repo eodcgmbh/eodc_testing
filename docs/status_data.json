@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 08:44",
+        "timestamp": "2025-11-13 08:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
             "history": [
-                {
-                    "timestamp": "2025-11-11 19:27",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
-                },
                 {
                     "timestamp": "2025-11-11 19:36",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 08:44",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-11-13 08:58",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
                 }
             ]
         }
@@ -922,7 +922,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-11-10 09:25",
+                "timestamp": "2025-11-13 08:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
