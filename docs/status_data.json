@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 15:33",
+        "timestamp": "2025-11-13 15:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-11-12 01:05",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-12 02:47",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 15:33",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
+                },
+                {
+                    "timestamp": "2025-11-13 15:47",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
@@ -1354,7 +1354,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2025-11-13 15:23",
+                "timestamp": "2025-11-13 15:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
