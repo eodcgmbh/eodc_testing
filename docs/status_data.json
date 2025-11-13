@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 07:38",
+        "timestamp": "2025-11-13 07:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2025-11-11 18:19",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG10"
-                },
                 {
                     "timestamp": "2025-11-11 18:44",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 07:38",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-11-13 07:45",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
