@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-13 16:43",
+        "timestamp": "2025-11-13 16:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
             "history": [
-                {
-                    "timestamp": "2025-11-12 04:25",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-11-12 04:43",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-13 16:43",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-11-13 16:58",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-11-12 14:22",
+                "timestamp": "2025-11-13 16:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
