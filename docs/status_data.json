@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-14 14:35",
+        "timestamp": "2025-11-14 14:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-11-13 04:49",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-11-13 04:57",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-14 14:35",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-11-14 14:45",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
@@ -1060,7 +1060,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-11-14 09:43",
+                "timestamp": "2025-11-14 14:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
