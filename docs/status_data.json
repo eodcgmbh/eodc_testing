@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-14 13:37",
+        "timestamp": "2025-11-14 13:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-11-13 03:43",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
-                },
                 {
                     "timestamp": "2025-11-13 04:03",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-14 13:37",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-11-14 13:56",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
