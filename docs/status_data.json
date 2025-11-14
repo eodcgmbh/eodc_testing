@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-14 13:56",
+        "timestamp": "2025-11-14 14:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-11-13 04:03",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11"
-                },
                 {
                     "timestamp": "2025-11-13 04:49",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-14 13:56",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-11-14 14:35",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
