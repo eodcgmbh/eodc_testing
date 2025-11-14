@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-14 18:45",
+        "timestamp": "2025-11-14 18:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-11-13 08:19",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-11-13 08:44",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-14 18:45",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-11-14 18:57",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
@@ -952,7 +952,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-11-11 14:21",
+                "timestamp": "2025-11-14 18:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
