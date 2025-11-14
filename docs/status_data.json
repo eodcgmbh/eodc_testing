@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-11-14 14:29:33",
+        "timestamp": "2025-11-14 15:27:48",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-11-10 09:34:49",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-11-10 10:34:39",
                     "status": 1
@@ -379,16 +375,25 @@
                 {
                     "timestamp": "2025-11-14 14:29:33",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-11-14 15:27:48",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-14 15:13",
+        "timestamp": "2025-11-14 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
+                {
+                    "timestamp": "2025-11-13 05:18",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
+                },
                 {
                     "timestamp": "2025-11-13 05:37",
                     "status": 1,
@@ -883,11 +888,6 @@
                     "timestamp": "2025-11-14 14:53",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
-                },
-                {
-                    "timestamp": "2025-11-14 15:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-11-13 16:50",
+                "timestamp": "2025-11-14 15:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
