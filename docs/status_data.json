@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-14 15:32",
+        "timestamp": "2025-11-14 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
             "history": [
-                {
-                    "timestamp": "2025-11-13 05:37",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-11-13 05:48",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-14 15:32",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-11-14 15:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
                 }
             ]
         }
@@ -1096,7 +1096,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-11-08 15:38",
+                "timestamp": "2025-11-14 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
