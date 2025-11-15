@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-15 04:36",
+        "timestamp": "2025-11-15 04:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2025-11-13 17:38",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FAPAR_V2"
-                },
                 {
                     "timestamp": "2025-11-13 17:48",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-15 04:36",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-15 04:47",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -982,7 +982,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-11-14 08:50",
+                "timestamp": "2025-11-15 04:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
