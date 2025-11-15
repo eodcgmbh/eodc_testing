@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-15 19:34",
+        "timestamp": "2025-11-15 19:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2025-11-14 13:37",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-11-14 13:56",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-15 19:34",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-11-15 19:43",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -1132,7 +1132,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-11-13 05:21",
+                "timestamp": "2025-11-15 19:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
