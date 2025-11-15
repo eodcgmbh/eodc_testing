@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-15 15:48",
+        "timestamp": "2025-11-15 15:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
             "history": [
-                {
-                    "timestamp": "2025-11-14 08:43",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-11-14 08:57",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-15 15:48",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-11-15 15:55",
+                    "status": 1,
+                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
                 }
             ]
         }
