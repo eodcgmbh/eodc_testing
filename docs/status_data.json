@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-15 09:30",
+        "timestamp": "2025-11-15 09:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-11-13 22:34",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2025-11-13 22:45",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-15 09:30",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-15 09:39",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
@@ -916,7 +916,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-11-15 08:24",
+                "timestamp": "2025-11-15 09:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
