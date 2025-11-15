@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-15 14:43",
+        "timestamp": "2025-11-15 14:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-11-14 07:44",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E11A"
-                },
                 {
                     "timestamp": "2025-11-14 07:53",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-15 14:43",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-11-15 14:53",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
