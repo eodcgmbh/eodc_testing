@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-15 14:31",
+        "timestamp": "2025-11-15 14:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_100M",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-11-14 07:14",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2025-11-14 07:44",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-15 14:31",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_100M"
+                },
+                {
+                    "timestamp": "2025-11-15 14:43",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
@@ -1066,7 +1066,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-11-15 04:23",
+                "timestamp": "2025-11-15 14:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
