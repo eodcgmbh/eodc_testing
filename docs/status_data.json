@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-16 15:30",
+        "timestamp": "2025-11-16 15:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
             "history": [
-                {
-                    "timestamp": "2025-11-15 09:55",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-11-15 10:13",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-16 15:30",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-11-16 15:40",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
                 }
             ]
         }
@@ -1042,7 +1042,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-11-15 16:23",
+                "timestamp": "2025-11-16 15:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
