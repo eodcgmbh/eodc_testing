@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-16 07:38",
+        "timestamp": "2025-11-16 07:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-11-15 01:04",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
                 {
                     "timestamp": "2025-11-15 02:42",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-16 07:38",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-11-16 07:46",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
