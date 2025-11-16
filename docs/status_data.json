@@ -400,16 +400,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-16 22:44",
+        "timestamp": "2025-11-16 22:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-11-15 18:17",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-15 18:41",
                     "status": 1,
@@ -904,6 +899,11 @@
                     "timestamp": "2025-11-16 22:44",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-11-16 22:53",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
