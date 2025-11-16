@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-16 07:46",
+        "timestamp": "2025-11-16 07:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-15 02:42",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-15 03:31",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-16 07:46",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-11-16 07:54",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
