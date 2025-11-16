@@ -384,16 +384,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-16 13:55",
+        "timestamp": "2025-11-16 14:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-11-15 08:56",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2025-11-15 09:14",
                     "status": 1,
@@ -888,6 +883,11 @@
                     "timestamp": "2025-11-16 13:55",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-11-16 14:31",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
