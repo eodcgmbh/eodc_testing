@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-17 22:34",
+        "timestamp": "2025-11-17 22:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-11-16 14:31",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-11-16 14:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-17 22:34",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-11-17 22:46",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-11-15 22:16",
+                "timestamp": "2025-11-17 22:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
