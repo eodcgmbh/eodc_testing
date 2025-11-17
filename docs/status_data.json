@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-17 19:12",
+        "timestamp": "2025-11-17 19:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2025-11-16 10:34",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-11-16 10:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-17 19:12",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-11-17 19:28",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
