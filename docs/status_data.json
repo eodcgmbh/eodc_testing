@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-19 23:41",
+        "timestamp": "2025-11-19 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-11-18 13:08",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-18 13:41",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-19 23:41",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-11-19 23:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
