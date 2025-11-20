@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-20 10:40",
+        "timestamp": "2025-11-20 10:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "CGLS_GDMP_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-18 22:35",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-11-18 22:46",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-20 10:40",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-11-20 10:53",
+                    "status": 1,
+                    "collection": "CGLS_GDMP_V2_GLOBAL"
                 }
             ]
         }
@@ -1288,7 +1288,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-11-18 23:19",
+                "timestamp": "2025-11-20 10:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
