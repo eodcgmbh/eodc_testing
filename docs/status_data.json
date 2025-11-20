@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-20 03:34",
+        "timestamp": "2025-11-20 03:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2025-11-18 14:37",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-11-18 14:50",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-20 03:34",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-11-20 03:57",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-11-18 18:31",
+                "timestamp": "2025-11-20 03:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
