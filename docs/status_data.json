@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-20 21:13",
+        "timestamp": "2025-11-20 21:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-11-19 11:53",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2025-11-19 12:28",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-20 21:13",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-11-20 21:38",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
@@ -1072,7 +1072,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-11-19 05:21",
+                "timestamp": "2025-11-20 21:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
