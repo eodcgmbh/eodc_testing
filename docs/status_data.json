@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-21 04:42",
+        "timestamp": "2025-11-21 04:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "SENTINEL3_SYNERGY_VG10",
             "history": [
-                {
-                    "timestamp": "2025-11-19 17:32",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-11-19 17:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-21 04:42",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-11-21 04:54",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG10"
                 }
             ]
         }
@@ -1132,7 +1132,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-11-17 18:30",
+                "timestamp": "2025-11-21 04:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
