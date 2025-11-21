@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-21 19:11",
+        "timestamp": "2025-11-21 19:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-11-20 10:18",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2025-11-20 10:40",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-21 19:11",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-11-21 19:27",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
