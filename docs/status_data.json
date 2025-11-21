@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-21 14:14",
+        "timestamp": "2025-11-21 14:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "LANDSAT7_ETM_L2",
             "history": [
-                {
-                    "timestamp": "2025-11-20 04:53",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-11-20 05:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-21 14:14",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-11-21 14:35",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L2"
                 }
             ]
         }
