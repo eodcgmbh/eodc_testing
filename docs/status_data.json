@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-21 20:34",
+        "timestamp": "2025-11-21 20:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "TERRASCOPE_SENTINEL3_LST_S1",
             "history": [
-                {
-                    "timestamp": "2025-11-20 11:47",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-11-20 11:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-21 20:34",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-11-21 20:46",
+                    "status": 1,
+                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
                 }
             ]
         }
@@ -1030,7 +1030,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-11-21 18:48",
+                "timestamp": "2025-11-21 20:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
