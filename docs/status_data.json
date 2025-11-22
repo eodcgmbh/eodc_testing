@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-22 08:39",
+        "timestamp": "2025-11-22 08:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SWI_V1_EUROPE",
+            "collection": "CGLS_LAI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-20 21:54",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-11-20 22:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-22 08:39",
                     "status": 1,
                     "collection": "CGLS_SWI_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-11-22 08:51",
+                    "status": 1,
+                    "collection": "CGLS_LAI_V2_GLOBAL"
                 }
             ]
         }
@@ -1396,7 +1396,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-11-21 06:33",
+                "timestamp": "2025-11-22 08:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
