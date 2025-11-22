@@ -1006,7 +1006,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2025-11-21 18:28",
+                "timestamp": "2025-11-22 02:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1627,16 +1627,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-11-22 01:06:32",
+        "timestamp": "2025-11-22 02:59:48",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-53dbd18a-536e-4609-aac4-686545b6c6e5)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-33afa718-3785-4eb4-9f0b-b6c0985efc31)",
             "history": [
-                {
-                    "timestamp": "2025-11-21 08:21:12",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f488cc42-95d0-4705-a782-f4d06f8876f7)"
-                },
                 {
                     "timestamp": "2025-11-21 09:16:09",
                     "status": 0,
@@ -1681,6 +1676,11 @@
                     "timestamp": "2025-11-22 01:06:32",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-53dbd18a-536e-4609-aac4-686545b6c6e5)"
+                },
+                {
+                    "timestamp": "2025-11-22 02:59:48",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-33afa718-3785-4eb4-9f0b-b6c0985efc31)"
                 }
             ]
         }
