@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-22 05:33",
+        "timestamp": "2025-11-22 05:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-11-20 18:58",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-11-20 19:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-22 05:33",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-11-22 05:44",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -1408,7 +1408,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-11-19 13:33",
+                "timestamp": "2025-11-22 05:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
