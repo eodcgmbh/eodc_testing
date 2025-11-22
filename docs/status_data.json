@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-22 18:42",
+        "timestamp": "2025-11-22 18:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-21 12:27",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-21 13:05",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-22 18:42",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-22 18:54",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-11-22 10:41",
+                "timestamp": "2025-11-22 18:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
