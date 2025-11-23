@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 18:42",
+        "timestamp": "2025-11-23 18:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-11-22 12:24",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-11-22 12:57",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 18:42",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2025-11-23 18:54",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
@@ -1414,7 +1414,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2025-11-23 10:42",
+                "timestamp": "2025-11-23 18:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
