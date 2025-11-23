@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 06:45",
+        "timestamp": "2025-11-23 06:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-11-21 21:40",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-11-21 21:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 06:45",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-23 06:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
@@ -1048,7 +1048,7 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-11-22 20:41",
+                "timestamp": "2025-11-23 06:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
