@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 16:38",
+        "timestamp": "2025-11-23 16:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2025-11-22 10:33",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2025-11-22 10:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 16:38",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-11-23 16:49",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-11-22 18:28",
+                "timestamp": "2025-11-23 16:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
