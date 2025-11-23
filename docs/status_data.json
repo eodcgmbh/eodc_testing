@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 14:31",
+        "timestamp": "2025-11-23 14:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "DOP_AUT_K_VILLACH",
             "history": [
-                {
-                    "timestamp": "2025-11-22 07:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
-                },
                 {
                     "timestamp": "2025-11-22 08:17",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 14:31",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-11-23 14:43",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_VILLACH"
                 }
             ]
         }
@@ -1312,7 +1312,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-11-21 19:18",
+                "timestamp": "2025-11-23 14:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
