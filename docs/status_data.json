@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 20:15",
+        "timestamp": "2025-11-23 20:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
             "history": [
-                {
-                    "timestamp": "2025-11-22 14:11",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-11-22 14:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 20:15",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2025-11-23 20:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-11-22 01:27",
+                "timestamp": "2025-11-23 20:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
