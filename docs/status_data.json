@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 17:15",
+        "timestamp": "2025-11-23 17:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2025-11-22 11:10",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_LAI_V2"
-                },
                 {
                     "timestamp": "2025-11-22 11:23",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 17:15",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-11-23 17:30",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
