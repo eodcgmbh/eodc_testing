@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-23 22:33",
+        "timestamp": "2025-11-23 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2025-11-22 16:16",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
-                },
                 {
                     "timestamp": "2025-11-22 16:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-23 22:33",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-11-23 22:45",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-11-20 16:28",
+                "timestamp": "2025-11-23 22:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
