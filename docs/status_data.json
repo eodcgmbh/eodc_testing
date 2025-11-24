@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-24 20:34",
+        "timestamp": "2025-11-24 20:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-11-23 10:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2025-11-23 10:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-24 20:34",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-11-24 20:45",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2025-11-23 06:30",
+                "timestamp": "2025-11-24 20:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
