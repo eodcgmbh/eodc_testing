@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-24 08:49",
+        "timestamp": "2025-11-24 09:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "E12C_MOTORWAY",
             "history": [
-                {
-                    "timestamp": "2025-11-22 21:46",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-22 21:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-24 08:49",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-11-24 09:00",
+                    "status": 1,
+                    "collection": "E12C_MOTORWAY"
                 }
             ]
         }
@@ -1096,7 +1096,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2025-11-24 05:45",
+                "timestamp": "2025-11-24 08:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
