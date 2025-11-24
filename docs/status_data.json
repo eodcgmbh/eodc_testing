@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-24 02:59",
+        "timestamp": "2025-11-24 03:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-11-22 18:42",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-11-22 18:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-24 02:59",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-11-24 03:57",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-11-23 05:42",
+                "timestamp": "2025-11-24 03:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
