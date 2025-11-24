@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-24 09:00",
+        "timestamp": "2025-11-24 09:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-11-22 21:54",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
-                },
                 {
                     "timestamp": "2025-11-22 22:12",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-24 09:00",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-11-24 09:32",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -1330,7 +1330,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-11-23 12:36",
+                "timestamp": "2025-11-24 09:26",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
