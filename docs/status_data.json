@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-11-24 18:42:52",
+        "timestamp": "2025-11-24 19:24:51",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-11-20 06:41:41",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-11-20 07:30:12",
                     "status": 1
@@ -403,21 +399,20 @@
                 {
                     "timestamp": "2025-11-24 18:42:52",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-11-24 19:24:51",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-24 18:59",
+        "timestamp": "2025-11-24 19:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-11-23 09:13",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-11-23 09:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-24 18:59",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-24 19:17",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-11-24 03:25",
+                "timestamp": "2025-11-24 19:15",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
