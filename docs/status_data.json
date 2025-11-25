@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-25 08:45",
+        "timestamp": "2025-11-25 08:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L1",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-11-23 17:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-11-23 18:18",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-25 08:45",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L1"
+                },
+                {
+                    "timestamp": "2025-11-25 08:59",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
@@ -1084,7 +1084,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-11-23 20:42",
+                "timestamp": "2025-11-25 08:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
