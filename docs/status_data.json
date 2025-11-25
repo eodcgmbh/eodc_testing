@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-11-25 04:38:01",
+        "timestamp": "2025-11-25 03:26:37",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-11-20 12:56:55",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-11-20 13:39:26",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-11-25 03:26:37",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-11-25 04:38:01",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-25 04:36",
+        "timestamp": "2025-11-25 04:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-11-23 15:12",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2025-11-23 15:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-25 04:36",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-11-25 04:50",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
