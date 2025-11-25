@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-25 21:15",
+        "timestamp": "2025-11-25 21:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-11-24 07:44",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-11-24 07:53",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-25 21:15",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-25 21:44",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-11-23 03:28",
+                "timestamp": "2025-11-25 21:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
