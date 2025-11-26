@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-26 17:37",
+        "timestamp": "2025-11-26 17:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-11-25 03:40",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-11-25 04:02",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-26 17:37",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-11-26 17:46",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -1054,7 +1054,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-11-23 10:20",
+                "timestamp": "2025-11-26 17:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
