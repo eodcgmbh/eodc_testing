@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-26 19:43",
+        "timestamp": "2025-11-26 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
+            "collection": "CGLS_SSM_1KM",
             "history": [
-                {
-                    "timestamp": "2025-11-25 06:51",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-11-25 07:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-26 19:43",
                     "status": 1,
                     "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-11-26 19:53",
+                    "status": 1,
+                    "collection": "CGLS_SSM_1KM"
                 }
             ]
         }
