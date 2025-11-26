@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-26 08:58",
+        "timestamp": "2025-11-26 09:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-11-24 17:55",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2025-11-24 18:21",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-26 08:58",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-11-26 09:42",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
