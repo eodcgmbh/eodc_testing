@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-26 22:34",
+        "timestamp": "2025-11-26 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-11-25 09:27",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-11-25 09:54",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-26 22:34",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-11-26 22:45",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -928,7 +928,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2025-11-25 15:46",
+                "timestamp": "2025-11-26 22:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
