@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-26 15:34",
+        "timestamp": "2025-11-26 15:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-11-24 22:53",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-11-24 23:13",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-26 15:34",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-11-26 15:47",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
@@ -1384,7 +1384,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_VILLACH",
-                "timestamp": "2025-11-26 12:44",
+                "timestamp": "2025-11-26 15:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
