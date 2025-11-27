@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-27 09:42",
+        "timestamp": "2025-11-27 09:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-25 20:16",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-11-25 20:37",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-27 09:42",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2025-11-27 09:53",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
                 }
             ]
         }
@@ -1108,7 +1108,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-11-23 15:19",
+                "timestamp": "2025-11-27 09:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
