@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-27 03:36",
+        "timestamp": "2025-11-27 03:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-11-25 13:09",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-11-25 13:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-27 03:36",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-11-27 03:58",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1132,7 +1132,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-11-25 13:35",
+                "timestamp": "2025-11-27 03:56",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
