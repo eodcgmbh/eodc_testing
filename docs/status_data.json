@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-27 14:37",
+        "timestamp": "2025-11-27 14:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-11-25 23:13",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2025-11-25 23:31",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-27 14:37",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-11-27 14:49",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
@@ -958,7 +958,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-11-24 18:31",
+                "timestamp": "2025-11-27 14:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
