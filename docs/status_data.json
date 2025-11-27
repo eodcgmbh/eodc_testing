@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-27 20:32",
+        "timestamp": "2025-11-27 20:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-11-26 08:58",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-11-26 09:42",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-27 20:32",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-11-27 20:44",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-11-26 18:27",
+                "timestamp": "2025-11-27 20:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
