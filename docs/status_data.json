@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-28 15:34",
+        "timestamp": "2025-11-28 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-11-27 05:15",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-11-27 05:36",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-28 15:34",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-11-28 15:45",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1090,7 +1090,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-11-27 22:20",
+                "timestamp": "2025-11-28 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
