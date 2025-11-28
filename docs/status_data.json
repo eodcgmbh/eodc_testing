@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-28 21:30",
+        "timestamp": "2025-11-28 21:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_SPM_V1",
+            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
             "history": [
-                {
-                    "timestamp": "2025-11-27 11:53",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-11-27 12:29",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-28 21:30",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_SPM_V1"
+                },
+                {
+                    "timestamp": "2025-11-28 21:40",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
                 }
             ]
         }
@@ -1348,7 +1348,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-11-27 16:27",
+                "timestamp": "2025-11-28 21:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
