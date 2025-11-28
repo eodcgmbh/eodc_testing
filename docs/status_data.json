@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-11-28 20:32:00",
+        "timestamp": "2025-11-28 21:24:48",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-11-24 05:32:58",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-11-24 06:43:52",
                     "status": 1
@@ -403,16 +399,25 @@
                 {
                     "timestamp": "2025-11-28 20:32:00",
                     "status": 1
+                },
+                {
+                    "timestamp": "2025-11-28 21:24:48",
+                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-28 21:12",
+        "timestamp": "2025-11-28 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SWI_V1_EUROPE",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
+                {
+                    "timestamp": "2025-11-27 11:41",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
+                },
                 {
                     "timestamp": "2025-11-27 11:53",
                     "status": 1,
@@ -907,11 +912,6 @@
                     "timestamp": "2025-11-28 20:53",
                     "status": 1,
                     "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
-                {
-                    "timestamp": "2025-11-28 21:12",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -922,7 +922,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-11-27 17:18",
+                "timestamp": "2025-11-28 21:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
