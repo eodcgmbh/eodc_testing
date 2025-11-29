@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-29 03:57",
+        "timestamp": "2025-11-29 04:22",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-11-27 16:56",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2025-11-27 17:14",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-29 03:57",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2025-11-29 04:22",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
