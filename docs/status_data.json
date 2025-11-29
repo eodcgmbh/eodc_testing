@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-29 03:36",
+        "timestamp": "2025-11-29 03:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2025-11-27 16:42",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2025-11-27 16:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-29 03:36",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-11-29 03:57",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
@@ -1018,7 +1018,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-11-29 01:38",
+                "timestamp": "2025-11-29 03:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
