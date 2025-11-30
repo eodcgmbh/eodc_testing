@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-11-30 04:43:53",
+        "timestamp": "2025-11-30 02:13:33",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-11-25 10:37:00",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-11-25 11:29:01",
                     "status": 1
@@ -399,25 +403,16 @@
                 {
                     "timestamp": "2025-11-30 02:13:33",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-11-30 04:43:53",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-30 04:42",
+        "timestamp": "2025-11-30 04:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-11-28 18:19",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-11-28 18:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-30 04:42",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-11-30 04:58",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -1126,7 +1126,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-11-29 17:18",
+                "timestamp": "2025-11-30 04:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
