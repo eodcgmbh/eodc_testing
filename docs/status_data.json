@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-30 22:13",
+        "timestamp": "2025-11-30 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-11-29 15:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
-                },
                 {
                     "timestamp": "2025-11-29 16:15",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-30 22:13",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-11-30 22:45",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -1282,7 +1282,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-11-29 16:46",
+                "timestamp": "2025-11-30 22:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
