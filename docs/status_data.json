@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-30 17:43",
+        "timestamp": "2025-11-30 17:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-11-29 10:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-11-29 11:11",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-30 17:43",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-11-30 17:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
