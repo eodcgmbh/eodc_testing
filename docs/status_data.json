@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-11-30 13:45",
+        "timestamp": "2025-11-30 13:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
+            "collection": "CGLS_SSM_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2025-11-29 06:46",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2025-11-29 06:56",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-11-30 13:45",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-11-30 13:53",
+                    "status": 1,
+                    "collection": "CGLS_SSM_V1_EUROPE"
                 }
             ]
         }
