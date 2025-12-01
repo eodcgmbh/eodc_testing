@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-01 09:47",
+        "timestamp": "2025-12-01 09:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GFM",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-11-29 21:47",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2025-11-29 21:55",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-12-01 09:47",
                     "status": 1,
                     "collection": "GFM"
+                },
+                {
+                    "timestamp": "2025-12-01 09:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
@@ -1336,7 +1336,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-11-29 11:38",
+                "timestamp": "2025-12-01 09:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
