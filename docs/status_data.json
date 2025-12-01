@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-01 17:42",
+        "timestamp": "2025-12-01 17:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "DOP_AUT_K_TAMSWEG",
             "history": [
-                {
-                    "timestamp": "2025-11-30 06:49",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-11-30 06:58",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-12-01 17:42",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-12-01 17:56",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_TAMSWEG"
                 }
             ]
         }
@@ -1036,7 +1036,7 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2025-11-29 22:42",
+                "timestamp": "2025-12-01 17:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
