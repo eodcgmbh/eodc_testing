@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-01 07:37",
+        "timestamp": "2025-12-01 07:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2025-11-29 20:14",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2025-11-29 20:33",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-12-01 07:37",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-12-01 07:48",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -1060,7 +1060,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-11-30 09:40",
+                "timestamp": "2025-12-01 07:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
