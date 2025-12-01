@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-01 23:32",
+        "timestamp": "2025-12-01 23:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-11-30 11:36",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-11-30 11:44",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-12-01 23:32",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-12-01 23:44",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
@@ -1372,7 +1372,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2025-11-30 21:19",
+                "timestamp": "2025-12-01 23:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
