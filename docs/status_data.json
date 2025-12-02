@@ -360,16 +360,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-02 21:52",
+        "timestamp": "2025-12-02 22:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-12-01 07:48",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-12-01 07:56",
                     "status": 1,
@@ -864,6 +859,11 @@
                     "timestamp": "2025-12-02 21:52",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-12-02 22:12",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
