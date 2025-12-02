@@ -408,16 +408,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-02 06:32",
+        "timestamp": "2025-12-02 06:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-11-30 15:30",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2025-11-30 15:43",
                     "status": 1,
@@ -912,6 +907,11 @@
                     "timestamp": "2025-12-02 06:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2025-12-02 06:56",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
