@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-03 19:30",
+        "timestamp": "2025-12-03 19:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-02 04:57",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-12-02 05:19",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-12-03 19:30",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-12-03 19:41",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "SENTINEL1_HPAR",
-                "timestamp": "2025-12-03 17:26",
+                "timestamp": "2025-12-03 19:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
