@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-03 15:44",
+        "timestamp": "2025-12-03 15:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "E12D_PRIMARY",
             "history": [
-                {
-                    "timestamp": "2025-12-01 23:32",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2025-12-01 23:44",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-12-03 15:44",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-12-03 15:56",
+                    "status": 1,
+                    "collection": "E12D_PRIMARY"
                 }
             ]
         }
@@ -1258,7 +1258,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-12-03 12:46",
+                "timestamp": "2025-12-03 15:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
