@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-03 14:41",
+        "timestamp": "2025-12-03 14:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-01 22:46",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-12-01 22:54",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-12-03 14:41",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY"
+                },
+                {
+                    "timestamp": "2025-12-03 14:57",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
@@ -1264,7 +1264,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-12-02 10:49",
+                "timestamp": "2025-12-03 14:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
