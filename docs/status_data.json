@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-03 08:20",
+        "timestamp": "2025-12-03 08:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "SENTINEL1_MPLIA",
             "history": [
-                {
-                    "timestamp": "2025-12-01 17:56",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-12-01 18:26",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-12-03 08:20",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-12-03 08:50",
+                    "status": 1,
+                    "collection": "SENTINEL1_MPLIA"
                 }
             ]
         }
