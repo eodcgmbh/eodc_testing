@@ -336,16 +336,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-03 19:41",
+        "timestamp": "2025-12-03 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2025-12-02 05:19",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-12-02 05:39",
                     "status": 1,
@@ -840,6 +835,11 @@
                     "timestamp": "2025-12-03 19:41",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-12-03 19:53",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
