@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-04 09:35",
+        "timestamp": "2025-12-04 09:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-12-02 17:55",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-12-02 18:23",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-04 09:35",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-12-04 09:49",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1276,7 +1276,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-12-03 04:50",
+                "timestamp": "2025-12-04 09:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
