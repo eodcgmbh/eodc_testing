@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-04 20:16",
+        "timestamp": "2025-12-04 20:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2025-12-03 04:58",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-03 05:19",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-04 20:16",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
+                },
+                {
+                    "timestamp": "2025-12-04 20:39",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
@@ -1264,7 +1264,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-12-04 05:21",
+                "timestamp": "2025-12-04 20:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
