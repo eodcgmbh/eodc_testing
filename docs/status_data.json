@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-04 15:44",
+        "timestamp": "2025-12-04 15:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2025-12-02 22:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
-                },
                 {
                     "timestamp": "2025-12-02 23:13",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-04 15:44",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-12-04 15:56",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2025-12-04 07:22",
+                "timestamp": "2025-12-04 15:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
