@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-04 10:46",
+        "timestamp": "2025-12-04 10:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-02 19:31",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-12-02 19:44",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-04 10:46",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-12-04 10:56",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1246,7 +1246,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-12-03 23:19",
+                "timestamp": "2025-12-04 10:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
