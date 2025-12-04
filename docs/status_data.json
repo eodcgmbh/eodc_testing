@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-04 21:32",
+        "timestamp": "2025-12-04 21:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-12-03 05:57",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-12-03 06:29",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-04 21:32",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-12-04 21:45",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
@@ -1198,7 +1198,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-12-01 14:23",
+                "timestamp": "2025-12-04 21:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
