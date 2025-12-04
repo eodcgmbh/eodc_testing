@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-04 23:13",
+        "timestamp": "2025-12-04 23:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-03 08:20",
-                    "status": 1,
-                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
-                },
                 {
                     "timestamp": "2025-12-03 08:50",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-04 23:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
+                },
+                {
+                    "timestamp": "2025-12-04 23:32",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -880,7 +880,7 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2025-12-04 07:42",
+                "timestamp": "2025-12-04 23:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
