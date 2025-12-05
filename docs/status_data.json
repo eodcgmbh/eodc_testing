@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-05 19:14",
+        "timestamp": "2025-12-05 19:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "PLEIADES",
             "history": [
-                {
-                    "timestamp": "2025-12-04 04:57",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-12-04 05:19",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-05 19:14",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-12-05 19:28",
+                    "status": 1,
+                    "collection": "PLEIADES"
                 }
             ]
         }
@@ -1210,7 +1210,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2025-12-02 23:19",
+                "timestamp": "2025-12-05 19:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
