@@ -260,16 +260,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-05 11:30",
+        "timestamp": "2025-12-05 11:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
             "history": [
-                {
-                    "timestamp": "2025-12-03 19:53",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-12-03 20:17",
                     "status": 1,
@@ -764,6 +759,11 @@
                     "timestamp": "2025-12-05 11:30",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2025-12-05 11:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
                 }
             ]
         }
@@ -846,7 +846,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-12-05 09:44",
+                "timestamp": "2025-12-05 11:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
