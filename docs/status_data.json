@@ -260,16 +260,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-05 18:19",
+        "timestamp": "2025-12-05 18:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG10",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-12-04 04:18",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-04 04:45",
                     "status": 1,
@@ -764,6 +759,11 @@
                     "timestamp": "2025-12-05 18:19",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG10"
+                },
+                {
+                    "timestamp": "2025-12-05 18:45",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
