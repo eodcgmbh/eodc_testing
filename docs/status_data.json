@@ -256,16 +256,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-05 10:41",
+        "timestamp": "2025-12-05 10:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
-                {
-                    "timestamp": "2025-12-03 18:52",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2025-12-03 19:30",
                     "status": 1,
@@ -760,6 +755,11 @@
                     "timestamp": "2025-12-05 10:41",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2025-12-05 10:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
                 }
             ]
         }
@@ -824,7 +824,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-12-01 20:22",
+                "timestamp": "2025-12-05 10:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
