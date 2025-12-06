@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 20:45",
+        "timestamp": "2025-12-06 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-12-05 12:29",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2025-12-05 13:43",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-06 20:45",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-12-06 20:53",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
