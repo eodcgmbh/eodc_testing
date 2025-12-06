@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 17:11",
+        "timestamp": "2025-12-06 17:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-12-05 07:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-12-05 07:53",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-06 17:11",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-12-06 17:30",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -808,7 +808,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-12-06 03:44",
+                "timestamp": "2025-12-06 17:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
