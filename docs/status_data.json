@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 15:30",
+        "timestamp": "2025-12-06 15:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TY",
             "history": [
-                {
-                    "timestamp": "2025-12-05 05:57",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
-                },
                 {
                     "timestamp": "2025-12-05 06:31",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-06 15:30",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-12-06 15:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TY"
                 }
             ]
         }
@@ -1210,7 +1210,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2025-12-05 19:18",
+                "timestamp": "2025-12-06 15:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
