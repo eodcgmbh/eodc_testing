@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 06:20",
+        "timestamp": "2025-12-06 06:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-04 16:22",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-12-04 16:51",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-06 06:20",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-12-06 06:45",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -790,7 +790,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-12-05 15:45",
+                "timestamp": "2025-12-06 06:30",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
