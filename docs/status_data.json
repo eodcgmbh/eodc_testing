@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 22:33",
+        "timestamp": "2025-12-06 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-05 15:57",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_10M"
-                },
                 {
                     "timestamp": "2025-12-05 16:25",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-06 22:33",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2025-12-06 22:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -826,7 +826,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-12-05 23:43",
+                "timestamp": "2025-12-06 22:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
