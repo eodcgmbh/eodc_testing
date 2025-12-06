@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 19:53",
+        "timestamp": "2025-12-06 20:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-12-05 11:30",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-12-05 11:44",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-06 19:53",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-12-06 20:14",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
