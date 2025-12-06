@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 08:41",
+        "timestamp": "2025-12-06 08:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-12-04 20:16",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
-                },
                 {
                     "timestamp": "2025-12-04 20:39",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-06 08:41",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-12-06 08:55",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2025-12-02 19:41",
+                "timestamp": "2025-12-06 08:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
