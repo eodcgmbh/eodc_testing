@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 15:12",
+        "timestamp": "2025-12-06 15:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TM",
+            "collection": "CNES_LAND_COVER_MAP",
             "history": [
-                {
-                    "timestamp": "2025-12-05 05:49",
-                    "status": 1,
-                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
-                },
                 {
                     "timestamp": "2025-12-05 05:57",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-06 15:12",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TM"
+                },
+                {
+                    "timestamp": "2025-12-06 15:30",
+                    "status": 1,
+                    "collection": "CNES_LAND_COVER_MAP"
                 }
             ]
         }
@@ -850,7 +850,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-12-05 11:40",
+                "timestamp": "2025-12-06 15:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
