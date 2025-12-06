@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-06 09:13",
+        "timestamp": "2025-12-06 09:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-04 20:52",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2025-12-04 21:13",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-06 09:13",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2025-12-06 09:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
                 }
             ]
         }
@@ -886,7 +886,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-12-04 09:26",
+                "timestamp": "2025-12-06 09:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
