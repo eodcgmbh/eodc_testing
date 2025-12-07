@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 19:10",
+        "timestamp": "2025-12-07 19:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2025-12-06 12:26",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
                 {
                     "timestamp": "2025-12-06 13:03",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-07 19:10",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2025-12-07 19:26",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
@@ -1000,7 +1000,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-12-07 03:28",
+                "timestamp": "2025-12-07 19:16",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
