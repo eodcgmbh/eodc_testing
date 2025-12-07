@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 22:12",
+        "timestamp": "2025-12-07 22:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-12-06 16:50",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2025-12-06 17:11",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-07 22:12",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-12-07 22:33",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
@@ -1138,7 +1138,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-07 06:30",
+                "timestamp": "2025-12-07 22:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
