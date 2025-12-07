@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 15:12",
+        "timestamp": "2025-12-07 15:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "CGLS_LAI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-06 08:17",
-                    "status": 1,
-                    "collection": "WORLDVIEW"
-                },
                 {
                     "timestamp": "2025-12-06 08:41",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-07 15:12",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-12-07 15:30",
+                    "status": 1,
+                    "collection": "CGLS_LAI_V2_GLOBAL"
                 }
             ]
         }
@@ -874,7 +874,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2025-12-06 09:40",
+                "timestamp": "2025-12-07 15:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
