@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 10:33",
+        "timestamp": "2025-12-07 10:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_OSTTIROL",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-06 03:56",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-12-06 04:18",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-07 10:33",
                     "status": 1,
                     "collection": "DOP_AUT_K_OSTTIROL"
+                },
+                {
+                    "timestamp": "2025-12-07 10:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -850,7 +850,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2025-12-06 15:19",
+                "timestamp": "2025-12-07 10:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
