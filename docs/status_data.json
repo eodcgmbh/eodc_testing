@@ -272,16 +272,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 23:30",
+        "timestamp": "2025-12-07 23:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2025-12-06 18:18",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2025-12-06 18:43",
                     "status": 1,
@@ -776,6 +771,11 @@
                     "timestamp": "2025-12-07 23:30",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-07 23:40",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -828,7 +828,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-12-06 17:18",
+                "timestamp": "2025-12-07 23:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
