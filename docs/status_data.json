@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 15:30",
+        "timestamp": "2025-12-07 15:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "DOP_AUT_K_KLAGENFURT",
             "history": [
-                {
-                    "timestamp": "2025-12-06 08:41",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
                 {
                     "timestamp": "2025-12-06 08:55",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-07 15:30",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-07 15:40",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_KLAGENFURT"
                 }
             ]
         }
@@ -880,7 +880,7 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2025-12-04 23:21",
+                "timestamp": "2025-12-07 15:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
