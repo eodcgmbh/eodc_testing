@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-07 08:39",
+        "timestamp": "2025-12-07 08:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FCOVER_V2",
+            "collection": "TERRASCOPE_S5P_L3_CO_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-05 22:53",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-05 23:13",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-07 08:39",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FCOVER_V2"
+                },
+                {
+                    "timestamp": "2025-12-07 08:51",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
                 }
             ]
         }
@@ -874,7 +874,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-12-02 12:46",
+                "timestamp": "2025-12-07 08:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
