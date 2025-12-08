@@ -284,16 +284,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-08 05:40",
+        "timestamp": "2025-12-08 05:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2025-12-06 20:14",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-12-06 20:33",
                     "status": 1,
@@ -788,6 +783,11 @@
                     "timestamp": "2025-12-08 05:40",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-12-08 05:54",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
@@ -1266,7 +1266,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-12-03 13:37",
+                "timestamp": "2025-12-08 05:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
