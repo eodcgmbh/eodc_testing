@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-08 07:19",
+        "timestamp": "2025-12-08 07:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L2",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-12-06 21:12",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2025-12-06 21:29",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-08 07:19",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L2"
+                },
+                {
+                    "timestamp": "2025-12-08 07:39",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
@@ -1294,7 +1294,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2025-12-06 10:42",
+                "timestamp": "2025-12-08 07:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
