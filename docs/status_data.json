@@ -276,16 +276,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-08 14:56",
+        "timestamp": "2025-12-08 15:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2025-12-07 05:33",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-12-07 05:44",
                     "status": 1,
@@ -780,6 +775,11 @@
                     "timestamp": "2025-12-08 14:56",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-08 15:37",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
@@ -808,7 +808,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-12-08 01:43",
+                "timestamp": "2025-12-08 15:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
