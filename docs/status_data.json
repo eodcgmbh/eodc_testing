@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-08 18:52:26",
-        "status": "SUCCESS",
+        "timestamp": "2025-12-08 17:39:17",
+        "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-05 16:48:07",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-12-05 17:38:37",
                     "status": 1
@@ -267,25 +271,16 @@
                 {
                     "timestamp": "2025-12-08 17:39:17",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-08 18:52:26",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-08 18:50",
+        "timestamp": "2025-12-08 19:12",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "TERRASCOPE_S5P_L3_CO_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-07 07:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2025-12-07 08:17",
                     "status": 1,
@@ -780,6 +775,11 @@
                     "timestamp": "2025-12-08 18:50",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-12-08 19:12",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
                 }
             ]
         }
