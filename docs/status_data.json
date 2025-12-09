@@ -276,16 +276,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-09 13:19",
+        "timestamp": "2025-12-09 13:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2025-12-07 20:14",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-12-07 20:33",
                     "status": 1,
@@ -780,6 +775,11 @@
                     "timestamp": "2025-12-09 13:19",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-12-09 13:49",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
@@ -1240,7 +1240,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2025-12-04 08:55",
+                "timestamp": "2025-12-09 13:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
