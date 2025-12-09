@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-09 05:50",
+        "timestamp": "2025-12-09 05:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-12-07 15:40",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_KLAGENFURT"
-                },
                 {
                     "timestamp": "2025-12-07 15:48",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-09 05:50",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2025-12-09 05:57",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
