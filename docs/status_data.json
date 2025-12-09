@@ -276,16 +276,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-09 22:14",
+        "timestamp": "2025-12-09 22:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-08 07:57",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L1"
-                },
                 {
                     "timestamp": "2025-12-08 08:29",
                     "status": 1,
@@ -780,6 +775,11 @@
                     "timestamp": "2025-12-09 22:14",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-12-09 22:33",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -1258,7 +1258,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-12-08 05:47",
+                "timestamp": "2025-12-09 22:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
