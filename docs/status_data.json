@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-09 08:21",
+        "timestamp": "2025-12-09 08:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_333M",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-12-07 17:16",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-12-07 17:30",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-09 08:21",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_333M"
+                },
+                {
+                    "timestamp": "2025-12-09 08:50",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -922,7 +922,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-12-08 23:21",
+                "timestamp": "2025-12-09 08:32",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
