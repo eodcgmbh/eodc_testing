@@ -276,16 +276,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-09 11:45",
+        "timestamp": "2025-12-09 12:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-12-07 19:43",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2025-12-07 19:53",
                     "status": 1,
@@ -780,6 +775,11 @@
                     "timestamp": "2025-12-09 11:45",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_CARGO"
+                },
+                {
+                    "timestamp": "2025-12-09 12:30",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
