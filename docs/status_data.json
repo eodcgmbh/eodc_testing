@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-10 19:13",
+        "timestamp": "2025-12-10 19:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "DOP_AUT_K_TAMSWEG",
             "history": [
-                {
-                    "timestamp": "2025-12-09 02:54",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-12-09 03:47",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-10 19:13",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-12-10 19:30",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_TAMSWEG"
                 }
             ]
         }
@@ -1252,7 +1252,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2025-12-09 13:37",
+                "timestamp": "2025-12-10 19:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
