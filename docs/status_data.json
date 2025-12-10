@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-10 18:51",
+        "timestamp": "2025-12-10 19:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-12-09 01:07",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-12-09 02:54",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-10 18:51",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-12-10 19:13",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
