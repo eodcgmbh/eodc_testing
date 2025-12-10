@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-10 20:57",
+        "timestamp": "2025-12-10 21:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-12-09 05:39",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-12-09 05:50",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-10 20:57",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-12-10 21:21",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
