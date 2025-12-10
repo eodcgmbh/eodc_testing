@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-10 19:30",
+        "timestamp": "2025-12-10 19:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_TAMSWEG",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-12-09 03:47",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2025-12-09 04:16",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-10 19:30",
                     "status": 1,
                     "collection": "DOP_AUT_K_TAMSWEG"
+                },
+                {
+                    "timestamp": "2025-12-10 19:45",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
