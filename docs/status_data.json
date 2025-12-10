@@ -288,16 +288,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-10 20:42",
+        "timestamp": "2025-12-10 20:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2025-12-09 05:18",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-12-09 05:39",
                     "status": 1,
@@ -792,6 +787,11 @@
                     "timestamp": "2025-12-10 20:42",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-10 20:57",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -1270,7 +1270,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-12-09 22:21",
+                "timestamp": "2025-12-10 20:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
