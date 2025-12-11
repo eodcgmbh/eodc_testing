@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-11 19:32",
+        "timestamp": "2025-12-11 19:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
+            "collection": "SPOT",
             "history": [
-                {
-                    "timestamp": "2025-12-09 22:14",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-12-09 22:33",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-11 19:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
+                },
+                {
+                    "timestamp": "2025-12-11 19:45",
+                    "status": 1,
+                    "collection": "SPOT"
                 }
             ]
         }
@@ -904,7 +904,7 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-12-11 11:42",
+                "timestamp": "2025-12-11 19:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
