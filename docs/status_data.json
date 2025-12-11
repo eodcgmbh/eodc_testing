@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-11 23:17",
+        "timestamp": "2025-12-11 23:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-12-10 07:17",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-12-10 07:37",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-11 23:17",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-12-11 23:33",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -910,7 +910,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-12-11 19:21",
+                "timestamp": "2025-12-11 23:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
