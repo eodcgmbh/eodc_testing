@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-11 20:17",
+        "timestamp": "2025-12-11 20:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2025-12-09 22:53",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-12-09 23:31",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-11 20:17",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-12-11 20:37",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -934,7 +934,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-12-10 05:23",
+                "timestamp": "2025-12-11 20:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
