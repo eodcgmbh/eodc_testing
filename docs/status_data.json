@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-11 14:18",
+        "timestamp": "2025-12-11 14:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2025-12-09 19:37",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-12-09 19:45",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-11 14:18",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2025-12-11 14:40",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
@@ -1006,7 +1006,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-12-09 10:27",
+                "timestamp": "2025-12-11 14:23",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
