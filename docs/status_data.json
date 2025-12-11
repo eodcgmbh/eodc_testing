@@ -276,16 +276,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-11 09:42",
+        "timestamp": "2025-12-11 09:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-12-09 15:28",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-09 15:44",
                     "status": 1,
@@ -780,6 +775,11 @@
                     "timestamp": "2025-12-11 09:42",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-12-11 09:56",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -1283,6 +1283,12 @@
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
                 "timestamp": "2025-12-10 22:47",
+                "status": "SUCCESS",
+                "item": "N/A"
+            },
+            {
+                "collection": "topo-dc-austria-dtm",
+                "timestamp": "2025-12-11 09:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             }
