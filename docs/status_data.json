@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-11 16:59",
+        "timestamp": "2025-12-11 17:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_SENTINELHUB",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2025-12-09 20:53",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-12-09 21:12",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-11 16:59",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-12-11 17:29",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
@@ -1186,7 +1186,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-12-09 05:21",
+                "timestamp": "2025-12-11 17:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
