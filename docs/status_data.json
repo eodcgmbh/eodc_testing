@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 11:54",
+        "timestamp": "2025-12-12 12:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-10 16:27",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E13B"
-                },
                 {
                     "timestamp": "2025-12-10 17:17",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-12 11:54",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
+                },
+                {
+                    "timestamp": "2025-12-12 12:30",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
