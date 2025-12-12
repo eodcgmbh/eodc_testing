@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-12 21:33:34",
+        "timestamp": "2025-12-12 20:38:50",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-10 07:42:10",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-12-10 08:50:27",
                     "status": 1
@@ -219,25 +223,16 @@
                 {
                     "timestamp": "2025-12-12 20:38:50",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-12-12 21:33:34",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 21:32",
+        "timestamp": "2025-12-12 21:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-11 04:01",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-11 04:44",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-12 21:32",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-12-12 21:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -808,7 +808,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-12-12 10:49",
+                "timestamp": "2025-12-12 21:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
