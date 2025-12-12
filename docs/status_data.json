@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 05:40",
+        "timestamp": "2025-12-12 05:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2025-12-10 10:25",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2025-12-10 10:48",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-12 05:40",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2025-12-12 05:54",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
@@ -1168,7 +1168,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-12-10 20:27",
+                "timestamp": "2025-12-12 05:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
