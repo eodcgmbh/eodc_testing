@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 20:37",
+        "timestamp": "2025-12-12 20:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-10 23:43",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2025-12-10 23:53",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-12 20:37",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2025-12-12 20:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
@@ -904,7 +904,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-12-08 04:08",
+                "timestamp": "2025-12-12 20:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
