@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 14:56",
+        "timestamp": "2025-12-12 15:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "SENTINEL3_SYNERGY_VG10",
             "history": [
-                {
-                    "timestamp": "2025-12-10 19:30",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-12-10 19:45",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-12 14:56",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-12 15:40",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG10"
                 }
             ]
         }
@@ -970,7 +970,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2025-11-28 08:29",
+                "timestamp": "2025-12-12 15:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
