@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 10:56",
+        "timestamp": "2025-12-12 11:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2025-12-10 15:28",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2025-12-10 15:46",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-12 10:56",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2025-12-12 11:16",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
