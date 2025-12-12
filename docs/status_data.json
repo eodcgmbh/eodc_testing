@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 03:57",
+        "timestamp": "2025-12-12 04:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-12-10 09:37",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-12-10 09:50",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-12 03:57",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2025-12-12 04:56",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -802,7 +802,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2025-12-08 11:41",
+                "timestamp": "2025-12-12 04:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
