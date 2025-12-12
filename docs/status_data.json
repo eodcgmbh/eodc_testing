@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 17:35",
+        "timestamp": "2025-12-12 17:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2025-12-10 21:21",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2025-12-10 21:41",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-12 17:35",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-12-12 17:48",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1102,7 +1102,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-11 04:10",
+                "timestamp": "2025-12-12 17:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
