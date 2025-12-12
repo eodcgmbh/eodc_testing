@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 02:58",
+        "timestamp": "2025-12-12 03:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "PLEIADES",
             "history": [
-                {
-                    "timestamp": "2025-12-10 09:01",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2025-12-10 09:37",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-12 02:58",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2025-12-12 03:57",
+                    "status": 1,
+                    "collection": "PLEIADES"
                 }
             ]
         }
@@ -1006,7 +1006,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2025-12-11 14:23",
+                "timestamp": "2025-12-12 03:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
