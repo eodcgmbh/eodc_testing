@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-12 23:45",
+        "timestamp": "2025-12-12 23:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-11 07:26",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-12-11 07:54",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-12 23:45",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2025-12-12 23:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
