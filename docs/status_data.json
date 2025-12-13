@@ -232,16 +232,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-13 05:36",
+        "timestamp": "2025-12-13 05:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2025-12-11 11:18",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2025-12-11 11:33",
                     "status": 1,
@@ -736,6 +731,11 @@
                     "timestamp": "2025-12-13 05:36",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-12-13 05:48",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
                 }
             ]
         }
@@ -884,7 +884,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-12-12 17:21",
+                "timestamp": "2025-12-13 05:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
