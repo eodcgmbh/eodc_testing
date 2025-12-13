@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-13 15:13",
+        "timestamp": "2025-12-13 15:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-12-11 22:49",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-12-11 22:56",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-13 15:13",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-12-13 15:31",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
@@ -910,7 +910,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-12-11 20:25",
+                "timestamp": "2025-12-13 15:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
