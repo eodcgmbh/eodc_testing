@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-13 09:53",
+        "timestamp": "2025-12-13 10:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
             "history": [
-                {
-                    "timestamp": "2025-12-11 16:59",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-12-11 17:29",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-13 09:53",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-12-13 10:13",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
                 }
             ]
         }
