@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-13 04:03",
+        "timestamp": "2025-12-13 04:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2025-12-11 09:56",
-                    "status": 1,
-                    "collection": "CNR_TSM"
-                },
                 {
                     "timestamp": "2025-12-11 10:20",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-13 04:03",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2025-12-13 04:36",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
@@ -1168,7 +1168,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-12-07 14:41",
+                "timestamp": "2025-12-13 04:34",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
