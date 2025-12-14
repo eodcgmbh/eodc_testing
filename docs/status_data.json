@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-14 11:30:03",
+        "timestamp": "2025-12-14 10:34:47",
         "status": "SUCCESS",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-11 13:10:15",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-12-11 13:58:09",
                     "status": 0
@@ -231,25 +235,16 @@
                 {
                     "timestamp": "2025-12-14 10:34:47",
                     "status": 1
-                },
-                {
-                    "timestamp": "2025-12-14 11:30:03",
-                    "status": 1
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 11:28",
+        "timestamp": "2025-12-14 11:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2025-12-12 23:14",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
                 {
                     "timestamp": "2025-12-12 23:32",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-14 11:28",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-12-14 11:38",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
