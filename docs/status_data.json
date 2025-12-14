@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 13:04",
+        "timestamp": "2025-12-14 13:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2025-12-13 02:50",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-12-13 03:40",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-14 13:04",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2025-12-14 13:34",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
@@ -1234,7 +1234,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
-                "timestamp": "2025-12-09 16:29",
+                "timestamp": "2025-12-14 13:28",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
