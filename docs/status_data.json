@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 11:11",
+        "timestamp": "2025-12-14 11:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GLOBAL_SURFACE_WATER",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-12-12 22:55",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2025-12-12 23:14",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-14 11:11",
                     "status": 1,
                     "collection": "GLOBAL_SURFACE_WATER"
+                },
+                {
+                    "timestamp": "2025-12-14 11:28",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-12-14 01:51",
+                "timestamp": "2025-12-14 11:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
