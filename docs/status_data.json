@@ -244,16 +244,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 21:53",
+        "timestamp": "2025-12-14 22:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-13 13:34",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L2"
-                },
                 {
                     "timestamp": "2025-12-13 13:46",
                     "status": 1,
@@ -748,6 +743,11 @@
                     "timestamp": "2025-12-14 21:53",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-12-14 22:13",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
