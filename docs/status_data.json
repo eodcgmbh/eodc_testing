@@ -248,16 +248,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 04:04",
+        "timestamp": "2025-12-14 04:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-12-12 15:40",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG10"
-                },
                 {
                     "timestamp": "2025-12-12 15:55",
                     "status": 1,
@@ -752,6 +747,11 @@
                     "timestamp": "2025-12-14 04:04",
                     "status": 1,
                     "collection": "COPERNICUS_90"
+                },
+                {
+                    "timestamp": "2025-12-14 04:44",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1122,7 +1122,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-13 14:19",
+                "timestamp": "2025-12-14 04:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
