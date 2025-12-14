@@ -244,16 +244,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 13:46",
+        "timestamp": "2025-12-14 13:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-12-13 04:03",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2025-12-13 04:36",
                     "status": 1,
@@ -748,6 +743,11 @@
                     "timestamp": "2025-12-14 13:46",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2025-12-14 13:54",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
