@@ -248,16 +248,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 14:13",
+        "timestamp": "2025-12-14 14:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_LAI_V2",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-13 04:50",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2025-12-13 05:14",
                     "status": 1,
@@ -752,6 +747,11 @@
                     "timestamp": "2025-12-14 14:13",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_LAI_V2"
+                },
+                {
+                    "timestamp": "2025-12-14 14:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -1128,7 +1128,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-12-14 13:45",
+                "timestamp": "2025-12-14 14:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
