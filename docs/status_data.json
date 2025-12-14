@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-14 20:15",
+        "timestamp": "2025-12-14 20:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "TERRASCOPE_S2_LAI_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-13 11:11",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2025-12-13 11:28",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-14 20:15",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2025-12-14 20:34",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_LAI_V2"
                 }
             ]
         }
@@ -802,7 +802,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2025-12-13 11:17",
+                "timestamp": "2025-12-14 20:23",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
