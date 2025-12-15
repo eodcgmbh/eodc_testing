@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-15 15:35",
+        "timestamp": "2025-12-15 15:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "CGLS_LAI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-13 23:44",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2025-12-13 23:53",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-15 15:35",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-12-15 15:53",
+                    "status": 1,
+                    "collection": "CGLS_LAI_V2_GLOBAL"
                 }
             ]
         }
@@ -1270,7 +1270,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2025-12-12 11:21",
+                "timestamp": "2025-12-15 15:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
