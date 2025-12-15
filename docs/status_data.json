@@ -256,16 +256,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-15 04:10",
+        "timestamp": "2025-12-15 04:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2025-12-13 16:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_LAI_V2"
-                },
                 {
                     "timestamp": "2025-12-13 17:12",
                     "status": 1,
@@ -760,6 +755,11 @@
                     "timestamp": "2025-12-15 04:10",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-15 04:51",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -1238,7 +1238,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-12-10 20:48",
+                "timestamp": "2025-12-15 04:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
