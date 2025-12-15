@@ -264,16 +264,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-15 21:14",
+        "timestamp": "2025-12-15 21:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-14 07:53",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-14 08:18",
                     "status": 1,
@@ -768,6 +763,11 @@
                     "timestamp": "2025-12-15 21:14",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2025-12-15 21:34",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -808,7 +808,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-12-15 20:47",
+                "timestamp": "2025-12-15 21:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
