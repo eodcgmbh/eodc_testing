@@ -256,16 +256,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-15 04:51",
+        "timestamp": "2025-12-15 05:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "ALOS_PALSAR2_L2_1_10M",
             "history": [
-                {
-                    "timestamp": "2025-12-13 17:12",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-12-13 17:43",
                     "status": 1,
@@ -760,6 +755,11 @@
                     "timestamp": "2025-12-15 04:51",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2025-12-15 05:20",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_L2_1_10M"
                 }
             ]
         }
