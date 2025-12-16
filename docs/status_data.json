@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-16 22:35",
+        "timestamp": "2025-12-16 22:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2025-12-15 04:51",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2025-12-15 05:20",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-16 22:35",
                     "status": 1,
                     "collection": "COPERNICUS_90"
+                },
+                {
+                    "timestamp": "2025-12-16 22:47",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
@@ -1198,7 +1198,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2025-12-15 14:54",
+                "timestamp": "2025-12-16 22:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
