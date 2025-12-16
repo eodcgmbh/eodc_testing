@@ -272,16 +272,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-16 06:59",
+        "timestamp": "2025-12-16 07:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
+            "collection": "SENTINEL3_SYNERGY_VG10",
             "history": [
-                {
-                    "timestamp": "2025-12-14 14:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_LAI_V2"
-                },
                 {
                     "timestamp": "2025-12-14 14:45",
                     "status": 1,
@@ -776,6 +771,11 @@
                     "timestamp": "2025-12-16 06:59",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
+                },
+                {
+                    "timestamp": "2025-12-16 07:26",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG10"
                 }
             ]
         }
@@ -1254,7 +1254,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-12-15 04:42",
+                "timestamp": "2025-12-16 07:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
