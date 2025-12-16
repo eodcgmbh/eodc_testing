@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-16 15:45",
+        "timestamp": "2025-12-16 15:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-12-14 20:34",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_LAI_V2"
-                },
                 {
                     "timestamp": "2025-12-14 20:46",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-16 15:45",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+                },
+                {
+                    "timestamp": "2025-12-16 15:56",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
@@ -856,7 +856,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2025-12-16 05:24",
+                "timestamp": "2025-12-16 15:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
