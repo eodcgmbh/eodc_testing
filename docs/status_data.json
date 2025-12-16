@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-16 16:52",
+        "timestamp": "2025-12-16 17:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12D_PRIMARY",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-12-14 21:12",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2025-12-14 21:30",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-16 16:52",
                     "status": 1,
                     "collection": "E12D_PRIMARY"
+                },
+                {
+                    "timestamp": "2025-12-16 17:19",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -988,7 +988,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-12-09 11:20",
+                "timestamp": "2025-12-16 16:58",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
