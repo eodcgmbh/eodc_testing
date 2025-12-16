@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-16 23:13",
+        "timestamp": "2025-12-16 23:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
+            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-15 05:56",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2025-12-15 06:28",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-16 23:13",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
+                },
+                {
+                    "timestamp": "2025-12-16 23:32",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
                 }
             ]
         }
@@ -1114,7 +1114,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-15 11:20",
+                "timestamp": "2025-12-16 23:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
