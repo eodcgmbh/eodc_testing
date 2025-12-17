@@ -236,16 +236,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-17 21:54",
+        "timestamp": "2025-12-17 22:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-16 05:34",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-16 05:49",
                     "status": 1,
@@ -740,6 +735,11 @@
                     "timestamp": "2025-12-17 21:54",
                     "status": 1,
                     "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-17 22:14",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
                 }
             ]
         }
@@ -1473,16 +1473,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-12-17 21:14:59",
+        "timestamp": "2025-12-17 22:15:13",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-7ec4042a-2462-4d31-b277-2d6c320ea4e8)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-db3559fb-8cb8-4957-9993-2c2a244cffb0)",
             "history": [
-                {
-                    "timestamp": "2025-12-17 09:22:44",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cd23cb92-c893-4eec-b8b8-79e4e6fe4a6c)"
-                },
                 {
                     "timestamp": "2025-12-17 10:18:15",
                     "status": 0,
@@ -1527,6 +1522,11 @@
                     "timestamp": "2025-12-17 21:14:59",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-7ec4042a-2462-4d31-b277-2d6c320ea4e8)"
+                },
+                {
+                    "timestamp": "2025-12-17 22:15:13",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-db3559fb-8cb8-4957-9993-2c2a244cffb0)"
                 }
             ]
         }
