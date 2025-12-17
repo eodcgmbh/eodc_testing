@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-17 13:20",
+        "timestamp": "2025-12-17 13:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2025-12-15 19:15",
-                    "status": 1,
-                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
-                },
                 {
                     "timestamp": "2025-12-15 19:32",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-17 13:20",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-12-17 13:59",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
