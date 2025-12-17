@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-17 09:21",
+        "timestamp": "2025-12-17 09:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_LTS_V3_GLOBAL",
+            "collection": "JAXA_WQ_CHLA_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-12-15 15:01",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-12-15 15:35",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-17 09:21",
                     "status": 1,
                     "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-17 09:47",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_AVERAGE"
                 }
             ]
         }
