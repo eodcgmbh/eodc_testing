@@ -252,16 +252,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-17 15:00",
+        "timestamp": "2025-12-17 15:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "CGLS_NDVI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-15 20:16",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-12-15 20:40",
                     "status": 1,
@@ -756,6 +751,11 @@
                     "timestamp": "2025-12-17 15:00",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2025-12-17 15:31",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V1_GLOBAL"
                 }
             ]
         }
@@ -862,7 +862,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-12-17 09:29",
+                "timestamp": "2025-12-17 15:26",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
