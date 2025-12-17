@@ -240,16 +240,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-17 05:41",
+        "timestamp": "2025-12-17 05:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-15 10:18",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
-                },
                 {
                     "timestamp": "2025-12-15 10:47",
                     "status": 1,
@@ -744,6 +739,11 @@
                     "timestamp": "2025-12-17 05:41",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-12-17 05:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
@@ -850,7 +850,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-12-14 22:19",
+                "timestamp": "2025-12-17 05:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
