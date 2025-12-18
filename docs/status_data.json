@@ -232,16 +232,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-18 11:46",
+        "timestamp": "2025-12-18 11:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-12-16 18:53",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S1_TOC_333M"
-                },
                 {
                     "timestamp": "2025-12-16 19:15",
                     "status": 1,
@@ -736,6 +731,11 @@
                     "timestamp": "2025-12-18 11:46",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2025-12-18 11:54",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
