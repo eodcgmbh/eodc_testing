@@ -236,16 +236,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-18 05:41",
+        "timestamp": "2025-12-18 05:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-16 10:58",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2025-12-16 11:20",
                     "status": 1,
@@ -740,6 +735,11 @@
                     "timestamp": "2025-12-18 05:41",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-12-18 05:55",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -1170,7 +1170,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2025-12-17 22:21",
+                "timestamp": "2025-12-18 05:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
