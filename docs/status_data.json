@@ -224,16 +224,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-18 17:42",
+        "timestamp": "2025-12-18 17:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_ZELTWEG",
+            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
             "history": [
-                {
-                    "timestamp": "2025-12-16 22:55",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2025-12-16 23:13",
                     "status": 1,
@@ -728,6 +723,11 @@
                     "timestamp": "2025-12-18 17:42",
                     "status": 1,
                     "collection": "DOP_AUT_K_ZELTWEG"
+                },
+                {
+                    "timestamp": "2025-12-18 17:55",
+                    "status": 1,
+                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
                 }
             ]
         }
@@ -1128,7 +1128,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2025-12-17 06:35",
+                "timestamp": "2025-12-18 17:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
