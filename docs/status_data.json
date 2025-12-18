@@ -232,16 +232,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-18 11:16",
+        "timestamp": "2025-12-18 11:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2025-12-16 17:43",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-16 18:25",
                     "status": 1,
@@ -736,6 +731,11 @@
                     "timestamp": "2025-12-18 11:16",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2025-12-18 11:32",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -884,7 +884,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2025-12-16 22:21",
+                "timestamp": "2025-12-18 11:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
