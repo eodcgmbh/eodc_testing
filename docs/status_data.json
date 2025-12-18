@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-18 23:34:15",
+        "timestamp": "2025-12-18 22:35:11",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-16 06:50:49",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-16 07:38:10",
                     "status": 0
@@ -219,25 +223,16 @@
                 {
                     "timestamp": "2025-12-18 22:35:11",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-18 23:34:15",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-18 23:33",
+        "timestamp": "2025-12-18 23:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PERSISTENT_SNOW_AREA",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-17 09:21",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-17 09:47",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-18 23:33",
                     "status": 1,
                     "collection": "PERSISTENT_SNOW_AREA"
+                },
+                {
+                    "timestamp": "2025-12-18 23:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
@@ -1216,7 +1216,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-12-18 08:31",
+                "timestamp": "2025-12-18 23:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
