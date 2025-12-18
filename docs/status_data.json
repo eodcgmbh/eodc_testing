@@ -1,17 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-18 09:42:20",
+        "timestamp": "2025-12-18 10:39:46",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-12-15 15:43:23",
-                    "status": 1
-                },
-                {
-                    "timestamp": "2025-12-15 16:49:10",
-                    "status": 1
-                },
                 {
                     "timestamp": "2025-12-15 17:59:25",
                     "status": 0
@@ -231,21 +223,20 @@
                 {
                     "timestamp": "2025-12-18 09:42:20",
                     "status": 0
+                },
+                {
+                    "timestamp": "2025-12-18 10:39:46",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-18 09:57",
+        "timestamp": "2025-12-18 10:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2025-12-16 15:56",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-12-16 16:23",
                     "status": 1,
@@ -740,6 +731,11 @@
                     "timestamp": "2025-12-18 09:57",
                     "status": 1,
                     "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2025-12-18 10:21",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1236,7 +1232,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-12-17 11:42",
+                "timestamp": "2025-12-18 10:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
