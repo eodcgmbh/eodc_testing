@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 15:39",
+        "timestamp": "2025-12-19 15:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2025-12-17 22:37",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-12-17 22:49",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-19 15:39",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2025-12-19 15:51",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -742,7 +742,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-12-17 19:21",
+                "timestamp": "2025-12-19 15:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
