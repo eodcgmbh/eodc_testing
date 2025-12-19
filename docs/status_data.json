@@ -216,16 +216,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 22:55",
+        "timestamp": "2025-12-19 23:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-12-18 10:21",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2025-12-18 10:46",
                     "status": 1,
@@ -720,6 +715,11 @@
                     "timestamp": "2025-12-19 22:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+                },
+                {
+                    "timestamp": "2025-12-19 23:31",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
@@ -808,7 +808,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2025-12-18 07:43",
+                "timestamp": "2025-12-19 23:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
