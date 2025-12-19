@@ -220,16 +220,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 21:53",
+        "timestamp": "2025-12-19 22:14",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2025-12-18 09:20",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2025-12-18 09:46",
                     "status": 1,
@@ -724,6 +719,11 @@
                     "timestamp": "2025-12-19 21:53",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2025-12-19 22:14",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
