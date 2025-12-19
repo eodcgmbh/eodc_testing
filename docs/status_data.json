@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 19:12",
+        "timestamp": "2025-12-19 19:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2025-12-18 04:55",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-12-18 05:17",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-19 19:12",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-12-19 19:28",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -1180,7 +1180,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2025-12-18 20:43",
+                "timestamp": "2025-12-19 19:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
