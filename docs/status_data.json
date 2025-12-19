@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 19:38",
+        "timestamp": "2025-12-19 19:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-12-18 05:41",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2025-12-18 05:55",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-19 19:38",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2025-12-19 19:46",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
