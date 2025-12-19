@@ -232,16 +232,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 05:43",
+        "timestamp": "2025-12-19 05:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2025-12-17 12:31",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
-                },
                 {
                     "timestamp": "2025-12-17 13:20",
                     "status": 1,
@@ -736,6 +731,11 @@
                     "timestamp": "2025-12-19 05:43",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2025-12-19 05:54",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -800,7 +800,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-12-18 03:22",
+                "timestamp": "2025-12-19 05:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
