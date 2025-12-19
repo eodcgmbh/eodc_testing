@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 03:00",
+        "timestamp": "2025-12-19 03:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "CNES_LAND_COVER_MAP",
             "history": [
-                {
-                    "timestamp": "2025-12-17 10:57",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-17 11:19",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-19 03:00",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-12-19 03:58",
+                    "status": 1,
+                    "collection": "CNES_LAND_COVER_MAP"
                 }
             ]
         }
@@ -946,7 +946,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-12-17 07:44",
+                "timestamp": "2025-12-19 03:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
