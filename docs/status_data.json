@@ -228,16 +228,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 16:46",
+        "timestamp": "2025-12-19 16:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-12-17 23:18",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-17 23:35",
                     "status": 1,
@@ -732,6 +727,11 @@
                     "timestamp": "2025-12-19 16:46",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2025-12-19 16:59",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -964,7 +964,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-12-18 06:35",
+                "timestamp": "2025-12-19 16:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
