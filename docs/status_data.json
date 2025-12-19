@@ -236,16 +236,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 09:49",
+        "timestamp": "2025-12-19 09:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-17 17:40",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-17 17:53",
                     "status": 1,
@@ -740,6 +735,11 @@
                     "timestamp": "2025-12-19 09:49",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-12-19 09:57",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
