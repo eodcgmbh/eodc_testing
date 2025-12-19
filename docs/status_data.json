@@ -1,9 +1,17 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-19 19:30:17",
+        "timestamp": "2025-12-19 18:46:56",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-16 21:35:26",
+                    "status": 1
+                },
+                {
+                    "timestamp": "2025-12-16 22:33:03",
+                    "status": 1
+                },
                 {
                     "timestamp": "2025-12-16 23:34:52",
                     "status": 1
@@ -215,25 +223,16 @@
                 {
                     "timestamp": "2025-12-19 18:46:56",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-19 19:30:17",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 19:28",
+        "timestamp": "2025-12-19 19:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
-                {
-                    "timestamp": "2025-12-18 05:17",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-18 05:41",
                     "status": 1,
@@ -728,6 +727,11 @@
                     "timestamp": "2025-12-19 19:28",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2025-12-19 19:38",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E13B"
                 }
             ]
         }
