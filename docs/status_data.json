@@ -236,16 +236,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 06:23",
+        "timestamp": "2025-12-19 06:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TUR_V1",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-12-17 13:59",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-12-17 14:27",
                     "status": 1,
@@ -740,6 +735,11 @@
                     "timestamp": "2025-12-19 06:23",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TUR_V1"
+                },
+                {
+                    "timestamp": "2025-12-19 06:52",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
