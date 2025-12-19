@@ -216,16 +216,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-19 22:14",
+        "timestamp": "2025-12-19 22:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "CGLS_FAPAR_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-18 09:46",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2025-12-18 09:57",
                     "status": 1,
@@ -720,6 +715,11 @@
                     "timestamp": "2025-12-19 22:14",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2025-12-19 22:48",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR_V2_GLOBAL"
                 }
             ]
         }
@@ -1228,7 +1228,7 @@
             },
             {
                 "collection": "topo-dc-austria-dtm",
-                "timestamp": "2025-12-16 09:28",
+                "timestamp": "2025-12-19 22:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
