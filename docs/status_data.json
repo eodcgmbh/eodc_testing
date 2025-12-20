@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 16:40",
+        "timestamp": "2025-12-20 16:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
             "history": [
-                {
-                    "timestamp": "2025-12-19 05:54",
-                    "status": 1,
-                    "collection": "CNR_TSM"
-                },
                 {
                     "timestamp": "2025-12-19 06:23",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 16:40",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-12-20 16:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
                 }
             ]
         }
@@ -776,7 +776,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2025-12-19 14:47",
+                "timestamp": "2025-12-20 16:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
