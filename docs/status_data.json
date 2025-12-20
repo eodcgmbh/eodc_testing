@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 05:49",
+        "timestamp": "2025-12-20 05:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2025-12-18 14:59",
-                    "status": 1,
-                    "collection": "GLOBAL_SURFACE_WATER"
-                },
                 {
                     "timestamp": "2025-12-18 15:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 05:49",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TD"
+                },
+                {
+                    "timestamp": "2025-12-20 05:57",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
