@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 03:40",
+        "timestamp": "2025-12-20 04:03",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_3M",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2025-12-18 11:54",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-12-18 12:30",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 03:40",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_3M"
+                },
+                {
+                    "timestamp": "2025-12-20 04:03",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -932,7 +932,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2025-12-19 09:47",
+                "timestamp": "2025-12-20 04:00",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
