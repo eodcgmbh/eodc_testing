@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 05:35",
+        "timestamp": "2025-12-20 05:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_3M",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
             "history": [
-                {
-                    "timestamp": "2025-12-18 14:49",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2025-12-18 14:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 05:35",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_3M"
+                },
+                {
+                    "timestamp": "2025-12-20 05:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
                 }
             ]
         }
@@ -1184,7 +1184,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_VILLACH",
-                "timestamp": "2025-12-15 11:42",
+                "timestamp": "2025-12-20 05:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
