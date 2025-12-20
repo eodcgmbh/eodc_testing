@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 15:13",
+        "timestamp": "2025-12-20 15:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-12-19 03:58",
-                    "status": 1,
-                    "collection": "CNES_LAND_COVER_MAP"
-                },
                 {
                     "timestamp": "2025-12-19 04:35",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 15:13",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2025-12-20 15:32",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -752,7 +752,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2025-12-18 22:21",
+                "timestamp": "2025-12-20 15:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1445,11 +1445,16 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2025-12-20 15:14:10",
+        "timestamp": "2025-12-20 13:23:04",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-ba88eae5-5aef-4be8-92d9-dbec6c75d4b9)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b2bf9125-9a0d-4810-a365-236c950da6ef)",
             "history": [
+                {
+                    "timestamp": "2025-12-19 22:15:28",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-eac8de12-97fc-4cb7-bab7-5b757007e826)"
+                },
                 {
                     "timestamp": "2025-12-19 23:14:54",
                     "status": 0,
@@ -1494,11 +1499,6 @@
                     "timestamp": "2025-12-20 13:23:04",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b2bf9125-9a0d-4810-a365-236c950da6ef)"
-                },
-                {
-                    "timestamp": "2025-12-20 15:14:10",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-ba88eae5-5aef-4be8-92d9-dbec6c75d4b9)"
                 }
             ]
         }
