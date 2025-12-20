@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 22:33",
+        "timestamp": "2025-12-20 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-19 14:41",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2025-12-19 14:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 22:33",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
+                },
+                {
+                    "timestamp": "2025-12-20 22:45",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -1082,7 +1082,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-16 23:21",
+                "timestamp": "2025-12-20 22:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
