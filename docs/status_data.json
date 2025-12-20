@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-20 07:31:47",
+        "timestamp": "2025-12-20 06:46:43",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-17 15:40:01",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-17 16:45:50",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2025-12-20 06:46:43",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-20 07:31:47",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-20 07:30",
+        "timestamp": "2025-12-20 07:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-18 17:18",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
-                },
                 {
                     "timestamp": "2025-12-18 17:42",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-20 07:30",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2025-12-20 07:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -842,7 +842,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2025-12-19 22:21",
+                "timestamp": "2025-12-20 07:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
