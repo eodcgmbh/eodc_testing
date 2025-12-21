@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-21 21:53",
+        "timestamp": "2025-12-21 22:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_AGRICULTURE",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-20 14:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2025-12-20 14:33",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-21 21:53",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_AGRICULTURE"
+                },
+                {
+                    "timestamp": "2025-12-21 22:13",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
