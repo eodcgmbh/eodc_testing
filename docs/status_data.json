@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-22 15:38:04",
+        "timestamp": "2025-12-22 14:36:11",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-19 16:42:28",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-19 17:31:21",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2025-12-22 14:36:11",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-22 15:38:04",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-22 15:36",
+        "timestamp": "2025-12-22 15:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_KLAGENFURT",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-21 04:45",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
-                },
                 {
                     "timestamp": "2025-12-21 05:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-22 15:36",
                     "status": 1,
                     "collection": "DOP_AUT_K_KLAGENFURT"
+                },
+                {
+                    "timestamp": "2025-12-22 15:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
@@ -1214,7 +1214,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2025-12-22 14:46",
+                "timestamp": "2025-12-22 15:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
