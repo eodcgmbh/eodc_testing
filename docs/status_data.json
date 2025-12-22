@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-22 08:30",
+        "timestamp": "2025-12-22 08:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG1",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2025-12-20 20:14",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_CHL_V1"
-                },
                 {
                     "timestamp": "2025-12-20 20:33",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-22 08:30",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG1"
+                },
+                {
+                    "timestamp": "2025-12-22 08:56",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
