@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-23 05:36",
+        "timestamp": "2025-12-23 05:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "PROBAV_L3_S1_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2025-12-21 14:53",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2025-12-21 15:13",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-23 05:36",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2025-12-23 05:51",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_100M"
                 }
             ]
         }
@@ -818,7 +818,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2025-12-21 20:23",
+                "timestamp": "2025-12-23 05:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
