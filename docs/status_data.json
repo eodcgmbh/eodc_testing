@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-23 11:15",
+        "timestamp": "2025-12-23 11:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2025-12-21 19:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2025-12-21 19:27",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-23 11:15",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-23 11:32",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -722,7 +722,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-12-22 20:24",
+                "timestamp": "2025-12-23 11:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
