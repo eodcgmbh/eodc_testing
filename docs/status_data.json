@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-23 09:56",
+        "timestamp": "2025-12-23 10:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-21 17:53",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-12-21 18:19",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-23 09:56",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-12-23 10:18",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
