@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-24 10:21",
+        "timestamp": "2025-12-24 10:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COP_DEM_EU_25M",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-12-22 15:49",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2025-12-22 15:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-24 10:21",
                     "status": 1,
                     "collection": "COP_DEM_EU_25M"
+                },
+                {
+                    "timestamp": "2025-12-24 10:43",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
