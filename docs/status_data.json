@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-24 09:50",
+        "timestamp": "2025-12-24 09:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-12-22 15:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
-                },
                 {
                     "timestamp": "2025-12-22 15:36",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-24 09:50",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-12-24 09:57",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
