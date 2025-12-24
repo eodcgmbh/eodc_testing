@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-24 13:42",
+        "timestamp": "2025-12-24 13:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "CAMS_GLC",
             "history": [
-                {
-                    "timestamp": "2025-12-22 19:13",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-12-22 19:29",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-24 13:42",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-12-24 13:55",
+                    "status": 1,
+                    "collection": "CAMS_GLC"
                 }
             ]
         }
