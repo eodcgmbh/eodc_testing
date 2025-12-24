@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-24 10:43",
+        "timestamp": "2025-12-24 10:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-12-22 15:57",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2025-12-22 16:26",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-24 10:43",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2025-12-24 10:54",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
@@ -1082,7 +1082,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-23 07:45",
+                "timestamp": "2025-12-24 10:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
