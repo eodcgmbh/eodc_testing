@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-24 18:49",
+        "timestamp": "2025-12-24 19:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_sentinel_2",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-23 01:10",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2025-12-23 03:01",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-24 18:49",
                     "status": 1,
                     "collection": "boa_sentinel_2"
+                },
+                {
+                    "timestamp": "2025-12-24 19:19",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
                 }
             ]
         }
@@ -1082,7 +1082,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2025-12-24 15:44",
+                "timestamp": "2025-12-24 19:17",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
