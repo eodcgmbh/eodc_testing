@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-24 09:39:36",
+        "timestamp": "2025-12-24 08:44:45",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-21 16:39:28",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-21 17:29:53",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2025-12-24 08:44:45",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-24 09:39:36",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-24 09:38",
+        "timestamp": "2025-12-24 09:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-12-22 14:54",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-22 15:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-24 09:38",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-24 09:50",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
                 }
             ]
         }
@@ -854,7 +854,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-12-21 22:21",
+                "timestamp": "2025-12-24 09:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
