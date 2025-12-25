@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-25 03:01",
+        "timestamp": "2025-12-25 04:04",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP300_V1_GLOBAL",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-23 11:32",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2025-12-23 11:45",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-25 03:01",
                     "status": 1,
                     "collection": "CGLS_GDMP300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-25 04:04",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
                 }
             ]
         }
@@ -782,7 +782,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2025-12-24 06:36",
+                "timestamp": "2025-12-25 03:28",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
