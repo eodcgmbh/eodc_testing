@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-25 07:17",
+        "timestamp": "2025-12-25 07:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_V1_EUROPE",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
             "history": [
-                {
-                    "timestamp": "2025-12-23 14:53",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2025-12-23 15:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-25 07:17",
                     "status": 1,
                     "collection": "CGLS_SSM_V1_EUROPE"
+                },
+                {
+                    "timestamp": "2025-12-25 07:46",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
                 }
             ]
         }
@@ -926,7 +926,7 @@
             },
             {
                 "collection": "AUSTRIA_GROUND_MOTION",
-                "timestamp": "2025-12-23 09:48",
+                "timestamp": "2025-12-25 07:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
