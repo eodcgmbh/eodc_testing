@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-25 06:23",
+        "timestamp": "2025-12-25 06:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2025-12-23 14:15",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
-                },
                 {
                     "timestamp": "2025-12-23 14:40",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-25 06:23",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-12-25 06:53",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
