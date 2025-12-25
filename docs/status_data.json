@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-25 13:09",
+        "timestamp": "2025-12-25 13:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
+            "collection": "LANDSAT8-9_L2",
             "history": [
-                {
-                    "timestamp": "2025-12-23 21:19",
-                    "status": 1,
-                    "collection": "MAPEO_WATER_TUR_V1"
-                },
                 {
                     "timestamp": "2025-12-23 21:34",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-25 13:09",
                     "status": 1,
                     "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
+                },
+                {
+                    "timestamp": "2025-12-25 13:42",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L2"
                 }
             ]
         }
@@ -908,7 +908,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2025-12-25 11:19",
+                "timestamp": "2025-12-25 13:33",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
