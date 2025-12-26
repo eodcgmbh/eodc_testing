@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-26 20:35",
+        "timestamp": "2025-12-26 20:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
+            "collection": "CGLS_NDVI_LTS_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-25 07:54",
-                    "status": 1,
-                    "collection": "corine_land_cover"
-                },
                 {
                     "timestamp": "2025-12-25 08:20",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-26 20:35",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TD"
+                },
+                {
+                    "timestamp": "2025-12-26 20:46",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2025-12-24 12:44",
+                "timestamp": "2025-12-26 20:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
