@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-26 15:36:04",
+        "timestamp": "2025-12-26 14:36:00",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-23 21:33:28",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-23 22:34:28",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2025-12-26 14:36:00",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-26 15:36:04",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-26 15:34",
+        "timestamp": "2025-12-26 15:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "MAPEO_WATER_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-24 23:16",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S1_TOC_100M"
-                },
                 {
                     "timestamp": "2025-12-24 23:32",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-26 15:34",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_IRRIGATION"
+                },
+                {
+                    "timestamp": "2025-12-26 15:47",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
                 }
             ]
         }
@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2025-12-26 14:45",
+                "timestamp": "2025-12-26 15:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
