@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-26 21:13",
+        "timestamp": "2025-12-26 21:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S10_TOC_333M",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2025-12-25 09:00",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-12-25 09:29",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-26 21:13",
                     "status": 1,
                     "collection": "PROBAV_L3_S10_TOC_333M"
+                },
+                {
+                    "timestamp": "2025-12-26 21:31",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -854,7 +854,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELL_AM_SEE",
-                "timestamp": "2025-12-24 09:46",
+                "timestamp": "2025-12-26 21:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
