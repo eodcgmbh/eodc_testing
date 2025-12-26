@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-26 13:43",
+        "timestamp": "2025-12-26 13:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-12-24 21:53",
-                    "status": 1,
-                    "collection": "SENTINEL3_SRAL_L2"
-                },
                 {
                     "timestamp": "2025-12-24 22:14",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-26 13:43",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+                },
+                {
+                    "timestamp": "2025-12-26 13:55",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
