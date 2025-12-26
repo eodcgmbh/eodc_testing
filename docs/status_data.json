@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-26 19:30",
+        "timestamp": "2025-12-26 19:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-25 06:23",
-                    "status": 1,
-                    "collection": "SENTINEL1_HPAR"
-                },
                 {
                     "timestamp": "2025-12-25 06:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-26 19:30",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2025-12-26 19:40",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
                 }
             ]
         }
@@ -1136,7 +1136,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2025-12-24 04:56",
+                "timestamp": "2025-12-26 19:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
