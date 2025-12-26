@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-26 05:54",
+        "timestamp": "2025-12-26 06:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SKYSAT",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2025-12-24 15:49",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2025-12-24 15:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-26 05:54",
                     "status": 1,
                     "collection": "SKYSAT"
+                },
+                {
+                    "timestamp": "2025-12-26 06:23",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
