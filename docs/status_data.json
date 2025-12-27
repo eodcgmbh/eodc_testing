@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-27 16:17",
+        "timestamp": "2025-12-27 16:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "JAXA_WQ_TSM_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-12-25 23:46",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
-                },
                 {
                     "timestamp": "2025-12-25 23:54",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-27 16:17",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-12-27 16:55",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_AVERAGE"
                 }
             ]
         }
@@ -1148,7 +1148,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2025-12-24 22:21",
+                "timestamp": "2025-12-27 16:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
