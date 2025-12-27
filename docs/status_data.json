@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-27 04:27",
+        "timestamp": "2025-12-27 04:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-12-25 13:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
-                },
                 {
                     "timestamp": "2025-12-25 14:14",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-27 04:27",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-12-27 04:51",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
