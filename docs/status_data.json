@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-28 17:33",
+        "timestamp": "2025-12-28 17:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "DOP_AUT_K_VILLACH",
             "history": [
-                {
-                    "timestamp": "2025-12-27 05:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
-                },
                 {
                     "timestamp": "2025-12-27 05:39",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-28 17:33",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2025-12-28 17:46",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_VILLACH"
                 }
             ]
         }
@@ -956,7 +956,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2025-12-28 13:48",
+                "timestamp": "2025-12-28 17:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
