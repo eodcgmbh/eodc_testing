@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-28 14:55",
+        "timestamp": "2025-12-28 15:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2025-12-26 23:46",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-12-26 23:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-28 14:55",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-28 15:33",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1190,7 +1190,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2025-12-28 08:29",
+                "timestamp": "2025-12-28 15:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
