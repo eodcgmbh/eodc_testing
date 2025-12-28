@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-28 11:32:01",
+        "timestamp": "2025-12-28 10:35:41",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-25 16:41:34",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-25 17:31:43",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2025-12-28 10:35:41",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-28 11:32:01",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-28 11:30",
+        "timestamp": "2025-12-28 11:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2025-12-26 20:46",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-26 20:54",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-28 11:30",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2025-12-28 11:44",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -1088,7 +1088,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-12-28 07:41",
+                "timestamp": "2025-12-28 11:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
