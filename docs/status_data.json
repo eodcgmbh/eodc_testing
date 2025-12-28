@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-28 03:17",
+        "timestamp": "2025-12-28 04:16",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2025-12-26 11:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
-                },
                 {
                     "timestamp": "2025-12-26 12:29",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-28 03:17",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-12-28 04:16",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -734,7 +734,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-12-27 05:46",
+                "timestamp": "2025-12-28 03:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
