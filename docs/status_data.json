@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-28 09:36",
+        "timestamp": "2025-12-28 09:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2025-12-26 18:49",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2025-12-26 18:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-28 09:36",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2025-12-28 09:46",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
@@ -764,7 +764,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2025-12-28 06:33",
+                "timestamp": "2025-12-28 09:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
