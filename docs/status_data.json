@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-29 20:40",
+        "timestamp": "2025-12-29 20:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-28 06:51",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY"
-                },
                 {
                     "timestamp": "2025-12-28 07:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-29 20:40",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-29 20:54",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -848,7 +848,7 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2025-12-28 16:48",
+                "timestamp": "2025-12-29 20:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
