@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-29 17:48",
+        "timestamp": "2025-12-29 17:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2025-12-27 23:45",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2025-12-27 23:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-29 17:48",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2025-12-29 17:56",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
