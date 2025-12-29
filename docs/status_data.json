@@ -208,21 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-29 10:27",
+        "timestamp": "2025-12-29 10:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2025-12-27 17:53",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
-                {
-                    "timestamp": "2025-12-27 18:20",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-27 18:57",
                     "status": 1,
@@ -712,6 +702,16 @@
                     "timestamp": "2025-12-29 10:27",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2025-12-29 10:48",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2025-12-29 10:57",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -788,7 +788,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2025-12-28 04:45",
+                "timestamp": "2025-12-29 10:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
