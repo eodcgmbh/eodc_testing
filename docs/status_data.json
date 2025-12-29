@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-29 18:24",
+        "timestamp": "2025-12-29 18:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "S1_GRD_SIGMA0_DESCENDING",
             "history": [
-                {
-                    "timestamp": "2025-12-28 01:18",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2025-12-28 03:17",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-29 18:24",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2025-12-29 18:50",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_DESCENDING"
                 }
             ]
         }
