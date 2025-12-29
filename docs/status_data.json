@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-29 17:38",
+        "timestamp": "2025-12-29 17:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2025-12-27 23:14",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2025-12-27 23:45",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-29 17:38",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2025-12-29 17:48",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -1208,7 +1208,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2025-12-25 22:44",
+                "timestamp": "2025-12-29 17:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
