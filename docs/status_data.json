@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 08:21",
+        "timestamp": "2025-12-30 08:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_NDVI_V2",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2025-12-28 13:49",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2025-12-28 13:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 08:21",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_NDVI_V2"
+                },
+                {
+                    "timestamp": "2025-12-30 08:50",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
