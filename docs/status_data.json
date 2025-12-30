@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 14:40",
+        "timestamp": "2025-12-30 14:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S10_TOC_333M",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2025-12-28 17:33",
-                    "status": 1,
-                    "collection": "EGM2008"
-                },
                 {
                     "timestamp": "2025-12-28 17:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 14:40",
                     "status": 1,
                     "collection": "PROBAV_L3_S10_TOC_333M"
+                },
+                {
+                    "timestamp": "2025-12-30 14:56",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2025-12-26 17:19",
+                "timestamp": "2025-12-30 14:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
