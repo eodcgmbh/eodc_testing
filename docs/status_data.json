@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 23:15",
+        "timestamp": "2025-12-30 23:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TM",
             "history": [
-                {
-                    "timestamp": "2025-12-29 05:39",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-12-29 05:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 23:15",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2025-12-30 23:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
                 }
             ]
         }
@@ -878,7 +878,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-12-29 04:51",
+                "timestamp": "2025-12-30 23:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
