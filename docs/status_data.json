@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 03:03",
+        "timestamp": "2025-12-30 04:06",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2025-12-28 10:14",
-                    "status": 1,
-                    "collection": "ERA5_WIND_U"
-                },
                 {
                     "timestamp": "2025-12-28 10:38",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 03:03",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2025-12-30 04:06",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -884,7 +884,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2025-12-29 13:38",
+                "timestamp": "2025-12-30 03:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
