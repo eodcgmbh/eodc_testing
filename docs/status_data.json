@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 17:32",
+        "timestamp": "2025-12-30 17:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TY",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2025-12-28 19:30",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2025-12-28 19:40",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 17:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
+                },
+                {
+                    "timestamp": "2025-12-30 17:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
@@ -722,7 +722,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2025-12-28 22:21",
+                "timestamp": "2025-12-30 17:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
