@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 19:13",
+        "timestamp": "2025-12-30 19:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_SENTINEL3_LST_S10",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2025-12-28 20:56",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2025-12-28 21:31",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 19:13",
                     "status": 1,
                     "collection": "TERRASCOPE_SENTINEL3_LST_S10"
+                },
+                {
+                    "timestamp": "2025-12-30 19:28",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
@@ -1130,7 +1130,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2025-12-30 18:33",
+                "timestamp": "2025-12-30 19:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
