@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-30 06:50:19",
+        "timestamp": "2025-12-30 07:36:51",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2025-12-27 13:00:42",
-                    "status": 0
-                },
                 {
                     "timestamp": "2025-12-27 13:41:33",
                     "status": 0
@@ -203,21 +199,20 @@
                 {
                     "timestamp": "2025-12-30 06:50:19",
                     "status": 0
+                },
+                {
+                    "timestamp": "2025-12-30 07:36:51",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 07:18",
+        "timestamp": "2025-12-30 07:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_HCHO_TM",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2025-12-28 11:53",
-                    "status": 1,
-                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
-                },
                 {
                     "timestamp": "2025-12-28 12:28",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 07:18",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
+                },
+                {
+                    "timestamp": "2025-12-30 07:37",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
