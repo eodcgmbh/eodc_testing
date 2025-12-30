@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2025-12-30 19:29:51",
+        "timestamp": "2025-12-30 18:47:58",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2025-12-28 06:47:27",
+                    "status": 0
+                },
                 {
                     "timestamp": "2025-12-28 08:42:28",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2025-12-30 18:47:58",
                     "status": 0
-                },
-                {
-                    "timestamp": "2025-12-30 19:29:51",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-30 19:28",
+        "timestamp": "2025-12-30 19:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2025-12-28 21:31",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
-                },
                 {
                     "timestamp": "2025-12-28 21:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-30 19:28",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2025-12-30 19:39",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
