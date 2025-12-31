@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 22:37",
+        "timestamp": "2025-12-31 22:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_DESCENDING",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-30 07:47",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2025-12-30 07:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 22:37",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_DESCENDING"
+                },
+                {
+                    "timestamp": "2025-12-31 22:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -1196,7 +1196,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2025-12-29 15:45",
+                "timestamp": "2025-12-31 22:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
