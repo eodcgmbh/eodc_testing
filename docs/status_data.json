@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 20:37",
+        "timestamp": "2025-12-31 20:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
             "history": [
-                {
-                    "timestamp": "2025-12-30 04:06",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
-                },
                 {
                     "timestamp": "2025-12-30 05:12",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 20:37",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2025-12-31 20:49",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
                 }
             ]
         }
@@ -890,7 +890,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2025-12-31 04:23",
+                "timestamp": "2025-12-31 20:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
