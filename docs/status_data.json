@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 21:17",
+        "timestamp": "2025-12-31 21:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-12-30 05:54",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2025-12-30 06:23",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 21:17",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2025-12-31 21:32",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -734,7 +734,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2025-12-30 16:54",
+                "timestamp": "2025-12-31 21:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
