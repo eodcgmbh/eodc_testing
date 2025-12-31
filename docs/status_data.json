@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 11:30",
+        "timestamp": "2025-12-31 11:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2025-12-29 16:18",
-                    "status": 1,
-                    "collection": "COPERNICUS_30"
-                },
                 {
                     "timestamp": "2025-12-29 16:44",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 11:30",
                     "status": 1,
                     "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
+                },
+                {
+                    "timestamp": "2025-12-31 11:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -944,7 +944,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-12-30 22:21",
+                "timestamp": "2025-12-31 11:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
