@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 11:14",
+        "timestamp": "2025-12-31 11:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER",
             "history": [
-                {
-                    "timestamp": "2025-12-29 15:52",
-                    "status": 1,
-                    "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
-                },
                 {
                     "timestamp": "2025-12-29 16:18",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 11:14",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2025-12-31 11:30",
+                    "status": 1,
+                    "collection": "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
                 }
             ]
         }
@@ -1202,7 +1202,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
-                "timestamp": "2025-12-25 18:31",
+                "timestamp": "2025-12-31 11:20",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
