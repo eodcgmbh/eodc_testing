@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 10:40",
+        "timestamp": "2025-12-31 10:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2025-12-29 15:18",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2025-12-29 15:39",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 10:40",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2025-12-31 10:54",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -878,7 +878,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2025-12-30 23:41",
+                "timestamp": "2025-12-31 10:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
