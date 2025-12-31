@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2025-12-31 20:15",
+        "timestamp": "2025-12-31 20:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2025-12-30 03:03",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2025-12-30 04:06",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2025-12-31 20:15",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2025-12-31 20:37",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
