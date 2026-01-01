@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-01 04:28",
+        "timestamp": "2026-01-01 05:01",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
             "history": [
-                {
-                    "timestamp": "2025-12-30 11:32",
-                    "status": 1,
-                    "collection": "SENTINEL1_MPLIA"
-                },
                 {
                     "timestamp": "2025-12-30 11:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-01 04:28",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2026-01-01 05:01",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
                 }
             ]
         }
@@ -944,7 +944,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2025-12-31 11:40",
+                "timestamp": "2026-01-01 04:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
