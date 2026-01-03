@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-03 20:38:11",
+        "timestamp": "2026-01-03 19:28:47",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-01 08:45:07",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-01 09:40:05",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-03 19:28:47",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-03 20:38:11",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 20:36",
+        "timestamp": "2026-01-03 20:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "ESA_WORLDCOVER_10M_2021_V2",
             "history": [
-                {
-                    "timestamp": "2026-01-02 09:57",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-02 10:20",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 20:36",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2026-01-03 20:48",
+                    "status": 1,
+                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
                 }
             ]
         }
@@ -1088,7 +1088,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2026-01-03 13:48",
+                "timestamp": "2026-01-03 20:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
