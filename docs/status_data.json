@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 04:51",
+        "timestamp": "2026-01-03 05:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "ERA5_WIND_U",
             "history": [
-                {
-                    "timestamp": "2026-01-01 14:51",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2026-01-01 15:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 04:51",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2026-01-03 05:15",
+                    "status": 1,
+                    "collection": "ERA5_WIND_U"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-01-02 17:43",
+                "timestamp": "2026-01-03 04:53",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
