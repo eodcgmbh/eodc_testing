@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 07:53",
+        "timestamp": "2026-01-03 08:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "CNES_LAND_COVER_MAP",
             "history": [
-                {
-                    "timestamp": "2026-01-01 17:41",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
-                },
                 {
                     "timestamp": "2026-01-01 17:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 07:53",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2026-01-03 08:19",
+                    "status": 1,
+                    "collection": "CNES_LAND_COVER_MAP"
                 }
             ]
         }
