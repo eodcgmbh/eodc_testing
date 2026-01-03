@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 14:47",
+        "timestamp": "2026-01-03 14:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
             "history": [
-                {
-                    "timestamp": "2026-01-01 23:35",
-                    "status": 1,
-                    "collection": "PERSISTENT_SNOW_AREA"
-                },
                 {
                     "timestamp": "2026-01-01 23:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 14:47",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2026-01-03 14:55",
+                    "status": 1,
+                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
                 }
             ]
         }
