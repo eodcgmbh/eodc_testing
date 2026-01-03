@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 13:36",
+        "timestamp": "2026-01-03 13:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_3M",
+            "collection": "PROBAV_L3_S1_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2026-01-01 22:37",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2026-01-01 22:49",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 13:36",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_3M"
+                },
+                {
+                    "timestamp": "2026-01-03 13:48",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_333M"
                 }
             ]
         }
@@ -1088,7 +1088,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2025-12-30 09:28",
+                "timestamp": "2026-01-03 13:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
