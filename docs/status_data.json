@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 20:48",
+        "timestamp": "2026-01-03 20:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2021_V2",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2026-01-02 10:20",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2026-01-02 10:43",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 20:48",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2021_V2"
+                },
+                {
+                    "timestamp": "2026-01-03 20:56",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
