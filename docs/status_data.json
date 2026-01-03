@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 07:32",
+        "timestamp": "2026-01-03 07:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER_V2_GLOBAL",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2026-01-01 16:59",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2026-01-01 17:23",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 07:32",
                     "status": 1,
                     "collection": "CGLS_FCOVER_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-03 07:44",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1226,7 +1226,7 @@
             },
             {
                 "collection": "topo-dc-austria-dsm",
-                "timestamp": "2026-01-02 23:41",
+                "timestamp": "2026-01-03 07:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
