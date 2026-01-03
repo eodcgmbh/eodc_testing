@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-03 23:32",
+        "timestamp": "2026-01-03 23:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-02 14:16",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2026-01-02 14:40",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-03 23:32",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2026-01-03 23:46",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-01-01 07:25",
+                "timestamp": "2026-01-03 23:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
