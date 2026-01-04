@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 20:38",
+        "timestamp": "2026-01-04 20:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
             "history": [
-                {
-                    "timestamp": "2026-01-03 09:46",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-03 09:54",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 20:38",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2026-01-04 20:50",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
                 }
             ]
         }
@@ -836,7 +836,7 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2026-01-04 03:54",
+                "timestamp": "2026-01-04 20:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
