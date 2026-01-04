@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 06:22",
+        "timestamp": "2026-01-04 06:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2026-01-02 16:59",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2026-01-02 17:21",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 06:22",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+                },
+                {
+                    "timestamp": "2026-01-04 06:52",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
