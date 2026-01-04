@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 08:19",
+        "timestamp": "2026-01-04 08:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_TSM",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2026-01-02 18:51",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2026-01-02 19:09",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 08:19",
                     "status": 1,
                     "collection": "CNR_TSM"
+                },
+                {
+                    "timestamp": "2026-01-04 08:44",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
