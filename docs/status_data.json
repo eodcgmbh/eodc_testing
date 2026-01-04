@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-04 23:34:35",
+        "timestamp": "2026-01-04 22:34:48",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-02 07:38:38",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-02 08:46:06",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-04 22:34:48",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-04 23:34:35",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 23:33",
+        "timestamp": "2026-01-04 23:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2026-01-03 12:27",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2026-01-03 13:06",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 23:33",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2026-01-04 23:46",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -818,7 +818,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2026-01-04 08:29",
+                "timestamp": "2026-01-04 23:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
