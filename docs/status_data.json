@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 15:33",
+        "timestamp": "2026-01-04 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TD",
             "history": [
-                {
-                    "timestamp": "2026-01-03 02:56",
-                    "status": 1,
-                    "collection": "AGERA5"
-                },
                 {
                     "timestamp": "2026-01-03 03:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 15:33",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2026-01-04 15:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
                 }
             ]
         }
@@ -1166,7 +1166,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2026-01-03 05:23",
+                "timestamp": "2026-01-04 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
