@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 11:30",
+        "timestamp": "2026-01-04 11:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2026-01-02 21:39",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2026-01-02 21:48",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 11:30",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2026-01-04 11:43",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -770,7 +770,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2026-01-04 09:41",
+                "timestamp": "2026-01-04 11:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
