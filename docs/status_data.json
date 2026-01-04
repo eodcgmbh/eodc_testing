@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 08:44",
+        "timestamp": "2026-01-04 08:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2026-01-02 19:09",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2026-01-02 19:23",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 08:44",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2026-01-04 08:57",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -884,7 +884,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2026-01-02 16:52",
+                "timestamp": "2026-01-04 08:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
