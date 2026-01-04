@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 11:17",
+        "timestamp": "2026-01-04 11:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2026-01-02 21:28",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_SPM_V1"
-                },
                 {
                     "timestamp": "2026-01-02 21:39",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 11:17",
                     "status": 1,
                     "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
+                },
+                {
+                    "timestamp": "2026-01-04 11:30",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
