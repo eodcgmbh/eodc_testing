@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-04 18:58",
+        "timestamp": "2026-01-04 19:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2026-01-03 07:44",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2026-01-03 07:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-04 18:58",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2026-01-04 19:39",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -890,7 +890,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2026-01-02 14:22",
+                "timestamp": "2026-01-04 19:38",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
