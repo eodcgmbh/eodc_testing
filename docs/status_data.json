@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-05 15:58",
+        "timestamp": "2026-01-05 16:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E13B",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-03 21:31",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2026-01-03 21:44",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-05 15:58",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
+                },
+                {
+                    "timestamp": "2026-01-05 16:31",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -800,7 +800,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2026-01-05 14:26",
+                "timestamp": "2026-01-05 16:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
