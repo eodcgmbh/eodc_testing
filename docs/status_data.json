@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-05 15:41",
+        "timestamp": "2026-01-05 15:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
-                {
-                    "timestamp": "2026-01-03 21:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2026-01-03 21:31",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-05 15:41",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-01-05 15:58",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E13B"
                 }
             ]
         }
@@ -1130,7 +1130,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2026-01-04 21:41",
+                "timestamp": "2026-01-05 15:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
