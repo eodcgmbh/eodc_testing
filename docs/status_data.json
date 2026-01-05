@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-05 20:41",
+        "timestamp": "2026-01-05 20:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "WORLDVIEW",
             "history": [
-                {
-                    "timestamp": "2026-01-04 01:19",
-                    "status": 1,
-                    "collection": "CAMS_GLC"
-                },
                 {
                     "timestamp": "2026-01-04 03:19",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-05 20:41",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2026-01-05 20:56",
+                    "status": 1,
+                    "collection": "WORLDVIEW"
                 }
             ]
         }
@@ -878,7 +878,7 @@
             },
             {
                 "collection": "SENTINEL2_MFCOVER",
-                "timestamp": "2026-01-04 22:45",
+                "timestamp": "2026-01-05 20:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
