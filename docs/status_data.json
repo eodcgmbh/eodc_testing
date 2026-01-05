@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-05 10:59",
+        "timestamp": "2026-01-05 11:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2026-01-03 18:46",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2026-01-03 18:58",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-05 10:59",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
+                },
+                {
+                    "timestamp": "2026-01-05 11:23",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
@@ -1190,7 +1190,7 @@
             },
             {
                 "collection": "SAR_IMP_1P",
-                "timestamp": "2026-01-04 01:57",
+                "timestamp": "2026-01-05 11:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
