@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-05 17:41",
+        "timestamp": "2026-01-05 17:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "CGLS_NDVI_V3_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-03 22:14",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2026-01-03 22:36",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-05 17:41",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2026-01-05 17:55",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V3_GLOBAL"
                 }
             ]
         }
@@ -1112,7 +1112,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2026-01-02 08:56",
+                "timestamp": "2026-01-05 17:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
