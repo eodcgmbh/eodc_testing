@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-06 09:46",
+        "timestamp": "2026-01-06 09:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2026-01-04 13:37",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-04 13:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-06 09:46",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-06 09:57",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -806,7 +806,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2026-01-05 22:22",
+                "timestamp": "2026-01-06 09:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
