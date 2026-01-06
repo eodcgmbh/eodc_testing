@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-06 21:14",
+        "timestamp": "2026-01-06 21:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_SPM_V1",
+            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
             "history": [
-                {
-                    "timestamp": "2026-01-04 22:49",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-04 22:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-06 21:14",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_SPM_V1"
+                },
+                {
+                    "timestamp": "2026-01-06 21:34",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
                 }
             ]
         }
@@ -1112,7 +1112,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2026-01-05 18:35",
+                "timestamp": "2026-01-06 21:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
