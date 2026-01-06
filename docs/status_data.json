@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-06 04:06",
+        "timestamp": "2026-01-06 04:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AUT_DEM",
+            "collection": "ESA_WORLDCEREAL_MAIZE",
             "history": [
-                {
-                    "timestamp": "2026-01-04 09:45",
-                    "status": 1,
-                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
-                },
                 {
                     "timestamp": "2026-01-04 09:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-06 04:06",
                     "status": 1,
                     "collection": "AUT_DEM"
+                },
+                {
+                    "timestamp": "2026-01-06 04:48",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_MAIZE"
                 }
             ]
         }
@@ -752,7 +752,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2026-01-03 03:23",
+                "timestamp": "2026-01-06 04:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
