@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-07 23:15",
+        "timestamp": "2026-01-07 23:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "CGLS_FCOVER_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-05 23:54",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2026-01-06 01:11",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-07 23:15",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2026-01-07 23:34",
+                    "status": 1,
+                    "collection": "CGLS_FCOVER_V2_GLOBAL"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-01-06 17:50",
+                "timestamp": "2026-01-07 23:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
