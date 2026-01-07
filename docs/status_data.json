@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-07 14:59",
+        "timestamp": "2026-01-07 15:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
             "history": [
-                {
-                    "timestamp": "2026-01-05 16:31",
-                    "status": 1,
-                    "collection": "CGLS_NDVI300_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-05 17:17",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-07 14:59",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2026-01-07 15:29",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
                 }
             ]
         }
@@ -818,7 +818,7 @@
             },
             {
                 "collection": "DSM_AUT",
-                "timestamp": "2026-01-06 22:47",
+                "timestamp": "2026-01-07 15:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
