@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-08 15:37",
+        "timestamp": "2026-01-08 15:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2026-01-06 15:56",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2026-01-06 16:25",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-08 15:37",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2026-01-08 15:54",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
@@ -1220,7 +1220,7 @@
             },
             {
                 "collection": "topo-dc-austria-dtm",
-                "timestamp": "2026-01-07 14:25",
+                "timestamp": "2026-01-08 15:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
