@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-08 13:24",
+        "timestamp": "2026-01-08 13:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FCOVER_V2",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2026-01-06 14:43",
-                    "status": 1,
-                    "collection": "CGLS_LAI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-06 14:58",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-08 13:24",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FCOVER_V2"
+                },
+                {
+                    "timestamp": "2026-01-08 13:55",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -782,7 +782,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2026-01-05 23:43",
+                "timestamp": "2026-01-08 13:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
