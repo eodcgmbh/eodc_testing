@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-08 22:21",
+        "timestamp": "2026-01-08 22:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "S1_GRD_SIGMA0_ASCENDING",
             "history": [
-                {
-                    "timestamp": "2026-01-06 21:48",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
-                },
                 {
                     "timestamp": "2026-01-06 21:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-08 22:21",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-08 22:44",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_ASCENDING"
                 }
             ]
         }
