@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-08 23:13",
+        "timestamp": "2026-01-08 23:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2026-01-06 22:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2026-01-06 23:33",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-08 23:13",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-08 23:30",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -920,7 +920,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2026-01-08 21:22",
+                "timestamp": "2026-01-08 23:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
