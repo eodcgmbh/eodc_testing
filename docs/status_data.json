@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-08 03:06",
+        "timestamp": "2026-01-08 04:07",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2026-01-06 05:13",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
-                },
                 {
                     "timestamp": "2026-01-06 05:43",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-08 03:06",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2026-01-08 04:07",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1196,7 +1196,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2026-01-06 14:24",
+                "timestamp": "2026-01-08 03:40",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
