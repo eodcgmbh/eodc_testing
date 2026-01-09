@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-09 19:15",
+        "timestamp": "2026-01-09 19:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI_V2_GLOBAL",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TY",
             "history": [
-                {
-                    "timestamp": "2026-01-07 19:55",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-07 20:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-09 19:15",
                     "status": 1,
                     "collection": "CGLS_LAI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-09 19:32",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
                 }
             ]
         }
@@ -950,7 +950,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2026-01-07 22:47",
+                "timestamp": "2026-01-09 19:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
