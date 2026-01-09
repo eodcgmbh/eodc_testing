@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-09 16:53",
+        "timestamp": "2026-01-09 17:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2026-01-07 18:34",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2026-01-07 18:58",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-09 16:53",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
+                },
+                {
+                    "timestamp": "2026-01-09 17:18",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -728,7 +728,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2026-01-07 23:43",
+                "timestamp": "2026-01-09 16:57",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
