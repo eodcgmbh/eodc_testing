@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-10 09:36",
+        "timestamp": "2026-01-10 09:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2026-01-08 13:24",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_FCOVER_V2"
-                },
                 {
                     "timestamp": "2026-01-08 13:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-10 09:36",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2026-01-10 09:46",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -1196,7 +1196,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_SUEDBURGENLAND",
-                "timestamp": "2026-01-09 21:43",
+                "timestamp": "2026-01-10 09:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
