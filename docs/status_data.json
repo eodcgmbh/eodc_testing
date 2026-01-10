@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-10 18:49",
+        "timestamp": "2026-01-10 18:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2026-01-09 03:07",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
-                },
                 {
                     "timestamp": "2026-01-09 04:07",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-10 18:49",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
+                },
+                {
+                    "timestamp": "2026-01-10 18:59",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2026-01-09 17:49",
+                "timestamp": "2026-01-10 18:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
