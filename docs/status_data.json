@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-11 19:29",
+        "timestamp": "2026-01-11 19:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD",
             "history": [
-                {
-                    "timestamp": "2026-01-10 07:14",
-                    "status": 1,
-                    "collection": "LANDSAT1-5_MSS_L1"
-                },
                 {
                     "timestamp": "2026-01-10 07:31",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-11 19:29",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2026-01-11 19:40",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
                 }
             ]
         }
@@ -830,7 +830,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2026-01-11 18:31",
+                "timestamp": "2026-01-11 19:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
