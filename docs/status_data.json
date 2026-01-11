@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-11 08:44",
+        "timestamp": "2026-01-11 08:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11A",
+            "collection": "SENTINEL3_SYNERGY_VG10",
             "history": [
-                {
-                    "timestamp": "2026-01-09 17:18",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E3"
-                },
                 {
                     "timestamp": "2026-01-09 17:41",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-11 08:44",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11A"
+                },
+                {
+                    "timestamp": "2026-01-11 08:57",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG10"
                 }
             ]
         }
@@ -1160,7 +1160,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2026-01-09 14:26",
+                "timestamp": "2026-01-11 08:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
