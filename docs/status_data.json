@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-12 14:52",
+        "timestamp": "2026-01-12 15:19",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_CHL_V1",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-10 19:29",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-10 19:47",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-12 14:52",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_CHL_V1"
+                },
+                {
+                    "timestamp": "2026-01-12 15:19",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
@@ -764,7 +764,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2026-01-12 08:34",
+                "timestamp": "2026-01-12 14:56",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
