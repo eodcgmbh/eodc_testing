@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-12 10:46",
+        "timestamp": "2026-01-12 10:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "corine_land_cover",
+            "collection": "SENTINEL2_L1C_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2026-01-10 16:56",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_AGRICULTURE"
-                },
                 {
                     "timestamp": "2026-01-10 17:14",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-12 10:46",
                     "status": 1,
                     "collection": "corine_land_cover"
+                },
+                {
+                    "timestamp": "2026-01-12 10:58",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_SENTINELHUB"
                 }
             ]
         }
@@ -722,7 +722,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2026-01-11 11:40",
+                "timestamp": "2026-01-12 10:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
