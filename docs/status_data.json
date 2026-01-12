@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-12 05:05",
+        "timestamp": "2026-01-12 05:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2026-01-10 13:37",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2026-01-10 13:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-12 05:05",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2026-01-12 05:41",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -890,7 +890,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2026-01-11 04:50",
+                "timestamp": "2026-01-12 05:30",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
