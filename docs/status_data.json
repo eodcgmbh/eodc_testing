@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-13 04:07",
+        "timestamp": "2026-01-13 04:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM",
+            "collection": "SKYSAT",
             "history": [
-                {
-                    "timestamp": "2026-01-11 07:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2026-01-11 08:19",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-13 04:07",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+                },
+                {
+                    "timestamp": "2026-01-13 04:50",
+                    "status": 1,
+                    "collection": "SKYSAT"
                 }
             ]
         }
@@ -758,7 +758,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2026-01-12 20:49",
+                "timestamp": "2026-01-13 04:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
