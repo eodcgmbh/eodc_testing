@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-13 22:41",
+        "timestamp": "2026-01-13 22:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2026-01-11 22:56",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_TAMSWEG"
-                },
                 {
                     "timestamp": "2026-01-11 23:16",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-13 22:41",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2026-01-13 22:56",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
@@ -1226,7 +1226,7 @@
             },
             {
                 "collection": "topo-dc-austria-dsm",
-                "timestamp": "2026-01-06 16:31",
+                "timestamp": "2026-01-13 22:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
