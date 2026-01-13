@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-13 15:18",
+        "timestamp": "2026-01-13 16:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-11 17:46",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-11 17:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-13 15:18",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2026-01-13 16:00",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1166,7 +1166,7 @@
             },
             {
                 "collection": "ASA_IMP_1P",
-                "timestamp": "2026-01-12 14:27",
+                "timestamp": "2026-01-13 15:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
