@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-14 22:21",
+        "timestamp": "2026-01-14 22:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2026-01-12 22:49",
-                    "status": 1,
-                    "collection": "PLANETSCOPE"
-                },
                 {
                     "timestamp": "2026-01-12 22:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-14 22:21",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2026-01-14 22:45",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
