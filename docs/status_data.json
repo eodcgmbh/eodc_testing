@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-14 21:15",
+        "timestamp": "2026-01-14 21:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2026-01-12 21:37",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-12 21:49",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-14 21:15",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
+                },
+                {
+                    "timestamp": "2026-01-14 21:36",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -734,7 +734,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2026-01-13 09:30",
+                "timestamp": "2026-01-14 21:23",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
