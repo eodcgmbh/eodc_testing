@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-14 04:57",
+        "timestamp": "2026-01-14 05:21",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2026-01-12 05:41",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2026-01-12 05:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-14 04:57",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2026-01-14 05:21",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
