@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-15 10:26",
+        "timestamp": "2026-01-15 10:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "DOP_AUT_K_VILLACH",
             "history": [
-                {
-                    "timestamp": "2026-01-13 11:26",
-                    "status": 1,
-                    "collection": "CGLS_FCOVER300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-13 11:41",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-15 10:26",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2026-01-15 10:48",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_VILLACH"
                 }
             ]
         }
