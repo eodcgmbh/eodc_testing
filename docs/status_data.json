@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-15 07:30",
+        "timestamp": "2026-01-15 07:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2026-01-13 08:22",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2026-01-13 08:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-15 07:30",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_TANKER"
+                },
+                {
+                    "timestamp": "2026-01-15 07:46",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
