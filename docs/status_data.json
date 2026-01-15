@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-15 22:40",
+        "timestamp": "2026-01-15 22:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_RHOW_V1",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2026-01-13 22:16",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2026-01-13 22:41",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-15 22:40",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_RHOW_V1"
+                },
+                {
+                    "timestamp": "2026-01-15 22:55",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
@@ -764,7 +764,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2026-01-15 14:26",
+                "timestamp": "2026-01-15 22:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
