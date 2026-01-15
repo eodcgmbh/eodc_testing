@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-15 17:05",
+        "timestamp": "2026-01-15 17:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT1-5_MSS_L1",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2026-01-13 18:24",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L2"
-                },
                 {
                     "timestamp": "2026-01-13 18:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-15 17:05",
                     "status": 1,
                     "collection": "LANDSAT1-5_MSS_L1"
+                },
+                {
+                    "timestamp": "2026-01-15 17:46",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -896,7 +896,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2026-01-13 14:27",
+                "timestamp": "2026-01-15 17:34",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
