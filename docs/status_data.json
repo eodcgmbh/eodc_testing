@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-15 10:59",
+        "timestamp": "2026-01-15 11:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "FRACTIONAL_SNOW_COVER",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2026-01-13 11:53",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
-                },
                 {
                     "timestamp": "2026-01-13 12:32",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-15 10:59",
                     "status": 1,
                     "collection": "FRACTIONAL_SNOW_COVER"
+                },
+                {
+                    "timestamp": "2026-01-15 11:23",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-01-13 20:49",
+                "timestamp": "2026-01-15 11:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
