@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-15 03:08",
+        "timestamp": "2026-01-15 04:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2026-01-13 05:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
-                },
                 {
                     "timestamp": "2026-01-13 05:43",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-15 03:08",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2026-01-15 04:10",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
@@ -1142,7 +1142,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2026-01-12 05:55",
+                "timestamp": "2026-01-15 03:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
