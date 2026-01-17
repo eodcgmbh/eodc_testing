@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-17 02:57",
+        "timestamp": "2026-01-17 03:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
             "history": [
-                {
-                    "timestamp": "2026-01-15 06:31",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-15 06:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-17 02:57",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2026-01-17 03:54",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-01-15 12:49",
+                "timestamp": "2026-01-17 03:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
