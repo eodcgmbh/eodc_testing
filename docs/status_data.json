@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-17 15:14",
+        "timestamp": "2026-01-17 15:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2026-01-15 21:53",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2026-01-15 22:16",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-17 15:14",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2026-01-17 15:33",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -842,7 +842,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2026-01-17 11:40",
+                "timestamp": "2026-01-17 15:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
