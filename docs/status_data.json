@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-17 05:37",
+        "timestamp": "2026-01-17 05:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_SPM_V1",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2026-01-15 08:22",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-15 08:52",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-17 05:37",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_SPM_V1"
+                },
+                {
+                    "timestamp": "2026-01-17 05:48",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-01-17 03:24",
+                "timestamp": "2026-01-17 05:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
