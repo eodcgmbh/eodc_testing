@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-17 23:33:29",
+        "timestamp": "2026-01-17 22:34:34",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-15 04:16:14",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-15 05:40:50",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-17 22:34:34",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-17 23:33:29",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-17 23:32",
+        "timestamp": "2026-01-17 23:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_TOC_V2",
+            "collection": "TERRASCOPE_S5P_L3_HCHO_TM",
             "history": [
-                {
-                    "timestamp": "2026-01-16 11:21",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2026-01-16 11:39",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-17 23:32",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_TOC_V2"
+                },
+                {
+                    "timestamp": "2026-01-17 23:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
                 }
             ]
         }
@@ -1220,7 +1220,7 @@
             },
             {
                 "collection": "topo-dc-austria-dtm",
-                "timestamp": "2026-01-17 04:53",
+                "timestamp": "2026-01-17 23:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
