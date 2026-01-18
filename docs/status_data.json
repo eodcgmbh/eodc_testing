@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-18 04:14",
+        "timestamp": "2026-01-18 04:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2026-01-16 13:28",
-                    "status": 1,
-                    "collection": "COP_DEM_EU_25M"
-                },
                 {
                     "timestamp": "2026-01-16 13:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-18 04:14",
                     "status": 1,
                     "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
+                },
+                {
+                    "timestamp": "2026-01-18 04:53",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -860,7 +860,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2026-01-13 16:34",
+                "timestamp": "2026-01-18 04:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
