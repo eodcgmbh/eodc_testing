@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-18 15:34:19",
+        "timestamp": "2026-01-18 14:32:55",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-15 16:51:00",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-15 17:47:53",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-18 14:32:55",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-18 15:34:19",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-18 15:33",
+        "timestamp": "2026-01-18 15:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2026-01-17 04:27",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2026-01-17 04:51",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-18 15:33",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-18 15:45",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -962,7 +962,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2026-01-18 14:43",
+                "timestamp": "2026-01-18 15:42",
                 "status": "FAILURE",
                 "item": "N/A"
             },
