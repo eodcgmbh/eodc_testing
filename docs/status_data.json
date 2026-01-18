@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-18 22:33:56",
+        "timestamp": "2026-01-18 23:33:43",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2026-01-16 08:47:55",
-                    "status": 0
-                },
                 {
                     "timestamp": "2026-01-16 09:42:29",
                     "status": 0
@@ -203,21 +199,20 @@
                 {
                     "timestamp": "2026-01-18 22:33:56",
                     "status": 0
+                },
+                {
+                    "timestamp": "2026-01-18 23:33:43",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-18 23:16",
+        "timestamp": "2026-01-18 23:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1",
+            "collection": "SENTINEL2_L2A",
             "history": [
-                {
-                    "timestamp": "2026-01-17 13:37",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2026-01-17 13:48",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-18 23:16",
                     "status": 1,
                     "collection": "EEA_RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1"
+                },
+                {
+                    "timestamp": "2026-01-18 23:32",
+                    "status": 1,
+                    "collection": "SENTINEL2_L2A"
                 }
             ]
         }
@@ -962,7 +962,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2026-01-18 22:45",
+                "timestamp": "2026-01-18 23:21",
                 "status": "FAILURE",
                 "item": "N/A"
             },
