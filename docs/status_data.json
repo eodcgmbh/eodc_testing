@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-18 14:35",
+        "timestamp": "2026-01-18 14:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_KLAGENFURT",
+            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
             "history": [
-                {
-                    "timestamp": "2026-01-16 23:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2026-01-17 01:09",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-18 14:35",
                     "status": 1,
                     "collection": "DOP_AUT_K_KLAGENFURT"
+                },
+                {
+                    "timestamp": "2026-01-18 14:46",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
                 }
             ]
         }
@@ -962,7 +962,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2026-01-18 13:49",
+                "timestamp": "2026-01-18 14:43",
                 "status": "FAILURE",
                 "item": "N/A"
             },
