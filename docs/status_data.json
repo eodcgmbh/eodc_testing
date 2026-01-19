@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-19 10:01",
+        "timestamp": "2026-01-19 11:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "POPULATION_DENSITY",
             "history": [
-                {
-                    "timestamp": "2026-01-17 17:45",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2026-01-17 17:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-19 10:01",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2026-01-19 11:00",
+                    "status": 1,
+                    "collection": "POPULATION_DENSITY"
                 }
             ]
         }
@@ -794,7 +794,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2026-01-16 20:24",
+                "timestamp": "2026-01-19 10:57",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
