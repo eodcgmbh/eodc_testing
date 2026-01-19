@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-19 05:07",
+        "timestamp": "2026-01-19 06:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12D_PRIMARY",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2026-01-17 15:14",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_ASCENDING"
-                },
                 {
                     "timestamp": "2026-01-17 15:33",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-19 05:07",
                     "status": 1,
                     "collection": "E12D_PRIMARY"
+                },
+                {
+                    "timestamp": "2026-01-19 06:00",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
