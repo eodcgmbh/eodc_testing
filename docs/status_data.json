@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-19 19:32:58",
+        "timestamp": "2026-01-19 18:50:08",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-17 02:11:13",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-17 04:06:36",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-19 18:50:08",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-19 19:32:58",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-19 19:31",
+        "timestamp": "2026-01-19 19:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
+            "collection": "ESA_WORLDCEREAL_IRRIGATION",
             "history": [
-                {
-                    "timestamp": "2026-01-17 22:55",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TOC_V2"
-                },
                 {
                     "timestamp": "2026-01-17 23:32",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-19 19:31",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TY"
+                },
+                {
+                    "timestamp": "2026-01-19 19:45",
+                    "status": 1,
+                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -842,7 +842,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2026-01-17 15:21",
+                "timestamp": "2026-01-19 19:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
