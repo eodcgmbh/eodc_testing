@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-19 20:55",
+        "timestamp": "2026-01-19 21:33",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
+            "collection": "CNES_LAND_COVER_MAP",
             "history": [
-                {
-                    "timestamp": "2026-01-18 03:16",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2026-01-18 04:14",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-19 20:55",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TD"
+                },
+                {
+                    "timestamp": "2026-01-19 21:33",
+                    "status": 1,
+                    "collection": "CNES_LAND_COVER_MAP"
                 }
             ]
         }
@@ -920,7 +920,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2026-01-17 05:22",
+                "timestamp": "2026-01-19 21:21",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
