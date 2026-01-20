@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-20 13:30",
+        "timestamp": "2026-01-20 14:03",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNR_CHL",
+            "collection": "SENTINEL2_L1C_INCD",
             "history": [
-                {
-                    "timestamp": "2026-01-18 13:57",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2026-01-18 14:17",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-20 13:30",
                     "status": 1,
                     "collection": "CNR_CHL"
+                },
+                {
+                    "timestamp": "2026-01-20 14:03",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_INCD"
                 }
             ]
         }
@@ -752,7 +752,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2026-01-17 11:18",
+                "timestamp": "2026-01-20 13:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
