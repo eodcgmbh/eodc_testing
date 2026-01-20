@@ -1,0 +1,50 @@
+name: Test S2 DATACUBE
+
+on:
+  push:
+    paths:
+        - 'scripts/test_s2_datacube.py'   
+  schedule:
+    - cron: "*/30 * * * *"
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  test-s2-datacube:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Set Pushgateway env
+        run: |
+          echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
+          echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
+          echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
+
+      - name: Run S2 DATACUBE Test
+        run: python scripts/test_s2_datacube.py
+
+      - name: Run S2 STAC Test
+        if: github.event.schedule == "0 0 * * *"
+        run: python scripts/test_s2_stac.py
+
+      - name: Commit Logs
+        if: always()
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git pull --rebase --autostash
+          git add results/logs/test_s2_datacube.log
+          git commit -m "Updated S2 DATACUBE test logs"
+          git push
