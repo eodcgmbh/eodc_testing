@@ -1,17 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-20 13:12:22",
+        "timestamp": "2026-01-20 15:45:30",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2026-01-17 19:29:03",
-                    "status": 0
-                },
-                {
-                    "timestamp": "2026-01-17 20:37:29",
-                    "status": 0
-                },
                 {
                     "timestamp": "2026-01-17 22:34:34",
                     "status": 0
@@ -203,21 +195,24 @@
                 {
                     "timestamp": "2026-01-20 13:12:22",
                     "status": 0
+                },
+                {
+                    "timestamp": "2026-01-20 14:47:43",
+                    "status": 0
+                },
+                {
+                    "timestamp": "2026-01-20 15:45:30",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-20 14:03",
+        "timestamp": "2026-01-20 15:15",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C_INCD",
+            "collection": "DOP_AUT_K_OSTTIROL",
             "history": [
-                {
-                    "timestamp": "2026-01-18 14:17",
-                    "status": 1,
-                    "collection": "ICEYE_GRD_E3"
-                },
                 {
                     "timestamp": "2026-01-18 14:35",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-20 14:03",
                     "status": 1,
                     "collection": "SENTINEL2_L1C_INCD"
+                },
+                {
+                    "timestamp": "2026-01-20 15:15",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_OSTTIROL"
                 }
             ]
         }
@@ -860,7 +860,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2026-01-19 11:45",
+                "timestamp": "2026-01-20 14:32",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1445,16 +1445,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-01-20 14:25:32",
+        "timestamp": "2026-01-20 15:25:22",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-163c968d-df40-4bb7-848d-20bf945d78d4)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-9f672b6e-3496-44aa-b5f9-5b0d65ad8514)",
             "history": [
-                {
-                    "timestamp": "2026-01-20 05:24:37",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-9c2518bd-fc1c-4a75-9795-c1acd8a548dd)"
-                },
                 {
                     "timestamp": "2026-01-20 06:28:22",
                     "status": 0,
@@ -1499,6 +1494,11 @@
                     "timestamp": "2026-01-20 14:25:32",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-163c968d-df40-4bb7-848d-20bf945d78d4)"
+                },
+                {
+                    "timestamp": "2026-01-20 15:25:22",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-9f672b6e-3496-44aa-b5f9-5b0d65ad8514)"
                 }
             ]
         }
