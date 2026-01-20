@@ -46,5 +46,9 @@ jobs:
           git config --global user.email "action@github.com"
           git pull --rebase --autostash
           git add results/logs/test_s2_datacube.log
-          git commit -m "Updated S2 DATACUBE test logs"
+          if git diff --cached --quiet; then
+            echo "Log unchanged — nothing to commit"
+            exit 0
+          fi
+          git commit -m "Update S2 DATACUBE test log"
           git push
