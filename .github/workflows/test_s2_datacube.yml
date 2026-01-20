@@ -36,7 +36,7 @@ jobs:
         run: python scripts/test_s2_datacube.py
 
       - name: Run S2 STAC Test
-        if: github.event.schedule == "0 0 * * *"
+        if: github.event.schedule != "*/30 * * * *"
         run: python scripts/test_s2_stac.py
 
       - name: Commit Logs
