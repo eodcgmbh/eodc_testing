@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-20 22:42",
+        "timestamp": "2026-01-20 22:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2026-01-18 18:45",
-                    "status": 1,
-                    "collection": "CDS_2M_TEMP_2020"
-                },
                 {
                     "timestamp": "2026-01-18 18:57",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-20 22:42",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
+                },
+                {
+                    "timestamp": "2026-01-20 22:53",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -944,7 +944,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2026-01-19 17:25",
+                "timestamp": "2026-01-20 22:45",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
