@@ -5,6 +5,7 @@ on:
     paths:
         - 'scripts/test_s2_datacube.py'
         - '.github/workflows/test_s2_datacube.yml'
+        - 'requirements_s2.txt'
   schedule:
     - cron: '*/30 * * * *'
     - cron: '0 0 * * *'
