@@ -74,7 +74,6 @@ def ok(resp):
     return True, "OK"
 
 def main():
-    os.makedirs(os.path.dirname(LOG), exist_ok=True)
     t0 = time.time()
     service = SERVICE
 
@@ -95,12 +94,9 @@ def main():
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     line = f"{ts} - {'SUCCESS' if success else 'FAILURE:'} {msg}"
-    with open(LOG, "a", encoding="utf-8") as f:
-        f.write(line + "\n")
+    print(line)
 
     push_e2e_result(service, success, time.time() - t0)
-    if not success:
-        raise SystemExit(1)
 
 if __name__ == "__main__":
     main()
