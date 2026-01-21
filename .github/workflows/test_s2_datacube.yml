@@ -3,7 +3,8 @@ name: Test S2 DATACUBE
 on:
   push:
     paths:
-        - 'scripts/test_s2_datacube.py'   
+        - 'scripts/test_s2_datacube.py'
+        - '.github/workflows/test_s2_datacube.yml'
   schedule:
     - cron: '*/30 * * * *'
     - cron: '0 0 * * *'
@@ -19,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: 3.9
 
       - name: Install dependencies
         run: |
