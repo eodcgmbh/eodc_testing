@@ -1,17 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-21 09:48:32",
+        "timestamp": "2026-01-21 11:39:11",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2026-01-18 17:31:19",
-                    "status": 0
-                },
-                {
-                    "timestamp": "2026-01-18 18:44:34",
-                    "status": 0
-                },
                 {
                     "timestamp": "2026-01-18 20:37:08",
                     "status": 0
@@ -203,31 +195,24 @@
                 {
                     "timestamp": "2026-01-21 09:48:32",
                     "status": 0
+                },
+                {
+                    "timestamp": "2026-01-21 10:46:23",
+                    "status": 0
+                },
+                {
+                    "timestamp": "2026-01-21 11:39:11",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-21 10:20",
+        "timestamp": "2026-01-21 11:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
+            "collection": "CNR_CHL",
             "history": [
-                {
-                    "timestamp": "2026-01-18 23:32",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
-                {
-                    "timestamp": "2026-01-18 23:46",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
-                {
-                    "timestamp": "2026-01-18 23:54",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-19 01:17",
                     "status": 1,
@@ -712,6 +697,21 @@
                     "timestamp": "2026-01-21 10:20",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
+                },
+                {
+                    "timestamp": "2026-01-21 10:53",
+                    "status": 1,
+                    "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2026-01-21 11:18",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TM"
+                },
+                {
+                    "timestamp": "2026-01-21 11:56",
+                    "status": 1,
+                    "collection": "CNR_CHL"
                 }
             ]
         }
@@ -746,13 +746,13 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2026-01-20 12:53",
+                "timestamp": "2026-01-21 11:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2026-01-20 13:49",
+                "timestamp": "2026-01-21 10:58",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -800,7 +800,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2026-01-19 11:26",
+                "timestamp": "2026-01-21 11:31",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1184,7 +1184,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_VILLACH",
-                "timestamp": "2026-01-20 06:38",
+                "timestamp": "2026-01-21 10:31",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1445,16 +1445,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-01-21 07:23:19",
+        "timestamp": "2026-01-21 12:37:40",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b1fcfc39-d277-4905-9cb6-3ca917e3055f)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-41f6869c-3ebd-4c00-a4ec-a6e2870f0b28)",
             "history": [
-                {
-                    "timestamp": "2026-01-20 15:25:22",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-9f672b6e-3496-44aa-b5f9-5b0d65ad8514)"
-                },
                 {
                     "timestamp": "2026-01-20 16:28:08",
                     "status": 0,
@@ -1499,6 +1494,11 @@
                     "timestamp": "2026-01-21 07:23:19",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b1fcfc39-d277-4905-9cb6-3ca917e3055f)"
+                },
+                {
+                    "timestamp": "2026-01-21 12:37:40",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-41f6869c-3ebd-4c00-a4ec-a6e2870f0b28)"
                 }
             ]
         }
