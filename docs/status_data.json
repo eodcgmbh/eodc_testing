@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-21 04:15",
+        "timestamp": "2026-01-21 04:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "CGLS_NDVI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-18 20:16",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-18 20:48",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-21 04:15",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2026-01-21 04:57",
+                    "status": 1,
+                    "collection": "CGLS_NDVI_V2_GLOBAL"
                 }
             ]
         }
@@ -722,7 +722,7 @@
         "extra_info": [
             {
                 "collection": "SENTINEL1_GRD_COVERAGE",
-                "timestamp": "2026-01-19 12:53",
+                "timestamp": "2026-01-21 04:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
