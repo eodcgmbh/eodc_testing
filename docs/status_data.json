@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-21 22:00",
+        "timestamp": "2026-01-21 22:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2026-01-19 11:00",
-                    "status": 1,
-                    "collection": "POPULATION_DENSITY"
-                },
                 {
                     "timestamp": "2026-01-19 11:32",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-21 22:00",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-01-21 22:32",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -836,7 +836,7 @@
             },
             {
                 "collection": "SENTINEL1_SIG0_20M",
-                "timestamp": "2026-01-17 21:19",
+                "timestamp": "2026-01-21 22:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
