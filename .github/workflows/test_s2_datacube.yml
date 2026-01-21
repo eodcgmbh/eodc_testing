@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: 3.9
 
       - name: Install dependencies
         run: |
@@ -44,7 +44,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git pull --rebase --autostash
           git add results/logs/test_s2_datacube.log
           if git diff --cached --quiet; then
             echo "Log unchanged — nothing to commit"
