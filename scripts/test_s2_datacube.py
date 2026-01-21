@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, time, random, requests
+import os, sys, time, requests
 from datetime import datetime, timedelta
 import zarr
 import numpy as np
