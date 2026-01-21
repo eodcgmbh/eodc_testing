@@ -58,6 +58,7 @@ def main():
     os.makedirs(os.path.dirname(LOG), exist_ok=True)
     t0 = time.time()
     service = SERVICE
+    print(service)
 
     try:
         msg = ""
@@ -75,11 +76,13 @@ def main():
 
     except Exception as e:
         success, msg = False, f"Exception: {e}"
+    print(success, msg)
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     line = f"{ts}, {'SUCCESS' if success else 'FAILURE'}, {msg}"
     with open(LOG, "a", encoding="utf-8") as f:
         f.write(line + "\n")
+    print(line)
 
     push_e2e_result(service, success, time.time() - t0)
     if not success:
