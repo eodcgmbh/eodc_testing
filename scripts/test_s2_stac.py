@@ -79,7 +79,7 @@ def main():
     service = SERVICE
 
     try:
-        msg = "OK"
+        msg = ""
         success = True
         r = requests.get(f"{PATH}/T33UWP/indices/.zmetadata", timeout=15)
         okc, msgc = ok(r)
@@ -94,7 +94,7 @@ def main():
         success, msg = False, f"Exception: {e}"
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-    line = f"{ts} - {'SUCCESS' if success else 'FAILURE'} - {msg}"
+    line = f"{ts} - {'SUCCESS' if success else 'FAILURE:'} {msg}"
     with open(LOG, "a", encoding="utf-8") as f:
         f.write(line + "\n")
 
