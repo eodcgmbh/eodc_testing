@@ -34,19 +34,9 @@ jobs:
           echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
           echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
 
-      - name: Run S2 DATACUBE Test
-        run: python scripts/test_s2_datacube.py
-
       - name: Run S2 STAC Test
         if: github.event.schedule != '*/30 * * * *'
         run: python scripts/test_s2_stac.py
 
-      - name: Commit Logs
-        if: always()
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git pull --rebase --autostash
-          git add results/logs/test_s2_datacube.log
-          git commit -m "Updated S2 DATCUBE test logs"
-          git push
+      - name: Run S2 DATACUBE Test
+        run: python scripts/test_s2_datacube.py
