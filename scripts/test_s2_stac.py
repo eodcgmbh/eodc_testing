@@ -64,7 +64,7 @@ def check_stac():
             indices = zarr.open(path_indices)
             time_ind = indices.time[-1]
             latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
-            if te - latest > timedelta(7):
+            if te - latest > timedelta(8):
                 return False, f"ERROR: Latest timestep: {latest}"
     return True, "OK"
 

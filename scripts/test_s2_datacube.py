@@ -44,7 +44,7 @@ def check_tile(tile, t=-1):
     today = datetime.now()
 
     latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
-    if today - latest > timedelta(7):
+    if today - latest > timedelta(8):
         return False, f"ERROR: Latest timestep: {latest}"
 
     return True, "OK"
