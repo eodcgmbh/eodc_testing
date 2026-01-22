@@ -23,8 +23,17 @@ def check_tile(tile, t=-1):
     time_10 = cube_10m.time[t]
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
-        if check_red:
+        check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
+        if check_red or check_red_nan:
             return False, f"ERROR: {tile}: RED at {time_10} "
+
+    path_20m = f"{path}/20"
+    cube_20m = zarr.open(path_20m)
+    time_20 = cube_20m.time[t]
+    if (cube_20m.scl[t, 6000, 6000] == 0):
+        check_scl = np.isnan(cube_20m.scl[t, :, :]).all()
+        if check_scl:
+            return False, f"ERROR: {tile}: SCL at {time_20} "
 
     path_indices = f"{path}/indices"
     indices = zarr.open(path_indices)
@@ -39,7 +48,10 @@ def check_tile(tile, t=-1):
             return False, f"ERROR: {tile}: LAI at {time_ind} "
 
     if str(time_ind) != str(time_10):
-        return False, f"ERROR: {tile}: Time mismatch: {time_ind} != {time_10} "
+        return False, f"ERROR: {tile}: Time mismatch: INDICES: {time_ind} != 10m: {time_10} "
+
+    if str(time_20) != str(time_10):
+        return False, f"ERROR: {tile}: Time mismatch: 20m: {time_20} != 10m: {time_10} "
 
     today = datetime.now()
 
