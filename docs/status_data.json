@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-22 22:42",
+        "timestamp": "2026-01-22 22:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12C_MOTORWAY",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2026-01-20 08:56",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TD"
-                },
                 {
                     "timestamp": "2026-01-20 09:29",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-22 22:42",
                     "status": 1,
                     "collection": "E12C_MOTORWAY"
+                },
+                {
+                    "timestamp": "2026-01-22 22:57",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -908,7 +908,7 @@
             },
             {
                 "collection": "SENTINEL2_L2A",
-                "timestamp": "2026-01-20 11:46",
+                "timestamp": "2026-01-22 22:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
