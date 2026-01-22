@@ -39,13 +39,13 @@ def check_tile(tile, t=-1):
             return False, f"ERROR: {tile}: LAI at {time_ind} "
 
     if str(time_ind) != str(time_10):
-        return False, f"ERROR: Time mismatch: {time_ind} != {time_10} "
+        return False, f"ERROR: {tile}: Time mismatch: {time_ind} != {time_10} "
 
     today = datetime.now()
 
     latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
     if today - latest > timedelta(8):
-        return False, f"ERROR: Latest timestep: {latest}"
+        return False, f"ERROR: {tile}: Latest timestep: {latest}"
 
     return True, "OK"
 
@@ -66,8 +66,12 @@ def main():
         if not okc:
             success, msg = False, f"Check hda: {PATH}/T33UWP/indices/.zmetadata {msgc}"
         else:
+            today = datetime.now()
+            t = -1
+            if today.hour in [16, 17, 18, 19, 20]:
+                t = -10
             for tile in tiles:
-                check, msgc = check_tile(tile)
+                check, msgc = check_tile(tile, t)
                 if not check:
                     success = False
                     msg += msgc + "\n"
