@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-22 16:02",
+        "timestamp": "2026-01-22 16:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "CGLS_SWI_V1_EUROPE",
             "history": [
-                {
-                    "timestamp": "2026-01-19 22:53",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2026-01-19 23:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-22 16:02",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2026-01-22 16:48",
+                    "status": 1,
+                    "collection": "CGLS_SWI_V1_EUROPE"
                 }
             ]
         }
@@ -794,7 +794,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2026-01-20 04:47",
+                "timestamp": "2026-01-22 16:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
