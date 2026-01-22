@@ -30,7 +30,7 @@ def check_tile(tile, t=-1):
     path_20m = f"{path}/20"
     cube_20m = zarr.open(path_20m)
     time_20 = cube_20m.time[t]
-    if (cube_20m.scl[t, 6000, 6000] == 0):
+    if (cube_20m.scl[t, 3000, 3000] == 0):
         check_scl = np.isnan(cube_20m.scl[t, :, :]).all()
         if check_scl:
             return False, f"ERROR: {tile}: SCL at {time_20} "
