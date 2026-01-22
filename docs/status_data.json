@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-22 07:42",
+        "timestamp": "2026-01-22 07:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2026-01-19 17:42",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-19 17:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-22 07:42",
                     "status": 1,
                     "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
+                },
+                {
+                    "timestamp": "2026-01-22 07:55",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -764,7 +764,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2026-01-21 09:34",
+                "timestamp": "2026-01-22 07:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
