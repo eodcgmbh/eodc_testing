@@ -65,7 +65,7 @@ def check_stac():
             time_ind = indices.time[-1]
             latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
             if te - latest > timedelta(8):
-                return False, f"ERROR: Latest timestep: {latest}"
+                return False, f"ERROR: {tile}: Latest timestep: {latest} - available item: {item.id}"
     return True, "OK"
 
 def ok(resp):
