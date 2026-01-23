@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-23 10:46",
+        "timestamp": "2026-01-23 11:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2026-01-20 21:47",
-                    "status": 1,
-                    "collection": "ERA5_WIND_V"
-                },
                 {
                     "timestamp": "2026-01-20 21:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-23 10:46",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2026-01-23 11:00",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -752,7 +752,7 @@
             },
             {
                 "collection": "Sentinel-1_Lacken_Extent",
-                "timestamp": "2026-01-22 11:25",
+                "timestamp": "2026-01-23 10:53",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
