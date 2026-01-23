@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-23 18:56",
+        "timestamp": "2026-01-23 19:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "DOP_AUT_K_ZELTWEG",
             "history": [
-                {
-                    "timestamp": "2026-01-21 08:54",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2026-01-21 09:26",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-23 18:56",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-01-23 19:49",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_ZELTWEG"
                 }
             ]
         }
@@ -1136,7 +1136,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2026-01-21 14:32",
+                "timestamp": "2026-01-23 19:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
