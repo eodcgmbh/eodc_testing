@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-23 23:40",
+        "timestamp": "2026-01-23 23:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2026-01-21 19:49",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_RHOW_V1"
-                },
                 {
                     "timestamp": "2026-01-21 20:16",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-23 23:40",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-01-23 23:54",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-01-21 01:52",
+                "timestamp": "2026-01-23 23:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
