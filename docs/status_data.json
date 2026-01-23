@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-23 13:09:15",
+        "timestamp": "2026-01-23 11:35:48",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-20 17:44:40",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-20 19:00:30",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-23 11:35:48",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-23 13:09:15",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-23 12:33",
+        "timestamp": "2026-01-23 13:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TM",
+            "collection": "LANDSAT1-5_MSS_L1",
             "history": [
-                {
-                    "timestamp": "2026-01-20 23:16",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2026-01-20 23:50",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-23 12:33",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TM"
+                },
+                {
+                    "timestamp": "2026-01-23 13:27",
+                    "status": 1,
+                    "collection": "LANDSAT1-5_MSS_L1"
                 }
             ]
         }
