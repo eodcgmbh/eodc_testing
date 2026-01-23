@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-23 11:00",
+        "timestamp": "2026-01-23 11:27",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2026-01-20 21:55",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_3M"
-                },
                 {
                     "timestamp": "2026-01-20 22:17",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-23 11:00",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2026-01-23 11:27",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -860,7 +860,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2026-01-22 01:53",
+                "timestamp": "2026-01-23 11:22",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
