@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-24 04:43",
+        "timestamp": "2026-01-24 05:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2026-01-21 22:00",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-21 22:32",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-24 04:43",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-24 05:00",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
@@ -1202,7 +1202,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
-                "timestamp": "2026-01-23 22:20",
+                "timestamp": "2026-01-24 04:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
