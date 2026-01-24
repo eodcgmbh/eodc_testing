@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-24 23:17",
+        "timestamp": "2026-01-24 23:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2026-01-23 04:27",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2026-01-23 04:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-24 23:17",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2026-01-24 23:46",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -842,7 +842,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2026-01-24 20:24",
+                "timestamp": "2026-01-24 23:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
