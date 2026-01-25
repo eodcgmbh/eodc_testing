@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-25 02:34:53",
+        "timestamp": "2026-01-24 23:33:55",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-22 02:27:55",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-22 04:22:42",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-24 23:33:55",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-25 02:34:53",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-25 01:20",
+        "timestamp": "2026-01-25 03:22",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_AVERAGE",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2026-01-23 05:53",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S10_TOC_333M"
-                },
                 {
                     "timestamp": "2026-01-23 06:25",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-25 01:20",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-01-25 03:22",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
