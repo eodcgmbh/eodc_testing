@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-25 14:49",
+        "timestamp": "2026-01-25 14:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "ICEYE_GRD_E11A",
             "history": [
-                {
-                    "timestamp": "2026-01-23 18:56",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-23 19:49",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-25 14:49",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2026-01-25 14:57",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11A"
                 }
             ]
         }
