@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-25 16:45",
+        "timestamp": "2026-01-25 16:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "PROBAV_L3_S1_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2026-01-23 20:58",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
-                },
                 {
                     "timestamp": "2026-01-23 21:23",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-25 16:45",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2026-01-25 16:57",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_100M"
                 }
             ]
         }
@@ -962,7 +962,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2026-01-25 16:28",
+                "timestamp": "2026-01-25 16:51",
                 "status": "FAILURE",
                 "item": "N/A"
             },
