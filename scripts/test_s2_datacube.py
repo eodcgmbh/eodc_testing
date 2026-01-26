@@ -21,6 +21,10 @@ def check_tile(tile, t=-1):
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
     time_10 = cube_10m.time[t]
+    if len(time_10) < t:
+        # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
+        # pick a timestep before the last one to check
+        t = len(time_10) - 10
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
         check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
@@ -79,9 +83,9 @@ def main():
             success, msg = False, f"Check hda: {PATH}/T33UWP/indices/.zmetadata {msgc}"
         else:
             today = datetime.now()
-            t = -1
+            t = 200
             if today.hour in [16, 17, 18, 19, 20]:
-                t = -10
+                t = 200
             for tile in tiles:
                 check, msgc = check_tile(tile, t)
                 if not check:
