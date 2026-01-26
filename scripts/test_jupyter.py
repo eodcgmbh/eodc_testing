@@ -134,22 +134,22 @@ def main():
 
     status, kernel_id = jp_test.start_kernel()
     if status == 0:
-        print("start_kernel", status)
+        print("start_kernel", status, status.text)
         return 0, t0
 
     status = jp_test.start_session(kernel_id=kernel_id)
     if status == 0:
-        print("start_session", status)
+        print("start_session", status, status.text)
         return 0, t0
 
     status = jp_test.create_websocket(kernel_id=kernel_id)
     if status == 0:
-        print("create_websocket", status)
+        print("create_websocket", status, status.text)
         return 0, t0
     
     status = jp_test.stop_server()
     if status == 0:
-        print("stop_server", status)
+        print("stop_server", status, status.text)
         return 0, t0
     
     return 1, t0
