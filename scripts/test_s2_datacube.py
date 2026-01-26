@@ -84,7 +84,7 @@ def main():
             success, msg = False, f"Check hda: {PATH}/T33UWP/indices/.zmetadata {msgc}"
         else:
             today = datetime.now()
-            t = 200
+            t = -1
             if today.hour in [16, 17, 18, 19, 20]:
                 t = 200
             for tile in tiles:
