@@ -57,11 +57,12 @@ def check_tile(tile, t=-1):
     if str(time_20) != str(time_10):
         return False, f"ERROR: {tile}: Time mismatch: 20m: {time_20} != 10m: {time_10} "
 
-    today = datetime.now()
+    if t == -1:
+        today = datetime.now()
 
-    latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
-    if today - latest > timedelta(8):
-        return False, f"ERROR: {tile}: Latest timestep: {latest}"
+        latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
+        if today - latest > timedelta(8):
+            return False, f"ERROR: {tile}: Latest timestep: {latest}"
 
     return True, "OK"
 
