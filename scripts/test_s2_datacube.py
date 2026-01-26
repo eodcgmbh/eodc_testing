@@ -20,6 +20,10 @@ def check_tile(tile, t=-1):
 
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
+    if len(cube_10m.time[:]) < t:
+        # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
+        # pick a timestep before the last one to check
+        t = len(cube_10m.time[:]) - 10
     time_10 = cube_10m.time[t]
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
@@ -53,11 +57,12 @@ def check_tile(tile, t=-1):
     if str(time_20) != str(time_10):
         return False, f"ERROR: {tile}: Time mismatch: 20m: {time_20} != 10m: {time_10} "
 
-    today = datetime.now()
+    if t == -1:
+        today = datetime.now()
 
-    latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
-    if today - latest > timedelta(8):
-        return False, f"ERROR: {tile}: Latest timestep: {latest}"
+        latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
+        if today - latest > timedelta(8):
+            return False, f"ERROR: {tile}: Latest timestep: {latest}"
 
     return True, "OK"
 
@@ -81,7 +86,7 @@ def main():
             today = datetime.now()
             t = -1
             if today.hour in [16, 17, 18, 19, 20]:
-                t = -10
+                t = 200
             for tile in tiles:
                 check, msgc = check_tile(tile, t)
                 if not check:
