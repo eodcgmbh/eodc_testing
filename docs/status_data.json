@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-26 20:59",
+        "timestamp": "2026-01-26 21:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "LANDSAT4-5_TM_L1",
             "history": [
-                {
-                    "timestamp": "2026-01-24 19:29",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2026-01-24 19:47",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-26 20:59",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2026-01-26 21:29",
+                    "status": 1,
+                    "collection": "LANDSAT4-5_TM_L1"
                 }
             ]
         }
@@ -788,7 +788,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2026-01-23 07:27",
+                "timestamp": "2026-01-26 21:26",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
