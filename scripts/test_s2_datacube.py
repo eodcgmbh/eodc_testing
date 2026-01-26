@@ -20,11 +20,11 @@ def check_tile(tile, t=-1):
 
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
-    time_10 = cube_10m.time[t]
-    if len(time_10) < t:
+    if len(cube_10m.time[:]) < t:
         # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
         # pick a timestep before the last one to check
-        t = len(time_10) - 10
+        t = len(cube_10m.time[:]) - 10
+    time_10 = cube_10m.time[t]
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
         check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
