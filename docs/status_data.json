@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-27 06:26",
+        "timestamp": "2026-01-27 06:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2026-01-25 01:20",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-25 03:22",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-27 06:26",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
+                },
+                {
+                    "timestamp": "2026-01-27 06:59",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
