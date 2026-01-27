@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-27 23:19",
+        "timestamp": "2026-01-27 23:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "E12D_PRIMARY",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2026-01-25 15:56",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-01-25 16:45",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-27 23:19",
                     "status": 1,
                     "collection": "E12D_PRIMARY"
+                },
+                {
+                    "timestamp": "2026-01-27 23:52",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
@@ -1154,7 +1154,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2026-01-23 17:49",
+                "timestamp": "2026-01-27 23:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
