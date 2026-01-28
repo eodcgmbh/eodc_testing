@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-28 22:53",
+        "timestamp": "2026-01-28 23:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_ANOMALY",
+            "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION",
             "history": [
-                {
-                    "timestamp": "2026-01-26 09:58",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2026-01-26 10:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-28 22:53",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_ANOMALY"
+                },
+                {
+                    "timestamp": "2026-01-28 23:20",
+                    "status": 1,
+                    "collection": "WET_DRY_SNOW_STATE_CLASSIFICATION"
                 }
             ]
         }
@@ -764,7 +764,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2026-01-24 06:34",
+                "timestamp": "2026-01-28 22:56",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
