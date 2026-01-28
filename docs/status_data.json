@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-28 20:00",
+        "timestamp": "2026-01-28 20:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-26 07:22",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2026-01-26 07:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-28 20:00",
                     "status": 1,
                     "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-01-28 20:39",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2026-01-24 21:20",
+                "timestamp": "2026-01-28 20:33",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
