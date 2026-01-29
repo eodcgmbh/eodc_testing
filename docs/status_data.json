@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-29 04:16",
+        "timestamp": "2026-01-29 05:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "CGLS_FAPAR300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-26 12:34",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TD"
-                },
                 {
                     "timestamp": "2026-01-26 13:29",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-29 04:16",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2026-01-29 05:13",
+                    "status": 1,
+                    "collection": "CGLS_FAPAR300_V1_GLOBAL"
                 }
             ]
         }
