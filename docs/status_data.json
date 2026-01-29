@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-29 06:57",
+        "timestamp": "2026-01-29 08:03",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "SENTINEL2_L1C_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2026-01-26 14:34",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-26 15:31",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-29 06:57",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-29 08:03",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C_SENTINELHUB"
                 }
             ]
         }
@@ -1178,7 +1178,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2026-01-24 15:42",
+                "timestamp": "2026-01-29 08:01",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
