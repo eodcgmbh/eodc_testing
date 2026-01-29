@@ -1208,7 +1208,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2026-01-28 07:28",
+                "timestamp": "2026-01-29 15:06",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1445,16 +1445,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-01-29 14:35:16",
+        "timestamp": "2026-01-29 15:29:55",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-22f71eac-8d07-4ffc-bf46-80f2677ee6a5)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e53e763d-6e96-4a90-ae58-dfa274388096)",
             "history": [
-                {
-                    "timestamp": "2026-01-29 04:02:56",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-c92a011a-cf33-4b9b-9940-a822d1d7944e)"
-                },
                 {
                     "timestamp": "2026-01-29 05:38:36",
                     "status": 0,
@@ -1499,6 +1494,11 @@
                     "timestamp": "2026-01-29 14:35:16",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-22f71eac-8d07-4ffc-bf46-80f2677ee6a5)"
+                },
+                {
+                    "timestamp": "2026-01-29 15:29:55",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e53e763d-6e96-4a90-ae58-dfa274388096)"
                 }
             ]
         }
