@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-30 13:08",
+        "timestamp": "2026-01-30 14:01",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CO_TD",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2026-01-27 09:27",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
-                },
                 {
                     "timestamp": "2026-01-27 09:54",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-30 13:08",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CO_TD"
+                },
+                {
+                    "timestamp": "2026-01-30 14:01",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-01-26 16:36",
+                "timestamp": "2026-01-30 13:59",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
