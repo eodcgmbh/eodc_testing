@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-31 12:42",
+        "timestamp": "2026-01-31 13:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI300_V2_GLOBAL",
+            "collection": "GLOBAL_SURFACE_WATER",
             "history": [
-                {
-                    "timestamp": "2026-01-28 08:23",
-                    "status": 1,
-                    "collection": "COPERNICUS_90"
-                },
                 {
                     "timestamp": "2026-01-28 08:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-31 12:42",
                     "status": 1,
                     "collection": "CGLS_NDVI300_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-01-31 13:30",
+                    "status": 1,
+                    "collection": "GLOBAL_SURFACE_WATER"
                 }
             ]
         }
