@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-01-31 06:54:05",
+        "timestamp": "2026-01-31 05:47:04",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-01-28 13:13:11",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-01-28 14:46:53",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-01-31 05:47:04",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-01-31 06:54:05",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-31 06:49",
+        "timestamp": "2026-01-31 07:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E11",
+            "collection": "SPOT",
             "history": [
-                {
-                    "timestamp": "2026-01-27 21:48",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TM"
-                },
                 {
                     "timestamp": "2026-01-27 21:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-31 06:49",
                     "status": 1,
                     "collection": "ICEYE_GRD_E11"
+                },
+                {
+                    "timestamp": "2026-01-31 07:17",
+                    "status": 1,
+                    "collection": "SPOT"
                 }
             ]
         }
