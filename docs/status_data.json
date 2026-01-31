@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-31 09:49",
+        "timestamp": "2026-01-31 09:59",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2026-01-28 03:13",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-01-28 04:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-31 09:49",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2026-01-31 09:59",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
