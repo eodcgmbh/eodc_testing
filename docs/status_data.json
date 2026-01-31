@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-01-31 17:57",
+        "timestamp": "2026-01-31 18:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_OLCI_L1B",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2026-01-28 17:05",
-                    "status": 1,
-                    "collection": "CGLS_SSM_1KM"
-                },
                 {
                     "timestamp": "2026-01-28 18:01",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-01-31 17:57",
                     "status": 1,
                     "collection": "SENTINEL3_OLCI_L1B"
+                },
+                {
+                    "timestamp": "2026-01-31 18:31",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
