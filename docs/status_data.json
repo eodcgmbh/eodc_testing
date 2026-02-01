@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-01 20:59",
+        "timestamp": "2026-02-01 21:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "CGLS_LAI_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-01-30 11:59",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S1_TOC_333M"
-                },
                 {
                     "timestamp": "2026-01-30 13:08",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-01 20:59",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2026-02-01 21:28",
+                    "status": 1,
+                    "collection": "CGLS_LAI_V2_GLOBAL"
                 }
             ]
         }
@@ -962,7 +962,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2026-02-01 20:53",
+                "timestamp": "2026-02-01 21:26",
                 "status": "FAILURE",
                 "item": "N/A"
             },
