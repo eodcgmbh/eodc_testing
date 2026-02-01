@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-01 17:26",
+        "timestamp": "2026-02-01 17:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2026-01-30 05:00",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_MAIZE"
-                },
                 {
                     "timestamp": "2026-01-30 05:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-01 17:26",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_ACTIVECROPLAND"
+                },
+                {
+                    "timestamp": "2026-02-01 17:48",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
