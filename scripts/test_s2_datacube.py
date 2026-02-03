@@ -24,7 +24,8 @@ def check_tile(tile, t=-1):
         # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
         # pick a timestep before the last one to check
         t = len(cube_10m.time[:]) - 10
-    time_10 = cube_10m.time[t]
+    T = len(cube_10m.time[:]) - 10
+    time_10 = cube_10m.time[T]
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
         check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
@@ -33,7 +34,7 @@ def check_tile(tile, t=-1):
 
     path_20m = f"{path}/20"
     cube_20m = zarr.open(path_20m)
-    time_20 = cube_20m.time[t]
+    time_20 = cube_20m.time[T]
     if (cube_20m.scl[t, 3000, 3000] == 0):
         check_scl = np.isnan(cube_20m.scl[t, :, :]).all()
         if check_scl:
@@ -41,7 +42,7 @@ def check_tile(tile, t=-1):
 
     path_indices = f"{path}/indices"
     indices = zarr.open(path_indices)
-    time_ind = indices.time[t]
+    time_ind = indices.time[T]
     if np.isnan(indices.ndvi[t, 6000, 6000]):
         check_ndvi = np.isnan(indices.ndvi[t, :, :]).all()
         if check_ndvi:
@@ -60,7 +61,7 @@ def check_tile(tile, t=-1):
     if t == -1:
         today = datetime.now()
 
-        latest = datetime.strptime(str(time_ind)[:19], "%Y-%m-%dT%H:%M:%S")
+        latest = datetime.strptime(str(indices.time[t])[:19], "%Y-%m-%dT%H:%M:%S")
         if today - latest > timedelta(8):
             return False, f"ERROR: {tile}: Latest timestep: {latest}"
 
