@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-04 15:35",
+        "timestamp": "2026-02-04 16:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLEIADES",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2026-01-31 23:56",
-                    "status": 1,
-                    "collection": "E12C_MOTORWAY"
-                },
                 {
                     "timestamp": "2026-02-01 02:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-04 15:35",
                     "status": 1,
                     "collection": "PLEIADES"
+                },
+                {
+                    "timestamp": "2026-02-04 16:25",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
@@ -896,7 +896,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2026-01-28 21:30",
+                "timestamp": "2026-02-04 16:09",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
