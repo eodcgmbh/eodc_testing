@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-05 10:23",
+        "timestamp": "2026-02-05 11:07",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SPOT",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2026-02-01 14:57",
-                    "status": 1,
-                    "collection": "MODIS"
-                },
                 {
                     "timestamp": "2026-02-01 15:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-05 10:23",
                     "status": 1,
                     "collection": "SPOT"
+                },
+                {
+                    "timestamp": "2026-02-05 11:07",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
