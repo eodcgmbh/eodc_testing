@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-04 23:01",
+        "timestamp": "2026-02-04 23:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT7_ETM_L1",
+            "collection": "PROBAV_L3_S5_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2026-02-01 10:18",
-                    "status": 1,
-                    "collection": "CGLS_LAI300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2026-02-01 10:48",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-04 23:01",
                     "status": 1,
                     "collection": "LANDSAT7_ETM_L1"
+                },
+                {
+                    "timestamp": "2026-02-04 23:56",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S5_TOC_100M"
                 }
             ]
         }
@@ -1082,7 +1082,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2026-01-30 04:21",
+                "timestamp": "2026-02-04 23:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
