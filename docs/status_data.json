@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-07 11:01",
+        "timestamp": "2026-02-07 11:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SRAL_L2",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2026-02-03 13:39",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TM"
-                },
                 {
                     "timestamp": "2026-02-03 14:28",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-07 11:01",
                     "status": 1,
                     "collection": "SENTINEL3_SRAL_L2"
+                },
+                {
+                    "timestamp": "2026-02-07 11:50",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -938,7 +938,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2026-01-29 20:32",
+                "timestamp": "2026-02-07 11:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
