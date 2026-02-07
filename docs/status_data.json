@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-07 04:54",
+        "timestamp": "2026-02-07 05:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "COPERNICUS_90",
             "history": [
-                {
-                    "timestamp": "2026-02-03 03:56",
-                    "status": 1,
-                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
-                },
                 {
                     "timestamp": "2026-02-03 05:13",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-07 04:54",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2026-02-07 05:36",
+                    "status": 1,
+                    "collection": "COPERNICUS_90"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-02-06 13:02",
+                "timestamp": "2026-02-07 05:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
