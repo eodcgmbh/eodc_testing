@@ -1214,7 +1214,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2026-02-08 02:36",
+                "timestamp": "2026-02-09 11:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1451,16 +1451,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-02-09 10:54:29",
+        "timestamp": "2026-02-09 11:41:54",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3789ac13-ef17-4520-8669-c1bca14d1a47)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-0ab9c736-e4fe-40ce-8687-fbc6c3287238)",
             "history": [
-                {
-                    "timestamp": "2026-02-08 20:19:59",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-fef376ae-7cc6-45fd-8f8c-0d2e3dd63011)"
-                },
                 {
                     "timestamp": "2026-02-08 21:21:19",
                     "status": 0,
@@ -1505,6 +1500,11 @@
                     "timestamp": "2026-02-09 10:54:29",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3789ac13-ef17-4520-8669-c1bca14d1a47)"
+                },
+                {
+                    "timestamp": "2026-02-09 11:41:54",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-0ab9c736-e4fe-40ce-8687-fbc6c3287238)"
                 }
             ]
         }
