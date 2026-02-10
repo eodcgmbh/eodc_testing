@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-02-10 21:56:04",
+        "timestamp": "2026-02-10 22:54:54",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2026-02-07 10:39:01",
-                    "status": 0
-                },
                 {
                     "timestamp": "2026-02-07 11:32:52",
                     "status": 0
@@ -203,16 +199,25 @@
                 {
                     "timestamp": "2026-02-10 21:56:04",
                     "status": 0
+                },
+                {
+                    "timestamp": "2026-02-10 22:54:54",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-10 22:35",
+        "timestamp": "2026-02-10 21:56",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "SKYSAT",
             "history": [
+                {
+                    "timestamp": "2026-02-07 04:54",
+                    "status": 1,
+                    "collection": "EGM2008"
+                },
                 {
                     "timestamp": "2026-02-07 05:36",
                     "status": 1,
@@ -707,11 +712,6 @@
                     "timestamp": "2026-02-10 21:56",
                     "status": 1,
                     "collection": "SKYSAT"
-                },
-                {
-                    "timestamp": "2026-02-10 22:35",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_IRRIGATION"
                 }
             ]
         }
@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2026-02-03 13:03",
+                "timestamp": "2026-02-10 22:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
