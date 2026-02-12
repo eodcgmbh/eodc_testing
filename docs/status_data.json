@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-12 06:44",
+        "timestamp": "2026-02-12 07:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_SSM_1KM",
+            "collection": "PROBAV_L3_S1_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2026-02-07 19:55",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2026-02-07 20:19",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-12 06:44",
                     "status": 1,
                     "collection": "CGLS_SSM_1KM"
+                },
+                {
+                    "timestamp": "2026-02-12 07:40",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_333M"
                 }
             ]
         }
@@ -1178,7 +1178,7 @@
             },
             {
                 "collection": "SSM-RT0-SIG0-R-EXTR",
-                "timestamp": "2026-02-04 15:09",
+                "timestamp": "2026-02-12 07:35",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
