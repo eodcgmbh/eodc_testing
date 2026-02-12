@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-12 05:49",
+        "timestamp": "2026-02-12 06:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_HPAR",
+            "collection": "CGLS_SSM_1KM",
             "history": [
-                {
-                    "timestamp": "2026-02-07 19:44",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2026-02-07 19:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-12 05:49",
                     "status": 1,
                     "collection": "SENTINEL1_HPAR"
+                },
+                {
+                    "timestamp": "2026-02-12 06:44",
+                    "status": 1,
+                    "collection": "CGLS_SSM_1KM"
                 }
             ]
         }
@@ -896,7 +896,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2026-02-09 13:54",
+                "timestamp": "2026-02-12 06:05",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
