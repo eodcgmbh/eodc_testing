@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-02-13 19:04:33",
+        "timestamp": "2026-02-13 17:49:12",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-02-10 09:08:37",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-02-10 11:04:39",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-02-13 17:49:12",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-02-13 19:04:33",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-13 18:50",
+        "timestamp": "2026-02-13 19:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_ZELTWEG",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2026-02-08 22:01",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2026-02-08 22:43",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-13 18:50",
                     "status": 1,
                     "collection": "DOP_AUT_K_ZELTWEG"
+                },
+                {
+                    "timestamp": "2026-02-13 19:37",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
@@ -782,7 +782,7 @@
             },
             {
                 "collection": "DOP_AUT_K_VILLACH",
-                "timestamp": "2026-02-07 17:27",
+                "timestamp": "2026-02-13 19:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
