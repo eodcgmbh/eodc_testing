@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-13 20:03",
+        "timestamp": "2026-02-13 20:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S1_TOC_100M",
+            "collection": "FRACTIONAL_SNOW_COVER",
             "history": [
-                {
-                    "timestamp": "2026-02-08 23:03",
-                    "status": 1,
-                    "collection": "SPOT"
-                },
                 {
                     "timestamp": "2026-02-09 00:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-13 20:03",
                     "status": 1,
                     "collection": "PROBAV_L3_S1_TOC_100M"
+                },
+                {
+                    "timestamp": "2026-02-13 20:53",
+                    "status": 1,
+                    "collection": "FRACTIONAL_SNOW_COVER"
                 }
             ]
         }
@@ -758,7 +758,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2026-02-06 14:12",
+                "timestamp": "2026-02-13 20:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
