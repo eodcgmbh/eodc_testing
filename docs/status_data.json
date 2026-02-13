@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-12 23:03",
+        "timestamp": "2026-02-13 00:02",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S2_TUR_V1",
             "history": [
-                {
-                    "timestamp": "2026-02-08 10:50",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
-                },
                 {
                     "timestamp": "2026-02-08 11:11",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-12 23:03",
                     "status": 1,
                     "collection": "CGLS_FAPAR300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-02-13 00:02",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_TUR_V1"
                 }
             ]
         }
@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2026-02-10 22:41",
+                "timestamp": "2026-02-12 23:57",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
