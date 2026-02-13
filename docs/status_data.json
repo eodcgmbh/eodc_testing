@@ -1142,7 +1142,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2026-02-10 18:03",
+                "timestamp": "2026-02-13 08:04",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1451,16 +1451,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-02-13 07:46:19",
+        "timestamp": "2026-02-13 08:35:59",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-2b61f4e0-2553-4615-8af3-4d194d75db0b)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cae163e0-cc7f-4f5c-b4b2-a3a0abbbf77d)",
             "history": [
-                {
-                    "timestamp": "2026-02-12 18:55:03",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f0790feb-fc1a-45fa-a55e-42045a219a1b)"
-                },
                 {
                     "timestamp": "2026-02-12 19:46:15",
                     "status": 0,
@@ -1505,6 +1500,11 @@
                     "timestamp": "2026-02-13 07:46:19",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-2b61f4e0-2553-4615-8af3-4d194d75db0b)"
+                },
+                {
+                    "timestamp": "2026-02-13 08:35:59",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cae163e0-cc7f-4f5c-b4b2-a3a0abbbf77d)"
                 }
             ]
         }
