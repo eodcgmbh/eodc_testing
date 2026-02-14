@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-14 20:45",
+        "timestamp": "2026-02-14 21:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GFM",
+            "collection": "ICEYE_GRD_E11",
             "history": [
-                {
-                    "timestamp": "2026-02-10 20:26",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2026-02-10 21:07",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-14 20:45",
                     "status": 1,
                     "collection": "GFM"
+                },
+                {
+                    "timestamp": "2026-02-14 21:00",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E11"
                 }
             ]
         }
@@ -962,7 +962,7 @@
             },
             {
                 "collection": "N/A",
-                "timestamp": "2026-02-14 20:29",
+                "timestamp": "2026-02-14 20:53",
                 "status": "FAILURE",
                 "item": "N/A"
             },
