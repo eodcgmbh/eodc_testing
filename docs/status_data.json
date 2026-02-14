@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-02-14 13:07:12",
+        "timestamp": "2026-02-14 11:32:38",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-02-11 11:54:50",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-02-11 13:29:49",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-02-14 11:32:38",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-02-14 13:07:12",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-14 12:32",
+        "timestamp": "2026-02-14 13:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "POPULATION_DENSITY",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2026-02-10 04:26",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2026-02-10 05:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-14 12:32",
                     "status": 1,
                     "collection": "POPULATION_DENSITY"
+                },
+                {
+                    "timestamp": "2026-02-14 13:28",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
