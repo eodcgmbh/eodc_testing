@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-16 10:28",
+        "timestamp": "2026-02-16 11:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPEO_WATER_TUR_V1",
+            "collection": "AUT_DEM",
             "history": [
-                {
-                    "timestamp": "2026-02-13 08:45",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2026-02-13 09:29",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-16 10:28",
                     "status": 1,
                     "collection": "MAPEO_WATER_TUR_V1"
+                },
+                {
+                    "timestamp": "2026-02-16 11:11",
+                    "status": 1,
+                    "collection": "AUT_DEM"
                 }
             ]
         }
@@ -1214,7 +1214,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2026-02-10 05:05",
+                "timestamp": "2026-02-16 10:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
