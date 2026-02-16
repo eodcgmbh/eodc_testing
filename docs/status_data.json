@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-02-16 07:17:10",
+        "timestamp": "2026-02-16 05:09:53",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-02-13 09:58:48",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-02-13 10:54:40",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-02-16 05:09:53",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-02-16 07:17:10",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-16 06:45",
+        "timestamp": "2026-02-16 07:41",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CAMS_GLC",
+            "collection": "PROBAV_L3_S5_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2026-02-13 00:02",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_TUR_V1"
-                },
                 {
                     "timestamp": "2026-02-13 03:18",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-16 06:45",
                     "status": 1,
                     "collection": "CAMS_GLC"
+                },
+                {
+                    "timestamp": "2026-02-16 07:41",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S5_TOC_100M"
                 }
             ]
         }
@@ -920,7 +920,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2026-02-15 22:26",
+                "timestamp": "2026-02-16 07:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
