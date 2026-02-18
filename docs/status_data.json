@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-17 23:52",
+        "timestamp": "2026-02-18 01:42",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L1",
+            "collection": "JAXA_WQ_TSM_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2026-02-14 13:59",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V3_GLOBAL"
-                },
                 {
                     "timestamp": "2026-02-14 14:31",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-17 23:52",
                     "status": 1,
                     "collection": "LANDSAT8-9_L1"
+                },
+                {
+                    "timestamp": "2026-02-18 01:42",
+                    "status": 1,
+                    "collection": "JAXA_WQ_TSM_ANOMALY"
                 }
             ]
         }
@@ -848,7 +848,7 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2026-02-15 14:56",
+                "timestamp": "2026-02-17 23:57",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
