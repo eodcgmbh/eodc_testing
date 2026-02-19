@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-19 19:29",
+        "timestamp": "2026-02-19 19:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_V",
+            "collection": "forest_type",
             "history": [
-                {
-                    "timestamp": "2026-02-15 13:29",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2026-02-15 14:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-19 19:29",
                     "status": 1,
                     "collection": "ERA5_WIND_V"
+                },
+                {
+                    "timestamp": "2026-02-19 19:58",
+                    "status": 1,
+                    "collection": "forest_type"
                 }
             ]
         }
