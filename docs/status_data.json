@@ -1112,7 +1112,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2026-02-17 21:37",
+                "timestamp": "2026-02-19 11:13",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1451,16 +1451,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-02-19 10:37:09",
+        "timestamp": "2026-02-19 11:34:16",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-54de2ee1-6e72-45ff-bc29-b888e93547ef)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-02d15caa-5d2d-4722-8015-e54a9b3bb1cd)",
             "history": [
-                {
-                    "timestamp": "2026-02-18 22:26:50",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-7c1fd0d4-6e25-4e66-a13a-890802337ffb)"
-                },
                 {
                     "timestamp": "2026-02-18 23:24:03",
                     "status": 0,
@@ -1505,6 +1500,11 @@
                     "timestamp": "2026-02-19 10:37:09",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-54de2ee1-6e72-45ff-bc29-b888e93547ef)"
+                },
+                {
+                    "timestamp": "2026-02-19 11:34:16",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-02d15caa-5d2d-4722-8015-e54a9b3bb1cd)"
                 }
             ]
         }
