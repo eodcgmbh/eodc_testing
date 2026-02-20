@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-20 13:47",
+        "timestamp": "2026-02-20 14:28",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP",
             "history": [
-                {
-                    "timestamp": "2026-02-16 04:18",
-                    "status": 1,
-                    "collection": "CGLS_NDVI_LTS_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-02-16 05:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-20 13:47",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-02-20 14:28",
+                    "status": 1,
+                    "collection": "ALOS_PALSAR2_RICE_PADDY_FIELD_MAP"
                 }
             ]
         }
@@ -1148,7 +1148,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2026-02-18 09:51",
+                "timestamp": "2026-02-20 14:11",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
