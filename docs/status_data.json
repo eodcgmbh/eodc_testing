@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-20 20:22",
+        "timestamp": "2026-02-20 20:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
+            "collection": "PLANETSCOPE",
             "history": [
-                {
-                    "timestamp": "2026-02-16 16:22",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD"
-                },
                 {
                     "timestamp": "2026-02-16 17:08",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-20 20:22",
                     "status": 1,
                     "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-02-20 20:52",
+                    "status": 1,
+                    "collection": "PLANETSCOPE"
                 }
             ]
         }
