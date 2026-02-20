@@ -20,10 +20,8 @@ def check_tile(tile, t=-10):
 
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
-    if t == -10:
-        # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
-        # pick a timestep before the last one to check
-        t = len(cube_10m.time[:]) - 10
+    if t < 0:
+        t = len(cube_10m.time[:]) + t
     T = len(cube_10m.time[:]) - 10
     time_10 = cube_10m.time[T]
     if (cube_10m.red[t, 6000, 6000] == 0):
@@ -87,6 +85,8 @@ def main():
             today = datetime.now()
             t = -1
             if today.hour in [16, 17, 18, 19, 20]:
+                # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
+                # pick a timestep before the last one to check
                 t = -10
             for tile in tiles:
                 check, msgc = check_tile(tile, t)
