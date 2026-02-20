@@ -33,6 +33,8 @@ def check_tile(tile, t=-10):
     path_20m = f"{path}/20"
     cube_20m = zarr.open(path_20m)
     time_20 = cube_20m.time[T]
+    if t > len(cube_20m.time[:]) - 1:
+        return False, f"ERROR: {tile}: SCL < RED: {len(cube_20m.time[:]) - 1} < {t} "
     if (cube_20m.scl[t, 3000, 3000] == 0):
         check_scl = np.isnan(cube_20m.scl[t, :, :]).all()
         if check_scl:
@@ -41,6 +43,8 @@ def check_tile(tile, t=-10):
     path_indices = f"{path}/indices"
     indices = zarr.open(path_indices)
     time_ind = indices.time[T]
+    if t > len(indices.time[:]) - 1:
+        return False, f"ERROR: {tile}: NDVI < RED: {len(indices.time[:]) - 1} < {t} "
     if np.isnan(indices.ndvi[t, 6000, 6000]):
         check_ndvi = np.isnan(indices.ndvi[t, :, :]).all()
         if check_ndvi:
