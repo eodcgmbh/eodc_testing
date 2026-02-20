@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-20 15:50",
+        "timestamp": "2026-02-20 16:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L2A",
+            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
             "history": [
-                {
-                    "timestamp": "2026-02-16 07:41",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2026-02-16 08:28",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-20 15:50",
                     "status": 1,
                     "collection": "SENTINEL2_L2A"
+                },
+                {
+                    "timestamp": "2026-02-20 16:29",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
                 }
             ]
         }
@@ -812,7 +812,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2026-02-15 16:33",
+                "timestamp": "2026-02-20 16:01",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
