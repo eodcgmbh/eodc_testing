@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-21 11:38",
+        "timestamp": "2026-02-21 11:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ICEYE_GRD_E3",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-02-17 15:30",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2026-02-17 16:30",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-21 11:38",
                     "status": 1,
                     "collection": "ICEYE_GRD_E3"
+                },
+                {
+                    "timestamp": "2026-02-21 11:51",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-02-15 17:26",
+                "timestamp": "2026-02-21 11:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
