@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-22 06:05",
+        "timestamp": "2026-02-22 07:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "COP_DEM_EU_25M",
             "history": [
-                {
-                    "timestamp": "2026-02-18 23:02",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
-                },
                 {
                     "timestamp": "2026-02-18 23:40",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-22 06:05",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2026-02-22 07:45",
+                    "status": 1,
+                    "collection": "COP_DEM_EU_25M"
                 }
             ]
         }
@@ -1220,7 +1220,7 @@
             },
             {
                 "collection": "topo-dc-austria-dtm",
-                "timestamp": "2026-02-20 18:51",
+                "timestamp": "2026-02-22 07:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
