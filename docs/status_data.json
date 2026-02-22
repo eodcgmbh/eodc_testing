@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-22 11:37",
+        "timestamp": "2026-02-22 11:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_MAIZE",
+            "collection": "PROBAV_L3_S1_TOC_333M",
             "history": [
-                {
-                    "timestamp": "2026-02-19 09:31",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2026-02-19 10:24",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-22 11:37",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_MAIZE"
+                },
+                {
+                    "timestamp": "2026-02-22 11:51",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_333M"
                 }
             ]
         }
@@ -830,7 +830,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2026-02-19 04:32",
+                "timestamp": "2026-02-22 11:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
