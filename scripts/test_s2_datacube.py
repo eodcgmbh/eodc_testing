@@ -24,11 +24,13 @@ def check_tile(tile, t=-10):
         t = len(cube_10m.time[:]) + t
     T = len(cube_10m.time[:]) - 10
     time_10 = cube_10m.time[T]
+         
+    if np.isnan(cube_10m.red[t, 6000, 6000]):
+        check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
-        check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
-        if check_red or check_red_nan:
-            return False, f"ERROR: {tile}: RED at {t} {cube_10m.time[t]} "
+    if check_red or check_red_nan:
+        return False, f"ERROR: {tile}: RED at {t} {cube_10m.time[t]} "
 
     path_20m = f"{path}/20"
     cube_20m = zarr.open(path_20m)
@@ -36,9 +38,11 @@ def check_tile(tile, t=-10):
     if t > len(cube_20m.time[:]) - 1:
         return False, f"ERROR: {tile}: SCL < RED: {len(cube_20m.time[:]) - 1} < {t} "
     if (cube_20m.scl[t, 3000, 3000] == 0):
-        check_scl = np.isnan(cube_20m.scl[t, :, :]).all()
-        if check_scl:
-            return False, f"ERROR: {tile}: SCL at {t} {cube_20m.time[t]} "
+        check_scl = (cube_10m.scl[t, :, :] == 0).all()
+    if np.isnan(cube_20m.scl[t, 3000, 3000]):
+        check_scl_nan = np.isnan(cube_20m.scl[t, :, :]).all()
+    if check_scl_nan:
+        return False, f"ERROR: {tile}: SCL at {t} {cube_20m.time[t]} "
 
     path_indices = f"{path}/indices"
     indices = zarr.open(path_indices)
