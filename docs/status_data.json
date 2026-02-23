@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-23 05:40",
+        "timestamp": "2026-02-23 06:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MAPZEN_DEM",
+            "collection": "TERRASCOPE_S2_SPM_V1",
             "history": [
-                {
-                    "timestamp": "2026-02-20 12:42",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2026-02-20 13:47",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-23 05:40",
                     "status": 1,
                     "collection": "MAPZEN_DEM"
+                },
+                {
+                    "timestamp": "2026-02-23 06:45",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_SPM_V1"
                 }
             ]
         }
@@ -1154,7 +1154,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2026-02-21 02:03",
+                "timestamp": "2026-02-23 06:06",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
