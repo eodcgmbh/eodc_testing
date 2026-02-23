@@ -42,7 +42,7 @@ def check_tile(tile, t=-10):
     check_scl_nan = False
     check_scl = False
     if (cube_20m.scl[t, 3000, 3000] == 0):
-        check_scl = (cube_10m.scl[t, :, :] == 0).all()
+        check_scl = (cube_20m.scl[t, :, :] == 0).all()
     if np.isnan(cube_20m.scl[t, 3000, 3000]):
         check_scl_nan = np.isnan(cube_20m.scl[t, :, :]).all()
     if check_scl or check_scl_nan:
