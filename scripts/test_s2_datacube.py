@@ -25,7 +25,8 @@ def check_tile(tile, t=-10):
     T = len(cube_10m.time[:]) - 10
     time_10 = cube_10m.time[T]
 
-    check_red_nan, check_red = None, None
+    check_red_nan = False
+    check_red = False
     if np.isnan(cube_10m.red[t, 6000, 6000]):
         check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
     if (cube_10m.red[t, 6000, 6000] == 0):
@@ -38,7 +39,8 @@ def check_tile(tile, t=-10):
     time_20 = cube_20m.time[T]
     if t > len(cube_20m.time[:]) - 1:
         return False, f"ERROR: {tile}: SCL < RED: {len(cube_20m.time[:]) - 1} < {t} "
-    check_scl_nan, check_scl = None, None
+    check_scl_nan = False
+    check_scl = False
     if (cube_20m.scl[t, 3000, 3000] == 0):
         check_scl = (cube_10m.scl[t, :, :] == 0).all()
     if np.isnan(cube_20m.scl[t, 3000, 3000]):
