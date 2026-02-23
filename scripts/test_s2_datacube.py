@@ -96,7 +96,7 @@ def main():
         else:
             today = datetime.now()
             t = -1
-            if today.hour in [16, 17, 18, 19, 20]:
+            if today.hour in [2, 3, 4, 5, 6]:
                 # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
                 # pick a timestep before the last one to check
                 t = -10
