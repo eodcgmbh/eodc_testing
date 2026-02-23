@@ -15,42 +15,44 @@ tiles = ['T32TNS', 'T32TNT', 'T32TPS', 'T32TPT', 'T32TQS', 'T32TQT', 'T32UQU',
          'T33UUP', 'T33UVP', 'T33UVQ', 'T33UWP', 'T33UWQ', 'T33UXP', 'T33UXQ',        
         ]
 
-def check_tile(tile, t=-1):
+def check_tile(tile, t=-10):
     path = f"{PATH}/{tile}"
 
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
-    if len(cube_10m.time[:]) < t:
-        # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
-        # pick a timestep before the last one to check
-        t = len(cube_10m.time[:]) - 10
+    if t < 0:
+        t = len(cube_10m.time[:]) + t
     T = len(cube_10m.time[:]) - 10
     time_10 = cube_10m.time[T]
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
         check_red_nan = np.isnan(cube_10m.red[t, :, :]).all()
         if check_red or check_red_nan:
-            return False, f"ERROR: {tile}: RED at {time_10} "
+            return False, f"ERROR: {tile}: RED at {t} {cube_10m.time[t]} "
 
     path_20m = f"{path}/20"
     cube_20m = zarr.open(path_20m)
     time_20 = cube_20m.time[T]
+    if t > len(cube_20m.time[:]) - 1:
+        return False, f"ERROR: {tile}: SCL < RED: {len(cube_20m.time[:]) - 1} < {t} "
     if (cube_20m.scl[t, 3000, 3000] == 0):
         check_scl = np.isnan(cube_20m.scl[t, :, :]).all()
         if check_scl:
-            return False, f"ERROR: {tile}: SCL at {time_20} "
+            return False, f"ERROR: {tile}: SCL at {t} {cube_20m.time[t]} "
 
     path_indices = f"{path}/indices"
     indices = zarr.open(path_indices)
     time_ind = indices.time[T]
+    if t > len(indices.time[:]) - 1:
+        return False, f"ERROR: {tile}: NDVI < RED: {len(indices.time[:]) - 1} < {t} "
     if np.isnan(indices.ndvi[t, 6000, 6000]):
         check_ndvi = np.isnan(indices.ndvi[t, :, :]).all()
         if check_ndvi:
-            return False, f"ERROR: {tile}: NDVI at {time_ind} "
+            return False, f"ERROR: {tile}: NDVI at {t} {indices.time[t]} "
     if np.isnan(indices.lai[t, 6000, 6000]):
         check_lai = np.isnan(indices.lai[t, :, :]).all()
         if check_lai:
-            return False, f"ERROR: {tile}: LAI at {time_ind} "
+            return False, f"ERROR: {tile}: LAI at {t} {indices.time[t]} "
 
     if str(time_ind) != str(time_10):
         return False, f"ERROR: {tile}: Time mismatch: INDICES: {time_ind} != 10m: {time_10} "
@@ -87,7 +89,9 @@ def main():
             today = datetime.now()
             t = -1
             if today.hour in [16, 17, 18, 19, 20]:
-                t = 200
+                # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
+                # pick a timestep before the last one to check
+                t = -10
             for tile in tiles:
                 check, msgc = check_tile(tile, t)
                 if not check:
