@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-23 19:46",
+        "timestamp": "2026-02-23 20:26",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_NO2_T14D_AVERAGE",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2026-02-20 21:44",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2026-02-20 21:58",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-23 19:46",
                     "status": 1,
                     "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-02-23 20:26",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
@@ -770,7 +770,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2026-02-22 12:52",
+                "timestamp": "2026-02-23 20:07",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
