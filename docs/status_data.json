@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-24 11:02",
+        "timestamp": "2026-02-24 12:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TD",
+            "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY",
             "history": [
-                {
-                    "timestamp": "2026-02-21 07:46",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2026-02-21 07:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-24 11:02",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TD"
+                },
+                {
+                    "timestamp": "2026-02-24 12:50",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_SO2CBR_TY"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-02-22 18:37",
+                "timestamp": "2026-02-24 12:02",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
