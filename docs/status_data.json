@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-02-24 19:21:27",
+        "timestamp": "2026-02-24 18:39:35",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-02-21 14:37:19",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-02-21 15:36:23",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-02-24 18:39:35",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-02-24 19:21:27",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-24 19:18",
+        "timestamp": "2026-02-24 19:54",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2",
+            "collection": "SENTINEL1_SIG0_20M",
             "history": [
-                {
-                    "timestamp": "2026-02-21 10:53",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2026-02-21 11:16",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-24 19:18",
                     "status": 1,
                     "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL2"
+                },
+                {
+                    "timestamp": "2026-02-24 19:54",
+                    "status": 1,
+                    "collection": "SENTINEL1_SIG0_20M"
                 }
             ]
         }
@@ -794,7 +794,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2026-02-23 04:36",
+                "timestamp": "2026-02-24 19:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
