@@ -932,7 +932,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2026-02-23 11:41",
+                "timestamp": "2026-02-24 05:44",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1451,16 +1451,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-02-24 04:13:11",
+        "timestamp": "2026-02-24 05:55:16",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-8b276d8f-e057-482b-9cca-9f981a2413a8)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-49e9debb-2c5c-48ce-9b63-e7d0b40ba70b)",
             "history": [
-                {
-                    "timestamp": "2026-02-23 15:40:20",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-971e64c0-a1ac-4fe6-be99-a5a1e0ccc0d3)"
-                },
                 {
                     "timestamp": "2026-02-23 16:49:36",
                     "status": 0,
@@ -1505,6 +1500,11 @@
                     "timestamp": "2026-02-24 04:13:11",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-8b276d8f-e057-482b-9cca-9f981a2413a8)"
+                },
+                {
+                    "timestamp": "2026-02-24 05:55:16",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-49e9debb-2c5c-48ce-9b63-e7d0b40ba70b)"
                 }
             ]
         }
