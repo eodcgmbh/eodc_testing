@@ -127,7 +127,7 @@ def main():
 
     status = jp_test.start_server()
     if status == 0:
-        print("start_server", status)
+        print("start_server", status.text)
         return 0, t0
 
     jp_test.wait_start()
