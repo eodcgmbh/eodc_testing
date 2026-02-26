@@ -38,7 +38,7 @@ class jupyter_test:
     def start_server(self):
         r = requests.post(f"{self.endpoint}/hub/api/users/{self.user}/server", 
                           headers=self.headers)
-        return self.status_code(r)
+        return self.status_code(r), r
     
     def wait_start(self):
         timeout = 300 
@@ -71,7 +71,7 @@ class jupyter_test:
         r = requests.post(f"{self.endpoint}/user/{self.user}/api/sessions", 
                           json=session_payload, 
                           headers=self.headers)
-        return self.status_code(r)
+        return self.status_code(r), r
     
     def create_websocket(self, kernel_id):
         ws_url = f"wss://{self.endpoint_ws}/user/{self.user}/api/kernels/{kernel_id}/channels"
@@ -118,38 +118,38 @@ class jupyter_test:
     
     def stop_server(self):
         r = requests.delete(f"{self.endpoint}/hub/api/users/{self.user}/server", headers=self.headers)
-        return self.status_code(r)
+        return self.status_code(r), r
     
 
 def main():
     t0 = time.time()
     jp_test = jupyter_test()
 
-    status = jp_test.start_server()
+    status, r = jp_test.start_server()
     if status == 0:
-        print("start_server", status.text)
+        print("start_server", r.text)
         return 0, t0
 
     jp_test.wait_start()
 
     status, kernel_id = jp_test.start_kernel()
     if status == 0:
-        print("start_kernel", status, status.text)
+        print("start_kernel", status, kernel_id)
         return 0, t0
 
-    status = jp_test.start_session(kernel_id=kernel_id)
+    status, r = jp_test.start_session(kernel_id=kernel_id)
     if status == 0:
         print("start_session", status, status.text)
         return 0, t0
 
     status = jp_test.create_websocket(kernel_id=kernel_id)
     if status == 0:
-        print("create_websocket", status, status.text)
+        print("create_websocket", status)
         return 0, t0
     
-    status = jp_test.stop_server()
+    status, r = jp_test.stop_server()
     if status == 0:
-        print("stop_server", status, status.text)
+        print("stop_server", status, r.text)
         return 0, t0
     
     return 1, t0
