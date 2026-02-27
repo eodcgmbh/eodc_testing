@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-27 23:30",
+        "timestamp": "2026-02-27 23:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "TERRASCOPE_S5P_L3_CO_TD",
             "history": [
-                {
-                    "timestamp": "2026-02-23 19:46",
-                    "status": 1,
-                    "collection": "SENTINEL_5P_NO2_T14D_AVERAGE"
-                },
                 {
                     "timestamp": "2026-02-23 20:26",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-27 23:30",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2026-02-27 23:52",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
                 }
             ]
         }
@@ -1232,7 +1232,7 @@
             },
             {
                 "collection": "topo-dc-austria-ndsm",
-                "timestamp": "2026-02-26 05:42",
+                "timestamp": "2026-02-27 23:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
