@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-28 20:42",
+        "timestamp": "2026-02-28 20:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
+            "collection": "ICEYE_GRD_E3",
             "history": [
-                {
-                    "timestamp": "2026-02-25 20:38",
-                    "status": 1,
-                    "collection": "LANDSAT8-9_L1"
-                },
                 {
                     "timestamp": "2026-02-25 21:05",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-28 20:42",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TM"
+                },
+                {
+                    "timestamp": "2026-02-28 20:57",
+                    "status": 1,
+                    "collection": "ICEYE_GRD_E3"
                 }
             ]
         }
@@ -890,7 +890,7 @@
             },
             {
                 "collection": "SENTINEL1_SLC",
-                "timestamp": "2026-02-23 09:57",
+                "timestamp": "2026-02-28 20:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
