@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-28 21:20",
+        "timestamp": "2026-02-28 21:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL",
             "history": [
-                {
-                    "timestamp": "2026-02-25 21:46",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2026-02-25 22:03",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-28 21:20",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2026-02-28 21:40",
+                    "status": 1,
+                    "collection": "NASA_HARMONIZED_LANDSAT_SENTINEL"
                 }
             ]
         }
