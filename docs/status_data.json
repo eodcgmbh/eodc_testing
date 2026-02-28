@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-28 09:02",
+        "timestamp": "2026-02-28 09:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CDS_2M_TEMP_2020",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2026-02-24 11:02",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TD"
-                },
                 {
                     "timestamp": "2026-02-24 12:50",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-28 09:02",
                     "status": 1,
                     "collection": "CDS_2M_TEMP_2020"
+                },
+                {
+                    "timestamp": "2026-02-28 09:52",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
@@ -1160,7 +1160,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MURTAL",
-                "timestamp": "2026-02-26 17:00",
+                "timestamp": "2026-02-28 09:50",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
