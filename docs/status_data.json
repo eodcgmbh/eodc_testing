@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-28 14:41",
+        "timestamp": "2026-02-28 14:57",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L1",
+            "collection": "SENTINEL3_SYNERGY_VG1",
             "history": [
-                {
-                    "timestamp": "2026-02-24 23:24",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2026-02-24 23:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-28 14:41",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L1"
+                },
+                {
+                    "timestamp": "2026-02-28 14:57",
+                    "status": 1,
+                    "collection": "SENTINEL3_SYNERGY_VG1"
                 }
             ]
         }
@@ -944,7 +944,7 @@
             },
             {
                 "collection": "SENTINEL1_GRD",
-                "timestamp": "2026-02-27 18:45",
+                "timestamp": "2026-02-28 14:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
