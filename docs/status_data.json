@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-02-28 07:01",
+        "timestamp": "2026-02-28 07:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER_V2_GLOBAL",
+            "collection": "PERSISTENT_SNOW_AREA",
             "history": [
-                {
-                    "timestamp": "2026-02-24 05:21",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2026-02-24 06:34",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-02-28 07:01",
                     "status": 1,
                     "collection": "CGLS_FCOVER_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-02-28 07:36",
+                    "status": 1,
+                    "collection": "PERSISTENT_SNOW_AREA"
                 }
             ]
         }
@@ -734,7 +734,7 @@
             },
             {
                 "collection": "COP_DEM",
-                "timestamp": "2026-02-27 05:36",
+                "timestamp": "2026-02-28 07:28",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
