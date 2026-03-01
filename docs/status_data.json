@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-01 21:01",
+        "timestamp": "2026-03-01 21:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TM",
             "history": [
-                {
-                    "timestamp": "2026-02-27 15:06",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_CH4_TD"
-                },
                 {
                     "timestamp": "2026-02-27 15:49",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-01 21:01",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-03-01 21:50",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-03-01 14:26",
+                "timestamp": "2026-03-01 21:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
