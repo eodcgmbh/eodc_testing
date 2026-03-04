@@ -34,7 +34,7 @@ def check_tile(tile, t=-10):
     if (cube_10m.red[t, 6000, 6000] == 0):
         check_red = (cube_10m.red[t, :, :] == 0).all()
     if check_red or check_red_nan:
-        time_df = pd.read_csv(f"{time_path}/time.csv")
+        time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
         if time_df.loc[tile, ["time"]].values != str(cube_10m.time[-1])[:10]:
             return False, f"ERROR: {tile}: RED at {t} {cube_10m.time[t]} "
 
@@ -50,7 +50,7 @@ def check_tile(tile, t=-10):
     if np.isnan(cube_20m.scl[t, 3000, 3000]):
         check_scl_nan = np.isnan(cube_20m.scl[t, :, :]).all()
     if check_scl or check_scl_nan:
-        time_df = pd.read_csv(f"{time_path}/time.csv")
+        time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
         if time_df.loc[tile, ["time"]].values != str(cube_20m.time[-1])[:10]:
             return False, f"ERROR: {tile}: SCL at {t} {cube_20m.time[t]} "
 
@@ -62,13 +62,13 @@ def check_tile(tile, t=-10):
     if np.isnan(indices.ndvi[t, 6000, 6000]):
         check_ndvi = np.isnan(indices.ndvi[t, :, :]).all()
         if check_ndvi:
-            time_df = pd.read_csv(f"{time_path}/time.csv")
+            time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
             if time_df.loc[tile, ["time"]].values != str(indices.time[-1])[:10]:
                 return False, f"ERROR: {tile}: NDVI at {t} {indices.time[t]} "
     if np.isnan(indices.lai[t, 6000, 6000]):
         check_lai = np.isnan(indices.lai[t, :, :]).all()
         if check_lai:
-            time_df = pd.read_csv(f"{time_path}/time.csv")
+            time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
             if time_df.loc[tile, ["time"]].values != str(indices.time[-1])[:10]:
                 return False, f"ERROR: {tile}: LAI at {t} {indices.time[t]} "
 
