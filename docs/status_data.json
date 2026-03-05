@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-05 20:59",
+        "timestamp": "2026-03-05 21:39",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD",
+            "collection": "boa_sentinel_2",
             "history": [
-                {
-                    "timestamp": "2026-03-01 21:50",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
-                },
                 {
                     "timestamp": "2026-03-01 21:58",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-05 20:59",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TD"
+                },
+                {
+                    "timestamp": "2026-03-05 21:39",
+                    "status": 1,
+                    "collection": "boa_sentinel_2"
                 }
             ]
         }
@@ -1136,7 +1136,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2026-03-05 13:03",
+                "timestamp": "2026-03-05 21:37",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
