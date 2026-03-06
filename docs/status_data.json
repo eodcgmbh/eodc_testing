@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-06 11:49",
+        "timestamp": "2026-03-06 12:01",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
+            "collection": "CGLS_GDMP300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-03-02 11:58",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
-                },
                 {
                     "timestamp": "2026-03-02 13:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-06 11:49",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
+                },
+                {
+                    "timestamp": "2026-03-06 12:01",
+                    "status": 1,
+                    "collection": "CGLS_GDMP300_V1_GLOBAL"
                 }
             ]
         }
@@ -1220,7 +1220,7 @@
             },
             {
                 "collection": "topo-dc-austria-dtm",
-                "timestamp": "2026-02-28 22:24",
+                "timestamp": "2026-03-06 11:54",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
