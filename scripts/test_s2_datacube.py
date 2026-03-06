@@ -16,7 +16,7 @@ tiles = ['T32TNS', 'T32TNT', 'T32TPS', 'T32TPT', 'T32TQS', 'T32TQT', 'T32UQU',
          'T33UUP', 'T33UVP', 'T33UVQ', 'T33UWP', 'T33UWQ', 'T33UXP', 'T33UXQ',        
         ]
 
-def check_tile(tile, t=-10):
+def check_tile(tile, t=-1):
     path = f"{PATH}/{tile}"
     time_path = "https://dev.hda.eodchosting.eu/collections/S2-L2A-C1"
 
@@ -106,10 +106,6 @@ def main():
         else:
             today = datetime.now()
             t = -1
-            if today.hour in [1, 2, 3, 4, 5, 6, 7]:
-                # while the ingest for new items is running, time for 10m, 20m and indices might not align, 
-                # pick a timestep before the last one to check
-                t = -10
             for tile in tiles:
                 check, msgc = check_tile(tile, t)
                 if not check:
