@@ -18,8 +18,8 @@ tiles = ['T32TNS', 'T32TNT', 'T32TPS', 'T32TPT', 'T32TQS', 'T32TQT', 'T32UQU',
 
 def check_tile(tile, t=-1):
     path = f"{PATH}/{tile}"
-    time_path = "https://data.eodc.eu/collections/S2-L2A-C1"
 
+    time_df = pd.read_csv(f"{PATH}/time.csv", index_col=0)
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
     if t < 0:
@@ -35,7 +35,6 @@ def check_tile(tile, t=-1):
         check_red = (cube_10m.red[t, :, :] == 0).all()
     if check_red or check_red_nan:
         print(f"All NaN values: {tile}: RED at {t} {cube_10m.time[t]}")
-    time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
     if time_df.loc[tile, ["time"]].values != str(cube_10m.time[-1])[:10]:
         return False, f"ERROR: Processing did not complete: {tile}: RED at {t} {cube_10m.time[t]} "
 
@@ -52,7 +51,6 @@ def check_tile(tile, t=-1):
         check_scl_nan = np.isnan(cube_20m.scl[t, :, :]).all()
     if check_scl or check_scl_nan:
         print(f"All NaN values: {tile}: SCL at {t} {cube_20m.time[t]}")
-    time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
     if time_df.loc[tile, ["time"]].values != str(cube_20m.time[-1])[:10]:
         return False, f"ERROR: Processing did not complete: {tile}: SCL at {t} {cube_20m.time[t]} "
 
@@ -65,12 +63,10 @@ def check_tile(tile, t=-1):
         check_ndvi = np.isnan(indices.ndvi[t, :, :]).all()
         if check_ndvi:
             print(f"All NaN values: {tile}: NDVI at {t} {indices.time[t]} ")
-    time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
     if np.isnan(indices.lai[t, 6000, 6000]):
         check_lai = np.isnan(indices.lai[t, :, :]).all()
         if check_lai:
             print(f"All NaN values: {tile}: LAI at {t} {indices.time[t]} ")
-    time_df = pd.read_csv(f"{time_path}/time.csv", index_col=0)
     if time_df.loc[tile, ["time"]].values != str(indices.time[-1])[:10]:
         return False, f"ERROR: Processing did not complete: {tile}: Indices at {t} {indices.time[t]} "
 
