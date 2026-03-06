@@ -18,7 +18,7 @@ tiles = ['T32TNS', 'T32TNT', 'T32TPS', 'T32TPT', 'T32TQS', 'T32TQT', 'T32UQU',
 
 def check_tile(tile, t=-1):
     path = f"{PATH}/{tile}"
-    time_path = "https://dev.hda.eodchosting.eu/collections/S2-L2A-C1"
+    time_path = "https://data.eodc.eu/collections/S2-L2A-C1"
 
     path_10m = f"{path}/10"
     cube_10m = zarr.open(path_10m)
