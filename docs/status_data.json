@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-07 14:18",
+        "timestamp": "2026-03-07 14:44",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "S1_GRD_SIGMA0_ASCENDING",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2026-03-03 22:24",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S1"
-                },
                 {
                     "timestamp": "2026-03-03 22:51",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-07 14:18",
                     "status": 1,
                     "collection": "S1_GRD_SIGMA0_ASCENDING"
+                },
+                {
+                    "timestamp": "2026-03-07 14:44",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
