@@ -1130,7 +1130,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2026-03-08 05:29",
+                "timestamp": "2026-03-08 06:05",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1451,16 +1451,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-03-08 05:39:04",
+        "timestamp": "2026-03-08 06:35:46",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-48e54a2a-24a1-4e88-b7fa-c9032c6c9e0f)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-09406158-0f6c-4a13-a1d1-eff16eff68f7)",
             "history": [
-                {
-                    "timestamp": "2026-03-07 12:35:22",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e4f94893-42be-4b3d-831c-513fc8a71bcd)"
-                },
                 {
                     "timestamp": "2026-03-07 13:34:43",
                     "status": 0,
@@ -1505,6 +1500,11 @@
                     "timestamp": "2026-03-08 05:39:04",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-48e54a2a-24a1-4e88-b7fa-c9032c6c9e0f)"
+                },
+                {
+                    "timestamp": "2026-03-08 06:35:46",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-09406158-0f6c-4a13-a1d1-eff16eff68f7)"
                 }
             ]
         }
