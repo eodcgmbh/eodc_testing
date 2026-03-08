@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-08 20:59",
+        "timestamp": "2026-03-08 21:29",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1",
+            "collection": "SENTINEL1_GRD",
             "history": [
-                {
-                    "timestamp": "2026-03-06 11:22",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_AVERAGE"
-                },
                 {
                     "timestamp": "2026-03-06 11:49",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-08 20:59",
                     "status": 1,
                     "collection": "TERRASCOPE_S1_SLC_COHERENCE_V1"
+                },
+                {
+                    "timestamp": "2026-03-08 21:29",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD"
                 }
             ]
         }
@@ -800,7 +800,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2026-03-08 16:55",
+                "timestamp": "2026-03-08 21:25",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
