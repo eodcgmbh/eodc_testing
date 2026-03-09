@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-09 10:38",
+        "timestamp": "2026-03-09 11:22",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "PROBAV_L3_S1_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2026-03-06 21:56",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TY"
-                },
                 {
                     "timestamp": "2026-03-06 22:24",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-09 10:38",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2026-03-09 11:22",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S1_TOC_100M"
                 }
             ]
         }
@@ -1148,7 +1148,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2026-03-07 21:23",
+                "timestamp": "2026-03-09 11:09",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
