@@ -8,7 +8,7 @@ on:
         - 'requirements_s2.txt'
   schedule:
     - cron: '*/30 * * * *'
-    - cron: '0 8 * * *'
+    - cron: '0 7 * * *'
   workflow_dispatch:
 
 jobs:
