@@ -1,13 +1,9 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-03-10 10:54:59",
+        "timestamp": "2026-03-10 11:43:17",
         "status": "FAILURE",
         "extra_info": {
             "history": [
-                {
-                    "timestamp": "2026-03-07 13:50:48",
-                    "status": 0
-                },
                 {
                     "timestamp": "2026-03-07 14:35:33",
                     "status": 0
@@ -203,16 +199,25 @@
                 {
                     "timestamp": "2026-03-10 10:54:59",
                     "status": 0
+                },
+                {
+                    "timestamp": "2026-03-10 11:43:17",
+                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-10 11:30",
+        "timestamp": "2026-03-10 10:04",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
+            "collection": "ICEYE_GRD_E13B",
             "history": [
+                {
+                    "timestamp": "2026-03-07 14:58",
+                    "status": 1,
+                    "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
                 {
                     "timestamp": "2026-03-07 15:24",
                     "status": 1,
@@ -707,11 +712,6 @@
                     "timestamp": "2026-03-10 10:04",
                     "status": 1,
                     "collection": "ICEYE_GRD_E13B"
-                },
-                {
-                    "timestamp": "2026-03-10 11:30",
-                    "status": 1,
-                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
                 }
             ]
         }
