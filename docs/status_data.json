@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-13 11:59",
+        "timestamp": "2026-03-13 13:07",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_WINTERCEREALS",
+            "collection": "SENTINEL2_L1C",
             "history": [
-                {
-                    "timestamp": "2026-03-09 12:44",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_SENTINELHUB"
-                },
                 {
                     "timestamp": "2026-03-09 13:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-13 11:59",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_WINTERCEREALS"
+                },
+                {
+                    "timestamp": "2026-03-13 13:07",
+                    "status": 1,
+                    "collection": "SENTINEL2_L1C"
                 }
             ]
         }
@@ -932,7 +932,7 @@
             },
             {
                 "collection": "DOP_AUT_K_OSTTIROL",
-                "timestamp": "2026-03-10 09:45",
+                "timestamp": "2026-03-13 13:01",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
