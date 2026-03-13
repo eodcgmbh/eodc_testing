@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__))) 
 from e2e_helpers.prom import push_e2e_result
 
-OPENEO_BACKEND = "https://openeo.cloud"
+OPENEO_BACKEND = "https://openeo.eodc.eu/openeo/1.2.0/"
 TOKEN_PATH = os.path.expanduser("~/.openeo-refresh-token")
 
 LOG_DIR = "results/logs/"
