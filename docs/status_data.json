@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-03-15 07:11:25",
+        "timestamp": "2026-03-15 05:15:48",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-03-12 02:43:33",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-03-12 04:57:13",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-03-15 05:15:48",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-03-15 07:11:25",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-15 06:47",
+        "timestamp": "2026-03-15 07:35",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERA5_WIND_U",
+            "collection": "SENTINEL1_GRD_SIGMA0",
             "history": [
-                {
-                    "timestamp": "2026-03-11 18:30",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S2_LAI_V2"
-                },
                 {
                     "timestamp": "2026-03-11 19:27",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-15 06:47",
                     "status": 1,
                     "collection": "ERA5_WIND_U"
+                },
+                {
+                    "timestamp": "2026-03-15 07:35",
+                    "status": 1,
+                    "collection": "SENTINEL1_GRD_SIGMA0"
                 }
             ]
         }
@@ -806,7 +806,7 @@
             },
             {
                 "collection": "CORINE_LAND_COVER",
-                "timestamp": "2026-03-12 23:29",
+                "timestamp": "2026-03-15 07:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
