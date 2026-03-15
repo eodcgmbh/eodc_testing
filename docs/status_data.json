@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-15 23:14",
+        "timestamp": "2026-03-15 23:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "GFM",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2026-03-12 18:33",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2026-03-12 19:26",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-15 23:14",
                     "status": 1,
                     "collection": "GFM"
+                },
+                {
+                    "timestamp": "2026-03-15 23:45",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
