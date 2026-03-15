@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-15 19:47",
+        "timestamp": "2026-03-15 20:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PLANETSCOPE",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-03-12 11:57",
-                    "status": 1,
-                    "collection": "CGLS_FAPAR_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-03-12 12:54",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-15 19:47",
                     "status": 1,
                     "collection": "PLANETSCOPE"
+                },
+                {
+                    "timestamp": "2026-03-15 20:00",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1232,7 +1232,7 @@
             },
             {
                 "collection": "topo-dc-austria-ndsm",
-                "timestamp": "2026-03-12 13:02",
+                "timestamp": "2026-03-15 19:52",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
