@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-15 17:45",
+        "timestamp": "2026-03-15 18:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
             "history": [
-                {
-                    "timestamp": "2026-03-12 10:24",
-                    "status": 1,
-                    "collection": "EMODNET_VESSEL_DENSITY_OTHER"
-                },
                 {
                     "timestamp": "2026-03-12 11:04",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-15 17:45",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2026-03-15 18:00",
+                    "status": 1,
+                    "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
                 }
             ]
         }
@@ -896,7 +896,7 @@
             },
             {
                 "collection": "GFM",
-                "timestamp": "2026-03-11 02:04",
+                "timestamp": "2026-03-15 17:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
