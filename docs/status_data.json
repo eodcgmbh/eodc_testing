@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-16 19:38",
+        "timestamp": "2026-03-16 20:04",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT4-5_TM_L2",
+            "collection": "EMODNET_VESSEL_DENSITY_CARGO",
             "history": [
-                {
-                    "timestamp": "2026-03-13 07:52",
-                    "status": 1,
-                    "collection": "PERSISTENT_SNOW_AREA"
-                },
                 {
                     "timestamp": "2026-03-13 08:32",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-16 19:38",
                     "status": 1,
                     "collection": "LANDSAT4-5_TM_L2"
+                },
+                {
+                    "timestamp": "2026-03-16 20:04",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_CARGO"
                 }
             ]
         }
@@ -728,7 +728,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2026-03-12 06:57",
+                "timestamp": "2026-03-16 20:01",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
