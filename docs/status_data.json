@@ -1112,7 +1112,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2026-03-06 09:40",
+                "timestamp": "2026-03-16 09:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1451,16 +1451,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-03-16 08:04:44",
+        "timestamp": "2026-03-16 10:00:35",
         "status": "SUCCESS",
         "extra_info": {
-            "info": "vm-test-20260316-080436",
+            "info": "vm-test-20260316-100027",
             "history": [
-                {
-                    "timestamp": "2026-03-15 17:22:47",
-                    "status": 1,
-                    "info": "vm-test-20260315-172239"
-                },
                 {
                     "timestamp": "2026-03-15 18:31:34",
                     "status": 1,
@@ -1505,6 +1500,11 @@
                     "timestamp": "2026-03-16 08:04:44",
                     "status": 1,
                     "info": "vm-test-20260316-080436"
+                },
+                {
+                    "timestamp": "2026-03-16 10:00:35",
+                    "status": 1,
+                    "info": "vm-test-20260316-100027"
                 }
             ]
         }
