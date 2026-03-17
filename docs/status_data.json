@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-17 22:48",
+        "timestamp": "2026-03-17 23:18",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2026-03-14 03:39",
-                    "status": 1,
-                    "collection": "JAXA_WQ_CHLA_ANOMALY"
-                },
                 {
                     "timestamp": "2026-03-14 05:01",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-17 22:48",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2026-03-17 23:18",
+                    "status": 1,
+                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-03-16 10:54",
+                "timestamp": "2026-03-17 23:01",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
