@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-19 19:59",
+        "timestamp": "2026-03-19 20:45",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_GDMP_V2_GLOBAL",
+            "collection": "SENTINEL3_SRAL_L2",
             "history": [
-                {
-                    "timestamp": "2026-03-15 10:56",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2026-03-15 11:46",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-19 19:59",
                     "status": 1,
                     "collection": "CGLS_GDMP_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-03-19 20:45",
+                    "status": 1,
+                    "collection": "SENTINEL3_SRAL_L2"
                 }
             ]
         }
@@ -1142,7 +1142,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_BISCHOFSHOFEN",
-                "timestamp": "2026-03-13 15:09",
+                "timestamp": "2026-03-19 20:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
