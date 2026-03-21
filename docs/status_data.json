@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-21 11:02",
+        "timestamp": "2026-03-21 11:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2SF_TM",
+            "collection": "JAXA_WQ_CHLA_ANOMALY",
             "history": [
-                {
-                    "timestamp": "2026-03-17 11:24",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2026-03-17 12:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-21 11:02",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2SF_TM"
+                },
+                {
+                    "timestamp": "2026-03-21 11:51",
+                    "status": 1,
+                    "collection": "JAXA_WQ_CHLA_ANOMALY"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-03-18 23:32",
+                "timestamp": "2026-03-21 11:47",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
