@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-21 07:36",
+        "timestamp": "2026-03-21 07:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS",
+            "collection": "DOP_AUT_K_WOLFSBERG",
             "history": [
-                {
-                    "timestamp": "2026-03-16 23:45",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2026-03-17 00:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-21 07:36",
                     "status": 1,
                     "collection": "SAR_WET_SNOW_IN_HIGH_MOUNTAINS"
+                },
+                {
+                    "timestamp": "2026-03-21 07:55",
+                    "status": 1,
+                    "collection": "DOP_AUT_K_WOLFSBERG"
                 }
             ]
         }
@@ -1214,7 +1214,7 @@
             },
             {
                 "collection": "SENTINEL1_SCENE_GMR0",
-                "timestamp": "2026-03-16 19:03",
+                "timestamp": "2026-03-21 07:53",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
