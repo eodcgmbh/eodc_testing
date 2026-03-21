@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-21 19:40",
+        "timestamp": "2026-03-21 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "TERRASCOPE_S5P_L3_NO2SF_TY",
             "history": [
-                {
-                    "timestamp": "2026-03-18 00:58",
-                    "status": 1,
-                    "collection": "CNR_CHL"
-                },
                 {
                     "timestamp": "2026-03-18 03:40",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-21 19:40",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2026-03-21 19:53",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2SF_TY"
                 }
             ]
         }
@@ -920,7 +920,7 @@
             },
             {
                 "collection": "BOA_SENTINEL_2",
-                "timestamp": "2026-03-21 10:55",
+                "timestamp": "2026-03-21 19:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
