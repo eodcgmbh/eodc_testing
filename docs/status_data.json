@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-22 19:35",
+        "timestamp": "2026-03-22 19:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TD",
+            "collection": "TERRASCOPE_S5P_L3_NO2SF_TD",
             "history": [
-                {
-                    "timestamp": "2026-03-19 15:30",
-                    "status": 1,
-                    "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
-                },
                 {
                     "timestamp": "2026-03-19 16:35",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-22 19:35",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TD"
+                },
+                {
+                    "timestamp": "2026-03-22 19:51",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2SF_TD"
                 }
             ]
         }
@@ -1136,7 +1136,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2026-03-22 05:55",
+                "timestamp": "2026-03-22 19:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
