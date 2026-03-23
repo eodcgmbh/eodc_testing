@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-23 19:09",
+        "timestamp": "2026-03-23 19:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "MAPZEN_DEM",
             "history": [
-                {
-                    "timestamp": "2026-03-20 15:00",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2026-03-20 15:51",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-23 19:09",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2026-03-23 19:53",
+                    "status": 1,
+                    "collection": "MAPZEN_DEM"
                 }
             ]
         }
