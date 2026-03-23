@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-03-23 13:26:50",
+        "timestamp": "2026-03-23 11:56:38",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-03-20 11:42:02",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-03-20 13:19:18",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-03-23 11:56:38",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-03-23 13:26:50",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-23 12:51",
+        "timestamp": "2026-03-23 14:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_CH4_TM",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2026-03-20 08:33",
-                    "status": 1,
-                    "collection": "E12D_PRIMARY"
-                },
                 {
                     "timestamp": "2026-03-20 09:09",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-23 12:51",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_CH4_TM"
+                },
+                {
+                    "timestamp": "2026-03-23 14:11",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -956,7 +956,7 @@
             },
             {
                 "collection": "SENTINEL3_SRAL_L2",
-                "timestamp": "2026-03-21 23:26",
+                "timestamp": "2026-03-23 13:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
