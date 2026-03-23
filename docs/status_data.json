@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-22 23:02",
+        "timestamp": "2026-03-22 23:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "WORLDVIEW",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2026-03-19 22:21",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2026-03-19 22:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-22 23:02",
                     "status": 1,
                     "collection": "WORLDVIEW"
+                },
+                {
+                    "timestamp": "2026-03-22 23:58",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
@@ -1148,7 +1148,7 @@
             },
             {
                 "collection": "SENTINEL1_GMR0",
-                "timestamp": "2026-03-20 18:01",
+                "timestamp": "2026-03-22 23:55",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
