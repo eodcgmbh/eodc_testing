@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-25 19:29",
+        "timestamp": "2026-03-25 20:01",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL3_SYNERGY_VG10",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2026-03-21 22:17",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2EU_TY"
-                },
                 {
                     "timestamp": "2026-03-21 22:44",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-25 19:29",
                     "status": 1,
                     "collection": "SENTINEL3_SYNERGY_VG10"
+                },
+                {
+                    "timestamp": "2026-03-25 20:01",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -848,7 +848,7 @@
             },
             {
                 "collection": "SENTINEL1_MPLIA",
-                "timestamp": "2026-03-19 15:25",
+                "timestamp": "2026-03-25 19:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
