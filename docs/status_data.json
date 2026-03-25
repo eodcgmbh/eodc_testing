@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-25 07:40",
+        "timestamp": "2026-03-25 08:32",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_VILLACH",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2026-03-21 16:36",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C_INCD"
-                },
                 {
                     "timestamp": "2026-03-21 16:58",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-25 07:40",
                     "status": 1,
                     "collection": "DOP_AUT_K_VILLACH"
+                },
+                {
+                    "timestamp": "2026-03-25 08:32",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
