@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-26 11:31",
+        "timestamp": "2026-03-26 12:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
+            "collection": "EMODNET_VESSEL_DENSITY",
             "history": [
-                {
-                    "timestamp": "2026-03-22 10:12",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2026-03-22 10:48",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-26 11:31",
                     "status": 1,
                     "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-03-26 12:36",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY"
                 }
             ]
         }
@@ -950,7 +950,7 @@
             },
             {
                 "collection": "SENTINEL2_GRI_L1C",
-                "timestamp": "2026-03-24 08:08",
+                "timestamp": "2026-03-26 12:08",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
