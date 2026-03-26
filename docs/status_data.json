@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-26 10:31",
+        "timestamp": "2026-03-26 11:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY",
+            "collection": "SENTINEL_5P_CO_T3D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2026-03-22 09:49",
-                    "status": 1,
-                    "collection": "FRACTIONAL_SNOW_COVER"
-                },
                 {
                     "timestamp": "2026-03-22 10:12",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-26 10:31",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
+                },
+                {
+                    "timestamp": "2026-03-26 11:31",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CO_T3D_AVERAGE"
                 }
             ]
         }
@@ -770,7 +770,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2026-03-24 02:09",
+                "timestamp": "2026-03-26 11:28",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
