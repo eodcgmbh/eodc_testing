@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-27 21:59",
+        "timestamp": "2026-03-27 22:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "EMODNET_VESSEL_DENSITY_TANKER",
             "history": [
-                {
-                    "timestamp": "2026-03-23 14:11",
-                    "status": 1,
-                    "collection": "ERS_ENVISAT_NRB"
-                },
                 {
                     "timestamp": "2026-03-23 15:16",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-27 21:59",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2026-03-27 22:37",
+                    "status": 1,
+                    "collection": "EMODNET_VESSEL_DENSITY_TANKER"
                 }
             ]
         }
@@ -794,7 +794,7 @@
             },
             {
                 "collection": "Sentinel-1_Reed_Extent",
-                "timestamp": "2026-03-23 20:03",
+                "timestamp": "2026-03-27 22:34",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
