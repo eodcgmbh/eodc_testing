@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-28 11:26",
+        "timestamp": "2026-03-28 11:50",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_30",
+            "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM",
             "history": [
-                {
-                    "timestamp": "2026-03-23 23:54",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2026-03-24 01:25",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-28 11:26",
                     "status": 1,
                     "collection": "COPERNICUS_30"
+                },
+                {
+                    "timestamp": "2026-03-28 11:50",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TM"
                 }
             ]
         }
