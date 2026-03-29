@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-03-29 07:17:44",
+        "timestamp": "2026-03-29 05:23:48",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-03-25 09:07:53",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-03-25 11:00:52",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-03-29 05:23:48",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-03-29 07:17:44",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-29 06:39",
+        "timestamp": "2026-03-29 07:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EMODNET_VESSEL_DENSITY_OTHER",
+            "collection": "SENTINEL_5P_CH4_T7D_AVERAGE",
             "history": [
-                {
-                    "timestamp": "2026-03-24 23:52",
-                    "status": 1,
-                    "collection": "S1_GRD_SIGMA0_DESCENDING"
-                },
                 {
                     "timestamp": "2026-03-25 01:42",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-29 06:39",
                     "status": 1,
                     "collection": "EMODNET_VESSEL_DENSITY_OTHER"
+                },
+                {
+                    "timestamp": "2026-03-29 07:37",
+                    "status": 1,
+                    "collection": "SENTINEL_5P_CH4_T7D_AVERAGE"
                 }
             ]
         }
