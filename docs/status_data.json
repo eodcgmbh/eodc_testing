@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-03-30 19:13:12",
+        "timestamp": "2026-03-30 17:09:07",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-03-26 23:43:25",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-03-27 02:58:26",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-03-30 17:09:07",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-03-30 19:13:12",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-30 18:36",
+        "timestamp": "2026-03-30 19:37",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CNES_LAND_COVER_MAP",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TY",
             "history": [
-                {
-                    "timestamp": "2026-03-26 22:47",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2026-03-26 23:14",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-30 18:36",
                     "status": 1,
                     "collection": "CNES_LAND_COVER_MAP"
+                },
+                {
+                    "timestamp": "2026-03-30 19:37",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TY"
                 }
             ]
         }
