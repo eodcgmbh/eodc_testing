@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-30 16:40",
+        "timestamp": "2026-03-30 17:38",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ALOS_PALSAR2_L2_1_10M",
+            "collection": "CGLS_LAI300_V1_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-03-26 21:48",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2026-03-26 22:01",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-30 16:40",
                     "status": 1,
                     "collection": "ALOS_PALSAR2_L2_1_10M"
+                },
+                {
+                    "timestamp": "2026-03-30 17:38",
+                    "status": 1,
+                    "collection": "CGLS_LAI300_V1_GLOBAL"
                 }
             ]
         }
@@ -1130,7 +1130,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_WINDISCHGARSTEN",
-                "timestamp": "2026-03-30 14:50",
+                "timestamp": "2026-03-30 17:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
