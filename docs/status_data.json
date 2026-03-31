@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-03-31 19:50",
+        "timestamp": "2026-03-31 20:36",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S2_FAPAR_V2",
+            "collection": "COPERNICUS_30",
             "history": [
-                {
-                    "timestamp": "2026-03-27 18:59",
-                    "status": 1,
-                    "collection": "SENTINEL2_L1C"
-                },
                 {
                     "timestamp": "2026-03-27 20:18",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-03-31 19:50",
                     "status": 1,
                     "collection": "TERRASCOPE_S2_FAPAR_V2"
+                },
+                {
+                    "timestamp": "2026-03-31 20:36",
+                    "status": 1,
+                    "collection": "COPERNICUS_30"
                 }
             ]
         }
@@ -1202,7 +1202,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_KLAGENFURT",
-                "timestamp": "2026-03-30 18:32",
+                "timestamp": "2026-03-31 20:05",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
