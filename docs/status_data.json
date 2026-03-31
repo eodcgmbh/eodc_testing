@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-03-31 18:53:54",
+        "timestamp": "2026-03-31 21:33:37",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-c81808d5-075e-4f9a-9eff-2a78dc1c88bc)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-d22eb043-16ef-4d16-827f-e714c983cc98)",
             "history": [
-                {
-                    "timestamp": "2026-03-31 01:54:21",
-                    "status": 1,
-                    "info": "vm-test-20260331-015413"
-                },
                 {
                     "timestamp": "2026-03-31 04:32:28",
                     "status": 1,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-03-31 18:53:54",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-c81808d5-075e-4f9a-9eff-2a78dc1c88bc)"
+                },
+                {
+                    "timestamp": "2026-03-31 21:33:37",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-d22eb043-16ef-4d16-827f-e714c983cc98)"
                 }
             ]
         }
