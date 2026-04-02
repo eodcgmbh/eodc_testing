@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-04-02 07:27:25",
+        "timestamp": "2026-04-02 05:13:39",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-03-28 23:42:27",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-03-29 05:23:48",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-04-02 05:13:39",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-04-02 07:27:25",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-02 06:46",
+        "timestamp": "2026-04-02 07:52",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_CHLA_ANOMALY",
+            "collection": "AGERA5",
             "history": [
-                {
-                    "timestamp": "2026-03-28 19:08",
-                    "status": 1,
-                    "collection": "SENTINEL2_L2A"
-                },
                 {
                     "timestamp": "2026-03-28 19:41",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-02 06:46",
                     "status": 1,
                     "collection": "JAXA_WQ_CHLA_ANOMALY"
+                },
+                {
+                    "timestamp": "2026-04-02 07:52",
+                    "status": 1,
+                    "collection": "AGERA5"
                 }
             ]
         }
@@ -1088,7 +1088,7 @@
             },
             {
                 "collection": "incal-hourly",
-                "timestamp": "2026-03-28 17:30",
+                "timestamp": "2026-04-02 07:48",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
