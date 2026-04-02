@@ -728,7 +728,7 @@
             },
             {
                 "collection": "DOP_AUT_K_TAMSWEG",
-                "timestamp": "2026-04-02 02:26",
+                "timestamp": "2026-04-02 14:02",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-04-02 12:59:40",
+        "timestamp": "2026-04-02 14:22:55",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-de4df3a0-722b-4533-b56c-5bcd4e44d0d4)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1b1d093d-8232-4de0-bbd9-948beaf7d1ea)",
             "history": [
-                {
-                    "timestamp": "2026-04-01 21:36:29",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-5232be50-b0d0-4e8f-8578-ea8880844ddf)"
-                },
                 {
                     "timestamp": "2026-04-01 23:31:11",
                     "status": 0,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-04-02 12:59:40",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-de4df3a0-722b-4533-b56c-5bcd4e44d0d4)"
+                },
+                {
+                    "timestamp": "2026-04-02 14:22:55",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1b1d093d-8232-4de0-bbd9-948beaf7d1ea)"
                 }
             ]
         }
