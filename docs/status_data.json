@@ -788,7 +788,7 @@
             },
             {
                 "collection": "RUCIO_SENTINEL2_MFCOVER",
-                "timestamp": "2026-04-03 10:44",
+                "timestamp": "2026-04-03 19:12",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-04-03 18:38:59",
+        "timestamp": "2026-04-03 19:34:25",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-00238581-8578-4cf1-82a5-213da49103fa)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e3a8499d-0473-4369-86a4-323e4df7b171)",
             "history": [
-                {
-                    "timestamp": "2026-04-03 07:58:50",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-d68ff082-4741-424d-baf6-b4e7a046e094)"
-                },
                 {
                     "timestamp": "2026-04-03 08:59:49",
                     "status": 0,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-04-03 18:38:59",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-00238581-8578-4cf1-82a5-213da49103fa)"
+                },
+                {
+                    "timestamp": "2026-04-03 19:34:25",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e3a8499d-0473-4369-86a4-323e4df7b171)"
                 }
             ]
         }
