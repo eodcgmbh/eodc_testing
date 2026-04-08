@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-08 01:51",
+        "timestamp": "2026-04-08 04:31",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "forest_type",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TM",
             "history": [
-                {
-                    "timestamp": "2026-04-03 22:54",
-                    "status": 1,
-                    "collection": "RIVER_AND_LAKE_ICE_EXTENT_SENTINEL1_SENTINEL2"
-                },
                 {
                     "timestamp": "2026-04-03 23:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-08 01:51",
                     "status": 1,
                     "collection": "forest_type"
+                },
+                {
+                    "timestamp": "2026-04-08 04:31",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
                 }
             ]
         }
@@ -758,7 +758,7 @@
             },
             {
                 "collection": "SENTINEL1_ALPS_WETSNOW",
-                "timestamp": "2026-03-31 19:03",
+                "timestamp": "2026-04-08 03:39",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
