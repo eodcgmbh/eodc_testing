@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-08 06:08",
+        "timestamp": "2026-04-08 08:53",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_SPRINGCEREALS",
+            "collection": "tree_cover_density",
             "history": [
-                {
-                    "timestamp": "2026-04-04 01:56",
-                    "status": 1,
-                    "collection": "CGLS_GDMP_V2_GLOBAL"
-                },
                 {
                     "timestamp": "2026-04-04 04:13",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-08 06:08",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_SPRINGCEREALS"
+                },
+                {
+                    "timestamp": "2026-04-08 08:53",
+                    "status": 1,
+                    "collection": "tree_cover_density"
                 }
             ]
         }
@@ -842,7 +842,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2026-04-04 11:00",
+                "timestamp": "2026-04-08 08:43",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
