@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-10 23:05",
+        "timestamp": "2026-04-10 23:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "TERRASCOPE_S5P_L3_CO_TD",
             "history": [
-                {
-                    "timestamp": "2026-04-05 19:51",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2026-04-05 20:25",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-10 23:05",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2026-04-10 23:48",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TD"
                 }
             ]
         }
