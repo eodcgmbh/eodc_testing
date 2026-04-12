@@ -914,7 +914,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2026-04-03 02:28",
+                "timestamp": "2026-04-12 10:07",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-04-12 09:40:12",
+        "timestamp": "2026-04-12 10:33:37",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-13180f9e-baba-494e-9240-3f8ece92558d)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-ca15e212-1fca-4174-82e2-591af852658c)",
             "history": [
-                {
-                    "timestamp": "2026-04-11 16:30:01",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b2206d34-eec7-4be2-bea6-c3a0f590f6f5)"
-                },
                 {
                     "timestamp": "2026-04-11 19:30:58",
                     "status": 0,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-04-12 09:40:12",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-13180f9e-baba-494e-9240-3f8ece92558d)"
+                },
+                {
+                    "timestamp": "2026-04-12 10:33:37",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-ca15e212-1fca-4174-82e2-591af852658c)"
                 }
             ]
         }
