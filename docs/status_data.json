@@ -1082,7 +1082,7 @@
             },
             {
                 "collection": "spartacus-daily",
-                "timestamp": "2026-04-07 09:08",
+                "timestamp": "2026-04-13 15:03",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-04-13 13:13:47",
+        "timestamp": "2026-04-13 15:11:27",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-159fcd3d-0aa5-474e-b98c-935077a299ec)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-d5b1aaa5-08b4-4383-b674-b2f02835cb37)",
             "history": [
-                {
-                    "timestamp": "2026-04-12 19:35:18",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f652ce71-f7e2-4330-8033-c948c0a5f616)"
-                },
                 {
                     "timestamp": "2026-04-12 20:29:08",
                     "status": 0,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-04-13 13:13:47",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-159fcd3d-0aa5-474e-b98c-935077a299ec)"
+                },
+                {
+                    "timestamp": "2026-04-13 15:11:27",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-d5b1aaa5-08b4-4383-b674-b2f02835cb37)"
                 }
             ]
         }
