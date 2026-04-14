@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2026-04-04 12:58",
+                "timestamp": "2026-04-14 09:02",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-04-14 07:22:45",
+        "timestamp": "2026-04-14 09:11:39",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-77c61b2a-d0b7-4ac7-9b0e-8d7e9a762842)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-88341708-299f-406f-8027-76cdbef7291f)",
             "history": [
-                {
-                    "timestamp": "2026-04-13 09:49:25",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-09936ff4-16da-4e64-9d30-3530c99cca22)"
-                },
                 {
                     "timestamp": "2026-04-13 11:12:57",
                     "status": 0,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-04-14 07:22:45",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-77c61b2a-d0b7-4ac7-9b0e-8d7e9a762842)"
+                },
+                {
+                    "timestamp": "2026-04-14 09:11:39",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-88341708-299f-406f-8027-76cdbef7291f)"
                 }
             ]
         }
