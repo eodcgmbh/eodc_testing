@@ -27,6 +27,11 @@ def main():
         okc, msgc = ok(r)
         if not okc:
             success, msg = False, f"Check hda: {PATH}/T33UWP/indices/.zmetadata {msgc}"
+        else:
+            r = requests.get(f"https://data.eodc.eu/collections/SENTINEL1_SIG0_20M/V1M2R3/EQUI7_EU020M/E048N015T3/SIG0_20260412T171426__VV_A015_E048N015T3_EU020M_V1M2R3_S1CIWGRDH_TUWIEN.tif", timeout=15)
+            okc, msgc = ok(r)
+            if not okc:
+                success, msg = False, f"Check hda: https://data.eodc.eu/collections/SENTINEL1_SIG0_20M/V1M2R3/EQUI7_EU020M/E048N015T3/SIG0_20260412T171426__VV_A015_E048N015T3_EU020M_V1M2R3_S1CIWGRDH_TUWIEN.tif {msgc}"
 
     except Exception as e:
         success, msg = False, f"Exception: {e}"
