@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-15 08:06",
+        "timestamp": "2026-04-15 09:46",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_NDVI_V2_GLOBAL",
+            "collection": "S1_GRD_SIGMA0_DESCENDING",
             "history": [
-                {
-                    "timestamp": "2026-04-10 11:35",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_HCHO_TM"
-                },
                 {
                     "timestamp": "2026-04-10 12:30",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-15 08:06",
                     "status": 1,
                     "collection": "CGLS_NDVI_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-04-15 09:46",
+                    "status": 1,
+                    "collection": "S1_GRD_SIGMA0_DESCENDING"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-04-14 18:06",
+                "timestamp": "2026-04-15 09:04",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
