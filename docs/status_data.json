@@ -1220,7 +1220,7 @@
             },
             {
                 "collection": "topo-dc-austria-dtm",
-                "timestamp": "2026-04-10 14:34",
+                "timestamp": "2026-04-16 23:10",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1457,16 +1457,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-04-16 22:34:21",
+        "timestamp": "2026-04-16 23:35:25",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cd133b10-9539-4356-8cac-d9c4915dcece)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cc00e4f2-2492-4323-b1bd-3dee1bc9c6c2)",
             "history": [
-                {
-                    "timestamp": "2026-04-16 09:12:43",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-517c98e9-41be-4337-82d0-c950e8883bd6)"
-                },
                 {
                     "timestamp": "2026-04-16 10:57:20",
                     "status": 0,
@@ -1511,6 +1506,11 @@
                     "timestamp": "2026-04-16 22:34:21",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cd133b10-9539-4356-8cac-d9c4915dcece)"
+                },
+                {
+                    "timestamp": "2026-04-16 23:35:25",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-cc00e4f2-2492-4323-b1bd-3dee1bc9c6c2)"
                 }
             ]
         }
