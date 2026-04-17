@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-17 17:08",
+        "timestamp": "2026-04-17 20:03",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "EGM2008",
             "history": [
-                {
-                    "timestamp": "2026-04-11 23:03",
-                    "status": 1,
-                    "collection": "SENTINEL1_GRD_SIGMA0"
-                },
                 {
                     "timestamp": "2026-04-12 01:08",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-17 17:08",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-04-17 20:03",
+                    "status": 1,
+                    "collection": "EGM2008"
                 }
             ]
         }
