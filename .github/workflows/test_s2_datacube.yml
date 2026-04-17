@@ -33,6 +33,9 @@ jobs:
           echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
           echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
 
+      - name: Run HDA Test
+        run: python scripts/test_hda.py
+
       - name: Run S2 STAC Test
         run: python scripts/test_s2_stac.py
 
