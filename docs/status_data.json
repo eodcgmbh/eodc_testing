@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-18 11:20",
+        "timestamp": "2026-04-18 11:55",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "ERA5_WIND_V",
             "history": [
-                {
-                    "timestamp": "2026-04-12 16:03",
-                    "status": 1,
-                    "collection": "SENTINEL3_SYNERGY_VG1"
-                },
                 {
                     "timestamp": "2026-04-12 17:28",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-18 11:20",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_IRRIGATION"
+                },
+                {
+                    "timestamp": "2026-04-18 11:55",
+                    "status": 1,
+                    "collection": "ERA5_WIND_V"
                 }
             ]
         }
