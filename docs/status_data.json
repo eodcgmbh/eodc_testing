@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-19 03:46",
+        "timestamp": "2026-04-19 05:49",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "JAXA_WQ_TSM_AVERAGE",
+            "collection": "CNR_TSM",
             "history": [
-                {
-                    "timestamp": "2026-04-13 15:53",
-                    "status": 1,
-                    "collection": "tree_cover_density"
-                },
                 {
                     "timestamp": "2026-04-13 16:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-19 03:46",
                     "status": 1,
                     "collection": "JAXA_WQ_TSM_AVERAGE"
+                },
+                {
+                    "timestamp": "2026-04-19 05:49",
+                    "status": 1,
+                    "collection": "CNR_TSM"
                 }
             ]
         }
@@ -776,7 +776,7 @@
             },
             {
                 "collection": "AUT_DEM",
-                "timestamp": "2026-04-18 19:23",
+                "timestamp": "2026-04-19 05:30",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
