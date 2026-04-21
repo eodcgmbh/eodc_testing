@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-21 11:46",
+        "timestamp": "2026-04-21 12:47",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS",
+            "collection": "CGLS_NDVI300_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-04-16 05:17",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2020_V1"
-                },
                 {
                     "timestamp": "2026-04-16 07:03",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-21 11:46",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_TEMPORARYCROPS"
+                },
+                {
+                    "timestamp": "2026-04-21 12:47",
+                    "status": 1,
+                    "collection": "CGLS_NDVI300_V2_GLOBAL"
                 }
             ]
         }
@@ -770,7 +770,7 @@
             },
             {
                 "collection": "AI4SAR_SIG0",
-                "timestamp": "2026-04-21 06:03",
+                "timestamp": "2026-04-21 12:42",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
