@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-22 18:13",
+        "timestamp": "2026-04-22 19:40",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "tree_cover_density",
+            "collection": "TERRASCOPE_S2_NDVI_V2",
             "history": [
-                {
-                    "timestamp": "2026-04-17 12:40",
-                    "status": 1,
-                    "collection": "forest_type"
-                },
                 {
                     "timestamp": "2026-04-17 14:06",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-22 18:13",
                     "status": 1,
                     "collection": "tree_cover_density"
+                },
+                {
+                    "timestamp": "2026-04-22 19:40",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_NDVI_V2"
                 }
             ]
         }
