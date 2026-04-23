@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-23 21:57",
+        "timestamp": "2026-04-23 23:30",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL2_L1C",
+            "collection": "TERRASCOPE_S5P_L3_NO2SF_TD",
             "history": [
-                {
-                    "timestamp": "2026-04-18 12:45",
-                    "status": 1,
-                    "collection": "boa_sentinel_2"
-                },
                 {
                     "timestamp": "2026-04-18 13:49",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-23 21:57",
                     "status": 1,
                     "collection": "SENTINEL2_L1C"
+                },
+                {
+                    "timestamp": "2026-04-23 23:30",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2SF_TD"
                 }
             ]
         }
@@ -1136,7 +1136,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2026-04-22 17:03",
+                "timestamp": "2026-04-23 23:13",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
