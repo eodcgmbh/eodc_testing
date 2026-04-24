@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-04-24 13:56:10",
+        "timestamp": "2026-04-24 11:17:09",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-04-19 22:47:24",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-04-19 23:48:25",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-04-24 11:17:09",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-04-24 13:56:10",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-24 12:08",
+        "timestamp": "2026-04-24 14:03",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "DOP_AUT_K_WOLFSBERG",
+            "collection": "PROBAV_L3_S5_TOC_100M",
             "history": [
-                {
-                    "timestamp": "2026-04-18 18:37",
-                    "status": 1,
-                    "collection": "ALOS_PALSAR2_L2_1_3M"
-                },
                 {
                     "timestamp": "2026-04-18 19:27",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-24 12:08",
                     "status": 1,
                     "collection": "DOP_AUT_K_WOLFSBERG"
+                },
+                {
+                    "timestamp": "2026-04-24 14:03",
+                    "status": 1,
+                    "collection": "PROBAV_L3_S5_TOC_100M"
                 }
             ]
         }
