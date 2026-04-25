@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-25 04:31",
+        "timestamp": "2026-04-25 06:08",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD_SIGMA0",
+            "collection": "TERRASCOPE_S2_CHL_V1",
             "history": [
-                {
-                    "timestamp": "2026-04-19 09:58",
-                    "status": 1,
-                    "collection": "MAPZEN_DEM"
-                },
                 {
                     "timestamp": "2026-04-19 10:40",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-25 04:31",
                     "status": 1,
                     "collection": "SENTINEL1_GRD_SIGMA0"
+                },
+                {
+                    "timestamp": "2026-04-25 06:08",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_CHL_V1"
                 }
             ]
         }
@@ -842,7 +842,7 @@
             },
             {
                 "collection": "CGLS_SSM_1KM",
-                "timestamp": "2026-04-18 18:02",
+                "timestamp": "2026-04-25 05:49",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
