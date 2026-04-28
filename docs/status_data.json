@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-28 21:18",
+        "timestamp": "2026-04-28 22:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FCOVER300_V1_GLOBAL",
+            "collection": "MODIS",
             "history": [
-                {
-                    "timestamp": "2026-04-22 22:26",
-                    "status": 1,
-                    "collection": "JAXA_WQ_TSM_ANOMALY"
-                },
                 {
                     "timestamp": "2026-04-22 23:12",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-28 21:18",
                     "status": 1,
                     "collection": "CGLS_FCOVER300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-04-28 22:13",
+                    "status": 1,
+                    "collection": "MODIS"
                 }
             ]
         }
