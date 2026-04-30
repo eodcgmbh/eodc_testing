@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-30 17:58",
+        "timestamp": "2026-04-30 19:23",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2_TM",
+            "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY",
             "history": [
-                {
-                    "timestamp": "2026-04-24 14:03",
-                    "status": 1,
-                    "collection": "PROBAV_L3_S5_TOC_100M"
-                },
                 {
                     "timestamp": "2026-04-24 15:20",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-30 17:58",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2_TM"
+                },
+                {
+                    "timestamp": "2026-04-30 19:23",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TY"
                 }
             ]
         }
