@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-30 16:42",
+        "timestamp": "2026-04-30 17:58",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_GRD",
+            "collection": "TERRASCOPE_S5P_L3_NO2_TM",
             "history": [
-                {
-                    "timestamp": "2026-04-24 12:08",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_WOLFSBERG"
-                },
                 {
                     "timestamp": "2026-04-24 14:03",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-30 16:42",
                     "status": 1,
                     "collection": "SENTINEL1_GRD"
+                },
+                {
+                    "timestamp": "2026-04-30 17:58",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2_TM"
                 }
             ]
         }
@@ -1208,7 +1208,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_MARIAZELL",
-                "timestamp": "2026-04-26 00:04",
+                "timestamp": "2026-04-30 17:51",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
