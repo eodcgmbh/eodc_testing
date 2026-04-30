@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-04-30 09:28",
+        "timestamp": "2026-04-30 11:13",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_FAPAR_V2_GLOBAL",
+            "collection": "SENTINEL1_GAMMA0_SENTINELHUB",
             "history": [
-                {
-                    "timestamp": "2026-04-24 06:24",
-                    "status": 1,
-                    "collection": "CGLS_GDMP300_V1_GLOBAL"
-                },
                 {
                     "timestamp": "2026-04-24 08:28",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-04-30 09:28",
                     "status": 1,
                     "collection": "CGLS_FAPAR_V2_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-04-30 11:13",
+                    "status": 1,
+                    "collection": "SENTINEL1_GAMMA0_SENTINELHUB"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-04-29 17:59",
+                "timestamp": "2026-04-30 10:56",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
