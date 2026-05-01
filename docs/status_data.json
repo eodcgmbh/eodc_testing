@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-01 21:30",
+        "timestamp": "2026-05-01 22:25",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCOVER_10M_2020_V1",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2026-04-25 12:47",
-                    "status": 1,
-                    "collection": "ESA_WORLDCOVER_10M_2021_V2"
-                },
                 {
                     "timestamp": "2026-04-25 13:53",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-01 21:30",
                     "status": 1,
                     "collection": "ESA_WORLDCOVER_10M_2020_V1"
+                },
+                {
+                    "timestamp": "2026-05-01 22:25",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -800,7 +800,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C_COVERAGE",
-                "timestamp": "2026-04-26 18:57",
+                "timestamp": "2026-05-01 22:13",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
