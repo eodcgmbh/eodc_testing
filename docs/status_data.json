@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-02 17:04",
+        "timestamp": "2026-05-02 19:00",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "boa_landsat_8",
+            "collection": "CGLS_GDMP_V2_GLOBAL",
             "history": [
-                {
-                    "timestamp": "2026-04-25 23:05",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_ZELTWEG"
-                },
                 {
                     "timestamp": "2026-04-26 02:05",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-02 17:04",
                     "status": 1,
                     "collection": "boa_landsat_8"
+                },
+                {
+                    "timestamp": "2026-05-02 19:00",
+                    "status": 1,
+                    "collection": "CGLS_GDMP_V2_GLOBAL"
                 }
             ]
         }
