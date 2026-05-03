@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-03 10:04",
+        "timestamp": "2026-05-03 11:04",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2SF_TY",
+            "collection": "LANDSAT7_ETM_L1",
             "history": [
-                {
-                    "timestamp": "2026-04-26 17:07",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
-                },
                 {
                     "timestamp": "2026-04-26 17:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-03 10:04",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2SF_TY"
+                },
+                {
+                    "timestamp": "2026-05-03 11:04",
+                    "status": 1,
+                    "collection": "LANDSAT7_ETM_L1"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-04-25 15:09",
+                "timestamp": "2026-05-03 10:56",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
