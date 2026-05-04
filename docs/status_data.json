@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-04 00:09",
+        "timestamp": "2026-05-04 04:05",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2026-04-27 10:48",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_CAMS_TY"
-                },
                 {
                     "timestamp": "2026-04-27 12:12",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-04 00:09",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2026-05-04 04:05",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
