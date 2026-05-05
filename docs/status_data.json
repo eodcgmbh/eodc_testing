@@ -764,7 +764,7 @@
             },
             {
                 "collection": "ERS_ENVISAT_NRB",
-                "timestamp": "2026-05-03 21:43",
+                "timestamp": "2026-05-05 07:19",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-05 05:37:13",
+        "timestamp": "2026-05-05 08:00:11",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e8794afe-e9de-416a-9ffe-fd74249011d9)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f50825cb-de40-4281-9e62-3dc4f7de5d69)",
             "history": [
-                {
-                    "timestamp": "2026-05-04 11:00:42",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-2f196b7b-78b0-4494-89e1-015792b58f69)"
-                },
                 {
                     "timestamp": "2026-05-04 13:45:48",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-05 05:37:13",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-e8794afe-e9de-416a-9ffe-fd74249011d9)"
+                },
+                {
+                    "timestamp": "2026-05-05 08:00:11",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-f50825cb-de40-4281-9e62-3dc4f7de5d69)"
                 }
             ]
         }
