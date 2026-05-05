@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-05 20:46",
+        "timestamp": "2026-05-05 21:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "EGM2008",
+            "collection": "corine_land_cover",
             "history": [
-                {
-                    "timestamp": "2026-04-28 23:11",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_OSTTIROL"
-                },
                 {
                     "timestamp": "2026-04-29 00:09",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-05 20:46",
                     "status": 1,
                     "collection": "EGM2008"
+                },
+                {
+                    "timestamp": "2026-05-05 21:43",
+                    "status": 1,
+                    "collection": "corine_land_cover"
                 }
             ]
         }
@@ -1136,7 +1136,7 @@
             },
             {
                 "collection": "SAR_IMS_1P",
-                "timestamp": "2026-04-24 22:09",
+                "timestamp": "2026-05-05 21:36",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
