@@ -938,7 +938,7 @@
             },
             {
                 "collection": "DOP_AUT_K_WOLFSBERG",
-                "timestamp": "2026-05-03 06:09",
+                "timestamp": "2026-05-09 14:34",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-09 13:03:34",
+        "timestamp": "2026-05-09 14:44:04",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-31ec5ac0-3524-4f6d-8c36-177a461cfcef)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-7dec46ff-9e64-4793-a4ee-b27f57101392)",
             "history": [
-                {
-                    "timestamp": "2026-05-08 13:19:17",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-39661baf-a9ef-439c-8907-0112c916ff7f)"
-                },
                 {
                     "timestamp": "2026-05-08 15:16:23",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-09 13:03:34",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-31ec5ac0-3524-4f6d-8c36-177a461cfcef)"
+                },
+                {
+                    "timestamp": "2026-05-09 14:44:04",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-7dec46ff-9e64-4793-a4ee-b27f57101392)"
                 }
             ]
         }
