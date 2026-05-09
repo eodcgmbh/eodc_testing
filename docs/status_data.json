@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-09 09:51",
+        "timestamp": "2026-05-09 10:51",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2EU_TM",
+            "collection": "SENTINEL1_HPAR",
             "history": [
-                {
-                    "timestamp": "2026-05-02 10:36",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2SF_TY"
-                },
                 {
                     "timestamp": "2026-05-02 11:27",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-09 09:51",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2EU_TM"
+                },
+                {
+                    "timestamp": "2026-05-09 10:51",
+                    "status": 1,
+                    "collection": "SENTINEL1_HPAR"
                 }
             ]
         }
@@ -860,7 +860,7 @@
             },
             {
                 "collection": "INTRA_FIELD_CROP_GROWTH_POTENTIAL",
-                "timestamp": "2026-05-02 04:41",
+                "timestamp": "2026-05-09 10:33",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
