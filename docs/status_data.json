@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-05-09 19:13:33",
+        "timestamp": "2026-05-09 17:08:42",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-05-04 18:22:32",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-05-04 20:25:31",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-05-09 17:08:42",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-05-09 19:13:33",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-09 18:01",
+        "timestamp": "2026-05-09 19:17",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ESA_WORLDCEREAL_IRRIGATION",
+            "collection": "TERRASCOPE_S2_FAPAR_V2",
             "history": [
-                {
-                    "timestamp": "2026-05-02 17:04",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2026-05-02 19:00",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-09 18:01",
                     "status": 1,
                     "collection": "ESA_WORLDCEREAL_IRRIGATION"
+                },
+                {
+                    "timestamp": "2026-05-09 19:17",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FAPAR_V2"
                 }
             ]
         }
