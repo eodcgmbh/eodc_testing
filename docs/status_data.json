@@ -884,7 +884,7 @@
             },
             {
                 "collection": "DOP_AUT_K_KLAGENFURT",
-                "timestamp": "2026-05-09 05:50",
+                "timestamp": "2026-05-10 23:27",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-10 22:40:19",
+        "timestamp": "2026-05-10 23:44:43",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-0bec0012-a3b1-4ed1-9863-3299463a0927)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1053a9ec-adeb-45d2-a1d5-cbba72c260d3)",
             "history": [
-                {
-                    "timestamp": "2026-05-10 13:05:22",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-157f1004-d685-4364-aa91-a6bc9ca7a87d)"
-                },
                 {
                     "timestamp": "2026-05-10 14:46:31",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-10 22:40:19",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-0bec0012-a3b1-4ed1-9863-3299463a0927)"
+                },
+                {
+                    "timestamp": "2026-05-10 23:44:43",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1053a9ec-adeb-45d2-a1d5-cbba72c260d3)"
                 }
             ]
         }
