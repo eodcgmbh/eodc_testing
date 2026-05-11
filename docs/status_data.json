@@ -812,7 +812,7 @@
             },
             {
                 "collection": "VEGETATION_CHANGE_AUSTRIA",
-                "timestamp": "2026-05-09 17:52",
+                "timestamp": "2026-05-11 01:23",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-10 23:44:43",
+        "timestamp": "2026-05-11 02:37:52",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1053a9ec-adeb-45d2-a1d5-cbba72c260d3)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-430e1ae9-b2e2-493f-884e-357da5082213)",
             "history": [
-                {
-                    "timestamp": "2026-05-10 14:46:31",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-85cb5e54-e4fa-4c27-af72-c14dc6d9cbe1)"
-                },
                 {
                     "timestamp": "2026-05-10 15:46:35",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-10 23:44:43",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1053a9ec-adeb-45d2-a1d5-cbba72c260d3)"
+                },
+                {
+                    "timestamp": "2026-05-11 02:37:52",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-430e1ae9-b2e2-493f-884e-357da5082213)"
                 }
             ]
         }
