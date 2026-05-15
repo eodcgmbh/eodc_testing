@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-05-15 22:31",
+                "timestamp": "2026-05-15 23:31",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-15 22:50:41",
+        "timestamp": "2026-05-15 23:51:15",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b2ff3dde-48a4-4b21-82dc-dffae35607e7)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3fdb912c-d77e-4d7b-8dfc-fd8a0d959094)",
             "history": [
-                {
-                    "timestamp": "2026-05-15 06:28:50",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b32134a1-a196-4eed-bb2b-a6b45d0d0470)"
-                },
                 {
                     "timestamp": "2026-05-15 09:42:05",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-15 22:50:41",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b2ff3dde-48a4-4b21-82dc-dffae35607e7)"
+                },
+                {
+                    "timestamp": "2026-05-15 23:51:15",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-3fdb912c-d77e-4d7b-8dfc-fd8a0d959094)"
                 }
             ]
         }
