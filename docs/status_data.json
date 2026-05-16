@@ -1,9 +1,13 @@
 {
     "Dask Gateway": {
-        "timestamp": "2026-05-16 13:46:15",
+        "timestamp": "2026-05-16 11:08:41",
         "status": "FAILURE",
         "extra_info": {
             "history": [
+                {
+                    "timestamp": "2026-05-10 22:56:39",
+                    "status": 0
+                },
                 {
                     "timestamp": "2026-05-10 23:59:47",
                     "status": 0
@@ -199,25 +203,16 @@
                 {
                     "timestamp": "2026-05-16 11:08:41",
                     "status": 0
-                },
-                {
-                    "timestamp": "2026-05-16 13:46:15",
-                    "status": 0
                 }
             ]
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-16 12:46",
+        "timestamp": "2026-05-16 14:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "SENTINEL1_MPLIA",
+            "collection": "boa_landsat_8",
             "history": [
-                {
-                    "timestamp": "2026-05-08 22:50",
-                    "status": 1,
-                    "collection": "SENTINEL1_SIG0_20M"
-                },
                 {
                     "timestamp": "2026-05-08 23:41",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-16 12:46",
                     "status": 1,
                     "collection": "SENTINEL1_MPLIA"
+                },
+                {
+                    "timestamp": "2026-05-16 14:11",
+                    "status": 1,
+                    "collection": "boa_landsat_8"
                 }
             ]
         }
@@ -914,7 +914,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2026-05-10 11:53",
+                "timestamp": "2026-05-16 14:05",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
