@@ -746,7 +746,7 @@
             },
             {
                 "collection": "SENTINEL2_L1C",
-                "timestamp": "2026-05-16 12:13",
+                "timestamp": "2026-05-18 20:13",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-18 19:38:33",
+        "timestamp": "2026-05-18 21:05:32",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b89a42b4-d23a-4bf7-9a58-cbec7ca338a2)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-a211116f-73e3-4052-8b1f-c5aed642a0e1)",
             "history": [
-                {
-                    "timestamp": "2026-05-17 19:00:29",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-a4178fc1-5b15-40fe-ae4c-0fa1613681f8)"
-                },
                 {
                     "timestamp": "2026-05-17 21:49:56",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-18 19:38:33",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-b89a42b4-d23a-4bf7-9a58-cbec7ca338a2)"
+                },
+                {
+                    "timestamp": "2026-05-18 21:05:32",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-a211116f-73e3-4052-8b1f-c5aed642a0e1)"
                 }
             ]
         }
