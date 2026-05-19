@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-18 23:40",
+        "timestamp": "2026-05-19 01:48",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "TERRASCOPE_S5P_L3_NO2EU_TY",
+            "collection": "ERS_ENVISAT_NRB",
             "history": [
-                {
-                    "timestamp": "2026-05-11 04:19",
-                    "status": 1,
-                    "collection": "SENTINEL3_OLCI_L1B"
-                },
                 {
                     "timestamp": "2026-05-11 07:55",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-18 23:40",
                     "status": 1,
                     "collection": "TERRASCOPE_S5P_L3_NO2EU_TY"
+                },
+                {
+                    "timestamp": "2026-05-19 01:48",
+                    "status": 1,
+                    "collection": "ERS_ENVISAT_NRB"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-05-16 05:57",
+                "timestamp": "2026-05-19 01:29",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
