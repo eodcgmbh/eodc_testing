@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-20 22:59",
+        "timestamp": "2026-05-21 00:11",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "MODIS",
+            "collection": "LANDSAT8-9_L1",
             "history": [
-                {
-                    "timestamp": "2026-05-12 22:06",
-                    "status": 1,
-                    "collection": "DOP_AUT_K_VILLACH"
-                },
                 {
                     "timestamp": "2026-05-12 23:15",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-20 22:59",
                     "status": 1,
                     "collection": "MODIS"
+                },
+                {
+                    "timestamp": "2026-05-21 00:11",
+                    "status": 1,
+                    "collection": "LANDSAT8-9_L1"
                 }
             ]
         }
@@ -1172,7 +1172,7 @@
             },
             {
                 "collection": "ASA_IMS_1P",
-                "timestamp": "2026-05-16 21:13",
+                "timestamp": "2026-05-21 00:08",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
