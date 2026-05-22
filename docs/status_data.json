@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-22 18:09",
+        "timestamp": "2026-05-22 20:05",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "PROBAV_L3_S5_TOC_100M",
+            "collection": "AGERA5",
             "history": [
-                {
-                    "timestamp": "2026-05-14 13:15",
-                    "status": 1,
-                    "collection": "TERRASCOPE_SENTINEL3_LST_S10"
-                },
                 {
                     "timestamp": "2026-05-14 15:34",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-22 18:09",
                     "status": 1,
                     "collection": "PROBAV_L3_S5_TOC_100M"
+                },
+                {
+                    "timestamp": "2026-05-22 20:05",
+                    "status": 1,
+                    "collection": "AGERA5"
                 }
             ]
         }
@@ -740,7 +740,7 @@
             },
             {
                 "collection": "BOA_LANDSAT_8",
-                "timestamp": "2026-05-21 23:06",
+                "timestamp": "2026-05-22 19:46",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
