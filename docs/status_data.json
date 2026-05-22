@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-22 20:05",
+        "timestamp": "2026-05-22 21:20",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "AGERA5",
+            "collection": "TERRASCOPE_S2_FCOVER_V2",
             "history": [
-                {
-                    "timestamp": "2026-05-14 15:34",
-                    "status": 1,
-                    "collection": "TERRASCOPE_S5P_L3_NO2_SURFACE_TD"
-                },
                 {
                     "timestamp": "2026-05-14 17:24",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-22 20:05",
                     "status": 1,
                     "collection": "AGERA5"
+                },
+                {
+                    "timestamp": "2026-05-22 21:20",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_FCOVER_V2"
                 }
             ]
         }
@@ -830,7 +830,7 @@
             },
             {
                 "collection": "DROUGHT_VULNERABILITY",
-                "timestamp": "2026-05-15 00:01",
+                "timestamp": "2026-05-22 21:11",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
