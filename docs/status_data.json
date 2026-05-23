@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-23 14:18",
+        "timestamp": "2026-05-23 15:34",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "ERS_ENVISAT_NRB",
+            "collection": "SENTINEL3_OLCI_L1B",
             "history": [
-                {
-                    "timestamp": "2026-05-15 11:32",
-                    "status": 1,
-                    "collection": "CGLS_SWI_V1_EUROPE"
-                },
                 {
                     "timestamp": "2026-05-15 13:14",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-23 14:18",
                     "status": 1,
                     "collection": "ERS_ENVISAT_NRB"
+                },
+                {
+                    "timestamp": "2026-05-23 15:34",
+                    "status": 1,
+                    "collection": "SENTINEL3_OLCI_L1B"
                 }
             ]
         }
@@ -866,7 +866,7 @@
             },
             {
                 "collection": "Sentinel-2-Greenness-Austria",
-                "timestamp": "2026-05-22 22:34",
+                "timestamp": "2026-05-23 15:08",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-05-23 14:55:44",
+        "timestamp": "2026-05-23 15:59:28",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-aa4cd8be-b458-4541-a677-83bccc4ab649)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1e2350e5-c661-4e93-845b-86dc4b369bfe)",
             "history": [
-                {
-                    "timestamp": "2026-05-22 13:26:27",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-967d9193-4f00-48fc-84b2-42f25096db88)"
-                },
                 {
                     "timestamp": "2026-05-22 18:50:27",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-05-23 14:55:44",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-aa4cd8be-b458-4541-a677-83bccc4ab649)"
+                },
+                {
+                    "timestamp": "2026-05-23 15:59:28",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-1e2350e5-c661-4e93-845b-86dc4b369bfe)"
                 }
             ]
         }
