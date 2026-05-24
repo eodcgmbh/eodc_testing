@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-24 11:37",
+        "timestamp": "2026-05-24 12:43",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "CGLS_LAI300_V1_GLOBAL",
+            "collection": "TERRASCOPE_S2_RHOW_V1",
             "history": [
-                {
-                    "timestamp": "2026-05-16 09:54",
-                    "status": 1,
-                    "collection": "boa_landsat_8"
-                },
                 {
                     "timestamp": "2026-05-16 10:56",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-24 11:37",
                     "status": 1,
                     "collection": "CGLS_LAI300_V1_GLOBAL"
+                },
+                {
+                    "timestamp": "2026-05-24 12:43",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S2_RHOW_V1"
                 }
             ]
         }
@@ -914,7 +914,7 @@
             },
             {
                 "collection": "DOP_AUT_K_ZELTWEG",
-                "timestamp": "2026-05-16 14:05",
+                "timestamp": "2026-05-24 12:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
