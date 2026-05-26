@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-26 15:30",
+        "timestamp": "2026-05-26 18:10",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "LANDSAT8-9_L2",
+            "collection": "TERRASCOPE_S5P_L3_CO_TY",
             "history": [
-                {
-                    "timestamp": "2026-05-17 19:52",
-                    "status": 1,
-                    "collection": "LANDSAT4-5_TM_L2"
-                },
                 {
                     "timestamp": "2026-05-17 20:41",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-26 15:30",
                     "status": 1,
                     "collection": "LANDSAT8-9_L2"
+                },
+                {
+                    "timestamp": "2026-05-26 18:10",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_CO_TY"
                 }
             ]
         }
@@ -1112,7 +1112,7 @@
             },
             {
                 "collection": "sentinel2-landsat8-l2f",
-                "timestamp": "2026-05-24 22:33",
+                "timestamp": "2026-05-26 16:24",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
