@@ -57,6 +57,8 @@ def check_tile(tile, t=-1):
     path_indices = f"{path}/indices"
     indices = zarr.open(path_indices)
     time_ind = indices.time[T]
+    check_ndvi = False
+    check_lai = False
     if t > len(indices.time[:]) - 1:
         return False, f"ERROR: {tile}: NDVI < RED: {len(indices.time[:]) - 1} < {t} "
     if np.isnan(indices.ndvi[t, 6000, 6000]):
@@ -82,7 +84,12 @@ def check_tile(tile, t=-1):
         latest = datetime.strptime(str(indices.time[t])[:19], "%Y-%m-%dT%H:%M:%S")
         if today - latest > timedelta(8):
             return False, f"ERROR: {tile}: Latest timestep: {latest}"
-
+    if check_red or check_red_nan and (not check_scl or not check_scl_nan):
+         return False, f"ERROR: {tile}: timestep: {t}"
+    if check_scl or check_scl_nan and (not check_red or not check_red_nan):
+         return False, f"ERROR: {tile}: timestep: {t}"
+    if check_red or check_red_nan or check_scl or check_scl_nan and (not check_lai or not check_ndvi):
+         return False, f"ERROR: {tile}: timestep: {t}"
     return True, "OK"
 
 def ok(resp):
