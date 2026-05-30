@@ -208,16 +208,11 @@
         }
     },
     "openEO API": {
-        "timestamp": "2026-05-30 05:31",
+        "timestamp": "2026-05-30 08:05",
         "status": "SUCCESS",
         "extra_info": {
-            "collection": "COPERNICUS_90",
+            "collection": "TERRASCOPE_S5P_L3_NO2EU_TM",
             "history": [
-                {
-                    "timestamp": "2026-05-20 21:45",
-                    "status": 1,
-                    "collection": "LANDSAT7_ETM_L1"
-                },
                 {
                     "timestamp": "2026-05-20 22:59",
                     "status": 1,
@@ -712,6 +707,11 @@
                     "timestamp": "2026-05-30 05:31",
                     "status": 1,
                     "collection": "COPERNICUS_90"
+                },
+                {
+                    "timestamp": "2026-05-30 08:05",
+                    "status": 1,
+                    "collection": "TERRASCOPE_S5P_L3_NO2EU_TM"
                 }
             ]
         }
