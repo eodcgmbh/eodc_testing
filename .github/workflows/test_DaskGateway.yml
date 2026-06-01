@@ -32,11 +32,10 @@ jobs:
         pip install -r requirements.txt 
 
 
-    - name: Set Pushgateway env
+    - name: Set OTel env
       run: |
-        echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
-        echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
-        echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
+        echo "OTEL_ENDPOINT=https://otel.infra.eodc.eu/v1/metrics" >> $GITHUB_ENV
+        echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
 
     - name: Run Dask Gateway Test
       env:

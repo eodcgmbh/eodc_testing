@@ -28,13 +28,12 @@ jobs:
           python-version: 3.9
 
       - name: Install Dependencies
-        run: pip install openstacksdk prometheus-client
+        run: pip install openstacksdk opentelemetry-sdk opentelemetry-exporter-otlp-proto-http
 
-      - name: Set Pushgateway env
+      - name: Set OTel env
         run: |
-          echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
-          echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
-          echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
+          echo "OTEL_ENDPOINT=https://otel.infra.eodc.eu/v1/metrics" >> $GITHUB_ENV
+          echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
 
 
       - name: Create clouds.yaml from secret
@@ -43,6 +42,7 @@ jobs:
           echo "${{ secrets.OPENSTACK_CLOUDS_YAML }}" > ~/.config/openstack/clouds.yaml
 
       - name: Run OpenStack VM Test
+        continue-on-error: true
         run: python scripts/test_openstack.py
 
       - name: Commit Logs

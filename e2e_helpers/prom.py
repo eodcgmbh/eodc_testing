@@ -1,41 +1,38 @@
-# e2e_helpers/prom.py
-import os, time
-from urllib.error import HTTPError
-from prometheus_client import CollectorRegistry, Gauge, push_to_gateway, generate_latest
-from prometheus_client.exposition import basic_auth_handler as _bah
+import os, time, logging
+from opentelemetry.sdk.metrics import MeterProvider
+from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader
+from opentelemetry.exporter.otlp.proto.http.metric_exporter import OTLPMetricExporter
+from opentelemetry.sdk.resources import Resource
 
-def push_e2e_result(service: str, success: bool, duration_s: float):
-    url = os.getenv("PUSHGATEWAY_URL")
-    if not url: return
-    env  = os.getenv("E2E_ENV", "dev")
-    user = os.getenv("PUSHGATEWAY_USERNAME"); pwd = os.getenv("PUSHGATEWAY_PASSWORD")
+OTEL_ENDPOINT = os.environ.get("OTEL_ENDPOINT", "https://otel.infra.eodc.eu/v1/metrics")
+OTEL_API_KEY  = os.environ.get("OTEL_API_KEY")
 
-    reg = CollectorRegistry()
-    # WICHTIG: KEINE labelnames hier!
-    g_last = Gauge("eodc_e2e_last_result", "1 success, 0 failure", registry=reg)
-    g_dur  = Gauge("eodc_e2e_test_duration_seconds", "total duration", registry=reg)
-    g_ts   = Gauge("eodc_e2e_last_success_timestamp", "unix ts last success", registry=reg)
+log = logging.getLogger(__name__)
 
-    g_last.set(1 if success else 0)
-    g_dur.set(float(duration_s))
-    if success: g_ts.set(time.time())
 
-    handler = None
-    if user and pwd:
-        def handler(url, method, timeout, headers, data):
-            return _bah(url, method, timeout, headers, data, user, pwd)
+def push_e2e_result(service: str, success: bool, duration_s: float, *, team: str = "access", datacenter: str = "vienna"):
+    env = os.environ.get("E2E_ENV", "dev")
+    resource = Resource(attributes={
+        "environment":  env,
+        "service.name": service,
+        "datacenter":   datacenter,
+        "team":         team,
+    })
+    headers  = {"Authorization": f"Bearer {OTEL_API_KEY}"} if OTEL_API_KEY else {}
+    exporter = OTLPMetricExporter(endpoint=OTEL_ENDPOINT, headers=headers)
+    reader   = PeriodicExportingMetricReader(exporter, export_interval_millis=3_600_000)
+    provider = MeterProvider(metric_readers=[reader], resource=resource)
+    meter    = provider.get_meter("eodc.e2e")
 
-    try:
-        # service/env NUR im grouping_key → keine Überschreibungen, kein 400
-        push_to_gateway(
-            url, job="e2e_direct", registry=reg,
-            grouping_key={"env": env, "service": service},
-            handler=handler, timeout=15,
-        )
-    except HTTPError as e:
-        # zeig die echte Ursache
-        try:
-            print("Pushgateway says:", e.read().decode("utf-8", "ignore"))
-            print("Payload:\n", generate_latest(reg).decode())
-        finally:
-            raise
+    attrs = {}
+    meter.create_gauge("eodc_e2e_last_result").set(1.0 if success else 0.0, attrs)
+    meter.create_gauge("eodc_e2e_test_duration_seconds").set(float(duration_s), attrs)
+    if success:
+        meter.create_gauge("eodc_e2e_last_success_timestamp").set(time.time(), attrs)
+
+    ok = provider.force_flush(timeout_millis=10_000)
+    provider.shutdown()
+    if ok:
+        log.info("otel metrics flushed  service=%s  success=%s  duration=%.2fs", service, success, duration_s)
+    else:
+        log.error("otel export FAILED — metrics not delivered to %s", OTEL_ENDPOINT)

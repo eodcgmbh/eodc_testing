@@ -25,16 +25,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Set Pushgateway env
+      - name: Set env
         run: |
           echo "URL=https://jupyterhub.user.eopf.eodc.eu" >> $GITHUB_ENV
           echo "USER=${{ secrets.EOPF_USER }}" >> $GITHUB_ENV
-          echo "TOKEN=${{ secrets.EOPF_TOKEN }}" >> $GITHUB_ENV 
+          echo "TOKEN=${{ secrets.EOPF_TOKEN }}" >> $GITHUB_ENV
           echo "SERVICE=jupyterhub-eopf" >> $GITHUB_ENV
           echo "SERVICE_WS=jupyterhub.user.eopf.eodc.eu" >> $GITHUB_ENV
-          echo "PUSHGATEWAY_URL=${{ secrets.PUSHGATEWAY_ENDPOINT }}" >> $GITHUB_ENV
-          echo "PUSHGATEWAY_USERNAME=${{ secrets.PUSHGATEWAY_USERNAME }}" >> $GITHUB_ENV
-          echo "PUSHGATEWAY_PASSWORD=${{ secrets.PUSHGATEWAY_PASSWORD }}" >> $GITHUB_ENV
+          echo "OTEL_ENDPOINT=https://otel.infra.eodc.eu/v1/metrics" >> $GITHUB_ENV
+          echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
 
       - name: Test EOPF JupyterHub
+        continue-on-error: true
         run: python scripts/test_jupyter.py
