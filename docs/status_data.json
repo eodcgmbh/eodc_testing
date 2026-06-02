@@ -1184,7 +1184,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_VILLACH",
-                "timestamp": "2026-05-25 00:00",
+                "timestamp": "2026-06-02 11:18",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-06-02 07:26:34",
+        "timestamp": "2026-06-02 11:59:56",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-742c02a5-a456-4060-8ccf-eee0719e1aab)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-4af502ae-58a2-4333-a613-9b15b9db26eb)",
             "history": [
-                {
-                    "timestamp": "2026-05-31 17:56:27",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-165c41e6-8953-4b9f-a817-9c5faa772a16)"
-                },
                 {
                     "timestamp": "2026-05-31 19:12:58",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-06-02 07:26:34",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-742c02a5-a456-4060-8ccf-eee0719e1aab)"
+                },
+                {
+                    "timestamp": "2026-06-02 11:59:56",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-4af502ae-58a2-4333-a613-9b15b9db26eb)"
                 }
             ]
         }
