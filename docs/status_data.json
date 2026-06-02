@@ -1154,7 +1154,7 @@
             },
             {
                 "collection": "DOP_AUT_ST_GRAZ",
-                "timestamp": "2026-05-24 17:02",
+                "timestamp": "2026-06-02 15:41",
                 "status": "SUCCESS",
                 "item": "N/A"
             },
@@ -1463,16 +1463,11 @@
         ]
     },
     "Openstack": {
-        "timestamp": "2026-06-02 11:59:56",
+        "timestamp": "2026-06-02 16:46:12",
         "status": "FAILURE",
         "extra_info": {
-            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-4af502ae-58a2-4333-a613-9b15b9db26eb)",
+            "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-a25c2053-1376-435c-a48b-97c6bd7acaa8)",
             "history": [
-                {
-                    "timestamp": "2026-05-31 19:12:58",
-                    "status": 0,
-                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-d4cb9a82-a4f8-4842-aa36-44a1c1ec2875)"
-                },
                 {
                     "timestamp": "2026-05-31 20:52:51",
                     "status": 0,
@@ -1517,6 +1512,11 @@
                     "timestamp": "2026-06-02 11:59:56",
                     "status": 0,
                     "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-4af502ae-58a2-4333-a613-9b15b9db26eb)"
+                },
+                {
+                    "timestamp": "2026-06-02 16:46:12",
+                    "status": 0,
+                    "info": "The request you have made requires authentication. (HTTP 401) (Request-ID: req-a25c2053-1376-435c-a48b-97c6bd7acaa8)"
                 }
             ]
         }
