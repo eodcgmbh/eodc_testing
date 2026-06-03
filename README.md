@@ -24,4 +24,4 @@ python scripts/<test_script>.py
 
 ## Results
 
-Results can be found Dashboards in Grafana.
+Results can be found as Dashboards in Grafana.
