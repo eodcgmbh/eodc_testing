@@ -44,13 +44,3 @@ jobs:
       - name: Run OpenStack VM Test
         continue-on-error: true
         run: python scripts/test_openstack.py
-
-      - name: Commit Logs
-        if: always()
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git pull --rebase --autostash
-          git add results/logs/test_openstack.log
-          git commit -m "test logs"
-          git push
