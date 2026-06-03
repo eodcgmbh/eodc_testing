@@ -4,3 +4,20 @@ bin/
 creds.sh
 __pycache__/
 .gitignore
+
+# Grafana config (local only)
+grafana/
+
+# Dashboard workflow (replaced by Grafana)
+.github/workflows/update_dashboard.yml
+
+# Generated docs
+docs/dashboard.html
+docs/index.html
+docs/index_notebook.html
+docs/stac_report.html
+docs/status_data.json
+
+# Logs
+results/logs/*.log
+results/logs/*.jsonl
