@@ -26,6 +26,7 @@ jobs:
             "dask[distributed]==2025.7.0" \
             "distributed==2025.7.0" \
             "dask-gateway"
+            "eodc"
 
       - name: Show installed versions
         run: |
@@ -34,6 +35,7 @@ jobs:
           import dask
           import distributed
           import dask_gateway
+          import eodc
 
           print(f"dask={dask.__version__}")
           print(f"distributed={distributed.__version__}")
