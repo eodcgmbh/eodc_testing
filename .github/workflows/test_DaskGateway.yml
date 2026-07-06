@@ -26,7 +26,10 @@ jobs:
             "dask[distributed]==2025.7.0" \
             "distributed==2025.7.0" \
             "dask-gateway" \
-            "eodc"
+            "eodc" \
+            "opentelemetry-api" \
+            "opentelemetry-sdk" \
+            "opentelemetry-exporter-otlp"
 
       - name: Show installed versions
         run: |
