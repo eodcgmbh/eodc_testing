@@ -25,22 +25,13 @@ jobs:
           pip install \
             "dask[distributed]==2025.7.0" \
             "distributed==2025.7.0" \
-            "dask-gateway"
+            "dask-gateway" \
             "eodc"
 
       - name: Show installed versions
         run: |
           python --version
-          python - <<'EOF'
-          import dask
-          import distributed
-          import dask_gateway
-          import eodc
-
-          print(f"dask={dask.__version__}")
-          print(f"distributed={distributed.__version__}")
-          print(f"dask_gateway={dask_gateway.__version__}")
-          EOF
+          python -c "import dask, distributed, dask_gateway, eodc; print('dask=' + dask.__version__); print('distributed=' + distributed.__version__); print('dask_gateway=' + dask_gateway.__version__)"
 
       - name: Set OTel environment
         run: |
