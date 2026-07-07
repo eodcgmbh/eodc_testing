@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "scripts/test_dask.py"
+  schedule:
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 jobs:
