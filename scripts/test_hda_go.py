@@ -6,9 +6,11 @@ import numpy as np
 import pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-path = "https://data.eodc.eu/collections"
-sig0 = f"{path}/SENTINEL1_SIG0_20M/V1M2R3/EQUI7_EU020M/E048N015T3/SIG0_20260412T171426__VV_A015_E048N015T3_EU020M_V1M2R3_S1CIWGRDH_TUWIEN.tif"
-eopf = f"{path}/EOPF_ZARR/products/cpm_v300/S02MSIL2A/2026/09/06/S2B_MSIL2A_20260906T100019_N0512_R122_T35WNU_20260906T134813.zarr/zarr.json"
+paths = ["https://data.eodc.eu/collections", "https://dev.hda.eodchosting.eu/collections"]
+sig0 = f"{paths[0]}/SENTINEL1_SIG0_20M/V1M2R3/EQUI7_EU020M/E048N015T3/SIG0_20260412T171426__VV_A015_E048N015T3_EU020M_V1M2R3_S1CIWGRDH_TUWIEN.tif"
+eopf = f"{paths[0]}/EOPF_ZARR/products/cpm_v300/S02MSIL2A/2026/09/06/S2B_MSIL2A_20260906T100019_N0512_R122_T35WNU_20260906T134813.zarr/zarr.json"
+sig0_dev = f"{paths[1]}/SENTINEL1_SIG0_20M/V1M2R3/EQUI7_EU020M/E048N015T3/SIG0_20260412T171426__VV_A015_E048N015T3_EU020M_V1M2R3_S1CIWGRDH_TUWIEN.tif"
+eopf_dev = f"{paths[1]}/EOPF_ZARR/products/cpm_v300/S02MSIL2A/2026/09/06/S2B_MSIL2A_20260906T100019_N0512_R122_T35WNU_20260906T134813.zarr/zarr.json"
 
 def ok(resp):
     if not (200 <= resp.status_code < 300):
@@ -21,15 +23,14 @@ def main():
     try:
         msg = ""
         success = True
-        r = requests.get(sig0, timeout=15)
-        okc, msgc = ok(r)
-        if not okc:
-            success, msg = False, f"Check hda: {sig0} {msgc}"
-        else:
-            r = requests.get(eopf, timeout=15)
-            okc, msgc = ok(r)
-            if not okc:
-                success, msg = False, f"Check hda: {eopf} {msgc}"
+        for filepath in [sig0, eopf, sig0_dev, eopf_dev]:
+            if success:
+                r = requests.get(filepath, timeout=15)
+                okc, msgc = ok(r)
+                if not okc:
+                    success, msg = False, f"Check hda: {sig0} {msgc}"
+            else:
+                break
 
     except Exception as e:
         success, msg = False, f"Exception: {e}"
