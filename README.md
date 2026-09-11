@@ -10,6 +10,7 @@ Automated end-to-end tests for EODC services, running via GitHub Actions.
 | `test_openEO` | openEO API | every 10 min |
 | `test_openstack` | OpenStack VM provisioning | every hour |
 | `test_DaskGateway` | Dask Gateway | on push |
+| `test_hda_go` | HDA go data access | every few minutes |
 | `test_s2_datacube` | S2 datacube access | daily 07:00 UTC |
 | `test_notebooks` | EODC example notebooks | on push |
 | `test_jupyterhub_eodc` | EODC JupyterHub | every 30 min |
