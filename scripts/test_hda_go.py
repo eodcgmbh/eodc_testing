@@ -29,6 +29,8 @@ def main():
                 okc, msgc = ok(r)
                 if not okc:
                     success, msg = False, f"Check hda: {filepath} {msgc}"
+                else:
+                    print(f"{r.status_code} - {filepath}")
             else:
                 break
 
