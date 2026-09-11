@@ -4,7 +4,7 @@ on:
   push:
     paths:
         - 'scripts/test_hda_go.py'
-        - '.github/workflows/test_s2_datacube.yml'
+        - '.github/workflows/test_hda_go.yml'
         - 'requirements_s2.txt'
   schedule:
     - cron: '*/5 * * * *'
