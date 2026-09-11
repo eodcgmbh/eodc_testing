@@ -28,7 +28,7 @@ def main():
                 r = requests.get(filepath, timeout=15)
                 okc, msgc = ok(r)
                 if not okc:
-                    success, msg = False, f"Check hda: {sig0} {msgc}"
+                    success, msg = False, f"Check hda: {filepath} {msgc}"
             else:
                 break
 
