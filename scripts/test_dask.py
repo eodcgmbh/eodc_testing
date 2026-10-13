@@ -14,8 +14,10 @@ SERVICE = "dask_gateway"
 def log_result(success: bool, msg: str = ""):
     os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"{ts} - {'SUCCESS' if success else 'FAILURE'}{(' - '+msg) if msg else ''}"
+    print(line, flush=True)
     with open(LOG_PATH, "a", encoding="utf-8") as f:
-        f.write(f"{ts} - {'SUCCESS' if success else 'FAILURE'}{(' - '+msg) if msg else ''}\n")
+        f.write(line + "\n")
 
 class CustomEODCDaskGateway(EODCDaskGateway):
     def __init__(self, username, password):
