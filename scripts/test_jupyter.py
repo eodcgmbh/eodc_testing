@@ -3,6 +3,7 @@ import json
 import time
 import os
 import uuid
+import traceback
 import nest_asyncio
 import sys
 nest_asyncio.apply()
@@ -139,7 +140,7 @@ def main():
 
     status, r = jp_test.start_session(kernel_id=kernel_id)
     if status == 0:
-        print("start_session", status, status.text)
+        print("start_session", status, r.text)
         return 0, t0
 
     status = jp_test.create_websocket(kernel_id=kernel_id)
@@ -156,5 +157,10 @@ def main():
 
 if __name__ == "__main__":
 
-    success, t0 = main()
+    t0 = time.time()
+    try:
+        success, t0 = main()
+    except Exception:
+        print("unexpected error:", traceback.format_exc(), flush=True)
+        success = 0
     push_e2e_result(SERVICE, success, time.time() - t0)

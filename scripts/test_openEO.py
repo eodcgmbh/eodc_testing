@@ -25,6 +25,7 @@ def authenticate():
             connection.authenticate_oidc_refresh_token(refresh_token)
             return
         except Exception as e:
+            print(f"auth with OPENEO_REFRESH_TOKEN failed: {e}", flush=True)
             return
 
     if os.path.exists(TOKEN_PATH):
@@ -35,11 +36,13 @@ def authenticate():
                     connection.authenticate_oidc_refresh_token(refresh_token)
                     return
                 except Exception as e:
-                    return 
+                    print(f"auth with {TOKEN_PATH} failed: {e}", flush=True)
+                    return
 
     try:
         connection.authenticate_oidc(client_id="openeo-platform-default-client")
     except Exception as e:
+        print(f"interactive auth failed: {e}", flush=True)
         return
 
 authenticate()
@@ -64,12 +67,18 @@ def get_random_collection():
         collections = connection.list_collections()
 
         if not collections:
+            try:
+                missing = connection.get("/collections").json().get("federation:missing")
+            except Exception:
+                missing = None
+            print(f"backend returned no collections (federation:missing={missing})", flush=True)
             return None
         
         collection_ids = [c["id"] for c in collections]
         random_collection = random.choice(collection_ids)
         return random_collection
     except Exception as e:
+        print(f"list_collections failed: {e}", flush=True)
         return None
 
 def test_collection(collection_id):
@@ -78,7 +87,7 @@ def test_collection(collection_id):
         log_message("success", collection_id)
         return True
     except Exception as e:
-        log_message("failure", collection_id)
+        log_message("failure", f"{collection_id} ({e})")
         return False
 
 if __name__ == "__main__":

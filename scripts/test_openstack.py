@@ -13,8 +13,10 @@ LOGFILE = "results/logs/test_openstack.log"
 def log_result(status, message=""):
     os.makedirs(os.path.dirname(LOGFILE), exist_ok=True)
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"{timestamp}, {status}, {message}"
+    print(line, flush=True)
     with open(LOGFILE, "a") as log:
-        log.write(f"{timestamp}, {status}, {message}\n")
+        log.write(line + "\n")
 
 def main():
     t0 = time.time()
