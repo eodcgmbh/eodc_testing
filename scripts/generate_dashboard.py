@@ -7,10 +7,8 @@ json_file = os.path.join(docs_dir, "status_data.json")
 
 services = {
     "Dask Gateway": "test_DaskGateway.log",
-    "openEO API": "test_openEO.log",
     "STAC API": "test_stac_api.log",
-    "Notebooks": "test_notebooks.log",
-    "Openstack": "test_openstack.log"
+    "Notebooks": "test_notebooks.log"
 }
 
 status_data = {}
@@ -34,26 +32,6 @@ def parse_log_entry(file_path, service_name):
                 current_timestamp, current_status = parts[0], parts[1]
                 return current_timestamp, current_status, {"history": history}
             
-            elif service_name == "openEO API":
-                history = []
-                for line in lines[-100:]:
-                    parts = line.strip().split(", ")
-                    if len(parts) == 3:
-                        timestamp, status, coll = parts
-                        history.append({
-                            "timestamp": timestamp,
-                            "status": 1 if status.lower() == "success" else 0,
-                            "collection": coll.replace("collection: ", "")
-                        })
-                
-                last_line = lines[-1].strip()
-                parts = last_line.split(", ")
-
-                return parts[0], parts[1].upper(), {
-                    "collection": parts[2].replace("collection: ", ""),
-                    "history": history
-                }
-
             elif service_name == "STAC API":
                 stac_collections_dict = {}
 
@@ -91,26 +69,6 @@ def parse_log_entry(file_path, service_name):
                             "message": parts[-2]
                         })
                 return last_timestamp, "Notebook Results", notebook_results
-            
-            elif service_name == "Openstack":
-                history = []
-                for line in lines[-10:]:
-                    parts = line.strip().split(", ")
-                    if len(parts) == 3:
-                        timestamp, status, info = parts
-                        history.append({
-                            "timestamp": timestamp,
-                            "status": 1 if status.lower() == "success" else 0,
-                            "info": info.replace("info: ", "")
-                        })
-                
-                last_line = lines[-1].strip()
-                parts = last_line.split(", ")
-
-                return parts[0], parts[1].upper(), {
-                    "info": parts[2].replace("info: ", ""),
-                    "history": history
-                }
 
     except Exception as e:
         return "Never Tested", "ERROR", None

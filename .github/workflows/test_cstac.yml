@@ -1,0 +1,38 @@
+name: Test cSTAC API
+
+on:
+  push:
+    paths:
+        - 'scripts/test_cstac.py'
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  test-cstac:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests eodc-connect opentelemetry-sdk opentelemetry-exporter-otlp-proto-http
+
+      - name: Set OTel env
+        run: |
+          echo "OTEL_ENDPOINT=https://otel.observability.eodc.eu/v1/metrics" >> $GITHUB_ENV
+          echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
+
+      - name: Run cSTAC API Test
+        continue-on-error: true
+        env:
+          EODC_USERNAME: ${{ secrets.EODC_USERNAME }}
+          EODC_PASSWORD: ${{ secrets.EODC_PASSWORD }}
+        run: python scripts/test_cstac.py

@@ -3,7 +3,7 @@ name: Test EOPF JupyterHub
 on:
   push:
     paths:
-        - 'scripts/test_jupyterhub.py'   
+        - 'scripts/test_jupyter.py'   
   schedule:
     - cron: "*/30 * * * *" 
   workflow_dispatch: 
