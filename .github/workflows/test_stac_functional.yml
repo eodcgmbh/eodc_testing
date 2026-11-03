@@ -1,0 +1,47 @@
+name: Test STAC Functional
+
+on:
+  push:
+    paths:
+      - 'scripts/stac_functional/**'
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      collection:
+        description: "Collection ID to test (leave empty for auto-detect)"
+        required: false
+        default: ""
+
+jobs:
+  test-stac-functional:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytest opentelemetry-sdk opentelemetry-exporter-otlp-proto-http
+
+      - name: Set OTel env
+        run: |
+          echo "OTEL_ENDPOINT=https://otel.observability.eodc.eu/v1/metrics" >> $GITHUB_ENV
+          echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
+          echo "E2E_ENV=dev" >> $GITHUB_ENV
+
+      - name: Run STAC functional tests (dev)
+        continue-on-error: true
+        env:
+          STAC_URL: https://dev.stac.eodc.eu/api/v1
+          INGEST_URL: ${{ secrets.INGEST_URL }}
+          INGEST_USER: ${{ secrets.INGEST_USER }}
+          INGEST_PASSWORD: ${{ secrets.INGEST_PASSWORD }}
+          STAC_FUNCTIONAL_COLLECTION: ${{ inputs.collection }}
+        run: pytest scripts/stac_functional/test_stac_functional.py -v --tb=short

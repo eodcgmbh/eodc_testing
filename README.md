@@ -6,7 +6,9 @@ Automated end-to-end tests for EODC services, running via GitHub Actions.
 
 | Workflow | Script | What it tests | Schedule |
 |---|---|---|---|
-| `test_stac_api` | `test_stac_api.py` | STAC API: collections and one collection, prod (stac.eodc.eu) and dev (dev.stac.eodc.eu) | every 30 min |
+| `test_stac_api` | `test_stac_api.py` | STAC API availability: root, /collections and for every collection detail, items and search; prod (stac.eodc.eu) and dev (dev.stac.eodc.eu) | every 30 min |
+| `test_stac_functional` | `stac_functional/test_stac_functional.py` | STAC functional tests on dev (pytest): known item, search filter, pagination, ingest → visible → delete, asset href format | daily 02:00 UTC |
+| `test_stac_performance` | `test_stac_performance.py` | STAC load test with locust (10/25/50/100 users): p50/p95, RPS, error rate for POST /search and GET /items | daily 02:00 UTC (prod), manual for dev |
 | `test_cstac` | `test_cstac.py` | Customer-managed STAC ([cstac.discovery.eodc.eu](https://cstac.discovery.eodc.eu)): landing page, collections, items | every 30 min |
 | `test_catalogue` | `test_catalogue.py` | eodc Catalogue: landing page and collections, prod ([catalogue.services.eodc.eu](https://catalogue.services.eodc.eu)) and dev (eodag.development.eodc.eu) | every 30 min |
 | `test_orbit` | `test_orbit.py` | Orbit: landing page, `config.json`, `/docs/`, prod ([orbit.discovery.eodc.eu](https://orbit.discovery.eodc.eu)) and dev (orbit.development.eodc.eu) | every 30 min |
@@ -29,6 +31,7 @@ All workflows also run on push of their script and can be triggered manually (`w
 | `EODC_USERNAME`, `EODC_PASSWORD` | `test_cstac`, `test_DaskGateway` |
 | `EODC_USER`, `EODC_TOKEN` | `test_jupyterhub_eodc` |
 | `EOPF_USER`, `EOPF_TOKEN` | `test_jupyterhub_eopf` |
+| `INGEST_URL`, `INGEST_USER`, `INGEST_PASSWORD` | `test_stac_functional` (ingest test on dev) |
 | `OTEL_API_KEY` | all tests pushing metrics to Grafana |
 
 ## Running locally
@@ -69,5 +72,7 @@ Every test except `test_notebooks` pushes `eodc_e2e_last_result` (1 = success, 0
 | `dask_gateway` | `test_DaskGateway` |
 | `jupyterhub-eodc`, `jupyterhub-eopf` | `test_jupyterhub_eodc`, `test_jupyterhub_eopf` |
 | `s2-datacube` | `test_s2_datacube` |
+
+The STAC tests additionally push detailed metrics for the STAC dashboard: `eodc_e2e_probe_*` (labels `probe`, `collection`), `eodc_e2e_functional_*` (label `test`) and `eodc_e2e_perf_*` (labels `endpoint`, `vus`), with the same `environment` and `service.name` labels.
 
 GitHub runs scheduled workflows irregularly (often hours apart instead of every 30 min).

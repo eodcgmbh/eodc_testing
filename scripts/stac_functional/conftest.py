@@ -1,0 +1,38 @@
+import os
+import sys
+import time
+import logging
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s")
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+from e2e_helpers.otel_push import record, flush
+
+SERVICE    = "stac"
+COLLECTION = os.environ.get("STAC_FUNCTIONAL_COLLECTION") or "auto"
+
+_results: list = []
+
+
+def pytest_runtest_logreport(report):
+    if report.when != "call":
+        return
+    _results.append({
+        "test":     report.nodeid.split("::")[-1],
+        "success":  report.passed,
+        "duration": getattr(report, "duration", 0.0),
+    })
+
+
+def pytest_sessionfinish(session, exitstatus):
+    now = time.time()
+    for r in _results:
+        record(
+            {"eodc_e2e_functional_success":             1 if r["success"] else 0,
+             "eodc_e2e_functional_duration_seconds":    float(r["duration"]),
+             "eodc_e2e_functional_last_run_timestamp":  now},
+            {"test": r["test"], "collection": COLLECTION},
+            service=SERVICE,
+        )
+    flush()
