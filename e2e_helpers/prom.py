@@ -10,8 +10,8 @@ OTEL_API_KEY  = os.environ.get("OTEL_API_KEY")
 log = logging.getLogger(__name__)
 
 
-def push_e2e_result(service: str, success: bool, duration_s: float, *, team: str = "access", datacenter: str = "vienna"):
-    env = os.environ.get("E2E_ENV", "dev")
+def push_e2e_result(service: str, success: bool, duration_s: float, *, team: str = "access", datacenter: str = "vienna", env: str = None):
+    env = env or os.environ.get("E2E_ENV", "dev")
     resource = Resource(attributes={
         "environment":  env,
         "service.name": service,

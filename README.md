@@ -9,8 +9,12 @@ Automated end-to-end tests for EODC services, running via GitHub Actions.
 | `test_stac_api` | `test_stac_api.py` | STAC API endpoints and spec compliance | every 30 min |
 | `test_cstac` | `test_cstac.py` | Customer-managed STAC ([cstac.discovery.eodc.eu](https://cstac.discovery.eodc.eu)): landing page, collections, items | every 30 min |
 | `test_catalogue` | `test_catalogue.py` | eodc Catalogue ([catalogue.services.eodc.eu](https://catalogue.services.eodc.eu)): up check of landing page and collections | every 30 min |
+| `test_orbit` | `test_orbit.py` | Orbit ([orbit.discovery.eodc.eu](https://orbit.discovery.eodc.eu)): landing page, `config.json`, `/docs/` | every 30 min |
+| `test_titiler` | `test_titiler.py` | titiler ([titiler.services.eodc.eu](https://titiler.services.eodc.eu)): one PNG tile of a public COG on data.eodc.eu | every 30 min |
+| `test_features` | `test_features.py` | Features API ([features.services.eodc.eu](https://features.services.eodc.eu)): landing page | every 30 min |
+| `test_data_eodc` | `test_data_eodc.py` | data.eodc.eu: one public asset returns 200 | every 30 min |
 | `test_DaskGateway` | `test_dask.py` | Dask Gateway: login via `eodc-connect`, cluster creation, simple computation | every 2 h |
-| `test_hda_go` | `test_hda_go.py` | HDA go data access | hourly |
+| `test_hda_go` | `test_hda_go.py` | HDA data access on [data.eodc.eu](https://data.eodc.eu) (prod) and dev.hda.eodchosting.eu (dev): S1 GeoTIFF and EOPF Zarr | hourly |
 | `test_s2_datacube` | `test_hda.py`, `test_s2_stac.py`, `test_s2_datacube.py` | S2 datacube access | daily 07:00 UTC |
 | `test_notebooks` | `test_notebooks.py` | EODC example notebooks | on push |
 | `test_jupyterhub_eodc` | `test_jupyter.py` | EODC JupyterHub | every 30 min |
@@ -49,3 +53,21 @@ The cSTAC URL can be overridden with `CSTAC_URL`.
 ## Results
 
 Test results and durations are pushed as OTel metrics and can be found as dashboards in Grafana.
+
+Every test except `test_notebooks` pushes `eodc_e2e_last_result` (1 = success, 0 = failure), `eodc_e2e_test_duration_seconds` and `eodc_e2e_last_success_timestamp` with the labels `service.name` (the service) and `environment`. The workflows set `E2E_ENV=prod`; `test_hda_go` reports `prod` and `dev` separately.
+
+| `service.name` | Test |
+|---|---|
+| `stac` | `test_stac_api` |
+| `cstac` | `test_cstac` |
+| `catalogue` | `test_catalogue` |
+| `orbit` | `test_orbit` |
+| `titiler` | `test_titiler` |
+| `features` | `test_features` |
+| `data-eodc` | `test_data_eodc` |
+| `hda` | `test_hda_go` |
+| `dask_gateway` | `test_DaskGateway` |
+| `jupyterhub-eodc`, `jupyterhub-eopf` | `test_jupyterhub_eodc`, `test_jupyterhub_eopf` |
+| `s2-datacube` | `test_s2_datacube` |
+
+GitHub runs scheduled workflows irregularly (often hours apart instead of every 30 min).
