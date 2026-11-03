@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      cstac_url:
+        description: "Override the cSTAC URL, e.g. a wrong one to test the alert"
+        required: false
 
 jobs:
   test-cstac:
@@ -35,4 +39,6 @@ jobs:
         env:
           EODC_USERNAME: ${{ secrets.EODC_USERNAME }}
           EODC_PASSWORD: ${{ secrets.EODC_PASSWORD }}
+          CSTAC_URL: ${{ inputs.cstac_url || 'https://cstac.discovery.eodc.eu' }}
+          E2E_ENV: prod
         run: python scripts/test_cstac.py
