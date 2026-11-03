@@ -11,6 +11,14 @@ on:
 jobs:
   test-stac-api:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - env: prod
+            url: https://stac.eodc.eu/api/v1
+          - env: dev
+            url: https://dev.stac.eodc.eu/api/v1
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -29,7 +37,8 @@ jobs:
         run: |
           echo "OTEL_ENDPOINT=https://otel.observability.eodc.eu/v1/metrics" >> $GITHUB_ENV
           echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
-          echo "E2E_ENV=prod" >> $GITHUB_ENV
+          echo "E2E_ENV=${{ matrix.env }}" >> $GITHUB_ENV
+          echo "STAC_URL=${{ matrix.url }}" >> $GITHUB_ENV
 
       - name: Run STAC API Test
         continue-on-error: true

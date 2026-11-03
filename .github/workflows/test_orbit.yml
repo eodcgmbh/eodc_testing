@@ -11,6 +11,14 @@ on:
 jobs:
   test-orbit:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - env: prod
+            url: https://orbit.discovery.eodc.eu
+          - env: dev
+            url: https://orbit.development.eodc.eu
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -29,7 +37,8 @@ jobs:
         run: |
           echo "OTEL_ENDPOINT=https://otel.observability.eodc.eu/v1/metrics" >> $GITHUB_ENV
           echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
-          echo "E2E_ENV=prod" >> $GITHUB_ENV
+          echo "E2E_ENV=${{ matrix.env }}" >> $GITHUB_ENV
+          echo "ORBIT_URL=${{ matrix.url }}" >> $GITHUB_ENV
 
       - name: Run Orbit Test
         continue-on-error: true
