@@ -1,0 +1,48 @@
+name: Test Access Control
+
+on:
+  push:
+    paths:
+        - 'scripts/test_access_control.py'
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  test-access-control:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - env: prod
+            hda_url: https://data.eodc.eu
+            cstac_url: https://cstac.discovery.eodc.eu
+          - env: dev
+            hda_url: https://dev.hda.eodchosting.eu
+            cstac_url: ""
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests opentelemetry-sdk opentelemetry-exporter-otlp-proto-http
+
+      - name: Set OTel env
+        run: |
+          echo "OTEL_ENDPOINT=https://otel.observability.eodc.eu/v1/metrics" >> $GITHUB_ENV
+          echo "OTEL_API_KEY=${{ secrets.OTEL_API_KEY }}" >> $GITHUB_ENV
+          echo "E2E_ENV=${{ matrix.env }}" >> $GITHUB_ENV
+          echo "HDA_URL=${{ matrix.hda_url }}" >> $GITHUB_ENV
+          echo "CSTAC_URL=${{ matrix.cstac_url }}" >> $GITHUB_ENV
+
+      - name: Run Access Control Test
+        continue-on-error: true
+        run: python scripts/test_access_control.py

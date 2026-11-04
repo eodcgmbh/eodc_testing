@@ -9,6 +9,16 @@ from e2e_helpers.prom import push_e2e_result
 CSTAC_URL = os.environ.get("CSTAC_URL", "https://cstac.discovery.eodc.eu").rstrip("/")
 LOG = "results/logs/test_cstac.log"
 SERVICE = "cstac"
+# TOPO4EO/BFW collections (ACM26-337): the CI user is on the BFW access list and must see all of them;
+# test_access_control checks that anonymous users see only forest_mask
+TOPO4EO_COLLECTIONS = [
+    "topo-dc-austria-forest_mask_utm",
+    "topo-dc-austria-anomalies-utm",
+    "topo-dc-austria-tree-species-14-utm",
+    "topo-dc-austria-tree-species-26-utm",
+    "topo-dc-austria-dsm-bfw",
+    "topo-dc-austria-ndsm-bfw",
+]
 
 def ok(resp, expect_json=True):
     if not (200 <= resp.status_code < 300):
@@ -72,6 +82,13 @@ def main():
             raise RuntimeError(f"/collections {msgc}")
 
         ids = [c.get("id") for c in r.json().get("collections", []) if isinstance(c, dict) and c.get("id")]
+
+        for cid in TOPO4EO_COLLECTIONS:
+            rt = s.get(f"{url.rstrip('/')}/{cid}", timeout=15)
+            okt, msgt = ok(rt)
+            if not okt:
+                raise RuntimeError(f"/collections/{cid} {msgt}")
+
         if not ids:
             success, msg = True, "collections=0 (200, OK JSON)"
         else:

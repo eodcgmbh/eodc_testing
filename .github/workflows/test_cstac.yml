@@ -7,10 +7,6 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
-    inputs:
-      cstac_url:
-        description: "Override the cSTAC URL, e.g. a wrong one to test the alert"
-        required: false
 
 jobs:
   test-cstac:

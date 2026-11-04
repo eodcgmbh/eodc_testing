@@ -9,13 +9,14 @@ Automated end-to-end tests for EODC services, running via GitHub Actions.
 | `test_stac_api` | `test_stac_api.py` | STAC API availability: root, /collections and for every collection detail, items and search; prod (stac.eodc.eu) and dev (dev.stac.eodc.eu) | every 30 min |
 | `test_stac_functional` | `stac_functional/test_stac_functional.py` | STAC functional tests on dev (pytest): known item, search filter, pagination, ingest → visible → delete, asset href format | daily 02:00 UTC |
 | `test_stac_performance` | `test_stac_performance.py` | STAC load test with locust (10/25/50/100 users): p50/p95, RPS, error rate for POST /search and GET /items | daily 02:00 UTC (prod), manual for dev |
-| `test_cstac` | `test_cstac.py` | Customer-managed STAC ([cstac.discovery.eodc.eu](https://cstac.discovery.eodc.eu)): landing page, collections, items | every 30 min |
+| `test_cstac` | `test_cstac.py` | Customer-managed STAC ([cstac.discovery.eodc.eu](https://cstac.discovery.eodc.eu)) with login: landing page, collections, items; the logged-in CI user (on the BFW access list) sees all 6 TOPO4EO/BFW collections | every 30 min |
 | `test_catalogue` | `test_catalogue.py` | eodc Catalogue: landing page and collections, prod ([catalogue.services.eodc.eu](https://catalogue.services.eodc.eu)) and dev (eodag.development.eodc.eu) | every 30 min |
 | `test_orbit` | `test_orbit.py` | Orbit: landing page, `config.json`, `/docs/`, prod ([orbit.discovery.eodc.eu](https://orbit.discovery.eodc.eu)) and dev (orbit.development.eodc.eu) | every 30 min |
 | `test_titiler` | `test_titiler.py` | titiler ([titiler.services.eodc.eu](https://titiler.services.eodc.eu)): one PNG tile of a public COG on data.eodc.eu | every 30 min |
 | `test_features` | `test_features.py` | Features API ([features.services.eodc.eu](https://features.services.eodc.eu)): landing page | every 30 min |
 | `test_data_eodc` | `test_data_eodc.py` | data.eodc.eu: one public asset returns 200 | every 30 min |
 | `test_DaskGateway` | `test_dask.py` | Dask Gateway: login via `eodc-connect`, cluster creation, simple computation | manual only |
+| `test_access_control` | `test_access_control.py` | Restricted data stays restricted: anonymous requests to a MAAP, a CDSE and a BFW asset on data.eodc.eu and an anonymous POST /collections on cSTAC must get 401/403, the 5 restricted TOPO4EO/BFW cSTAC collections must be hidden, the public forest_mask collection and one public asset must return 200; prod (data.eodc.eu + cSTAC) and dev (dev.hda.eodchosting.eu) | every 30 min |
 | `test_hda_go` | `test_hda_go.py` | HDA data access on [data.eodc.eu](https://data.eodc.eu) (prod) and dev.hda.eodchosting.eu (dev): S1 GeoTIFF and EOPF Zarr | hourly |
 | `test_s2_datacube` | `test_hda.py`, `test_s2_stac.py`, `test_s2_datacube.py` | S2 datacube access | daily 07:00 UTC |
 | `test_notebooks` | `test_notebooks.py` | EODC example notebooks | on push |
@@ -68,6 +69,7 @@ Every test except `test_notebooks` pushes `eodc_e2e_last_result` (1 = success, 0
 | `titiler` | `test_titiler` |
 | `features` | `test_features` |
 | `data-eodc` | `test_data_eodc` |
+| `access-control` | `test_access_control` |
 | `hda` | `test_hda_go` |
 | `dask_gateway` | `test_DaskGateway` |
 | `jupyterhub-eodc`, `jupyterhub-eopf` | `test_jupyterhub_eodc`, `test_jupyterhub_eopf` |
