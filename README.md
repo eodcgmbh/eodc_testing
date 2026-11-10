@@ -15,7 +15,7 @@ Automated end-to-end tests for EODC services, running via GitHub Actions.
 | `test_titiler` | `test_titiler.py` | titiler ([titiler.services.eodc.eu](https://titiler.services.eodc.eu)): one PNG tile of a public COG on data.eodc.eu | every 30 min |
 | `test_features` | `test_features.py` | Features API ([features.services.eodc.eu](https://features.services.eodc.eu)): landing page | every 30 min |
 | `test_data_eodc` | `test_data_eodc.py` | data.eodc.eu: one public asset returns 200 | every 30 min |
-| `test_cds_c3s` | `test_cds_c3s.py` | C3S CDS ([cds.c3s.eodc.eu](https://cds.c3s.eodc.eu)): anonymous request gets 401, landing page with Basic Auth returns 2xx | every 30 min |
+| `test_cds_c3s` | `test_cds_c3s.py` | C3S CDS ([cds.c3s.eodc.eu](https://cds.c3s.eodc.eu)): anonymous request gets 401; with Basic Auth the landing page, the `/manifest/` and `/service/` listings and the first 1 MB of one real file in each return OK; pushes `eodc_e2e_probe_*` per probe | every 30 min |
 | `test_DaskGateway` | `test_dask.py` | Dask Gateway: login via `eodc-connect`, cluster creation, simple computation | manual only |
 | `test_access_control` | `test_access_control.py` | Restricted data stays restricted: anonymous requests to a MAAP, a CDSE and a BFW asset on data.eodc.eu and an anonymous POST /collections on cSTAC must get 401/403, the 5 restricted TOPO4EO/BFW cSTAC collections must be hidden, the public forest_mask collection and one public asset must return 200; prod (data.eodc.eu + cSTAC) and dev (dev.hda.eodchosting.eu) | every 30 min |
 | `test_hda_go` | `test_hda_go.py` | HDA data access on [data.eodc.eu](https://data.eodc.eu) (prod) and dev.hda.eodchosting.eu (dev): S1 GeoTIFF and EOPF Zarr | hourly |
